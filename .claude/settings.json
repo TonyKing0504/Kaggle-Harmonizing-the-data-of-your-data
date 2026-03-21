@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(python pipeline.py --validate --fold 1)",
+      "Bash(python pipeline.py --validate --fold 2)",
+      "Bash(python pipeline.py)",
+      "Bash(for fold:*)",
+      "Bash(do echo:*)",
+      "Bash(python pipeline.py --validate --fold $fold)",
+      "Bash(done)",
+      "Bash(ls data/TrainingSDRFs/*.tsv)",
+      "Bash(ls data/TrainingPubText/*.json)",
+      "Bash(ls data/TestPubText/*.json)",
+      "Bash(python3 pipeline.py --validate --fold $fold)"
+    ]
+  }
+}
