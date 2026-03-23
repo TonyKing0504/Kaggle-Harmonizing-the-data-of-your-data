@@ -15,12 +15,12 @@ Characteristics[ConcentrationOfCompound],1659,0,0.0,0
 Characteristics[Depletion],1659,0,0.0,0
 Characteristics[DevelopmentalStage],1659,0,0.0,0
 Characteristics[DiseaseTreatment],1659,0,0.0,0
-Characteristics[Disease],1659,1659,100.0,8
+Characteristics[Disease],1659,1546,93.2,9
 Characteristics[GeneticModification],1659,56,3.4,8
 Characteristics[Genotype],1659,0,0.0,0
 Characteristics[GrowthRate],1659,0,0.0,0
 Characteristics[Label],1659,1659,100.0,17
-Characteristics[MaterialType],1659,1659,100.0,4
+Characteristics[MaterialType],1659,1659,100.0,5
 Characteristics[Modification],1659,1659,100.0,3
 Characteristics[Modification].1,1659,1659,100.0,6
 Characteristics[Modification].2,1659,1420,85.6,4

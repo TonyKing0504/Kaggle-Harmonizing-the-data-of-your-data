@@ -783,7 +783,9 @@ def extract_all(pub_text: Dict[str, str]) -> Dict[str, List[Tuple[str, float, st
         'Characteristics[Disease]': extract_disease(pub_text),
         'Characteristics[OrganismPart]': extract_organism_part(pub_text),
         'Characteristics[Label]': extract_label(pub_text),
-        'Characteristics[MaterialType]': extract_material_type(pub_text),
+        # MaterialType extraction has 28% accuracy and hurts score more than helps
+        # Disable to let "Not Applicable" (scorer-neutral) take over
+        # 'Characteristics[MaterialType]': extract_material_type(pub_text),
         'Comment[EnrichmentMethod]': extract_enrichment(pub_text),
         'Comment[Separation]': extract_separation(pub_text),
         'Comment[AcquisitionMethod]': extract_acquisition_method(pub_text),
