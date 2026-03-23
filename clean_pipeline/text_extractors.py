@@ -242,48 +242,73 @@ def extract_disease(text: Dict[str, str]) -> List[Tuple[str, float, str]]:
     title = text.get('TITLE', '') or ''
     full = methods + ' ' + abstract + ' ' + title
 
-    # Must have clinical context to call disease
-    clinical_context = bool(re.search(
-        r'patient|cohort|clinical|biopsy|tumor|tissue\s*sample|specimen|diagnosis|case[\s-]*control',
-        full, re.IGNORECASE
-    ))
-
     candidates = []
-    diseases = {
-        "Alzheimer's disease": [r"alzheimer"],
-        "Parkinson's disease": [r"parkinson"],
-        'breast cancer': [r'breast\s*cancer', r'breast\s*carcinoma'],
-        'colorectal cancer': [r'colorectal\s*cancer', r'colon\s*cancer'],
+
+    # Cancer-specific disease patterns (match training SDRF values)
+    cancer_diseases = {
+        'Colon adenocarcinoma': [r'colon\s*(?:adeno)?carcinom', r'colorectal\s*(?:adeno)?carcinom',
+                                  r'colon\s*cancer', r'colorectal\s*cancer', r'rectal\s*cancer'],
+        'breast adenocarcinoma': [r'breast\s*(?:adeno)?carcinom', r'breast\s*cancer'],
+        'adenocarcinoma': [r'\badenocarcinom'],
         'lung cancer': [r'lung\s*cancer', r'nsclc', r'lung\s*adenocarcinoma'],
         'prostate cancer': [r'prostate\s*cancer'],
         'ovarian cancer': [r'ovarian\s*cancer'],
         'pancreatic cancer': [r'pancreatic\s*cancer'],
-        'melanoma': [r'\bmelanoma\b'],
+        'malignant melanoma': [r'\bmelanoma\b'],
         'glioblastoma': [r'glioblastoma', r'\bgbm\b'],
         'leukemia': [r'leukemia'],
         'lymphoma': [r'lymphoma'],
         'hepatocellular carcinoma': [r'hepatocellular\s*carcinoma', r'\bhcc\b'],
+    }
+
+    # Non-cancer diseases
+    other_diseases = {
+        "Alzheimer's disease": [r"alzheimer"],
+        "Parkinson's disease": [r"parkinson"],
         'diabetes': [r'diabet'],
         'COVID-19': [r'covid[\s-]*19', r'sars[\s-]*cov[\s-]*2'],
         'malaria': [r'\bmalaria\b'],
-        'normal': [r'\bnormal\b.*\bcontrol\b', r'\bhealthy\b.*\bcontrol\b'],
+        'osteoarthritis': [r'osteoarthritis'],
+    }
+
+    # Status values
+    status_values = {
+        'uninfected': [r'\buninfect'],
+        'normal': [r'\bnormal\b.*\bcontrol\b', r'\bhealthy\b.*\bcontrol\b',
+                   r'control\s*(?:group|subject|sample)'],
         'not available': [],
     }
 
-    for disease, patterns in diseases.items():
+    # Check cancer diseases first (higher priority in title)
+    for disease, patterns in cancer_diseases.items():
         for pat in patterns:
-            if re.search(pat, full, re.IGNORECASE):
-                conf = 0.7 if clinical_context else 0.3
-                if disease == 'normal':
-                    conf = 0.6
-                candidates.append((disease, conf, 'text'))
+            if re.search(pat, title, re.IGNORECASE):
+                candidates.append((disease, 0.9, 'text'))
+                break
+            elif re.search(pat, abstract, re.IGNORECASE):
+                candidates.append((disease, 0.8, 'text'))
+                break
+            elif re.search(pat, full, re.IGNORECASE):
+                candidates.append((disease, 0.5, 'text'))
                 break
 
-    # If no clinical context, default to "not available"
-    if not clinical_context and not candidates:
-        candidates.append(('not available', 0.5, 'text'))
-    elif clinical_context and not candidates:
-        candidates.append(('normal', 0.4, 'text'))
+    # Other diseases
+    for disease, patterns in other_diseases.items():
+        for pat in patterns:
+            if re.search(pat, full, re.IGNORECASE):
+                candidates.append((disease, 0.7, 'text'))
+                break
+
+    # Status values
+    for status, patterns in status_values.items():
+        for pat in patterns:
+            if re.search(pat, full, re.IGNORECASE):
+                candidates.append((status, 0.5, 'text'))
+                break
+
+    # Default if nothing found
+    if not candidates:
+        candidates.append(('not available', 0.4, 'text'))
 
     # Return only the best disease
     candidates.sort(key=lambda x: -x[1])
