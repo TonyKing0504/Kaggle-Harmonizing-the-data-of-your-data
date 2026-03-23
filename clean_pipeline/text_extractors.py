@@ -306,13 +306,13 @@ def extract_disease(text: Dict[str, str]) -> List[Tuple[str, float, str]]:
                 candidates.append((status, 0.5, 'text'))
                 break
 
-    # Default if nothing found
-    if not candidates:
-        candidates.append(('not available', 0.4, 'text'))
+    # If no disease found, return empty (let fill policy handle with "Not Applicable")
+    # "Not Applicable" gets skipped by scorer, "not available" gets scored and can hurt
 
     # Return only the best disease
     candidates.sort(key=lambda x: -x[1])
-    return candidates[:1]
+    # Only return if confidence is high enough
+    return [c for c in candidates[:1] if c[1] >= 0.5]
 
 
 def extract_organism_part(text: Dict[str, str]) -> List[Tuple[str, float, str]]:

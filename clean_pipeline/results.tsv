@@ -3,3 +3,7 @@ f54e7fc	0.651166	80.5	keep	baseline clean pipeline v1
 f54e7fc	0.651166	80.5	discard	exp1: trailing number replicate detection - no change
 fcc5023	0.664119	0	keep	exp2: expanded disease dictionary with cancer-specific and training-canonical values
 d2a984e	0.666710	0	keep	exp3: improved MaterialType with organism part fallback
+c3b64b3	0.670155	0	keep	exp4: tolerance unit normalization Da/ppm
+c3b64b3	0.670155	0	discard	exp5: canonical modification slot ordering - no change
+c3b64b3	0.670155	0	discard	exp6: broader retrieval + lower threshold - no change
+c3b64b3	0.670155	0	discard	exp7: default Carbamidomethyl+Oxidation mods - no change
