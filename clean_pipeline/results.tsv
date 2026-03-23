@@ -13,3 +13,4 @@ c3b64b3	0.670155	0	discard	exp7: default Carbamidomethyl+Oxidation mods - no cha
 f820a5e	0.694265	0	keep	exp11: broader tolerance extraction with proper Da casing
 f820a5e	0.694265	0	discard	exp12: MaterialType rework - no change
 1624f31	0.710242	0	keep	exp13: disable MaterialType - Not Applicable is scorer-neutral and better than 28% accuracy
+be7c181	0.722348	0	keep	exp14: disable CollisionEnergy extraction (0% accuracy)

@@ -140,24 +140,21 @@ def _reconstruct_fractions(results: List[Dict], parsed_fns: List[Dict],
 
 def _reconstruct_replicates(results: List[Dict], parsed_fns: List[Dict],
                             filenames: List[str], family_scores: Dict):
-    """Reconstruct biological replicate assignments."""
-    bio_reps = [pfn.get('biological_replicate', pfn.get('replicate'))
-                for pfn in parsed_fns]
-    has_bioreps = any(b is not None for b in bio_reps)
+    """Reconstruct biological replicate assignments.
 
-    if has_bioreps:
-        for i, r in enumerate(results):
-            rep = bio_reps[i]
-            if rep:
-                r['Characteristics[BiologicalReplicate]'] = rep
-
-    # Technical replicates
-    tech_reps = [pfn.get('technical_replicate') for pfn in parsed_fns]
-    if any(t is not None for t in tech_reps):
-        for i, r in enumerate(results):
-            if tech_reps[i]:
-                # Don't set as characteristic, track internally
-                pass
+    NOTE: BiologicalReplicate extraction has 13% accuracy on training data.
+    Disabled for now as wrong values hurt more than help (scorer-neutral with Not Applicable).
+    """
+    # Disabled: 13% accuracy causes harm=11.3 (highest of any field)
+    # bio_reps = [pfn.get('biological_replicate', pfn.get('replicate'))
+    #             for pfn in parsed_fns]
+    # has_bioreps = any(b is not None for b in bio_reps)
+    # if has_bioreps:
+    #     for i, r in enumerate(results):
+    #         rep = bio_reps[i]
+    #         if rep:
+    #             r['Characteristics[BiologicalReplicate]'] = rep
+    pass
 
 
 def _reconstruct_labels(results: List[Dict], parsed_fns: List[Dict],
