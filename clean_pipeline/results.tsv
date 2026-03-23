@@ -7,3 +7,6 @@ c3b64b3	0.670155	0	keep	exp4: tolerance unit normalization Da/ppm
 c3b64b3	0.670155	0	discard	exp5: canonical modification slot ordering - no change
 c3b64b3	0.670155	0	discard	exp6: broader retrieval + lower threshold - no change
 c3b64b3	0.670155	0	discard	exp7: default Carbamidomethyl+Oxidation mods - no change
+7edddc7	0.686200	0	keep	exp8: skip uncertain Disease extraction - let Not Applicable avoid scorer penalty
+7edddc7	0.686200	0	discard	exp9: MaterialType confidence gate - no change
+7edddc7	0.686200	0	discard	exp10: confidence gate 0.5 on paper level - no change

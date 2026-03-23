@@ -603,17 +603,31 @@ def extract_tolerances(text: Dict[str, str]) -> Dict[str, List[Tuple[str, float,
     methods = text.get('METHODS', '') or ''
     result = {'precursor': [], 'fragment': []}
 
-    # Precursor tolerance
-    m = re.search(r'(?:precursor|ms1|parent).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|mmu)', methods, re.IGNORECASE)
-    if m:
-        val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
-        result['precursor'].append((val, 0.8, 'text'))
+    # Precursor tolerance - try multiple patterns
+    precursor_patterns = [
+        r'(?:precursor|ms1|parent)\s*(?:mass\s*)?(?:tolerance|accuracy).*?(\d+(?:\.\d+)?)\s*(ppm|Da|dalton|mmu)',
+        r'(\d+(?:\.\d+)?)\s*(ppm|Da|dalton|mmu)\s*(?:for\s*)?(?:precursor|ms1|parent)',
+        r'(?:precursor|ms1|parent).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|mmu)',
+    ]
+    for pat in precursor_patterns:
+        m = re.search(pat, methods, re.IGNORECASE)
+        if m:
+            val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
+            result['precursor'].append((val, 0.8, 'text'))
+            break
 
-    # Fragment tolerance
-    m = re.search(r'(?:fragment|ms2|product).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|amu|mmu)', methods, re.IGNORECASE)
-    if m:
-        val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
-        result['fragment'].append((val, 0.8, 'text'))
+    # Fragment tolerance - try multiple patterns
+    fragment_patterns = [
+        r'(?:fragment|ms2|product)\s*(?:mass\s*)?(?:tolerance|accuracy).*?(\d+(?:\.\d+)?)\s*(ppm|Da|dalton|amu|mmu)',
+        r'(\d+(?:\.\d+)?)\s*(ppm|Da|dalton|amu|mmu)\s*(?:for\s*)?(?:fragment|ms2|product)',
+        r'(?:fragment|ms2|product).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|amu|mmu)',
+    ]
+    for pat in fragment_patterns:
+        m = re.search(pat, methods, re.IGNORECASE)
+        if m:
+            val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
+            result['fragment'].append((val, 0.8, 'text'))
+            break
 
     return result
 
