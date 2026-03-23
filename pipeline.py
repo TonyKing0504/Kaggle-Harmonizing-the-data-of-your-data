@@ -233,11 +233,10 @@ ENRICHMENT_VOCAB = {
         r"\btitanium\s+dioxide\b", r"\bimac\b",
         r"\bphosphopeptide\s+enrichment\b", r"\bfe[\s-]?imac\b",
     ],
-    "Extraction purification": [
-        r"\bimmunoprecipitation\b", r"\bco[\s-]?ip\b", r"\bpulldown\b",
-        r"\bpull[\s-]?down\b", r"\bap[\s-]?ms\b",
-        r"\baffinity\s+purification\b",
-    ],
+    # NOTE: "Extraction purification" patterns REMOVED.
+    # AP-MS/IP/pulldown/affinity purification is the experimental method,
+    # not an enrichment step in the SDRF sense. Only phospho/glyco enrichment
+    # should trigger EnrichmentMethod.
 }
 
 
@@ -348,6 +347,7 @@ def extract_organism_part(pub: Dict) -> str:
         "T cells": [r"\bT[\s-]cell\b", r"\bT\s+lymphocyte"],
         "human erythrocytes": [r"\berythrocyte"],
         "urine": [r"\burine\b"],
+        "bone marrow": [r"\bbone\s+marrow\b", r"\bbmdm\b", r"\bbone\s+marrow[- ]derived\b"],
         "blood serum": [r"\bblood\s+serum\b", r"\bserum\s+(?:sample|protein|proteom|biomark)"],
         "saliva": [r"\bsaliva\b"],
         "testis": [r"\btestis\b", r"\btestes\b"],
@@ -394,7 +394,7 @@ def extract_organism_part(pub: Dict) -> str:
                     scores[tissue] = 3
                     break
 
-    # Infer from cell lines
+    # Infer from cell lines (ONLY from title/abstract, not methods)
     cell_line_organ = {
         r"\bhela\b": "cervix",
         r"\bhct[\s-]?116\b": "colon",
@@ -408,9 +408,9 @@ def extract_organism_part(pub: Dict) -> str:
         r"\bvero\s+e6\b": "kidney",
         r"\bcaco[\s-]?2\b": "colon",
     }
-    text_lower = title + " " + abstract + " " + methods
+    subject_lower = title + " " + abstract
     for cl_pat, organ in cell_line_organ.items():
-        if re.search(cl_pat, text_lower) and organ not in scores:
+        if re.search(cl_pat, subject_lower) and organ not in scores:
             scores[organ] = 3
 
     # Use raw data file names as strong evidence (e.g. 'mousebrain-ko-*.raw' → brain)
@@ -418,11 +418,14 @@ def extract_organism_part(pub: Dict) -> str:
         "brain": r"brain|cerebr|cortex|hippocamp",
         "liver": r"liver|hepat",
         "heart": r"heart|cardiac",
-        "lung": r"lung|pulmon",
         "kidney": r"kidney|renal",
-        "blood plasma": r"plasma",
+        "blood plasma": r"(?<![_\-])plasma(?![_\-])",
         "muscle": r"muscle",
+        "bone marrow": r"bmdm|bone[\s_-]?marrow",
+        "synovial": r"synovial|synov",
     }
+    # NOTE: removed "lung" from filename_organ to avoid false positives
+    # (e.g., lung abbreviations in sample IDs)
     raw_files = pub.get("Raw Data Files", [])
     if isinstance(raw_files, (list, tuple)):
         fname_text = " ".join(str(f).lower() for f in raw_files)
@@ -476,9 +479,9 @@ def extract_disease(pub: Dict) -> str:
         "leukemia": [r"\bleukemia\b", r"\bleukaemia\b"],
         "lymphoma": [r"\blymphoma\b"],
         "osteoarthritis": [r"\bosteoarthritis\b"],
-        "SARS-CoV-2 infection": [r"\bsars[\s-]cov[\s-]?2\b", r"\bcovid[\s-]?19\b",
-                                  r"\bcoronavirus\b"],
-        "HCMV infection": [r"\bhcmv\b", r"\bhuman\s+cytomegalovirus\b"],
+        # NOTE: Infection states removed from Disease.
+        # "SARS-CoV-2 infection" and "HCMV infection" are conditions, not diseases.
+        # In SDRF, these belong in factor values, not Characteristics[Disease].
         "mitochondrial disease": [r"\bmitochondrial\s+disease\b", r"\bpolg[\s-]related\b",
                                    r"\bmtd\b.*\bdisease\b", r"\bMtD\b"],
         "normal": [r"\bhealthy\s+(?:control|donor|subject|volunteer|individual|participant)",
@@ -497,35 +500,27 @@ def extract_disease(pub: Dict) -> str:
         if score > 0:
             scores[disease] = score
 
-    # Cell line disease mapping: use title+abstract only to avoid false positives
-    # (methods often mention cell lines in passing for validation, not as study subject)
-    cell_line_disease = {
-        r"\bhela\b": "adenocarcinoma",
-        r"\bhct[\s-]?116\b": "adenocarcinoma",
-        r"\bsw480\b": "adenocarcinoma",
-        r"\bsw620\b": "adenocarcinoma",
-        r"\ba549\b": "adenocarcinoma",
-        r"\bmcf[\s-]?7\b": "breast cancer",
-        r"\bdu[\s-]?145\b": "Prostate carcinoma",
-        r"\bpc[\s-]?3\b": "Prostate carcinoma",
-    }
-    text_lower = title + " " + abstract + " " + methods
-    for cell_line, dis in cell_line_disease.items():
-        if re.search(cell_line, text_lower):
-            if dis not in scores:
-                scores[dis] = 3
+    # NOTE: Cell-line-inferred disease mapping REMOVED.
+    # Using a cancer cell line does not mean the study is about that cancer.
+    # Disease should only come from explicit disease mentions in title/abstract.
 
     if scores:
         best = max(scores, key=lambda k: (scores[k], -len(k) if 'Rectum' in k else len(k)))
         if scores[best] >= 3:
             return best
+
+    # If no specific disease found, check if study explicitly mentions normal/healthy subjects
+    if "normal" in scores:
+        return "normal"
+
     return ""
 
 
 def extract_cell_line(pub: Dict) -> str:
-    """Extract cell line. Only return if explicitly mentioned."""
-    methods = get_methods_text(pub)
+    """Extract cell line. Prefer title/abstract. Allow methods if no tissue/in-vivo indicators."""
+    title = pub.get("TITLE", "")
     abstract = pub.get("ABSTRACT", "")
+    methods = get_methods_text(pub)
 
     cell_lines = [
         ("HEK293T", [r"\bHEK\s*293\s*T\b", r"\bHEK-?293T\b"]),
@@ -562,19 +557,50 @@ def extract_cell_line(pub: Dict) -> str:
         ("HepG2", [r"\bHepG2\b"]),
     ]
 
-    search_text = methods + " " + abstract
+    # 1. Always trust title/abstract cell line mentions
+    subject_text = title + " " + abstract
     for name, patterns in cell_lines:
         for p in patterns:
-            if re.search(p, search_text, re.IGNORECASE):
+            if re.search(p, subject_text, re.IGNORECASE):
                 return name
+
+    # 2. Allow methods-based detection ONLY if title/abstract don't indicate tissue/in-vivo
+    title_abstract_lower = (title + " " + abstract).lower()
+    tissue_indicators = [
+        r"\btissue\s+(?:sample|biopsy|section|lysate)\b",
+        r"\bmouse\s+brain\b", r"\bbrain\s+tissue\b", r"\bbrain\s+of\b",
+        r"\bisolated\s+from\s+(?:the\s+)?brain\b",
+        r"\bbiopsy\b", r"\bpostmortem\b", r"\bautopsy\b", r"\bsurgical\b",
+        r"\bknockout\s+(?:mouse|mice)\b", r"\btransgenic\s+(?:mouse|mice)\b",
+        r"\bknock-?out\b.*\bmouse\b", r"\bmouse\b.*\bknock-?out\b",
+    ]
+    is_tissue_study = any(re.search(p, title_abstract_lower) for p in tissue_indicators)
+    # Also check filenames for tissue indicators
+    raw_files = pub.get("Raw Data Files", [])
+    fname_text = " ".join(str(f).lower() for f in (raw_files[:10] if raw_files else []))
+    if re.search(r"mousebrain|mouse[\s_-]brain|brain[\s_-]tissue", fname_text):
+        is_tissue_study = True
+
+    if not is_tissue_study:
+        search_text = methods + " " + abstract
+        # Collect all matching cell lines from methods; only return if exactly one found
+        found = []
+        for name, patterns in cell_lines:
+            for p in patterns:
+                if re.search(p, search_text, re.IGNORECASE):
+                    if name not in found:
+                        found.append(name)
+                    break
+        if len(found) == 1:
+            return found[0]
+        # Multiple cell lines in methods = ambiguous, don't guess
     return ""
 
 
 def extract_cell_type(pub: Dict) -> str:
-    """Extract cell type. Conservative - only when clearly stated."""
+    """Extract cell type. Only from title/abstract (study subject)."""
     abstract = pub.get("ABSTRACT", "").lower()
     title = pub.get("TITLE", "").lower()
-    methods = get_methods_text(pub).lower()
 
     cell_type_patterns = {
         "macrophage": [r"\bmacrophage"],
@@ -601,14 +627,13 @@ def extract_cell_type(pub: Dict) -> str:
         if score > 0:
             scores[ct] = score
 
-    text_lower = title + " " + abstract + " " + methods
-    # PXD019113 (Vero E6) already passes via text 'epithelial' pattern; Vero removed to avoid
-    # false positives in studies that use Vero as a virology culture system only
+    # Cell line → cell type inference: from title/abstract
+    subject_text = title + " " + abstract
     epithelial_lines = [r"\bhela\b", r"\ba549\b", r"\bmcf[\s-]?7\b"]
     for pat in epithelial_lines:
-        if re.search(pat, text_lower) and "epithelial" not in scores:
+        if re.search(pat, subject_text) and "epithelial" not in scores:
             scores["epithelial"] = 3
-    if re.search(r"\bmrc[\s-]?5\b", text_lower):
+    if re.search(r"\bmrc[\s-]?5\b", subject_text):
         if "fibroblast" not in scores:
             scores["fibroblast"] = 4
 
@@ -709,13 +734,13 @@ def extract_cleavage_agent(pub: Dict) -> str:
         return "Asp-N"
     if "chymotrypsin" in methods:
         return "Chymotrypsin"
-    if "glu-c" in methods or "gluc" in methods or "v8" in methods:
+    if "glu-c" in methods or re.search(r'\bglu[\s-]?c\b', methods) or "v8 protease" in methods:
         return "Glutamyl endopeptidase"
     return "Trypsin"
 
 
 def extract_fragmentation(pub: Dict) -> str:
-    """Extract fragmentation method from text."""
+    """Extract fragmentation method from text, with instrument-based fallback."""
     methods = get_methods_text(pub).lower()
     text = get_full_text(pub).lower()
 
@@ -733,6 +758,7 @@ def extract_fragmentation(pub: Dict) -> str:
         return "HCD"
     if re.search(r"\bcid\b", text) or "collision-induced dissociation" in text:
         return "CID"
+
     return ""
 
 
@@ -782,10 +808,18 @@ def extract_modifications(pub: Dict) -> List[str]:
 
     if "carbamidomethyl" in methods or "iodoacetamide" in methods or " iaa " in methods:
         mods.append("Carbamidomethyl")
+    elif "chloroacetamide" in methods or " caa " in methods:
+        mods.append("Carbamidomethyl")
     elif "propionamide" in methods or "acrylamide" in methods:
         mods.append("propionamide")
-    elif "carbamyl" in methods or "urea" in methods:
+    elif "carbamyl" in methods:
         mods.append("Carbamyl")
+    elif "carbamidomethyl" in text or "iodoacetamide" in text:
+        # Fallback: check full text
+        mods.append("Carbamidomethyl")
+    else:
+        # Default: Carbamidomethyl is the most common fixed modification (62% of training gold)
+        mods.append("Carbamidomethyl")
 
     if "oxidation" in methods:
         mods.append("Oxidation")
@@ -952,12 +986,14 @@ def extract_material_type(pub: Dict) -> str:
     abstract = pub.get("ABSTRACT", "").lower()
     methods = get_methods_text(pub).lower()
     text = title + " " + abstract + " " + methods
+    subject_text = title + " " + abstract
 
     # Bacterial/microbial strains
     if re.search(r"\bbacterial\s+strains?\b", text) or re.search(r"\bmicrobial\s+strains?\b", text):
         return "bacterial strain"
 
     # Primary cells trump cell line detection (BMDMs, primary macrophages, etc.)
+    # Only from title/abstract to avoid methods-only false positives
     primary_cell_patterns = [
         r"\bprimary\s+(?:cells?|culture|macrophage|fibroblast|neuron|hepatocyte)",
         r"\bbone\s+marrow[- ]derived\b",
@@ -965,15 +1001,16 @@ def extract_material_type(pub: Dict) -> str:
         r"\bprimary\s+(?:bone\s+marrow|peritoneal|alveolar)\b",
     ]
     for p in primary_cell_patterns:
-        if re.search(p, text, re.IGNORECASE):
+        if re.search(p, subject_text, re.IGNORECASE):
             return "cell"
 
-    # HeLa → 'cell line' BEFORE organ-in-title check
-    # (prevents organ keywords in HeLa papers from incorrectly returning 'tissue')
-    if re.search(r"\bhela\b", text, re.IGNORECASE):
+    # HeLa → 'cell line' BEFORE organ-in-title check (only from title/abstract)
+    if re.search(r"\bhela\b", subject_text, re.IGNORECASE):
         return "cell line"
 
     # Specific non-HeLa cell lines → 'cell' (gold annotators use 'cell', not 'cell line', for these)
+    # ONLY from title+abstract (study subject), not methods-only
+    subject_text = title + " " + abstract
     non_hela_cell_lines = [
         r"\ba375\b", r"\bmda[\s-]?mb[\s-]?435\w*\b", r"\bhct[\s-]?116\b",
         r"\bhek[\s-]?293\w*\b", r"\ba549\b", r"\bvero\b", r"\bmrc[\s-]?5\b",
@@ -985,7 +1022,7 @@ def extract_material_type(pub: Dict) -> str:
         r"\bwm266\b", r"\bwm115\b", r"\bh460\b",
     ]
     for p in non_hela_cell_lines:
-        if re.search(p, text, re.IGNORECASE):
+        if re.search(p, subject_text, re.IGNORECASE):
             return "cell"
 
     # Organ in title → tissue (excludes breast/mammary since many breast cell line studies;
@@ -994,8 +1031,8 @@ def extract_material_type(pub: Dict) -> str:
     if re.search(organ_title_pat, title):
         return "tissue"
 
-    # Generic cell line indicators → 'cell line'
-    if re.search(r"\bcell\s+line\b", text) or re.search(r"\btransfect(?:ed|ion)\b", text):
+    # Generic cell line indicators → 'cell line' (from title/abstract only)
+    if re.search(r"\bcell\s+line\b", subject_text) or re.search(r"\btransfect(?:ed|ion)\b", subject_text):
         return "cell line"
 
     # Body fluids → organism part (check AFTER cell line to avoid fetal bovine serum)
@@ -1067,11 +1104,13 @@ def extract_acquisition_method(pub: Dict, raw_files: List[str] = None) -> str:
     dia_patterns = [
         r"\bdata[\s-]?independent\s+acquisition\b",
         r"\bdia[\s-]?nn\b",
+        r"\bdia\s+mode\b",
         r"\bdia\b.*\bacquisition\b",
         r"\bswath[\s-]?ms\b",
         r"\bswath\b",
         r"\bwindowed\s+(?:data[\s-]?independent|acquisition)\b",
         r"\bsonar\b.*\bmass\s+spec",
+        r"\bdiann\b",
     ]
     for pat in dia_patterns:
         if re.search(pat, text):
@@ -1447,11 +1486,9 @@ def parse_filename_treatment(fname: str, pub: Dict) -> str:
     Note: underscores are word chars in Python regex, so we use explicit delimiters."""
     stem = Path(fname).stem.lower()
 
-    # Infection studies: infected vs uninfected/mock/distal
-    if re.search(r'(?:^|[_\-\.])infected?(?:[_\-\.]|$)', stem):
-        return "infected"
-    if re.search(r'(?:^|[_\-\.])(?:mock|uninfected?|distal)(?:[_\-\.]|$)', stem):
-        return "uninfected"
+    # NOTE: infection state (infected/uninfected/mock/distal) is NOT a treatment.
+    # In SDRF, these belong in FactorValue[Disease] or similar, not Treatment.
+    # Removed to avoid overfilling Treatment with infection states.
 
     # Drug/compound treatment: DMSO vs inhibitor/compound
     # Use delimiter-based matching since _ is a word char
@@ -1461,8 +1498,8 @@ def parse_filename_treatment(fname: str, pub: Dict) -> str:
         return "inhibitor"
     if re.search(r'(?:^|[_\-\.])treated(?:[_\-\.]|$)', stem):
         return "treated"
-    if re.search(r'(?:^|[_\-\.])(?:untreated|vehicle|ctrl|control)(?:[_\-\.]|$)', stem):
-        return "untreated"
+    # NOTE: "untreated/vehicle/ctrl/control" are control labels, not treatment values.
+    # Removed to avoid overfilling Treatment with control indicators.
 
     # Heat treatment: temperature from filename like "0C", "65C", "100C", "90C10B"
     # Allow any non-letter after C (handles TPP suffixes like "90C10B")
@@ -1475,11 +1512,17 @@ def parse_filename_treatment(fname: str, pub: Dict) -> str:
     if "raw_milk" in stem or re.search(r'[_\-]0[_\-]', stem):
         return "unheated"
 
-    # Genetic: WT vs KO
-    if re.search(r'(?:^|[_\-\.])ko(?:[_\-\.]|$)|knockout', stem):
-        return "KO"
-    if re.search(r'(?:^|[_\-\.])wt(?:[_\-\.]|$)|wildtype|wild[_\-]type', stem):
-        return "WT"
+    # NOTE: KO/WT are genetic modifications, NOT treatments.
+    # They are handled by the GeneticModification extraction above.
+    # Do NOT return them as Treatment values.
+
+    # Treatment interventions (e.g., LIPUS, sham, siRNA)
+    if re.search(r'(?:^|[_\-\.])lipus(?:[_\-\.]|$)', stem):
+        return "LIPUS"
+    if re.search(r'(?:^|[_\-\.])sham(?:[_\-\.]|$)', stem):
+        return "sham"
+
+    # NOTE: mock/distal are condition labels, not treatment values. Removed.
 
     return ""
 
@@ -1582,12 +1625,22 @@ def extract_pxd_metadata(
         if col in result.columns:
             result[col] = val
 
-    # ── Fill modifications (up to 2 slots) ────────────────────────────────
+    # ── Fill modifications (up to 7 slots) ────────────────────────────────
     mod_cols = sorted(
         [c for c in result.columns if c.startswith("Characteristics[Modification]")],
         key=lambda x: (x.count("."), x)
     )
-    for i, mod in enumerate(modifications[:2]):
+    # Reorder modifications: fixed mods first (Carbamidomethyl), then variable (Oxidation)
+    # Only fill first 2 slots to avoid false positives in later slots
+    priority_order = ["Carbamidomethyl", "propionamide", "Carbamyl", "Oxidation"]
+    ordered_mods = []
+    for pm in priority_order:
+        if pm in modifications:
+            ordered_mods.append(pm)
+    for m in modifications:
+        if m not in ordered_mods:
+            ordered_mods.append(m)
+    for i, mod in enumerate(ordered_mods[:2]):
         if i < len(mod_cols):
             result[mod_cols[i]] = mod
 
@@ -1702,8 +1755,12 @@ def extract_pxd_metadata(
                         result.at[row_idx, "FactorValue[Bait]"] = file_bait
         else:
             # Single-row per file
-            if label_type == "label free" or rows_per_file <= 1:
+            if label_type == "label free":
                 result.loc[mask, "Characteristics[Label]"] = "label free sample"
+            elif rows_per_file <= 1 and label_type != "label free":
+                # Fractionated TMT/iTRAQ/SILAC: 1 row per file but labels were used
+                # In SDRF, each fraction row gets the label type as constant
+                result.loc[mask, "Characteristics[Label]"] = label_type
             else:
                 result.loc[mask, "Characteristics[Label]"] = label_list[0] if label_list else "label free sample"
 
@@ -1745,11 +1802,32 @@ def extract_pxd_metadata(
         if frac_id:
             result.at[idx, "Comment[FractionIdentifier]"] = frac_id
 
+    # ── Genotype from filenames (KO/WT) → GeneticModification ──────────
+    if "Characteristics[GeneticModification]" in result.columns:
+        for raw_file in unique_files:
+            mask_f = result["Raw Data File"] == raw_file
+            stem_l = Path(raw_file).stem.lower()
+            if re.search(r'(?:^|[_\-\.])ko(?:[_\-\.]|$)', stem_l):
+                # Try to extract gene name before KO
+                ko_match = re.search(r'[_\-]([A-Za-z0-9]+)[_\-]?KO', Path(raw_file).stem, re.IGNORECASE)
+                if ko_match:
+                    gene = ko_match.group(1)
+                    result.loc[mask_f, "Characteristics[GeneticModification]"] = f"{gene} knockout"
+                    if "FactorValue[GeneticModification]" in result.columns:
+                        result.loc[mask_f, "FactorValue[GeneticModification]"] = f"{gene} knockout"
+                else:
+                    result.loc[mask_f, "Characteristics[GeneticModification]"] = "knockout"
+            elif re.search(r'(?:^|[_\-\.])wt(?:[_\-\.]|$)', stem_l):
+                result.loc[mask_f, "Characteristics[GeneticModification]"] = "wild type"
+                if "FactorValue[GeneticModification]" in result.columns:
+                    result.loc[mask_f, "FactorValue[GeneticModification]"] = "wild type"
+
     # ── Conservative defaults ─────────────────────────────────────────────
+    # NOTE: FractionIdentifier removed from defaults — universal "1" was wrong
+    # for most PXDs and caused regression. Only filled by filename parsing above.
     defaults = {
         "Characteristics[BiologicalReplicate]": "1",
         "Characteristics[NumberOfTechnicalReplicates]": "1",
-        "Comment[FractionIdentifier]": "1",
         "Characteristics[DevelopmentalStage]": developmental_stage if developmental_stage else "",
     }
 
@@ -1792,8 +1870,10 @@ def extract_pxd_metadata(
                         result[col] = ref_vals[0]
 
     # ── Propagate FactorValue columns from Characteristics/Comment ────────
-    # FactorValue[Disease] ← Characteristics[Disease] (when disease is real)
-    if "FactorValue[Disease]" in result.columns and "Characteristics[Disease]" in result.columns:
+    # NOTE: FactorValue[Disease] is NOT auto-propagated from Characteristics[Disease]
+    # because FactorValue represents row-varying factors, not constants.
+    # Only propagate when there's evidence of row-varying disease.
+    if False and "FactorValue[Disease]" in result.columns and "Characteristics[Disease]" in result.columns:
         disease_vals = result["Characteristics[Disease]"]
         fv_disease = result["FactorValue[Disease]"].replace("Text Span", "").replace("", np.nan)
         empty_mask = fv_disease.isna()
@@ -1803,12 +1883,16 @@ def extract_pxd_metadata(
             result.loc[empty_mask, "FactorValue[Disease]"] = real_disease[empty_mask]
 
     # FactorValue[FractionIdentifier] ← Comment[FractionIdentifier]
+    # Only propagate when Comment[FractionIdentifier] has real per-row values (not universal "1")
     if "FactorValue[FractionIdentifier]" in result.columns and "Comment[FractionIdentifier]" in result.columns:
         frac_vals = result["Comment[FractionIdentifier]"].replace("Text Span", "").replace("", np.nan)
-        fv_frac = result["FactorValue[FractionIdentifier]"].replace("Text Span", "").replace("", np.nan)
-        empty_frac = fv_frac.isna()
-        if empty_frac.any():
-            result.loc[empty_frac, "FactorValue[FractionIdentifier]"] = frac_vals[empty_frac]
+        frac_real = frac_vals.dropna()
+        # Only propagate if fraction IDs are genuinely varying (not all the same constant)
+        if len(frac_real) > 0 and frac_real.nunique() > 1:
+            fv_frac = result["FactorValue[FractionIdentifier]"].replace("Text Span", "").replace("", np.nan)
+            empty_frac = fv_frac.isna()
+            if empty_frac.any():
+                result.loc[empty_frac, "FactorValue[FractionIdentifier]"] = frac_vals[empty_frac]
 
     # Replace "Text Span" placeholder
     result = result.replace("Text Span", "")
