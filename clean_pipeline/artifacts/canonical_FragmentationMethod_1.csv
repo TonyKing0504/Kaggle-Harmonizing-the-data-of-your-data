@@ -1,0 +1,6 @@
+value,count
+NT=collision-induced dissociation;AC=MS:1000133,1
+AC=MS:1000422;NT=HCD,1
+not available,1
+AC=MS:1000133;NT=CID,1
+AC=MS:1002631;NT=EThcD,1

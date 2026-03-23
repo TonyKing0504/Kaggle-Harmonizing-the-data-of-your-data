@@ -1,0 +1,24 @@
+value,count
+NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed,40
+NT=Carbamidomethyl;TA=C;MT=fixed;AC=UNIMOD:4,12
+NT=Oxidation;MT=Variable;TA=M;AC=UNIMOD:35,9
+NT=Carbamidomethyl;TA=C;AC=UNIMOD:4;MT=fixed,7
+not available,6
+NT=Oxidation;MT=variable;TA=M;AC=UNIMOD:35,4
+AC=UNIMOD:35;NT=Oxidation;MT=Variable;TA=M,4
+NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=Fixed,2
+NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable,2
+NT=propionamide;MT=variable;TA=C;AC=UNIMOD:24,1
+NT=Dehydrated;AC=UNIMOD:23,1
+NT=Carbamidomethyl;AC=Unimod:4;MT=Fixed;PP=Anywhere;TA=C,1
+NT=Carbamidomethyl;AC=UNIMOD:4; MT=Fixed; TA=C,1
+NT=Oxidation;MT=variable;PP=Anywhere;AC=Unimod:35;TA=M;MM=15,1
+NT=Carbamidomethyl; MT=fixed; PP=Anywhere;AC=Unimod:4; TA=C; MM= 57.021464; CF=H(3)C(2)NO,1
+NT=oxidation;MT=variable;TA=M;AC=UNIMOD:35,1
+NT=Carbamidomethyl;MT=fixed;AC=UNIMOD:4,1
+NT=Oxidation;MT=fixed;TA=M;AC=UNIMOD:35,1
+NT=Carbamidomethyl; MT=fixed; PP=Anywhere;AC=Unimod:4; TA=E,1
+NT=Oxidation; MT=Variable;AC=Unimod:35; TA=M,1
+NT=TMT6plex;PP=Any N-term;AC=UNIMOD:737;MT=fixed,1
+AC=UNIMOD:35;NT=Oxidation;TA=M;MT=Variable,1
+NT=Oxidation;TA=M;AC=UNIMOD:35;MT=variable,1

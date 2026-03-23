@@ -1,0 +1,16 @@
+value,count
+no fractionation,5
+AC=PRIDE:0000124; NT=Sodium dodecyl sulfate polyacrylamide gel electrophoresis,2
+not available,2
+NT=high pH RPLC;AC=PRIDE:0000564,1
+NT=SDS-PAGE;AC=PRIDE:0000568,1
+NT=Reversed-phase chromatography;AC=PRIDE:0000563,1
+NT=Strong anion-exchange chromatography (SAX);AC=PRIDE:0000558,1
+AC=PRIDE:0000564; NT=High-pH reversed-phase chromatography,1
+not applicable,1
+high-pH reversed-phase chromatography (hpHRP),1
+NT=High-pH reversed-phase chromatography (hpHRP);AC=PRIDE:0000564,1
+NT=High-performance liquid chromatography;AC=PRIDE:0000565,1
+NT=Strong cation-exchange chromatography (SCX);AC=PRIDE:0000561,1
+NT=Reversed-phase chromatography (RP);AC=PRIDE:0000563,1
+1,1

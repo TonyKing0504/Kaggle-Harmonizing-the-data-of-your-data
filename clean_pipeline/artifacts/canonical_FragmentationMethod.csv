@@ -1,0 +1,19 @@
+value,count
+AC=MS:1000422;NT=HCD,18
+AC=MS:1000133;NT=CID,13
+not available,10
+HCD,7
+NT=collision-induced dissociation;AC=MS:1000133,5
+NT=HCD;AC=MS:1000422,2
+NT=HCD;AC=MS:1002481,2
+ETD,1
+CID,1
+AC=MS:1000598;NT=ETD,1
+Not Applicable,1
+NT=HCD; AC = PRIDE:0000590,1
+AC=MS:1002631;NT=EThcd/ETD,1
+NT=collision-induced dissociation;AC=MS:1000134,1
+NT=collision-induced dissociation;AC=MS:1000135,1
+NT=collision-induced dissociation;AC=MS:1000136,1
+NT=collision-induced dissociation;AC=MS:1000137,1
+MSA SPS,1

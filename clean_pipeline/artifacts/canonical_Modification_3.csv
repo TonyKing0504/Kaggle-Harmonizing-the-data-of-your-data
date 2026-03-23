@@ -1,0 +1,31 @@
+value,count
+NT=Phospho;AC=UNIMOD:21;TA=S;MT=Variable,3
+"NT=Phospho;MT=variable;TA=S,T,Y;AC=UNIMOD:21",3
+NT=Phospho;AC=UNIMOD:21;TA=STY;MT=Variable,2
+not applicable,2
+NT=Acetyl;AC=UNIMOD:1;TA=K;MT=Variable,1
+NT=cyclization;AC=UNIMOD:28;PP=Any N-term;TA=Q;MT=Variable,1
+NT=Acetyl;PP=Any N-term;AC=UNIMOD:1;MT=Variable,1
+NT=Gln->pyro-Glu;MT=Variable;TA=Q;PP=Any N-term;AC=UNIMOD:28,1
+"NT=deamidated;AC=UNIMOD:7;TA=N,Q;MT=Variable",1
+NT=TMT6plex;PP=Any N-term;TA=K;AC=UNIMOD:737;MT=fixed,1
+"NT=deamidation;MT=variable;TA=N,Q;AC=UNIMOD:7",1
+NT=Propionamide;AC=UNIMOD:24;TA=K;PP=Any N-term;MT=variable,1
+"NT=Methyl;TA=K,R;AC=UNIMOD:34;MT=Variable",1
+"NT=Phospho;AC=UNIMOD:21;TA=S,T,Y,A;MT=Variable",1
+NT=Label:13C(6)15N(2);AC=UNIMOD:259;TA=K;MT=Variable,1
+NT=Oxidation;AC=Unimod:35;MT=Variable;PP=Anywhere;TA=M,1
+"NT=Label:13C(6);AC=UNIMOD:188; MT=fixed; TA=R,K",1
+NT=cyclization;AC=MOP:0000561;PP=Any N-term;TA=Q;MT=Variable,1
+NT=Gln->pyro-Glu;TA=Q;AC=UNIMOD:28;PP=Any N-term;MT=variable,1
+"NT=Deamidated;AC=UNIMOD:7;TA=N,Q;MT=Variable",1
+NT= TMT6plex;AC=UNIMOD:737;TA=K;MT=Fixed,1
+NT=Acetyl;PP=Protein N-term;MT=variable;AC=UNIMOD:1,1
+"NT=Deamidation;TA=N,Q;AC=UNIMOD:7;MT=variable",1
+NT=Oxidation;MT=Variable;TA=M;AC=UNIMOD:35,1
+AC=UNIMOD:4;NT=Carbamidomethyl;MT=Fixed;TA=C,1
+NT=Glu->pyro-Glu;MT=variable;PP=Any N-term;TA=Q;AC=Unimod:27,1
+NT=Acetyl;MT=Variable;PP=Protein N-term;AC=UNIMOD:1,1
+NT=Oxidation;AC=UNIMOD:35;MT=Variable;TA=M,1
+NT=TMT6plex;AC=UNIMOD:737;MT=fixed;TA=K,1
+NT=Met-loss+Acetyl;MT=Variable;PP=Protein N-term;AC=UNIMOD:766,1

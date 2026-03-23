@@ -1,0 +1,4 @@
+value,count
+partial response(decreased stage/size of the tumor),1
+no response(absence of decreased stage/size of the tumor),1
+complete response(elimination of the tumor),1

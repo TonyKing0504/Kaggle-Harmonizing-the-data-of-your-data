@@ -1,0 +1,6 @@
+value,count
+NT=Deamidated;AC=UNIMOD:7;PP=Protein N-term;MT=Variable,1
+NT=Oxidation;MT=Variable;TA=M;AC=UNIMOD:35,1
+NT=ITRAQ4plex114;PP=Any N-term;TA=K;AC=UNIMOD:532;MT=fixed,1
+NT=iTRAQ;PP=Any N-term;TA=K;AC=UNIMOD:214;MT=fixed,1
+NT=Ammonia-loss;TA=N;AC=UNIMOD:385;MT=variable,1

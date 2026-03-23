@@ -1,0 +1,186 @@
+column,pxd_count,pct
+SourceName,103,100.0
+Organism,103,100.0
+AssayName,103,100.0
+comment[data file],103,100.0
+Label,103,100.0
+Instrument,103,100.0
+CleavageAgent,103,100.0
+FractionIdentifier,101,98.1
+TechnicalReplicate,101,98.1
+BiologicalReplicate,100,97.1
+Modification,100,97.1
+PrecursorMassTolerance,95,92.2
+FragmentMassTolerance,95,92.2
+OrganismPart,92,89.3
+Disease,92,89.3
+comment[file uri],91,88.3
+Modification.1,85,82.5
+technology type,83,80.6
+Sex,80,77.7
+Age,78,75.7
+CellType,73,70.9
+DevelopmentalStage,71,68.9
+AncestryCategory,69,67.0
+Modification.2,65,63.1
+MaterialType,60,58.3
+FragmentationMethod,58,56.3
+characteristics[individual],51,49.5
+Modification.3,34,33.0
+CollisionEnergy,30,29.1
+CellLine,30,29.1
+MS2MassAnalyzer,24,23.3
+comment[proteomexchange accession number],21,20.4
+characteristics[phenotype],21,20.4
+Modification.4,20,19.4
+FractionationMethod,17,16.5
+CleavageAgent.1,17,16.5
+OrganismPart.1,14,13.6
+factor value[phenotype],12,11.7
+Disease.1,12,11.7
+Modification.5,9,8.7
+Treatment,9,8.7
+EnrichmentMethod,9,8.7
+Separation,8,7.8
+Sex.1,7,6.8
+EnrichmentMethod.1,6,5.8
+Depletion,6,5.8
+Treatment.1,5,4.9
+comment[plasmodium strain],4,3.9
+Modification.6,4,3.9
+comment[proteomics data acquisition method],4,3.9
+SpikedCompound,3,2.9
+SpikedCompound.1,3,2.9
+comment[file url],3,2.9
+CellLine.1,3,2.9
+Strain,3,2.9
+Compound,3,2.9
+SyntheticPeptide,3,2.9
+NumberOfMissedCleavages,3,2.9
+Modification.7,2,1.9
+Age.1,2,1.9
+characteristics[mass],2,1.9
+TechnicalReplicate.1,2,1.9
+factor value[individual],2,1.9
+FragmentationMethod.1,2,1.9
+SamplingTime,2,1.9
+SamplingTime.1,2,1.9
+Specimen,2,1.9
+Instrument.1,2,1.9
+comment[associated file uri],2,1.9
+Organism.1,2,1.9
+Label.1,2,1.9
+CleavageAgent.2,2,1.9
+characteristics[phenotype].1,2,1.9
+characteristics[growth condition],2,1.9
+ReductionReagent,2,1.9
+AlkylationReagent,2,1.9
+characteristics[proteomexchange accession number],2,1.9
+characteristics[BRAAK],2,1.9
+Time,2,1.9
+characteristics[region],2,1.9
+characteristics[pool],2,1.9
+characteristics[infect],2,1.9
+comment[isolation width],1,1.0
+factor value[isolation width],1,1.0
+characteristics[cultured cell],1,1.0
+Modification.8,1,1.0
+Modification.9,1,1.0
+Modification.10,1,1.0
+comment[PTM],1,1.0
+comment[Donor],1,1.0
+comment[modification parameters1],1,1.0
+comment[rice strain],1,1.0
+CellPart,1,1.0
+comment[rice ssp.],1,1.0
+MS2MassAnalyzer.1,1,1.0
+FragmentationMethod.2,1,1.0
+CollisionEnergy.1,1,1.0
+CollisionEnergy.2,1,1.0
+comment[CID collision energy],1,1.0
+comment[EThcD collision energy],1,1.0
+comment[ETciD collision energy],1,1.0
+CellType.1,1,1.0
+characteristics[anatomycal cluster],1,1.0
+BiologicalReplicate.1,1,1.0
+characteristics[chemical entity],1,1.0
+comment[tool metadata],1,1.0
+factor value[chemical entity],1,1.0
+BMI,1,1.0
+comment[data file].1,1,1.0
+characteristics[BRAF],1,1.0
+characteristics[Elevated LDH],1,1.0
+characteristics[response to antineoplastic agent],1,1.0
+characteristics[progression free survival],1,1.0
+characteristics[overall survival],1,1.0
+characteristics[prior targeted therapy],1,1.0
+characteristics[prior ipilimumab],1,1.0
+characteristics[xenograft],1,1.0
+Temperature,1,1.0
+GrowthRate,1,1.0
+characteristics[overproduction],1,1.0
+characteristics[overproduction].1,1,1.0
+characteristics[induced by],1,1.0
+FragmentMassTolerance.1,1,1.0
+Label.2,1,1.0
+Temperature.1,1,1.0
+GrowthRate.1,1,1.0
+factor value[overproduction],1,1.0
+factor value[overproduction].1,1,1.0
+factor value[induced by],1,1.0
+characteristics[protocol],1,1.0
+Staining,1,1.0
+factor value[protocol],1,1.0
+Staining.1,1,1.0
+characteristics[timepoint],1,1.0
+characteristics[ disease response],1,1.0
+factor value[ disease response],1,1.0
+OrganismPart.2,1,1.0
+factor value[phenotype].1,1,1.0
+characteristics[heart weight],1,1.0
+characteristics[HLA],1,1.0
+characteristics[individual].1,1,1.0
+factor value[HLA],1,1.0
+comment[scan window lower limit],1,1.0
+comment[scan window upper limit],1,1.0
+characteristics[subtype],1,1.0
+factor value[subtype],1,1.0
+comment[Proteomics Data Acquisition Method],1,1.0
+characteristics[sample amount],1,1.0
+characteristics[CERAD],1,1.0
+characteristics[PMI..hr.],1,1.0
+characteristics[Clinical information],1,1.0
+comment[Batch],1,1.0
+Experiment,1,1.0
+characteristics[plasmodium strain],1,1.0
+SpikedCompound.2,1,1.0
+SpikedCompound.3,1,1.0
+SpikedCompound.4,1,1.0
+SpikedCompound.5,1,1.0
+SpikedCompound.6,1,1.0
+SpikedCompound.7,1,1.0
+SpikedCompound.8,1,1.0
+SpikedCompound.9,1,1.0
+SpikedCompound.10,1,1.0
+SpikedCompound.11,1,1.0
+SpikedCompound.12,1,1.0
+TumorSize,1,1.0
+characteristics[Fuhrman Nuclear Grade],1,1.0
+characteristics[Pathologic],1,1.0
+characteristics[sample],1,1.0
+characteristics[apoE.status],1,1.0
+characteristics[broadman area],1,1.0
+comment[batch],1,1.0
+PooledSample,1,1.0
+EnrichmentMethod.2,1,1.0
+Treatment.2,1,1.0
+Treatment.3,1,1.0
+characteristics[Age at Death],1,1.0
+characteristics[Amyloid stage],1,1.0
+factor value[pool],1,1.0
+Compound.1,1,1.0
+Bait,1,1.0
+characteristics[multiplicities of infection],1,1.0
+characteristics[multiplicities of infection].1,1,1.0
+Time.1,1,1.0
+factor value[multiplicities of infection],1,1.0

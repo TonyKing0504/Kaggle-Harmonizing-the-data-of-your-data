@@ -1,0 +1,8 @@
+value,count
+NT=Phospho;AC=UNIMOD:21;TA=Y;MT=Variable,3
+NT=Glu->pyro-Glu;AC=UNIMOD:27;TA=E;MT=Variable,1
+NT=Pyro-QQTGG;PP=Not peptide C-term;TA=K;MM=454.18121;MT=Variable,1
+NT=Carbamidomethyl;TA=C;MT=fixed;AC=UNIMOD:4,1
+"NT=Ammonia-loss;AC=UNIMOD:385;TA=Q,C;MT=Variable",1
+NT=Hydroxylation;AC=MOP:0000673;MT=Variable;PP=Anywhere;TA=K,1
+NT=Ammonia-loss;TA=C;PP=Any N-term;AC=UNIMOD:385;MT=variable,1

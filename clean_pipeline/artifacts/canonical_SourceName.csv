@@ -1,0 +1,1538 @@
+value,count
+Sample 1,75
+Sample 2,71
+Sample 3,69
+Sample 4,66
+Sample 5,65
+Sample 6,65
+Sample 7,61
+Sample 8,58
+Sample 9,54
+Sample 10,52
+Sample 11,40
+Sample 12,38
+Sample 13,36
+Sample 14,36
+Sample 15,36
+Sample 16,34
+Sample 17,33
+Sample 18,31
+Sample 19,30
+Sample 20,29
+Sample 22,26
+Sample 23,26
+Sample 21,25
+Sample 24,25
+Sample 25,24
+Sample 26,24
+Sample 27,24
+Sample 28,24
+Sample 29,24
+Sample 30,24
+Sample 31,23
+Sample 32,22
+Sample 33,20
+Sample 34,20
+Sample 36,19
+Sample 37,19
+Sample 38,19
+Sample 39,19
+Sample 40,19
+Sample 41,19
+Sample 42,19
+Sample 50,19
+Sample 35,18
+Sample 43,18
+Sample 44,18
+Sample 45,18
+Sample 46,18
+Sample 47,18
+Sample 48,18
+Sample 49,18
+Sample 51,17
+Sample 52,17
+Sample 53,17
+Sample 54,15
+Sample 55,15
+Sample 56,15
+Sample 57,15
+Sample 58,15
+Sample 59,15
+Sample 60,15
+Sample 64,15
+Sample 61,14
+Sample 62,14
+Sample 63,14
+Sample 65,14
+Sample 66,13
+Sample 71,13
+Sample 67,12
+Sample 68,12
+Sample 69,12
+Sample 70,12
+Sample 72,12
+Sample 73,10
+Sample 74,10
+Sample 75,10
+Sample 76,10
+Sample 77,10
+Sample 78,10
+Sample 79,10
+Sample 80,10
+Sample 81,10
+Sample 85,10
+Sample 82,9
+Sample 83,9
+Sample 84,9
+Sample 86,9
+Sample 87,9
+Sample 88,9
+Sample 89,9
+Sample 90,9
+Sample 91,9
+Sample 92,9
+Sample 93,9
+Sample 94,9
+Sample 95,9
+Sample 96,9
+Sample 97,9
+Sample 98,9
+Sample 99,8
+Sample 100,8
+Sample 101,8
+Sample 103,7
+Sample 104,7
+Sample 105,7
+Sample 106,7
+Sample 107,7
+Sample 108,7
+Sample 109,7
+Sample 110,7
+Sample 111,7
+Sample 102,6
+Sample 112,6
+Sample 113,6
+Sample 114,6
+Sample 115,6
+Sample 116,6
+Sample 117,5
+Sample 118,4
+Sample 119,4
+Sample 120,4
+Sample 121,4
+Sample 122,4
+Sample 123,4
+Sample 124,4
+Sample 125,4
+Sample 126,4
+Sample 127,4
+Sample 128,4
+Sample 129,4
+Sample 130,4
+Sample 131,4
+Sample 132,4
+Sample 133,4
+Sample 134,4
+Sample 135,4
+Sample 136,4
+Sample 137,4
+Sample 138,4
+Sample 139,4
+Sample 140,4
+Sample 141,4
+Sample 142,4
+Sample 143,4
+Sample 144,4
+Sample 145,4
+Sample 146,4
+Sample 147,4
+Sample 148,4
+Sample 149,4
+Sample 150,4
+Sample 151,4
+Sample 152,4
+Sample 153,4
+Sample 154,4
+Sample 155,4
+Sample 156,4
+Sample 157,4
+Sample 158,4
+Sample 159,4
+Sample 160,4
+Sample 161,4
+Sample 162,4
+Sample 163,4
+Sample 164,4
+Sample 165,4
+Sample 166,4
+Sample 167,4
+Sample8,3
+Sample9,3
+Sample 168,3
+Sample 169,3
+Sample 170,3
+Sample 171,3
+Sample 172,3
+Sample 173,3
+Sample 174,3
+Sample 175,3
+Sample 176,3
+Sample 177,3
+Sample 178,3
+Sample 179,3
+Sample 180,3
+Sample 181,3
+Sample 182,3
+Sample 183,3
+Sample 184,3
+Sample 185,3
+Sample 186,3
+Sample 187,3
+Sample 188,3
+Sample 189,3
+Sample 190,3
+Sample 191,3
+Sample 192,3
+Sample 193,3
+Sample 194,3
+Sample 195,3
+mixed CSF,2
+Sample1,2
+Sample2,2
+Sample3,2
+Sample4,2
+Sample5,2
+Sample6,2
+Sample7,2
+sample 1,2
+sample 2,2
+sample 3,2
+sample 4,2
+sample 5,2
+sample 6,2
+Sample 196,2
+Sample 197,2
+Sample 198,2
+Sample 199,2
+Sample 200,2
+Sample 201,2
+Sample 202,2
+Sample 203,2
+Sample 204,2
+Sample 205,2
+Sample 206,2
+Sample 207,2
+Sample 208,2
+Sample 209,2
+Sample 210,2
+Sample 211,2
+Sample 212,2
+Sample 213,2
+Sample 214,2
+Sample 215,2
+Sample 216,2
+Sample 217,2
+Sample 218,2
+Sample 219,2
+Sample 220,2
+Sample 221,2
+Sample 222,2
+Sample 223,2
+Sample 224,2
+Sample 225,2
+Sample 226,2
+Sample 227,2
+Sample 228,2
+Sample 229,2
+Sample 230,2
+Sample 231,2
+Sample 232,2
+Sample 233,2
+Sample 234,2
+Sample 235,2
+Sample 236,2
+Sample 237,2
+Sample 238,2
+Sample 239,2
+Sample 240,2
+HeLa sample,1
+sample 1 cancer cells in co-culture,1
+sample 1 cancer cells in monoculture,1
+sample 1 endothelial cells in co-culture,1
+sample 2 cancer cells in co-culture,1
+sample 2 cancer cells in monoculture,1
+sample 2 endothelial cells in co-culture,1
+sample 3 cancer cells in co-culture,1
+sample 3 cancer cells in monoculture,1
+sample 3 endothelial cells in co-culture,1
+sample 4 cancer cells in co-culture,1
+sample 4 cancer cells in monoculture,1
+sample 4 endothelial cells in co-culture,1
+sample 5 endothelial cells in co-culture,1
+sample 6 endothelial cells in co-culture,1
+sample 7 endothelial cells in co-culture,1
+sample 5 endothelial cells in monoculture,1
+sample 6 endothelial cells in monoculture,1
+sample 7 endothelial cells in monoculture,1
+sample 5 cancer cells in co-culture,1
+sample 6 cancer cells in co-culture,1
+sample 7 cancer cells in co-culture,1
+sample 8 cancer cells in co-culture,1
+sample 8 cancer cells in monoculture,1
+sample 8 endothelial cells in co-culture,1
+sample 9 endothelial cells in co-culture,1
+sample 9 endothelial cells in monoculture,1
+sample 9 cancer cells in co-culture,1
+AJ_CTRL_Heart_Cyto_d00,1
+AJ_ISO_Heart_Cyto_d01,1
+BALB_CTRL_Heart_Cyto_d00,1
+AJ_CTRL_Heart_Cyto_d01,1
+BALB_CTRL_Heart_Cyto_d01,1
+AJ_ISO_Heart_Cyto_d03,1
+BALB_CTRL_Heart_Cyto_d03,1
+AJ_ISO_Heart_Cyto_d05,1
+BALB_CTRL_Heart_Cyto_d05,1
+AJ_CTRL_Heart_Cyto_d03,1
+AJ_ISO_Heart_Cyto_d07,1
+BALB_CTRL_Heart_Cyto_d07,1
+AJ_ISO_Heart_Cyto_d10,1
+BALB_CTRL_Heart_Cyto_d10,1
+AJ_CTRL_Heart_Cyto_d05,1
+AJ_ISO_Heart_Cyto_d14,1
+BALB_CTRL_Heart_Cyto_d14,1
+AJ_CTRL_Heart_Cyto_d07,1
+BALB_ISO_Heart_Cyto_d01,1
+BALB_ISO_Heart_Cyto_d03,1
+BALB_ISO_Heart_Cyto_d05,1
+BALB_ISO_Heart_Cyto_d07,1
+BALB_ISO_Heart_Cyto_d10,1
+BALB_ISO_Heart_Cyto_d14,1
+C57_CTRL_Heart_Cyto_d00,1
+C57_CTRL_Heart_Cyto_d01,1
+C57_CTRL_Heart_Cyto_d03,1
+C57_CTRL_Heart_Cyto_d05,1
+C57_CTRL_Heart_Cyto_d07,1
+C57_CTRL_Heart_Cyto_d10,1
+C57_CTRL_Heart_Cyto_d14,1
+C57_ISO_Heart_Cyto_d01,1
+C57_ISO_Heart_Cyto_d03,1
+C57_ISO_Heart_Cyto_d05,1
+C57_ISO_Heart_Cyto_d07,1
+C57_ISO_Heart_Cyto_d10,1
+C57_ISO_Heart_Cyto_d14,1
+CEJ_CTRL_Heart_Cyto_d00,1
+CEJ_CTRL_Heart_Cyto_d01,1
+CEJ_CTRL_Heart_Cyto_d03,1
+CEJ_CTRL_Heart_Cyto_d05,1
+CEJ_CTRL_Heart_Cyto_d07,1
+CEJ_CTRL_Heart_Cyto_d10,1
+CEJ_CTRL_Heart_Cyto_d14,1
+CEJ_ISO_Heart_Cyto_d01,1
+CEJ_ISO_Heart_Cyto_d03,1
+CEJ_ISO_Heart_Cyto_d05,1
+CEJ_ISO_Heart_Cyto_d07,1
+CEJ_ISO_Heart_Cyto_d10,1
+CEJ_ISO_Heart_Cyto_d14,1
+DBA_CTRL_Heart_Cyto_d00,1
+DBA_CTRL_Heart_Cyto_d01,1
+DBA_CTRL_Heart_Cyto_d03,1
+DBA_CTRL_Heart_Cyto_d05,1
+DBA_CTRL_Heart_Cyto_d07,1
+DBA_CTRL_Heart_Cyto_d10,1
+DBA_CTRL_Heart_Cyto_d14,1
+DBA_ISO_Heart_Cyto_d01,1
+DBA_ISO_Heart_Cyto_d03,1
+DBA_ISO_Heart_Cyto_d05,1
+DBA_ISO_Heart_Cyto_d07,1
+DBA_ISO_Heart_Cyto_d10,1
+DBA_ISO_Heart_Cyto_d14,1
+FVB_CTRL_Heart_Cyto_d00,1
+FVB_CTRL_Heart_Cyto_d01,1
+FVB_CTRL_Heart_Cyto_d02,1
+FVB_CTRL_Heart_Cyto_d03,1
+FVB_CTRL_Heart_Cyto_d05,1
+FVB_CTRL_Heart_Cyto_d07,1
+FVB_CTRL_Heart_Cyto_d10,1
+FVB_CTRL_Heart_Cyto_d14,1
+FVB_ISO_Heart_Cyto_d01,1
+FVB_ISO_Heart_Cyto_d03,1
+FVB_ISO_Heart_Cyto_d05,1
+FVB_ISO_Heart_Cyto_d07,1
+FVB_ISO_Heart_Cyto_d10,1
+FVB_ISO_Heart_Cyto_d14,1
+AJ_CTRL_Heart_Cyto_d10,1
+AJ_CTRL_Heart_Cyto_d14,1
+AJ_CTRL_Heart_Mito_d00,1
+AJ_ISO_Heart_Mito_d01,1
+AJ_CTRL_Heart_Mito_d01,1
+AJ_ISO_Heart_Mito_d03,1
+AJ_CTRL_Heart_Mito_d03,1
+AJ_ISO_Heart_Mito_d05,1
+AJ_CTRL_Heart_Mito_d05,1
+AJ_ISO_Heart_Mito_d07,1
+AJ_CTRL_Heart_Mito_d07,1
+AJ_ISO_Heart_Mito_d10,1
+AJ_CTRL_Heart_Mito_d10,1
+AJ_ISO_Heart_Mito_d14,1
+AJ_CTRL_Heart_Mito_d14,1
+BALB_CTRL_Heart_Mito_d00,1
+BALB_CTRL_Heart_Mito_d01,1
+BALB_CTRL_Heart_Mito_d03,1
+BALB_CTRL_Heart_Mito_d05,1
+BALB_CTRL_Heart_Mito_d07,1
+BALB_CTRL_Heart_Mito_d10,1
+BALB_CTRL_Heart_Mito_d14,1
+BALB_ISO_Heart_Mito_d01,1
+BALB_ISO_Heart_Mito_d03,1
+BALB_ISO_Heart_Mito_d05,1
+BALB_ISO_Heart_Mito_d07,1
+BALB_ISO_Heart_Mito_d10,1
+BALB_ISO_Heart_Mito_d14,1
+C57_CTRL_Heart_Mito_d00,1
+C57_CTRL_Heart_Mito_d01,1
+C57_CTRL_Heart_Mito_d03,1
+C57_CTRL_Heart_Mito_d05,1
+C57_CTRL_Heart_Mito_d07,1
+C57_CTRL_Heart_Mito_d10,1
+C57_CTRL_Heart_Mito_d14,1
+C57_ISO_Heart_Mito_d01,1
+C57_ISO_Heart_Mito_d03,1
+C57_ISO_Heart_Mito_d05,1
+C57_ISO_Heart_Mito_d07,1
+C57_ISO_Heart_Mito_d10,1
+C57_ISO_Heart_Mito_d14,1
+CEJ_CTRL_Heart_Mito_d00,1
+CEJ_CTRL_Heart_Mito_d01,1
+CEJ_CTRL_Heart_Mito_d03,1
+CEJ_CTRL_Heart_Mito_d05,1
+CEJ_CTRL_Heart_Mito_d07,1
+CEJ_CTRL_Heart_Mito_d10,1
+CEJ_CTRL_Heart_Mito_d14,1
+CEJ_ISO_Heart_Mito_d01,1
+CEJ_ISO_Heart_Mito_d03,1
+DBA_CTRL_Heart_Mito_d00,1
+DBA_CTRL_Heart_Mito_d01,1
+DBA_CTRL_Heart_Mito_d03,1
+DBA_CTRL_Heart_Mito_d05,1
+DBA_CTRL_Heart_Mito_d07,1
+DBA_CTRL_Heart_Mito_d10,1
+DBA_CTRL_Heart_Mito_d14,1
+DBA_ISO_Heart_Mito_d01,1
+DBA_ISO_Heart_Mito_d03,1
+DBA_ISO_Heart_Mito_d05,1
+DBA_ISO_Heart_Mito_d07,1
+DBA_ISO_Heart_Mito_d10,1
+DBA_ISO_Heart_Mito_d14,1
+FVB_CTRL_Heart_Mito_d00,1
+FVB_CTRL_Heart_Mito_d01,1
+FVB_CTRL_Heart_Mito_d03,1
+FVB_CTRL_Heart_Mito_d05,1
+FVB_CTRL_Heart_Mito_d07,1
+FVB_CTRL_Heart_Mito_d10,1
+FVB_CTRL_Heart_Mito_d14,1
+FVB_ISO_Heart_Mito_d01,1
+FVB_ISO_Heart_Mito_d03,1
+FVB_ISO_Heart_Mito_d05,1
+FVB_ISO_Heart_Mito_d07,1
+FVB_ISO_Heart_Mito_d10,1
+FVB_ISO_Heart_Mito_d14,1
+CEJ_ISO_Heart_Mito_d05,1
+CEJ_ISO_Heart_Mito_d07,1
+CEJ_ISO_Heart_Mito_d10,1
+CEJ_ISO_Heart_Mito_d14,1
+AJ_CTRL_Heart_Nucl_d00,1
+AJ_CTRL_Heart_Nucl_d01,1
+AJ_CTRL_Heart_Nucl_d03,1
+AJ_CTRL_Heart_Nucl_d05,1
+AJ_CTRL_Heart_Nucl_d07,1
+AJ_CTRL_Heart_Nucl_d10,1
+AJ_ISO_Heart_Nucl_d01,1
+AJ_CTRL_Heart_Nucl_d14,1
+AJ_ISO_Heart_Nucl_d03,1
+AJ_ISO_Heart_Nucl_d05,1
+AJ_ISO_Heart_Nucl_d07,1
+AJ_ISO_Heart_Nucl_d10,1
+AJ_ISO_Heart_Nucl_d14,1
+BALB_CTRL_Heart_Nucl_d00,1
+BALB_CTRL_Heart_Nucl_d01,1
+BALB_CTRL_Heart_Nucl_d03,1
+BALB_CTRL_Heart_Nucl_d05,1
+BALB_CTRL_Heart_Nucl_d07,1
+BALB_CTRL_Heart_Nucl_d10,1
+BALB_CTRL_Heart_Nucl_d14,1
+BALB_ISO_Heart_Nucl_d01,1
+BALB_ISO_Heart_Nucl_d03,1
+BALB_ISO_Heart_Nucl_d03a,1
+BALB_ISO_Heart_Nucl_d05,1
+BALB_ISO_Heart_Nucl_d07,1
+BALB_ISO_Heart_Nucl_d10,1
+BALB_ISO_Heart_Nucl_d14,1
+C57_CTRL_Heart_Nucl_d00,1
+C57_CTRL_Heart_Nucl_d01,1
+C57_CTRL_Heart_Nucl_d03,1
+C57_CTRL_Heart_Nucl_d05,1
+C57_CTRL_Heart_Nucl_d07,1
+C57_CTRL_Heart_Nucl_d10,1
+C57_CTRL_Heart_Nucl_d14,1
+C57_ISO_Heart_Nucl_d01,1
+C57_ISO_Heart_Nucl_d03,1
+C57_ISO_Heart_Nucl_d05,1
+C57_ISO_Heart_Nucl_d07,1
+C57_ISO_Heart_Nucl_d10,1
+C57_ISO_Heart_Nucl_d14,1
+CEJ_CTRL_Heart_Nucl_d00,1
+CEJ_CTRL_Heart_Nucl_d01,1
+CEJ_CTRL_Heart_Nucl_d03,1
+CEJ_CTRL_Heart_Nucl_d05,1
+CEJ_CTRL_Heart_Nucl_d07,1
+CEJ_CTRL_Heart_Nucl_d10,1
+CEJ_CTRL_Heart_Nucl_d14,1
+CEJ_ISO_Heart_Nucl_d01,1
+CEJ_ISO_Heart_Nucl_d03,1
+CEJ_ISO_Heart_Nucl_d05,1
+CEJ_ISO_Heart_Nucl_d07,1
+CEJ_ISO_Heart_Nucl_d10,1
+CEJ_ISO_Heart_Nucl_d14,1
+DBA_CTRL_Heart_Nucl_d00,1
+DBA_CTRL_Heart_Nucl_d01,1
+DBA_CTRL_Heart_Nucl_d03,1
+DBA_CTRL_Heart_Nucl_d05,1
+DBA_CTRL_Heart_Nucl_d07,1
+DBA_CTRL_Heart_Nucl_d10,1
+DBA_CTRL_Heart_Nucl_d14,1
+DBA_ISO_Heart_Nucl_d01,1
+DBA_ISO_Heart_Nucl_d03,1
+DBA_ISO_Heart_Nucl_d05,1
+DBA_ISO_Heart_Nucl_d07,1
+DBA_ISO_Heart_Nucl_d10,1
+DBA_ISO_Heart_Nucl_d14,1
+FVB_CTRL_Heart_Nucl_d00,1
+FVB_CTRL_Heart_Nucl_d01,1
+FVB_CTRL_Heart_Nucl_d03,1
+FVB_CTRL_Heart_Nucl_d05,1
+FVB_CTRL_Heart_Nucl_d07,1
+FVB_CTRL_Heart_Nucl_d10,1
+FVB_CTRL_Heart_Nucl_d14,1
+FVB_ISO_Heart_Nucl_d01,1
+FVB_ISO_Heart_Nucl_d03,1
+FVB_ISO_Heart_Nucl_d05,1
+FVB_ISO_Heart_Nucl_d07,1
+FVB_ISO_Heart_Nucl_d10,1
+FVB_ISO_Heart_Nucl_d14,1
+PXD003028-Sample-1,1
+PXD003028-Sample-2,1
+PXD003028-Sample-3,1
+PXD003028-Sample-4,1
+PXD003028-Sample-5,1
+PXD003028-Sample-6,1
+PXD003028-Sample-7,1
+PXD003028-Sample-8,1
+PXD003028-Sample-9,1
+PXD003028-Sample-10,1
+PXD003028-Sample-11,1
+PXD003028-Sample-12,1
+PXD003028-Sample-13,1
+PXD003028-Sample-14,1
+PXD003028-Sample-15,1
+PXD003028-Sample-16,1
+PXD003028-Sample-17,1
+PXD003028-Sample-18,1
+PXD003028-Sample-19,1
+PXD003028-Sample-20,1
+PXD003028-Sample-21,1
+PXD003028-Sample-22,1
+PXD003028-Sample-23,1
+PXD003028-Sample-24,1
+PXD003028-Sample-25,1
+PXD003028-Sample-26,1
+PXD003028-Sample-27,1
+PXD003028-Sample-28,1
+PXD003028-Sample-29,1
+PXD003028-Sample-30,1
+PXD003028-Sample-31,1
+PXD003028-Sample-32,1
+PXD003028-Sample-33,1
+1 plasma at -8 weeks,1
+1 plasma at 0 weeks,1
+1 plasma at 4 weeks,1
+1 plasma at 13 weeks,1
+1 plasma at 26 weeks,1
+1 plasma at 39 weeks,1
+1 plasma at 52 weeks,1
+2 plasma at -8 weeks,1
+2 plasma at 0 weeks,1
+2 plasma at 4 weeks,1
+2 plasma at 13 weeks,1
+2 plasma at 26 weeks,1
+2 plasma at 39 weeks,1
+2 plasma at 52 weeks,1
+3 plasma at -8 weeks,1
+3 plasma at 0 weeks,1
+3 plasma at 4 weeks,1
+3 plasma at 13 weeks,1
+3 plasma at 26 weeks,1
+3 plasma at 39 weeks,1
+3 plasma at 52 weeks,1
+5 plasma at -8 weeks,1
+5 plasma at 0 weeks,1
+5 plasma at 4 weeks,1
+5 plasma at 13 weeks,1
+5 plasma at 26 weeks,1
+5 plasma at 39 weeks,1
+5 plasma at 52 weeks,1
+6 plasma at -8 weeks,1
+6 plasma at 0 weeks,1
+6 plasma at 4 weeks,1
+6 plasma at 13 weeks,1
+6 plasma at 26 weeks,1
+6 plasma at 39 weeks,1
+6 plasma at 52 weeks,1
+7 plasma at -8 weeks,1
+7 plasma at 0 weeks,1
+7 plasma at 4 weeks,1
+7 plasma at 13 weeks,1
+7 plasma at 26 weeks,1
+7 plasma at 39 weeks,1
+7 plasma at 52 weeks,1
+8 plasma at -8 weeks,1
+8 plasma at 0 weeks,1
+8 plasma at 4 weeks,1
+8 plasma at 13 weeks,1
+8 plasma at 26 weeks,1
+8 plasma at 39 weeks,1
+8 plasma at 52 weeks,1
+9 plasma at -8 weeks,1
+9 plasma at 0 weeks,1
+9 plasma at 4 weeks,1
+9 plasma at 13 weeks,1
+9 plasma at 26 weeks,1
+9 plasma at 39 weeks,1
+9 plasma at 52 weeks,1
+10 plasma at -8 weeks,1
+10 plasma at 0 weeks,1
+10 plasma at 4 weeks,1
+10 plasma at 13 weeks,1
+10 plasma at 26 weeks,1
+10 plasma at 39 weeks,1
+10 plasma at 52 weeks,1
+11 plasma at -8 weeks,1
+11 plasma at 0 weeks,1
+11 plasma at 4 weeks,1
+11 plasma at 13 weeks,1
+11 plasma at 26 weeks,1
+11 plasma at 39 weeks,1
+11 plasma at 52 weeks,1
+12 plasma at -8 weeks,1
+12 plasma at 0 weeks,1
+12 plasma at 13 weeks,1
+12 plasma at 26 weeks,1
+12 plasma at 39 weeks,1
+12 plasma at 52 weeks,1
+12 plasma at 4 weeks,1
+14 plasma at -8 weeks,1
+14 plasma at 0 weeks,1
+14 plasma at 4 weeks,1
+14 plasma at 13 weeks,1
+14 plasma at 26 weeks,1
+14 plasma at 39 weeks,1
+14 plasma at 52 weeks,1
+15 plasma at -8 weeks,1
+15 plasma at 0 weeks,1
+15 plasma at 4 weeks,1
+15 plasma at 13 weeks,1
+15 plasma at 26 weeks,1
+15 plasma at 39 weeks,1
+15 plasma at 52 weeks,1
+16 plasma at -8 weeks,1
+16 plasma at 0 weeks,1
+16 plasma at 4 weeks,1
+16 plasma at 13 weeks,1
+16 plasma at 26 weeks,1
+16 plasma at 39 weeks,1
+16 plasma at 52 weeks,1
+17 plasma at -8 weeks,1
+17 plasma at 0 weeks,1
+17 plasma at 4 weeks,1
+17 plasma at 13 weeks,1
+17 plasma at 26 weeks,1
+17 plasma at 39 weeks,1
+17 plasma at 52 weeks,1
+19 plasma at -8 weeks,1
+19 plasma at 0 weeks,1
+19 plasma at 4 weeks,1
+19 plasma at 13 weeks,1
+19 plasma at 26 weeks,1
+19 plasma at 39 weeks,1
+19 plasma at 52 weeks,1
+20 plasma at -8 weeks,1
+20 plasma at 0 weeks,1
+20 plasma at 4 weeks,1
+20 plasma at 13 weeks,1
+20 plasma at 26 weeks,1
+20 plasma at 39 weeks,1
+20 plasma at 52 weeks,1
+21 plasma at -8 weeks,1
+21 plasma at 0 weeks,1
+21 plasma at 4 weeks,1
+21 plasma at 13 weeks,1
+21 plasma at 26 weeks,1
+21 plasma at 39 weeks,1
+21 plasma at 52 weeks,1
+22 plasma at -8 weeks,1
+22 plasma at 0 weeks,1
+22 plasma at 4 weeks,1
+22 plasma at 13 weeks,1
+22 plasma at 26 weeks,1
+22 plasma at 39 weeks,1
+22 plasma at 52 weeks,1
+23 plasma at -8 weeks,1
+23 plasma at 0 weeks,1
+23 plasma at 4 weeks,1
+23 plasma at 13 weeks,1
+23 plasma at 26 weeks,1
+23 plasma at 39 weeks,1
+23 plasma at 52 weeks,1
+24 plasma at -8 weeks,1
+24 plasma at 0 weeks,1
+25 plasma at 0 weeks,1
+25 plasma at 4 weeks,1
+25 plasma at 26 weeks,1
+25 plasma at 39 weeks,1
+25 plasma at 52 weeks,1
+25 plasma at -8 weeks,1
+25 plasma at 13 weeks,1
+26 plasma at -8 weeks,1
+26 plasma at 0 weeks,1
+26 plasma at 4 weeks,1
+26 plasma at 13 weeks,1
+26 plasma at 39 weeks,1
+26 plasma at 52 weeks,1
+26 plasma at 26 weeks,1
+27 plasma at -8 weeks,1
+27 plasma at 0 weeks,1
+27 plasma at 4 weeks,1
+27 plasma at 13 weeks,1
+27 plasma at 26 weeks,1
+27 plasma at 39 weeks,1
+27 plasma at 52 weeks,1
+28 plasma at -8 weeks,1
+28 plasma at 0 weeks,1
+28 plasma at 4 weeks,1
+28 plasma at 13 weeks,1
+28 plasma at 26 weeks,1
+28 plasma at 39 weeks,1
+28 plasma at 52 weeks,1
+29 plasma at -8 weeks,1
+29 plasma at 0 weeks,1
+29 plasma at 4 weeks,1
+29 plasma at 13 weeks,1
+29 plasma at 26 weeks,1
+29 plasma at 39 weeks,1
+29 plasma at 52 weeks,1
+30 plasma at -8 weeks,1
+30 plasma at 0 weeks,1
+30 plasma at 4 weeks,1
+30 plasma at 13 weeks,1
+30 plasma at 26 weeks,1
+30 plasma at 39 weeks,1
+30 plasma at 52 weeks,1
+31 plasma at -8 weeks,1
+31 plasma at 0 weeks,1
+33 plasma at -8 weeks,1
+33 plasma at 0 weeks,1
+34 plasma at -8 weeks,1
+34 plasma at 0 weeks,1
+34 plasma at 4 weeks,1
+34 plasma at 13 weeks,1
+34 plasma at 26 weeks,1
+34 plasma at 39 weeks,1
+34 plasma at 52 weeks,1
+35 plasma at -8 weeks,1
+35 plasma at 0 weeks,1
+36 plasma at -8 weeks,1
+36 plasma at 0 weeks,1
+36 plasma at 4 weeks,1
+36 plasma at 13 weeks,1
+36 plasma at 26 weeks,1
+36 plasma at 39 weeks,1
+36 plasma at 52 weeks,1
+37 plasma at -8 weeks,1
+37 plasma at 0 weeks,1
+37 plasma at 4 weeks,1
+37 plasma at 13 weeks,1
+37 plasma at 26 weeks,1
+37 plasma at 39 weeks,1
+37 plasma at 52 weeks,1
+38 plasma at -8 weeks,1
+38 plasma at 0 weeks,1
+38 plasma at 4 weeks,1
+38 plasma at 13 weeks,1
+38 plasma at 26 weeks,1
+38 plasma at 39 weeks,1
+38 plasma at 52 weeks,1
+39 plasma at -8 weeks,1
+39 plasma at 0 weeks,1
+39 plasma at 4 weeks,1
+39 plasma at 13 weeks,1
+39 plasma at 26 weeks,1
+39 plasma at 39 weeks,1
+39 plasma at 52 weeks,1
+40 plasma at -8 weeks,1
+40 plasma at 0 weeks,1
+40 plasma at 4 weeks,1
+40 plasma at 13 weeks,1
+40 plasma at 26 weeks,1
+40 plasma at 39 weeks,1
+40 plasma at 52 weeks,1
+41 plasma at -8 weeks,1
+41 plasma at 0 weeks,1
+41 plasma at 4 weeks,1
+41 plasma at 13 weeks,1
+41 plasma at 26 weeks,1
+41 plasma at 39 weeks,1
+41 plasma at 52 weeks,1
+42 plasma at -8 weeks,1
+42 plasma at 0 weeks,1
+42 plasma at 4 weeks,1
+42 plasma at 13 weeks,1
+42 plasma at 39 weeks,1
+42 plasma at 52 weeks,1
+42 plasma at 26 weeks,1
+43 plasma at -8 weeks,1
+43 plasma at 0 weeks,1
+43 plasma at 4 weeks,1
+43 plasma at 13 weeks,1
+43 plasma at 26 weeks,1
+43 plasma at 39 weeks,1
+43 plasma at 52 weeks,1
+44 plasma at 0 weeks,1
+44 plasma at 4 weeks,1
+44 plasma at 13 weeks,1
+44 plasma at 26 weeks,1
+44 plasma at 39 weeks,1
+44 plasma at 52 weeks,1
+45 plasma at -8 weeks,1
+45 plasma at 0 weeks,1
+45 plasma at 4 weeks,1
+45 plasma at 13 weeks,1
+45 plasma at 26 weeks,1
+45 plasma at 39 weeks,1
+45 plasma at 52 weeks,1
+46 plasma at -8 weeks,1
+46 plasma at 0 weeks,1
+46 plasma at 4 weeks,1
+46 plasma at 13 weeks,1
+46 plasma at 26 weeks,1
+46 plasma at 39 weeks,1
+46 plasma at 52 weeks,1
+47 plasma at -8 weeks,1
+47 plasma at 0 weeks,1
+47 plasma at 4 weeks,1
+47 plasma at 13 weeks,1
+47 plasma at 26 weeks,1
+47 plasma at 39 weeks,1
+47 plasma at 52 weeks,1
+48 plasma at -8 weeks,1
+48 plasma at 0 weeks,1
+48 plasma at 4 weeks,1
+48 plasma at 13 weeks,1
+48 plasma at 26 weeks,1
+48 plasma at 39 weeks,1
+48 plasma at 52 weeks,1
+49 plasma at -8 weeks,1
+49 plasma at 0 weeks,1
+50 plasma at -8 weeks,1
+50 plasma at 0 weeks,1
+51 plasma at -8 weeks,1
+51 plasma at 0 weeks,1
+52 plasma at -8 weeks,1
+52 plasma at 0 weeks,1
+52 plasma at 4 weeks,1
+52 plasma at 13 weeks,1
+52 plasma at 26 weeks,1
+52 plasma at 39 weeks,1
+52 plasma at 52 weeks,1
+53 plasma at -8 weeks,1
+53 plasma at 0 weeks,1
+54 plasma at -8 weeks,1
+54 plasma at 0 weeks,1
+57 plasma at -8 weeks,1
+57 plasma at 0 weeks,1
+57 plasma at 4 weeks,1
+57 plasma at 13 weeks,1
+57 plasma at 26 weeks,1
+57 plasma at 39 weeks,1
+57 plasma at 52 weeks,1
+58 plasma at -8 weeks,1
+58 plasma at 0 weeks,1
+58 plasma at 4 weeks,1
+58 plasma at 13 weeks,1
+58 plasma at 26 weeks,1
+58 plasma at 39 weeks,1
+58 plasma at 52 weeks,1
+F1 plasma at not applicable weeks,1
+F2 plasma at not applicable weeks,1
+F3 plasma at not applicable weeks,1
+M1 plasma at not applicable weeks,1
+M2 plasma at not applicable weeks,1
+M3 plasma at not applicable weeks,1
+Proteometools,1
+PXD004939-Sample-1,1
+PXD004939-Sample-2,1
+PXD004939-Sample-3,1
+PXD004939-Sample-4,1
+PXD004939-Sample-5,1
+PXD004939-Sample-6,1
+PXD004939-Sample-7,1
+PXD004939-Sample-8,1
+PXD004939-Sample-9,1
+mixed_0 brain,1
+mixed_1 brain,1
+mixed_2 brain,1
+mixed_3 brain,1
+mixed_4 brain,1
+mixed_5 brain,1
+mixed_6 brain,1
+"HSB118 brain, AMY",1
+"HSB118 brain, CBC",1
+"HSB118 brain, DFC",1
+"HSB118 brain, HIP",1
+"HSB118 brain, MD",1
+"HSB118 brain, STR",1
+"HSB118 brain, V1C",1
+"HSB119 brain, AMY",1
+"HSB121 brain, AMY",1
+"HSB122 brain, AMY",1
+"HSB122 brain, CBC",1
+"HSB122 brain, DFC",1
+"HSB122 brain, HIP",1
+"HSB122 brain, MD",1
+"HSB122 brain, STR",1
+"HSB122 brain, V1C",1
+"HSB123 brain, AMY",1
+"HSB123 brain, CBC",1
+"HSB123 brain, DFC",1
+"HSB123 brain, HIP",1
+"HSB123 brain, STR",1
+"HSB123 brain, V1C",1
+"HSB126 brain, AMY",1
+"HSB126 brain, CBC",1
+"HSB126 brain, DFC",1
+"HSB126 brain, HIP",1
+"HSB126 brain, MD",1
+"HSB126 brain, STR",1
+"HSB126 brain, V1C",1
+"HSB127 brain, CBC",1
+"HSB127 brain, DFC",1
+"HSB127 brain, HIP",1
+"HSB127 brain, MD",1
+"HSB127 brain, STR",1
+"HSB127 brain, V1C",1
+"HSB135 brain, AMY",1
+"HSB135 brain, CBC",1
+"HSB135 brain, DFC",1
+"HSB135 brain, HIP",1
+"HSB135 brain, MD",1
+"HSB135 brain, STR",1
+"HSB135 brain, V1C",1
+"HSB136 brain, AMY",1
+"HSB136 brain, CBC",1
+"HSB136 brain, DFC",1
+"HSB136 brain, HIP",1
+"HSB136 brain, MD",1
+"HSB136 brain, STR",1
+"HSB136 brain, V1C",1
+"HSB139 brain, CBC",1
+"HSB139 brain, DFC",1
+"HSB139 brain, HIP",1
+"HSB139 brain, MD",1
+"HSB139 brain, STR",1
+"HSB139 brain, V1C",1
+"HSB141 brain, CBC",1
+"HSB141 brain, DFC",1
+"HSB141 brain, HIP",1
+"HSB141 brain, MD",1
+"HSB141 brain, STR",1
+"HSB141 brain, V1C",1
+"HSB143 brain, CBC",1
+"HSB143 brain, DFC",1
+"HSB143 brain, HIP",1
+"HSB143 brain, MD",1
+"HSB143 brain, STR",1
+"HSB143 brain, V1C",1
+"HSB145 brain, AMY",1
+"HSB145 brain, CBC",1
+"HSB145 brain, DFC",1
+"HSB145 brain, HIP",1
+"HSB145 brain, MD",1
+"HSB145 brain, STR",1
+"HSB145 brain, V1C",1
+"HSB173 brain, AMY",1
+"HSB174 brain, AMY",1
+"HSB175 brain, AMY",1
+not available,1
+omentum normal crude,1
+omentum HGSOC crude,1
+omentum HGSOC urea-soluble,1
+omentum normal urea-soluble,1
+TNBC-adjacent crude,1
+TNBC pellet 1,1
+TNBC pellet 2,1
+TNBC-adjacent pellet,1
+omentum HGSOC pellet,1
+omentum normal pellet,1
+TNBC-adjacent pellet p2,1
+TNBC urea-soluble p1,1
+TNBC-adjacent urea-soluble,1
+TNBC crude p2,1
+TNBC crude p1,1
+TNBC urea-soluble p2,1
+TNBC-adjacent urea-soluble p2,1
+TNBC-adjacent crude p1,1
+omentum hgsoc crude,1
+PD1_18,1
+PD1_23,1
+PD1_28,1
+PD1_15,1
+PD1_10,1
+PD1_12,1
+PD1_19,1
+PD1_1,1
+PD1_20,1
+PD1_24,1
+PD1_25,1
+PD1_26,1
+PD1_29,1
+PD1_32,1
+PD1_42,1
+PD1_46,1
+PD1_47,1
+PD1_49,1
+PD1_4,1
+PD1_50,1
+PD1_53,1
+PD1_5,1
+PDX_PD1_2,1
+PDX_PD1_30,1
+PDX_PD1_51,1
+TIL_15,1
+TIL_19,1
+TIL_26,1
+TIL_28,1
+TIL_29,1
+TIL_32,1
+TIL_40,1
+TIL_5,1
+TIL_10,1
+TIL_11,1
+TIL_12,1
+TIL_13,1
+TIL_14,1
+TIL_16,1
+TIL_17,1
+TIL_1,1
+TIL_20,1
+TIL_21,1
+TIL_22,1
+TIL_23,1
+TIL_24,1
+TIL_27,1
+TIL_2,1
+TIL_34,1
+TIL_35,1
+TIL_36,1
+TIL_37,1
+TIL_38,1
+TIL_39,1
+TIL_3,1
+TIL_4,1
+TIL_6,1
+TIL_7,1
+TIL_8,1
+TIL_9,1
+TIL_18,1
+TIL_30,1
+TIL_31,1
+TIL_42,1
+TIL_43,1
+TIL_44,1
+TIL_65,1
+PDX_PD1_56,1
+PDX_PD1_59,1
+PDX_PD1_64,1
+PDX_PD1_65,1
+PDX_PD1_54,1
+PDX_PD1_55,1
+PDX_PD1_57,1
+PDX_PD1_60,1
+PDX_PD1_61,1
+PDX_PD1_62,1
+PDX_PD1_63,1
+PDX_PD1_66,1
+PDX_PD1_68,1
+PDX_PD1_69,1
+PDX_PD1_70,1
+PDX_PD1_73,1
+PDX_PD1_76,1
+PDX_PD1_79,1
+PDX_PD1_83,1
+PDX_PD1_84,1
+PDX_PD1_67,1
+PDX_PD1_71,1
+PDX_PD1_72,1
+PDX_PD1_75,1
+PDX_PD1_77,1
+PDX_PD1_78,1
+PDX_PD1_80,1
+PDX_PD1_82,1
+PDX_PD1_85,1
+PD1_82,1
+PD1_85,1
+PD1_55,1
+PD1_64,1
+PD1_67,1
+PD1_69,1
+PD1_70,1
+PD1_71,1
+PD1_72,1
+PD1_75,1
+PD1_77,1
+PD1_78,1
+PD1_80,1
+Super SILAC Reference,1
+XLV_30_1,1
+super_silac_30,1
+XLV_30_2,1
+XLV_30_3,1
+XLV_37_1,1
+super_silac_37,1
+XLV_37_2,1
+XLV_37_3,1
+XLV_40_1,1
+super_silac_40,1
+XLV_40_2,1
+XLV_40_3,1
+LpxC_30_1,1
+LpxC_30_2,1
+LpxC_30_3,1
+LpxC_37_1,1
+LpxC_37_2,1
+LpxC_37_3,1
+LpxC_40_1,1
+LpxC_40_2,1
+LpxC_40_3,1
+LV_30_1,1
+LV_30_2,1
+LV_30_3,1
+LV_37_1,1
+LV_37_2,1
+LV_37_3,1
+LV_40_1,1
+LV_40_2,1
+LV_40_3,1
+FtsH_30_1,1
+FtsH_30_2,1
+FtsH_30_3,1
+FtsH_37_1,1
+FtsH_37_2,1
+FtsH_37_3,1
+FtsH_40_1,1
+FtsH_40_2,1
+FtsH_40_3,1
+PXD007073-Sample-1,1
+PXD007073-Sample-2,1
+PXD007073-Sample-3,1
+PXD007073-Sample-4,1
+PXD007073-Sample-5,1
+PXD007073-Sample-6,1
+PXD007073-Sample-7,1
+PXD007073-Sample-8,1
+PXD007073-Sample-9,1
+PXD007073-Sample-10,1
+PXD007073-Sample-11,1
+PXD007073-Sample-12,1
+PXD007073-Sample-13,1
+PXD007073-Sample-14,1
+PXD007073-Sample-15,1
+PXD007073-Sample-16,1
+PXD007073-Sample-17,1
+PXD007073-Sample-18,1
+PXD007073-Sample-19,1
+PXD007073-Sample-20,1
+PXD007073-Sample-21,1
+PXD007073-Sample-22,1
+PXD007073-Sample-23,1
+PXD007073-Sample-24,1
+PXD007073-Sample-25,1
+Sample10,1
+Sample11,1
+Sample12,1
+S097_LA,1
+S097_LV,1
+S097_RA,1
+S113_LA,1
+S113_LV,1
+S113_RA,1
+S117_LA,1
+S117_LV,1
+S117_RA,1
+S119_LA,1
+S119_LV,1
+S119_RA,1
+S141_LA,1
+S141_LV,1
+S141_RA,1
+S145_LA,1
+S145_LV,1
+S145_RA,1
+S148_LA,1
+S148_LV,1
+S148_RA,1
+sample 7,1
+sample 8,1
+sample 9,1
+sample 10,1
+sample 11,1
+sample 12,1
+sample 13,1
+sample 14,1
+sample 15,1
+sample 16,1
+sample 17,1
+sample 18,1
+sample 19,1
+sample 20,1
+sample 21,1
+sample 22,1
+sample 23,1
+sample 24,1
+sample 25,1
+sample 26,1
+sample 27,1
+sample 28,1
+sample 29,1
+sample 30,1
+sample 31,1
+sample 32,1
+sample 33,1
+sample 34,1
+sample 35,1
+sample 36,1
+sample 37,1
+10amol_1,1
+10amol_2,1
+10amol_3,1
+10amol_4,1
+50amol_1,1
+50amol_3,1
+50amol_2,1
+50amol_4,1
+100amol_1,1
+100amol_3,1
+100amol_2,1
+100amol_4,1
+250amol_1,1
+250amol_2,1
+250amol_3,1
+250amol_4,1
+500amol_1,1
+500amol_3,1
+500amol_2,1
+500amol_4,1
+1fmol_1,1
+1fmol_2,1
+1fmol_3,1
+1fmol_4,1
+5fmol_1,1
+5fmol_3,1
+5fmol_2,1
+5fmol_4,1
+10fmol_1,1
+10fmol_2,1
+10fmol_3,1
+10fmol_4,1
+25fmol_1,1
+25fmol_2,1
+25fmol_3,1
+25fmol_4,1
+50fmol_1,1
+50fmol_2,1
+50fmol_3,1
+50fmol_4,1
+V102,1
+V122,1
+V128,1
+V133,1
+V134,1
+V145,1
+V151,1
+V154,1
+V176,1
+V179,1
+V184,1
+V191,1
+V193,1
+V196,1
+V200,1
+V223,1
+V229,1
+V233,1
+V240,1
+V262,1
+V266,1
+V269,1
+V277,1
+V287,1
+V289,1
+V290,1
+V291,1
+V293,1
+V296,1
+V299,1
+V301,1
+V315,1
+V321,1
+V358,1
+V359,1
+V362,1
+V364,1
+V500,1
+V501,1
+V82,1
+V90,1
+Sample 241,1
+Sample 242,1
+Sample 243,1
+Sample 244,1
+Sample 245,1
+Sample 246,1
+Sample 247,1
+Sample 248,1
+Sample 249,1
+Sample 250,1
+Sample 251,1
+Sample 252,1
+Sample 253,1
+Sample 254,1
+Sample 255,1
+Sample 256,1
+Sample 257,1
+Sample 258,1
+Sample 259,1
+Sample 260,1
+Sample 261,1
+Sample 262,1
+Sample 263,1
+Sample 264,1
+Sample 265,1
+Sample 266,1
+Sample 267,1
+Sample 268,1
+Sample 269,1
+Sample 270,1
+Sample 271,1
+Sample 272,1
+Sample 273,1
+Sample 274,1
+Sample 275,1
+Sample 276,1
+Sample 277,1
+Sample 278,1
+Sample 279,1
+Sample 280,1
+Sample 281,1
+Sample 282,1
+Sample 283,1
+Sample 284,1
+Sample 285,1
+Sample 286,1
+Sample 287,1
+Sample 288,1
+Sample 289,1
+Sample 290,1
+Sample 291,1
+Sample 292,1
+Sample 293,1
+Sample 294,1
+Sample 295,1
+Sample 296,1
+Sample 297,1
+Sample 298,1
+Sample 299,1
+Sample 300,1
+Sample 301,1
+Sample 302,1
+Sample 303,1
+Sample 304,1
+Sample 305,1
+Sample 306,1
+Sample 307,1
+Sample 308,1
+Sample 309,1
+Sample 310,1
+Sample 311,1
+Sample 312,1
+Sample 313,1
+Sample 314,1
+Sample 315,1
+Sample 316,1
+Sample 317,1
+Sample 318,1
+Sample 319,1
+Sample 320,1
+Sample 321,1
+Sample 322,1
+Sample 323,1
+Sample 324,1
+Sample 325,1
+Sample 326,1
+Sample 327,1
+Sample 328,1
+Sample 329,1
+Sample 330,1
+Sample 331,1
+Sample 332,1
+Sample 333,1
+Sample 334,1
+Sample 335,1
+Sample 336,1
+Sample 337,1
+Sample 338,1
+Sample 339,1
+Sample 340,1
+Sample 341,1
+Sample 342,1
+Sample 343,1
+Sample 344,1
+Sample 345,1
+Sample 346,1
+Sample 347,1
+Sample 348,1
+control 1,1
+control 2,1
+control 3,1
+infected 1,1
+infected 2,1
+infected 3,1
+P1,1
+P2,1
+P3,1
+P4,1
+Pool,1
+PXD011967-Sample-1,1
+PXD011967-Sample-2,1
+PXD011967-Sample-3,1
+PXD011967-Sample-4,1
+PXD011967-Sample-5,1
+PXD011967-Sample-6,1
+PXD011967-Sample-7,1
+PXD011967-Sample-8,1
+PXD011967-Sample-9,1
+PXD011967-Sample-10,1
+PXD011967-Sample-11,1
+PXD011967-Sample-12,1
+PXD011967-Sample-13,1
+PXD011967-Sample-14,1
+PXD011967-Sample-15,1
+PXD011967-Sample-16,1
+PXD011967-Sample-17,1
+PXD011967-Sample-18,1
+PXD011967-Sample-19,1
+PXD011967-Sample-20,1
+PXD011967-Sample-21,1
+PXD011967-Sample-22,1
+PXD011967-Sample-23,1
+PXD011967-Sample-24,1
+PXD011967-Sample-25,1
+PXD011967-Sample-26,1
+PXD011967-Sample-27,1
+PXD011967-Sample-28,1
+PXD011967-Sample-29,1
+PXD011967-Sample-30,1
+PXD011967-Sample-31,1
+PXD011967-Sample-32,1
+PXD011967-Sample-33,1
+PXD011967-Sample-34,1
+PXD011967-Sample-35,1
+PXD011967-Sample-36,1
+PXD011967-Sample-37,1
+PXD011967-Sample-38,1
+PXD011967-Sample-39,1
+PXD011967-Sample-40,1
+PXD011967-Sample-41,1
+PXD011967-Sample-42,1
+PXD011967-Sample-43,1
+PXD011967-Sample-44,1
+PXD011967-Sample-45,1
+PXD011967-Sample-46,1
+PXD011967-Sample-47,1
+PXD011967-Sample-48,1
+PXD011967-Sample-49,1
+PXD011967-Sample-50,1
+PXD011967-Sample-51,1
+PXD011967-Sample-52,1
+PXD011967-Sample-53,1
+PXD011967-Sample-54,1
+PXD011967-Sample-55,1
+PXD011967-Sample-56,1
+PXD011967-Sample-57,1
+PXD011967-Sample-58,1
+PXD011967-Sample-59,1
+PXD011967-Sample-60,1
+PXD011967-Sample-61,1
+PXD011967-Sample-62,1
+PXD011967-Sample-63,1
+PXD011967-Sample-64,1
+PXD011967-Sample-65,1
+PXD011967-Sample-66,1
+PXD011967-Sample-67,1
+PXD011967-Sample-68,1
+PXD011967-Sample-69,1
+PXD011967-Sample-70,1
+PXD011967-Sample-71,1
+PXD011967-Sample-72,1
+PXD012131-Sample-1,1
+PXD012143-Sample-1,1
+PXD012143-Sample-2,1
+PXD012143-Sample-3,1
+PXD012143-Sample-4,1
+PXD012143-Sample-5,1
+PXD012143-Sample-6,1
+PXD012143-Sample-7,1
+PXD012143-Sample-8,1
+PXD012143-Sample-9,1
+PXD012143-Sample-10,1
+PXD012143-Sample-11,1
+PXD012143-Sample-12,1
+PXD012143-Sample-13,1
+PXD012143-Sample-14,1
+PXD012143-Sample-15,1
+PXD012143-Sample-16,1
+PXD012143-Sample-17,1
+PXD012143-Sample-18,1
+PXD012143-Sample-19,1
+PXD012143-Sample-20,1
+PXD012986-Sample-1,1
+PXD012986-Sample-2,1
+PXD012986-Sample-3,1
+PXD012986-Sample-4,1
+PXD012986-Sample-5,1
+PV1 blood serum,1
+PV2 blood serum,1
+PV3 blood serum,1
+PV4 blood serum,1
+PV5 blood serum,1
+PV6 blood serum,1
+PV7 blood serum,1
+PV8 blood serum,1
+PV9 blood serum,1
+N1 blood serum,1
+N2 blood serum,1
+N3 blood serum,1
+N4 blood serum,1
+N5 blood serum,1
+N6 blood serum,1
+N7 blood serum,1
+N8 blood serum,1
+N9 blood serum,1
+Sampel 6,1

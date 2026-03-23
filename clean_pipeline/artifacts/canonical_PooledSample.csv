@@ -1,0 +1,9 @@
+value,count
+TW1-Pool1-ctrl ApoE3/3 41/42,1
+TW5-Pool5-ctrl ApoE3/3 17,1
+TW3-Pool3-ctrl ApoE4/x 41/42,1
+TW7-Pool7-ctrl ApoE4/x 17,1
+TW2-Pool2-AD ApoE3/3 41/42,1
+TW6-Pool6-AD ApoE3/3 17,1
+TW4-Pool4-AD ApoE4/x 41/42,1
+TW8-Pool7-AD ApoE4/x 17,1

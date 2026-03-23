@@ -1,0 +1,5196 @@
+value,count
+run 1,86
+run 2,86
+run 3,86
+run 4,83
+run 5,82
+run 6,82
+run 7,81
+run 8,80
+run 9,78
+run 10,76
+run 11,75
+run 12,74
+run 13,73
+run 14,73
+run 15,73
+run 16,71
+run 17,69
+run 18,69
+run 19,68
+run 20,68
+run 21,67
+run 22,67
+run 23,67
+run 24,67
+run 25,64
+run 26,64
+run 27,64
+run 28,62
+run 29,60
+run 30,60
+run 31,58
+run 32,58
+run 33,54
+run 34,54
+run 35,53
+run 36,53
+run 37,52
+run 38,52
+run 39,52
+run 40,52
+run 41,50
+run 42,50
+run 43,50
+run 44,50
+run 45,50
+run 46,50
+run 47,50
+run 48,50
+run 49,48
+run 50,48
+run 51,48
+run 52,48
+run 53,48
+run 54,48
+run 55,48
+run 56,48
+run 57,48
+run 58,48
+run 59,48
+run 60,47
+run 61,47
+run 62,47
+run 63,47
+run 64,47
+run 65,46
+run 66,46
+run 67,46
+run 68,46
+run 69,46
+run 70,45
+run 71,45
+run 72,45
+run 73,45
+run 74,45
+run 75,45
+run 76,45
+run 77,45
+run 78,45
+run 79,45
+run 80,45
+run 81,45
+run 82,45
+run 83,45
+run 84,45
+run 85,45
+run 86,45
+run 87,45
+run 88,45
+run 89,45
+run 90,44
+run 91,43
+run 92,43
+run 93,43
+run 94,43
+run 95,43
+run 96,43
+run 97,42
+run 98,42
+run 99,41
+run 100,41
+run 101,40
+run 102,39
+run 103,39
+run 104,39
+run 105,39
+run 106,39
+run 107,39
+run 108,39
+run 109,39
+run 110,39
+run 111,39
+run 112,38
+run 113,38
+run 114,38
+run 115,38
+run 116,38
+run 117,37
+run 118,37
+run 119,37
+run 120,37
+run 121,36
+run 122,36
+run 123,36
+run 124,36
+run 125,35
+run 126,35
+run 127,35
+run 128,35
+run 129,35
+run 130,35
+run 131,35
+run 132,35
+run 133,35
+run 134,35
+run 135,35
+run 136,35
+run 137,34
+run 138,34
+run 139,34
+run 140,34
+run 141,34
+run 142,33
+run 143,32
+run 144,32
+run 145,31
+run 146,31
+run 147,31
+run 148,31
+run 149,31
+run 150,31
+run 151,24
+run 152,24
+run 153,24
+run 154,23
+run 155,23
+run 156,23
+run 157,23
+run 158,23
+run 159,23
+run 160,23
+run 161,22
+run 162,22
+run 163,22
+run 164,22
+run 165,22
+run 166,22
+run 167,22
+run 168,22
+run 169,22
+run 170,22
+run 171,22
+run 172,22
+run 173,22
+run 174,22
+run 175,22
+run 176,22
+run 177,22
+run 178,22
+run 179,22
+run 180,22
+run 181,22
+run 182,22
+run 183,22
+run 184,22
+run 185,22
+run 186,22
+run 187,22
+run 188,22
+run 189,22
+run 190,22
+run 191,22
+run 192,22
+run 193,21
+run 194,21
+run 195,21
+run 196,20
+run 197,20
+run 198,20
+run 199,18
+run 200,18
+run 201,17
+run 202,17
+run 203,17
+run 204,17
+run 205,17
+run 206,17
+run 207,17
+run 208,17
+run 209,17
+run 210,17
+run 211,17
+run 212,17
+run 213,17
+run 214,17
+run 215,17
+run 216,17
+run 217,17
+run 218,17
+run 219,17
+run 220,17
+run 221,17
+run 222,17
+run 223,17
+run 224,17
+run 225,17
+run 226,17
+run 227,17
+run 228,17
+run 229,17
+run 230,17
+run 231,17
+run 232,17
+run 233,17
+run 234,17
+run 235,17
+run 236,17
+run 237,17
+run 238,17
+run 239,17
+run 240,17
+run 241,16
+run 242,16
+run 243,16
+run 244,16
+run 245,16
+run 246,16
+run 247,16
+run 248,16
+run 249,16
+run 250,16
+run 251,16
+run 252,16
+run 253,15
+run 254,15
+run 255,15
+run 256,15
+run 257,15
+run 258,15
+run 259,15
+run 260,15
+run 261,15
+run 262,15
+run 263,15
+run 264,15
+run 265,15
+run 266,15
+run 267,15
+run 268,15
+run 269,15
+run 270,15
+run 271,15
+run 272,15
+run 273,15
+run 274,15
+run 275,15
+run 276,15
+run 277,15
+run 278,15
+run 279,15
+run 280,15
+run 281,15
+run 282,15
+run 283,15
+run 284,15
+run 285,15
+run 286,15
+run 287,15
+run 288,15
+run 289,15
+run 290,15
+run 291,15
+run 292,15
+run 293,15
+run 294,15
+run 295,15
+run 296,15
+run 297,15
+run 298,15
+run 299,15
+run 300,15
+run 301,15
+run 302,15
+run 303,15
+run 304,15
+run 305,15
+run 306,15
+run 307,15
+run 308,15
+run 309,15
+run 310,15
+run 311,15
+run 312,14
+run 313,14
+run 314,14
+run 315,14
+run 316,14
+run 317,14
+run 318,14
+run 319,14
+run 320,14
+run 321,14
+run 322,14
+run 323,14
+run 324,14
+run 325,14
+run 326,14
+run 327,13
+run 328,13
+run 329,13
+run 330,13
+run 331,13
+run 332,13
+run 333,13
+run 334,13
+run 335,13
+run 336,13
+run 337,13
+run 338,13
+run 339,13
+run 340,13
+run 341,13
+run 342,13
+run 343,13
+run 344,13
+run 345,13
+run 346,13
+run 347,13
+run 348,13
+run 349,13
+run 350,13
+run 351,13
+run 352,13
+run 353,13
+run 354,13
+run 355,13
+run 356,13
+run 357,13
+run 358,13
+run 359,13
+run 360,13
+run 361,12
+run 362,12
+run 363,12
+run 364,12
+run 365,12
+run 366,12
+run 367,12
+run 368,12
+run 369,12
+run 370,12
+run 371,12
+run 372,12
+run 373,12
+run 374,12
+run 375,12
+run 376,12
+run 377,12
+run 378,12
+run 379,11
+run 380,11
+run 381,11
+run 382,11
+run 383,11
+run 384,11
+run 385,11
+run 386,11
+run 387,10
+run 388,10
+run 389,10
+run 390,10
+run 391,10
+run 392,10
+run 393,10
+run 394,10
+run 395,10
+run 396,10
+run 397,10
+run 398,10
+run 399,10
+run 400,10
+run 401,9
+run 402,9
+run 403,9
+run 404,9
+run 405,9
+run 406,9
+run 407,9
+run 408,9
+run 409,9
+run 410,9
+run 411,9
+run 412,9
+run 413,9
+run 414,9
+run 415,9
+run 416,9
+run 417,9
+run 418,9
+run 419,9
+run 420,9
+run 421,9
+run 422,9
+run 423,9
+run 424,9
+run 425,9
+run 426,9
+run 427,9
+run 428,9
+run 429,9
+run 430,9
+run 431,9
+run 432,9
+run 433,9
+run 434,9
+run 435,9
+run 436,9
+run 437,9
+run 438,9
+run 439,9
+run 440,9
+run 441,9
+run 442,9
+run 443,9
+run 444,9
+run 445,9
+run 446,9
+run 447,9
+run 448,9
+run 449,9
+run 450,9
+run 451,9
+run 452,9
+run 453,9
+run 454,9
+run 455,9
+run 456,9
+run 457,9
+run 458,9
+run 459,9
+run 460,9
+run 461,9
+run 462,9
+run 463,9
+run 464,9
+run 465,9
+run 466,9
+run 467,9
+run 468,9
+run 469,9
+run 470,9
+run 471,9
+run 472,9
+run 473,9
+run 474,9
+run 475,9
+run 476,9
+run 477,9
+run 478,9
+run 479,9
+run 480,9
+run 481,9
+run 482,9
+run 483,9
+run 484,9
+run 485,9
+run 486,9
+run 487,9
+run 488,9
+run 489,9
+run 490,9
+run 491,9
+run 492,9
+run 493,9
+run 494,9
+run 495,9
+run 496,9
+run 497,9
+run 498,9
+run 499,9
+run 500,9
+run 501,9
+run 502,9
+run 503,9
+run 504,9
+run 505,9
+run 506,9
+run 507,9
+run 508,9
+run 509,9
+run 510,9
+run 511,9
+run 512,9
+run 513,9
+run 514,9
+run 515,9
+run 516,9
+run 517,9
+run 518,9
+run 519,9
+run 520,9
+run 521,9
+run 522,9
+run 523,9
+run 524,9
+run 525,9
+run 526,9
+run 527,9
+run 528,9
+run 529,8
+run 530,8
+run 531,8
+run 532,8
+run 543,8
+run 544,8
+run 545,8
+run 546,8
+run 547,8
+run 548,8
+run 549,8
+run 550,8
+run 551,8
+run 552,8
+run 553,8
+run 554,8
+run 555,8
+run 556,8
+run 557,8
+run 558,8
+run 559,8
+run 560,8
+run 561,8
+run 562,8
+run 563,8
+run 564,8
+run 565,8
+run 566,8
+run 567,8
+run 568,8
+run 569,8
+run 570,8
+run 574,8
+run 575,8
+run 576,8
+run 577,8
+run 578,8
+run 579,8
+run 580,8
+run 581,8
+run 582,8
+run 583,8
+run 584,8
+run 585,8
+run 586,8
+run 587,8
+run 588,8
+run 589,8
+run 590,8
+run 591,8
+run 592,8
+run 593,8
+run 594,8
+run 595,8
+run 596,8
+run 597,8
+run 598,8
+run 599,8
+run 600,8
+run 601,8
+run 602,8
+run 603,8
+run 604,8
+run 605,8
+run 606,8
+run 607,8
+run 533,7
+run 534,7
+run 535,7
+run 536,7
+run 537,7
+run 538,7
+run 539,7
+run 540,7
+run 541,7
+run 542,7
+run 571,7
+run 572,7
+run 573,7
+run 608,7
+run 609,7
+run 610,7
+run 611,7
+run 612,7
+run 613,7
+run 614,7
+run 615,7
+run 616,7
+run 617,7
+run 618,7
+run 619,7
+run 620,7
+run 621,7
+run 622,7
+run 623,7
+run 624,7
+run 625,7
+run 626,7
+run 627,7
+run 628,7
+run 629,7
+run 630,7
+run 631,7
+run 632,7
+run 633,7
+run 634,7
+run 635,7
+run 636,7
+run 637,7
+run 638,7
+run 639,7
+run 640,7
+run 641,7
+run 642,7
+run 643,7
+run 644,7
+run 645,7
+run 646,7
+run 647,7
+run 648,7
+run 649,7
+run 650,7
+run 651,7
+run 652,7
+run 653,7
+run 654,7
+run 655,7
+run 656,7
+run 657,7
+run 658,7
+run 659,7
+run 660,7
+run 661,7
+run 662,7
+run 663,7
+run 664,7
+run 665,7
+run 666,7
+run 667,7
+run 668,7
+run 669,7
+run 670,7
+run 671,7
+run 672,7
+run 673,7
+run 674,7
+run 675,7
+run 676,7
+run 677,7
+run 678,7
+run 679,7
+run 680,7
+run 681,7
+run 682,7
+run 683,7
+run 684,7
+run 685,7
+run 686,7
+run 687,7
+run 688,7
+run 689,7
+run 690,7
+run 691,7
+run 692,7
+run 693,7
+run 694,7
+run 695,7
+run 696,7
+run 697,6
+run 698,6
+run 699,6
+run 700,6
+run 701,6
+run 702,6
+run 703,6
+run 704,6
+run 705,6
+run 706,6
+run 707,6
+run 708,6
+run 709,6
+run 710,6
+run 711,6
+run 712,6
+run 713,6
+run 714,6
+run 715,6
+run 716,6
+run 717,6
+run 718,6
+run 719,6
+run 720,6
+run 721,6
+run 722,6
+run 723,6
+run 724,6
+run 725,6
+run 726,6
+run 727,6
+run 728,6
+run 729,6
+run 730,6
+run 731,6
+run 732,6
+run 733,6
+run 734,6
+run 735,6
+run 736,6
+run 737,6
+run 738,6
+run 739,6
+run 740,6
+run 741,6
+run 742,6
+run 743,6
+run 744,6
+run 745,6
+run 746,6
+run 747,6
+run 748,6
+run 749,6
+run 750,6
+run 751,6
+run 752,6
+run 753,6
+run 754,6
+run 755,6
+run 756,6
+run 757,6
+run 758,6
+run 759,6
+run 760,6
+run 761,6
+run 762,6
+run 763,6
+run 764,6
+run 765,6
+run 766,6
+run 767,6
+run 768,6
+run 769,6
+run 770,6
+run 771,6
+run 772,6
+run 773,6
+run 774,6
+run 775,6
+run 776,6
+run 777,6
+run 778,6
+run 779,6
+run 780,6
+run 781,6
+run 782,6
+run 783,6
+run 784,6
+run 785,6
+run 786,6
+run 787,6
+run 788,6
+run 789,6
+run 790,6
+run 791,6
+run 792,6
+run 793,6
+run 794,6
+run 795,6
+run 796,6
+run 797,6
+run 798,6
+run 799,6
+run 800,6
+run 801,6
+run 802,6
+run 803,6
+run 804,6
+run 805,6
+run 806,6
+run 807,6
+run 808,6
+run 809,6
+run 810,6
+run 811,6
+run 812,6
+run 813,6
+run 814,6
+run 815,6
+run 816,6
+run 817,6
+run 818,6
+run 819,6
+run 820,6
+run 821,6
+run 822,6
+run 823,6
+run 824,6
+run 825,6
+run 826,6
+run 827,6
+run 828,6
+run 829,6
+run 830,6
+run 831,6
+run 832,6
+run 833,6
+run 834,6
+run 835,6
+run 836,6
+run 837,6
+run 838,6
+run 839,6
+run 840,6
+run 841,6
+run 842,6
+run 843,6
+run 844,6
+run 845,6
+run 846,6
+run 847,6
+run 848,6
+run 849,6
+run 850,6
+run 851,6
+run 852,6
+run 853,6
+run 854,6
+run 855,6
+run 856,6
+run 857,6
+run 858,6
+run 859,6
+run 860,6
+run 861,6
+run 862,6
+run 863,6
+run 864,6
+run 865,6
+run 866,6
+run 867,6
+run 868,6
+run 869,6
+run 870,6
+run 871,6
+run 872,6
+run 873,6
+run 874,6
+run 875,6
+run 876,6
+run 877,6
+run 878,6
+run 879,6
+run 880,6
+run 881,6
+run 882,6
+run 883,6
+run 884,6
+run 885,6
+run 886,6
+run 887,6
+run 888,6
+run 889,6
+run 890,6
+run 891,6
+run 892,6
+run 893,6
+run 894,6
+run 895,6
+run 896,6
+run 897,6
+run 898,6
+run 899,6
+run 900,6
+run 901,6
+run 902,6
+run 903,6
+run 904,6
+run 905,6
+run 906,6
+run 907,6
+run 908,6
+run 909,6
+run 910,6
+run 911,6
+run 912,6
+run 913,6
+run 914,6
+run 915,6
+run 916,6
+run 917,6
+run 918,6
+run 919,6
+run 920,6
+run 921,6
+run 922,6
+run 923,6
+run 924,6
+run 925,6
+run 926,6
+run 927,6
+run 928,6
+run 929,6
+run 930,6
+run 931,6
+run 932,6
+run 933,6
+run 934,6
+run 935,6
+run 936,6
+run 937,6
+run 938,6
+run 939,6
+run 940,6
+run 941,6
+run 942,6
+run 943,6
+run 944,6
+run 945,6
+run 946,6
+run 947,6
+run 948,6
+run 949,6
+run 950,6
+run 951,6
+run 952,6
+run 953,6
+run 954,6
+run 955,6
+run 956,6
+run 957,6
+run 958,6
+run 959,6
+run 960,6
+run 961,6
+run 962,6
+run 963,6
+run 964,6
+run 965,6
+run 966,6
+run 967,6
+run 968,6
+run 969,6
+run 970,6
+run 971,6
+run 972,6
+run 973,6
+run 974,6
+run 975,6
+run 976,6
+run 977,6
+run 978,6
+run 979,6
+run 980,6
+run 981,6
+run 982,6
+run 983,6
+run 984,6
+run 985,6
+run 986,6
+run 987,6
+run 988,6
+run 989,6
+run 990,6
+run 991,6
+run 992,6
+run 993,6
+run 994,6
+run 995,6
+run 996,6
+run 997,6
+run 998,6
+run 999,6
+run 1000,6
+run 1001,6
+run 1002,6
+run 1003,6
+run 1004,6
+run 1005,6
+run 1006,6
+run 1007,6
+run 1008,6
+run 1009,5
+run 1010,5
+run 1011,5
+run 1012,5
+run 1013,5
+run 1014,5
+run 1015,5
+run 1016,5
+run 1017,4
+run 1018,4
+run 1019,4
+run 1020,4
+run 1021,4
+run 1022,4
+run 1023,4
+run 1024,4
+run 1025,4
+run 1026,4
+run 1027,4
+run 1028,4
+run 1029,4
+run 1030,4
+run 1031,4
+run 1032,4
+run 1033,4
+run 1034,4
+run 1035,4
+run 1036,4
+run 1037,4
+run 1038,4
+run 1039,4
+run 1040,4
+run 1041,4
+run 1042,4
+run 1043,4
+run 1044,4
+run 1045,4
+run 1046,4
+run 1047,4
+run 1048,4
+run 1049,4
+run 1050,4
+run 1051,4
+run 1052,4
+run 1053,4
+run 1054,4
+run 1055,4
+run 1056,4
+run 1057,4
+run 1058,4
+run 1059,4
+run 1060,4
+run 1061,4
+run 1062,4
+run 1063,4
+run 1064,4
+run 1065,4
+run 1066,4
+run 1067,4
+run 1068,4
+run 1069,4
+run 1070,4
+run 1071,4
+run 1072,4
+run 1073,4
+run 1074,4
+run 1075,4
+run 1076,4
+run 1077,4
+run 1078,4
+run 1079,4
+run 1080,4
+run 1081,4
+run 1082,4
+run 1083,4
+run 1084,4
+run 1085,4
+run 1086,4
+run 1087,4
+run 1088,4
+run 1089,4
+run 1090,4
+run 1091,4
+run 1092,4
+run 1093,4
+run 1094,4
+run 1095,4
+run 1096,4
+run 1097,4
+run 1098,4
+run 1099,4
+run 1100,4
+run 1101,4
+run 1102,4
+run 1103,4
+run 1104,4
+run 1105,4
+run 1106,4
+run 1107,4
+run 1108,4
+run 1109,4
+run 1110,4
+run 1111,4
+run 1112,4
+run 1113,4
+run 1114,4
+run 1115,4
+run 1116,4
+run 1117,4
+run 1118,4
+run 1119,4
+run 1120,4
+run 1121,4
+run 1122,4
+run 1123,4
+run 1124,4
+run 1125,4
+run 1126,4
+run 1127,4
+run 1128,4
+run 1129,4
+run 1130,4
+run 1131,4
+run 1132,4
+run 1133,4
+run 1134,4
+run 1135,4
+run 1136,4
+run 1137,4
+run 1138,4
+run 1139,4
+run 1140,4
+run 1141,4
+run 1142,4
+run 1143,4
+run 1144,4
+run 1145,4
+run 1146,4
+run 1147,4
+run 1148,4
+run 1149,4
+run 1150,4
+run 1151,4
+run 1152,4
+run 1153,4
+run 1154,4
+run 1155,4
+run 1156,4
+run 1157,4
+run 1158,4
+run 1159,4
+run 1160,4
+run 1161,4
+run 1162,4
+run 1163,4
+run 1164,4
+run 1165,4
+run 1166,4
+run 1167,4
+run 1168,4
+run 1169,4
+run 1170,4
+run 1171,4
+run 1172,4
+run 1173,4
+run 1174,4
+run 1175,4
+run 1176,4
+run 1177,4
+run 1178,4
+run 1179,4
+run 1180,4
+run 1181,4
+run 1182,4
+run 1183,4
+run 1184,4
+run 1185,4
+run 1186,4
+run 1187,4
+run 1188,4
+run 1189,4
+run 1190,4
+run 1191,4
+run 1192,4
+run 1193,4
+run 1194,4
+run 1195,4
+run 1196,4
+run 1197,4
+run 1198,4
+run 1199,4
+run 1200,4
+run 1201,4
+run 1202,4
+run 1203,4
+run 1204,4
+run 1205,4
+run 1206,4
+run 1207,4
+run 1208,4
+run 1209,4
+run 1210,4
+run 1211,4
+run 1212,4
+run 1213,4
+run 1214,4
+run 1215,4
+run 1216,4
+run 1217,4
+run 1218,4
+run 1219,4
+run 1220,4
+run 1221,4
+run 1222,4
+run 1223,4
+run 1224,4
+run 1225,4
+run 1226,4
+run 1227,4
+run 1228,4
+run 1229,4
+run 1230,4
+run 1231,4
+run 1232,4
+run 1233,4
+run 1234,4
+run 1235,4
+run 1236,4
+run 1237,4
+run 1238,4
+run 1239,4
+run 1240,4
+run 1241,4
+run 1242,4
+run 1243,4
+run 1244,4
+run 1245,4
+run 1246,4
+run 1247,4
+run 1248,4
+run 1249,4
+run 1250,4
+run 1251,4
+run 1252,4
+run 1253,4
+run 1254,4
+run 1255,4
+run 1256,4
+run 1257,4
+run 1258,4
+run 1259,4
+run 1260,4
+run 1261,4
+run 1262,4
+run 1263,4
+run 1264,4
+run 1265,4
+run 1266,4
+run 1267,4
+run 1268,4
+run 1269,4
+run 1270,4
+run 1271,4
+run 1272,4
+run 1273,4
+run 1274,4
+run 1275,4
+run 1276,4
+run 1277,4
+run 1278,4
+run 1279,4
+run 1280,4
+run 1281,4
+run 1282,4
+run 1283,4
+run 1284,4
+run 1285,4
+run 1286,4
+run 1287,4
+run 1288,4
+run 1289,4
+run 1290,4
+run 1291,4
+run 1292,4
+run 1293,4
+run 1294,4
+run 1295,4
+run 1296,4
+run 1297,4
+run 1298,4
+run 1299,4
+run 1300,4
+run 1301,4
+run 1302,4
+run 1303,4
+run 1304,4
+run 1305,4
+run 1306,4
+run 1307,4
+run 1308,4
+run 1309,4
+run 1310,4
+run 1311,4
+run 1312,4
+run 1313,4
+run 1314,4
+run 1315,4
+run 1316,4
+run 1317,4
+run 1318,4
+run 1319,4
+run 1320,4
+run 1321,4
+run 1322,4
+run 1323,4
+run 1324,4
+run 1325,4
+run 1326,4
+run 1327,4
+run 1328,4
+run 1329,4
+run 1330,4
+run 1331,4
+run 1332,4
+run 1333,4
+run 1334,4
+run 1335,4
+run 1336,4
+run 1337,4
+run 1338,4
+run 1339,4
+run 1340,4
+run 1341,4
+run 1342,4
+run 1343,4
+run 1344,4
+run 1345,4
+run 1346,4
+run 1347,4
+run 1348,4
+run 1349,4
+run 1350,4
+run 1351,4
+run 1352,4
+run 1353,4
+run 1354,4
+run 1355,4
+run 1356,4
+run 1357,4
+run 1358,4
+run 1359,4
+run 1360,4
+run 1361,4
+run 1362,4
+run 1363,4
+run 1364,4
+run 1365,4
+run 1366,4
+run 1367,4
+run 1368,4
+run 1369,4
+run 1370,4
+run 1371,4
+run 1372,4
+run 1373,4
+run 1374,4
+run 1375,4
+run 1376,4
+run 1377,4
+run 1378,4
+run 1379,4
+run 1380,4
+run 1381,4
+run 1382,4
+run 1383,4
+run 1384,4
+run 1385,4
+run 1386,4
+run 1387,4
+run 1388,4
+run 1389,4
+run 1390,4
+run 1391,4
+run 1392,4
+run 1393,4
+run 1394,4
+run 1395,4
+run 1396,4
+run 1397,4
+run 1398,4
+run 1399,4
+run 1400,4
+run 1401,4
+run 1402,4
+run 1403,4
+run 1404,4
+run 1405,4
+run 1406,4
+run 1407,4
+run 1408,4
+run 1409,4
+run 1410,4
+run 1411,4
+run 1412,4
+run 1413,4
+run 1414,4
+run 1415,4
+run 1416,4
+run 1417,4
+run 1418,4
+run 1419,4
+run 1420,4
+run 1421,4
+run 1422,4
+run 1423,4
+run 1424,4
+run 1425,4
+run 1426,4
+run 1427,4
+run 1428,4
+run 1429,4
+run 1430,4
+run 1431,4
+run 1432,4
+run 1433,4
+run 1434,4
+run 1435,4
+run 1436,4
+run 1437,4
+run 1438,4
+run 1439,4
+run 1440,4
+run 1441,4
+run 1442,4
+run 1443,4
+run 1444,4
+run 1445,4
+run 1446,4
+run 1447,4
+run 1448,4
+run 1449,4
+run 1450,4
+run 1451,4
+run 1452,4
+run 1453,4
+run 1454,4
+run 1455,4
+run 1456,4
+run 1457,4
+run 1458,4
+run 1459,4
+run 1460,4
+run 1461,4
+run 1462,4
+run 1463,4
+run 1464,4
+run 1465,4
+run 1466,4
+run 1467,4
+run 1468,4
+run 1469,4
+run 1470,4
+run 1471,4
+run 1472,4
+run 1473,4
+run 1474,4
+run 1475,4
+run 1476,4
+run 1477,4
+run 1478,4
+run 1479,4
+run 1480,4
+run 1481,4
+run 1482,4
+run 1483,4
+run 1484,4
+run 1485,4
+run 1486,4
+run 1487,4
+run 1488,4
+run 1489,4
+run 1490,4
+run 1491,4
+run 1492,4
+run 1493,4
+run 1494,4
+run 1495,4
+run 1496,4
+run 1497,4
+run 1498,4
+run 1499,4
+run 1500,4
+run 1501,4
+run 1502,4
+run 1503,4
+run 1504,4
+run 1505,4
+run 1506,4
+run 1507,4
+run 1508,4
+run 1509,4
+run 1510,4
+run 1511,4
+run 1512,4
+run 1513,4
+run 1514,4
+run 1515,4
+run 1516,4
+run 1517,4
+run 1518,4
+run 1519,4
+run 1520,4
+run 1522,4
+run 1523,4
+run 1524,4
+run 1525,4
+run 1526,4
+run 1527,4
+run 1528,4
+run 1529,4
+run 1530,4
+run 1531,4
+run 1532,4
+run 1533,4
+run 1534,4
+run 1535,4
+run 1536,4
+run 1537,4
+run 1538,4
+run 1539,4
+run 1540,4
+run 1541,4
+run 1542,4
+run 1543,4
+run 1544,4
+run 1545,4
+run 1546,4
+run 1547,4
+run 1548,4
+run 1549,4
+run 1550,4
+run 1551,4
+run 1552,4
+run 1553,4
+run 1554,4
+run 1555,4
+run 1556,4
+run 1557,4
+run 1558,4
+run 1559,4
+run 1560,4
+run 1521,3
+run 1561,3
+run 1562,3
+run 1563,3
+run 1564,3
+run 1565,3
+run 1566,3
+run 1567,3
+run 1568,3
+run 1569,3
+run 1570,3
+run 1571,3
+run 1572,3
+run 1573,3
+run 1574,3
+run 1575,3
+run 1576,3
+run 1577,3
+run 1578,3
+run 1579,3
+run 1580,3
+run 1581,3
+run 1582,3
+run 1583,3
+run 1584,3
+run 1585,3
+run 1586,3
+run 1587,3
+run 1588,3
+run 1589,3
+run 1590,3
+run 1591,3
+run 1592,3
+run 1593,3
+run 1594,3
+run 1595,3
+run 1596,3
+run 1597,3
+run 1598,3
+run 1599,3
+run 1600,3
+run 1601,3
+run 1602,3
+run 1603,3
+run 1604,3
+run 1605,3
+run 1606,3
+run 1607,3
+run 1608,3
+run 1609,3
+run 1610,3
+run 1611,3
+run 1612,3
+run 1613,3
+run 1614,3
+run 1615,3
+run 1616,3
+run 1617,3
+run 1618,3
+run 1619,3
+run 1620,3
+run 1621,3
+run 1622,3
+run 1623,3
+run 1624,3
+run 1625,3
+run 1626,3
+run 1627,3
+run 1628,3
+run 1629,3
+run 1630,3
+run 1631,3
+run 1632,3
+run 1633,3
+run 1634,3
+run 1635,3
+run 1636,3
+run 1637,3
+run 1638,3
+run 1639,3
+run 1640,3
+run 1641,3
+run 1642,3
+run 1643,3
+run 1644,3
+run 1645,3
+run 1646,3
+run 1647,3
+run 1648,3
+run 1649,3
+run 1650,3
+run 1651,3
+run 1652,3
+run 1653,3
+run 1654,3
+run 1655,3
+run 1656,3
+run 1657,3
+run 1658,3
+run 1659,3
+run 1660,3
+run 1661,3
+run 1662,3
+run 1663,3
+run 1664,3
+run 1665,3
+run 1666,3
+run 1667,3
+run 1668,3
+run 1669,3
+run 1670,3
+run 1671,3
+run 1672,3
+run 1673,3
+run 1674,3
+run 1675,3
+run 1676,3
+run 1677,3
+run 1678,3
+run 1679,3
+run 1680,3
+run 1681,3
+run 1682,3
+run 1683,3
+run 1684,3
+run 1685,3
+run 1686,3
+run 1687,3
+run 1688,3
+Run 1,3
+Run 2,3
+Run 3,3
+Run 4,3
+Run 5,3
+Run 6,3
+Run 7,3
+Run 8,3
+run 1689,2
+run 1690,2
+run 1691,2
+run 1692,2
+run 1693,2
+run 1694,2
+run 1695,2
+run 1696,2
+run 1697,2
+run 1698,2
+run 1699,2
+run 1700,2
+run 1701,2
+run 1702,2
+run 1703,2
+run 1704,2
+run 1705,2
+run 1706,2
+run 1707,2
+run 1708,2
+run 1709,2
+run 1710,2
+run 1711,2
+run 1712,2
+run 1713,2
+run 1714,2
+run 1715,2
+run 1716,2
+run 1717,2
+run 1718,2
+run 1719,2
+run 1720,2
+run 1721,2
+run 1722,2
+run 1723,2
+run 1724,2
+run 1725,2
+run 1726,2
+run 1727,2
+run 1728,2
+run 1729,2
+run 1730,2
+run 1731,2
+run 1732,2
+run 1733,2
+run 1734,2
+run 1735,2
+run 1736,2
+run 1737,2
+run 1738,2
+run 1739,2
+run 1740,2
+run 1741,2
+run 1742,2
+run 1743,2
+run 1744,2
+run 1745,2
+run 1746,2
+run 1747,2
+run 1748,2
+run 1749,2
+run 1750,2
+run 1751,2
+run 1752,2
+run 1753,2
+run 1754,2
+run 1755,2
+run 1756,2
+run 1757,2
+run 1758,2
+run 1759,2
+run 1760,2
+run 1761,2
+run 1762,2
+run 1763,2
+run 1764,2
+run 1765,2
+run 1766,2
+run 1767,2
+run 1768,2
+run 1769,2
+run 1770,2
+run 1771,2
+run 1772,2
+run 1773,2
+run 1774,2
+run 1775,2
+run 1776,2
+run 1777,2
+run 1778,2
+run 1779,2
+run 1780,2
+run 1781,2
+run 1782,2
+run 1783,2
+run 1784,2
+run 1785,2
+run 1786,2
+run 1787,2
+run 1788,2
+run 1789,2
+run 1790,2
+run 1791,2
+run 1792,2
+run 1793,2
+run 1794,2
+run 1795,2
+run 1796,2
+run 1797,2
+run 1798,2
+run 1799,2
+run 1800,2
+Run 9,2
+Run 17,2
+Run 18,2
+Run 19,2
+Run 10,2
+Run 11,2
+Run 12,2
+Run 13,2
+run 1801,1
+run 1802,1
+run 1803,1
+run 1804,1
+run 1805,1
+run 1806,1
+run 1807,1
+run 1808,1
+run 1809,1
+run 1810,1
+run 1811,1
+run 1812,1
+run 1813,1
+run 1814,1
+run 1815,1
+run 1816,1
+run 1817,1
+run 1818,1
+run 1819,1
+run 1820,1
+run 1821,1
+run 1822,1
+run 1823,1
+run 1824,1
+run 1825,1
+run 1826,1
+run 1827,1
+run 1828,1
+run 1829,1
+run 1830,1
+run 1831,1
+run 1832,1
+run 1833,1
+run 1834,1
+run 1835,1
+run 1836,1
+run 1837,1
+run 1838,1
+run 1839,1
+run 1840,1
+run 1841,1
+run 1842,1
+run 1843,1
+run 1844,1
+run 1845,1
+run 1846,1
+run 1847,1
+run 1848,1
+run 1849,1
+run 1850,1
+run 1851,1
+run 1852,1
+run 1853,1
+run 1854,1
+run 1855,1
+run 1856,1
+run 1857,1
+run 1858,1
+run 1859,1
+run 1860,1
+run 1861,1
+run 1862,1
+run 1863,1
+run 1864,1
+run 1865,1
+run 1866,1
+run 1867,1
+run 1868,1
+run 1869,1
+run 1870,1
+run 1871,1
+run 1872,1
+run 1873,1
+run 1874,1
+run 1875,1
+run 1876,1
+run 1877,1
+run 1878,1
+run 1879,1
+run 1880,1
+run 1881,1
+run 1882,1
+run 1883,1
+run 1884,1
+run 1885,1
+run 1886,1
+run 1887,1
+run 1888,1
+run 1889,1
+run 1890,1
+run 1891,1
+run 1892,1
+run 1893,1
+run 1894,1
+run 1895,1
+run 1896,1
+run 1897,1
+run 1898,1
+run 1899,1
+run 1900,1
+run 1901,1
+run 1902,1
+run 1903,1
+run 1904,1
+run 1905,1
+run 1906,1
+run 1907,1
+run 1908,1
+run 1909,1
+run 1910,1
+run 1911,1
+run 1912,1
+run 1913,1
+run 1914,1
+run 1915,1
+run 1916,1
+run 1917,1
+run 1918,1
+run 1919,1
+run 1920,1
+run 1921,1
+run 1922,1
+run 1923,1
+run 1924,1
+run 1925,1
+run 1926,1
+run 1927,1
+run 1928,1
+run 1929,1
+run 1930,1
+run 1931,1
+run 1932,1
+run 1933,1
+run 1934,1
+run 1935,1
+run 1936,1
+run 1937,1
+run 1938,1
+run 1939,1
+run 1940,1
+run 1941,1
+run 1942,1
+run 1943,1
+run 1944,1
+run 1945,1
+run 1946,1
+run 1947,1
+run 1948,1
+run 1949,1
+run 1950,1
+run 1951,1
+run 1952,1
+run 1953,1
+run 1954,1
+run 1955,1
+run 1956,1
+run 1957,1
+run 1958,1
+run 1959,1
+run 1960,1
+run 1961,1
+run 1962,1
+run 1963,1
+run 1964,1
+run 1965,1
+run 1966,1
+run 1967,1
+run 1968,1
+run 1969,1
+run 1970,1
+run 1971,1
+run 1972,1
+run 1973,1
+run 1974,1
+run 1975,1
+run 1976,1
+run 1977,1
+run 1978,1
+run 1979,1
+run 1980,1
+run 1981,1
+run 1982,1
+run 1983,1
+run 1984,1
+run 1985,1
+run 1986,1
+run 1987,1
+run 1988,1
+run 1989,1
+run 1990,1
+run 1991,1
+run 1992,1
+run 1993,1
+run 1994,1
+run 1995,1
+run 1996,1
+run 1997,1
+run 1998,1
+run 1999,1
+run 2000,1
+run 2001,1
+run 2002,1
+run 2003,1
+run 2004,1
+run 2005,1
+run 2006,1
+run 2007,1
+run 2008,1
+run 2009,1
+run 2010,1
+run 2011,1
+run 2012,1
+run 2013,1
+run 2014,1
+run 2015,1
+run 2016,1
+run 2017,1
+run 2018,1
+run 2019,1
+run 2020,1
+run 2021,1
+run 2022,1
+run 2023,1
+run 2024,1
+run 2025,1
+run 2026,1
+run 2027,1
+run 2028,1
+run 2029,1
+run 2030,1
+run 2031,1
+run 2032,1
+run 2033,1
+run 2034,1
+run 2035,1
+run 2036,1
+run 2037,1
+run 2038,1
+run 2039,1
+run 2040,1
+run 2041,1
+run 2042,1
+run 2043,1
+run 2044,1
+run 2045,1
+run 2046,1
+run 2047,1
+run 2048,1
+run 2049,1
+run 2050,1
+run 2051,1
+run 2052,1
+run 2053,1
+run 2054,1
+run 2055,1
+run 2056,1
+run 2057,1
+run 2058,1
+run 2059,1
+run 2060,1
+run 2061,1
+run 2062,1
+run 2063,1
+run 2064,1
+run 2065,1
+run 2066,1
+run 2067,1
+run 2068,1
+run 2069,1
+run 2070,1
+run 2071,1
+run 2072,1
+run 2073,1
+run 2074,1
+run 2075,1
+run 2076,1
+run 2077,1
+run 2078,1
+run 2079,1
+run 2080,1
+run 2081,1
+run 2082,1
+run 2083,1
+run 2084,1
+run 2085,1
+run 2086,1
+run 2087,1
+run 2088,1
+run 2089,1
+run 2090,1
+run 2091,1
+run 2092,1
+run 2093,1
+run 2094,1
+run 2095,1
+run 2096,1
+run 2097,1
+run 2098,1
+run 2099,1
+run 2100,1
+run 2101,1
+run 2102,1
+run 2103,1
+run 2104,1
+run 2105,1
+run 2106,1
+run 2107,1
+run 2108,1
+run 2109,1
+run 2110,1
+run 2111,1
+run 2112,1
+run 2113,1
+run 2114,1
+run 2115,1
+run 2116,1
+run 2117,1
+run 2118,1
+run 2119,1
+run 2120,1
+run 2121,1
+run 2122,1
+run 2123,1
+run 2124,1
+run 2125,1
+run 2126,1
+run 2127,1
+run 2128,1
+run 2129,1
+run 2130,1
+run 2131,1
+run 2132,1
+run 2133,1
+run 2134,1
+run 2135,1
+run 2136,1
+run 2137,1
+run 2138,1
+run 2139,1
+run 2140,1
+run 2141,1
+run 2142,1
+run 2143,1
+run 2144,1
+run 2145,1
+run 2146,1
+run 2147,1
+run 2148,1
+run 2149,1
+run 2150,1
+run 2151,1
+run 2152,1
+run 2153,1
+run 2154,1
+run 2155,1
+run 2156,1
+run 2157,1
+run 2158,1
+run 2159,1
+run 2160,1
+run 2161,1
+run 2162,1
+run 2163,1
+run 2164,1
+run 2165,1
+run 2166,1
+run 2167,1
+run 2168,1
+run 2169,1
+run 2170,1
+run 2171,1
+run 2172,1
+run 2173,1
+run 2174,1
+run 2175,1
+run 2176,1
+run 2177,1
+run 2178,1
+run 2179,1
+run 2180,1
+run 2181,1
+run 2182,1
+run 2183,1
+run 2184,1
+run 2185,1
+run 2186,1
+run 2187,1
+run 2188,1
+run 2189,1
+run 2190,1
+run 2191,1
+run 2192,1
+run 2193,1
+run 2194,1
+run 2195,1
+run 2196,1
+run 2197,1
+run 2198,1
+run 2199,1
+run 2200,1
+run 2201,1
+run 2202,1
+run 2203,1
+run 2204,1
+run 2205,1
+run 2206,1
+run 2207,1
+run 2208,1
+run 2209,1
+run 2210,1
+run 2211,1
+run 2212,1
+hv_map_a2,1
+hv_map_a31,1
+hv_map_a9,1
+hv_map_a6,1
+hv_map_a27,1
+hv_map_a20,1
+hv_map_a14,1
+hv_map_a35,1
+hv_map_a24,1
+hv_map_a8,1
+hv_map_a3,1
+hv_map_a29,1
+hv_map_a22,1
+hv_map_a15ny,1
+hv_map_a21,1
+hv_map_a4,1
+hv_map_a16ny,1
+hv_map_a1,1
+hv_map_a34ny,1
+hv_map_a19,1
+hv_map_a36,1
+hv_map_a28,1
+hv_map_a13ny,1
+hv_map_a10,1
+hv_map_a37,1
+hv_map_a26,1
+hv_map_a18ny,1
+hv_map_a32,1
+hv_map_a7,1
+hv_map_a23,1
+hv_map_a25,1
+hv_map_a17conc,1
+hv_map_a5,1
+hv_map_a30,1
+hv_map_a33ny,1
+hv_map_a11,1
+hv_map_a12,1
+hv_map_b34,1
+hv_map_b30,1
+hv_map_b36,1
+hv_map_b13,1
+hv_map_b43,1
+hv_map_b12,1
+hv_map_b27,1
+hv_map_b16,1
+hv_map_b24,1
+hv_map_b14,1
+hv_map_b32,1
+hv_map_b2,1
+hv_map_b23,1
+hv_map_b41,1
+hv_map_b19,1
+hv_map_b44,1
+hv_map_b47,1
+hv_map_b25,1
+hv_map_b26,1
+hv_map_b20,1
+hv_map_b33,1
+hv_map_b22,1
+hv_map_b1,1
+hv_map_b11,1
+hv_map_b29ny,1
+hv_map_b18,1
+hv_map_b39,1
+hv_map_b46,1
+hv_map_b3,1
+hv_map_b42ny,1
+hv_map_b28,1
+hv_map_b31,1
+hv_map_b45,1
+hv_map_b6,1
+hv_map_b35,1
+hv_map_b15,1
+hv_map_b4,1
+hv_map_b37,1
+hv_map_b10,1
+hv_map_b38,1
+hv_map_b40,1
+hv_map_b17,1
+hv_map_b5,1
+hv_map_b21,1
+hv_map_b9,1
+hv_map_b7b8,1
+ERLIC-SPE-Test2_RP_7 Fractions_2 Replicates,1
+ERLIC-SPE-Test2_SCX_7 Fractions_2 Replicates,1
+ERLIC-SPE-Test_SCX_Eluates_7 Fractions_2 Replicates,1
+ERLIC-SCX.RP_final Experiment_21 Fractions_2 Replicates,1
+SILAC010,1
+SILAC011,1
+SILAC012,1
+SILAC013,1
+SILAC014,1
+SILAC015,1
+SILAC016,1
+SILAC017,1
+SILAC019,1
+run 0,1
+20150618_qep1_lc7_phge_sa_plate1b_1_1,1
+20150618_qep1_lc7_phge_sa_plate1b_1_2,1
+20150618_qep1_lc7_phge_sa_plate1b_1_3,1
+20150618_qep1_lc7_phge_sa_plate1b_1_4,1
+20150618_qep1_lc7_phge_sa_plate1b_1_5,1
+20150618_qep1_lc7_phge_sa_plate1b_1_6,1
+20150618_qep1_lc7_phge_sa_plate1b_1_7,1
+20150708_qep1_lc7_phge_sa_plate1c_1_1,1
+20150708_qep1_lc7_phge_sa_plate1c_1_2,1
+20150708_qep1_lc7_phge_sa_plate1c_1_3,1
+20150708_qep1_lc7_phge_sa_plate1c_1_4,1
+20150708_qep1_lc7_phge_sa_plate1c_1_5,1
+20150708_qep1_lc7_phge_sa_plate1c_1_6,1
+20150708_qep1_lc7_phge_sa_plate1c_1_7,1
+20150805_qep1_lc7_phge_sa_plate1d_1_1,1
+20150805_qep1_lc7_phge_sa_plate1d_1_2,1
+20150805_qep1_lc7_phge_sa_plate1d_1_3,1
+20150805_qep1_lc7_phge_sa_plate1d_1_4,1
+20150805_qep1_lc7_phge_sa_plate1d_1_5,1
+20150805_qep1_lc7_phge_sa_plate1d_1_6,1
+20150805_qep1_lc7_phge_sa_plate1d_1_7,1
+20150901_qep1_lc7_phge_sa_plate1e_1_1,1
+20150901_qep1_lc7_phge_sa_plate1e_1_2,1
+20150901_qep1_lc7_phge_sa_plate1e_1_3,1
+20150901_qep1_lc7_phge_sa_plate1e_1_4,1
+20150901_qep1_lc7_phge_sa_plate1e_1_5,1
+20150901_qep1_lc7_phge_sa_plate1e_1_6,1
+20150901_qep1_lc7_phge_sa_plate1e_1_7,1
+20150618_qep1_lc7_phge_sa_plate1b_02_1,1
+20150618_qep1_lc7_phge_sa_plate1b_02_2,1
+20150618_qep1_lc7_phge_sa_plate1b_02_3,1
+20150618_qep1_lc7_phge_sa_plate1b_02_4,1
+20150618_qep1_lc7_phge_sa_plate1b_02_5,1
+20150618_qep1_lc7_phge_sa_plate1b_02_6,1
+20150618_qep1_lc7_phge_sa_plate1b_02_7,1
+20150708_qep1_lc7_phge_sa_plate1c_02_1,1
+20150708_qep1_lc7_phge_sa_plate1c_02_2,1
+20150708_qep1_lc7_phge_sa_plate1c_02_3,1
+20150708_qep1_lc7_phge_sa_plate1c_02_4,1
+20150708_qep1_lc7_phge_sa_plate1c_02_5,1
+20150708_qep1_lc7_phge_sa_plate1c_02_6,1
+20150708_qep1_lc7_phge_sa_plate1c_02_7,1
+20150805_qep1_lc7_phge_sa_plate1d_02_1,1
+20150805_qep1_lc7_phge_sa_plate1d_02_2,1
+20150805_qep1_lc7_phge_sa_plate1d_02_3,1
+20150805_qep1_lc7_phge_sa_plate1d_02_4,1
+20150805_qep1_lc7_phge_sa_plate1d_02_5,1
+20150805_qep1_lc7_phge_sa_plate1d_02_6,1
+20150805_qep1_lc7_phge_sa_plate1d_02_7,1
+20150901_qep1_lc7_phge_sa_plate1e_02_1,1
+20150901_qep1_lc7_phge_sa_plate1e_02_2,1
+20150901_qep1_lc7_phge_sa_plate1e_02_3,1
+20150901_qep1_lc7_phge_sa_plate1e_02_4,1
+20150901_qep1_lc7_phge_sa_plate1e_02_5,1
+20150901_qep1_lc7_phge_sa_plate1e_02_6,1
+20150901_qep1_lc7_phge_sa_plate1e_02_7,1
+20150731_qep1_lc7_phge_sa_plate4b_03_1,1
+20150731_qep1_lc7_phge_sa_plate4b_03_2,1
+20150731_qep1_lc7_phge_sa_plate4b_03_3,1
+20150731_qep1_lc7_phge_sa_plate4b_03_4,1
+20150731_qep1_lc7_phge_sa_plate4b_03_5,1
+20150731_qep1_lc7_phge_sa_plate4b_03_6,1
+20150731_qep1_lc7_phge_sa_plate4b_03_7,1
+20150731_qep1_lc7_phge_sa_plate4e_03_1,1
+20150731_qep1_lc7_phge_sa_plate4e_03_2,1
+20150731_qep1_lc7_phge_sa_plate4e_03_3,1
+20150731_qep1_lc7_phge_sa_plate4e_03_4,1
+20150731_qep1_lc7_phge_sa_plate4e_03_5,1
+20150731_qep1_lc7_phge_sa_plate4e_03_6,1
+20150731_qep1_lc7_phge_sa_plate4e_03_7,1
+20150824_qep1_lc7_phge_sa_plate4d_03_1,1
+20150824_qep1_lc7_phge_sa_plate4d_03_2,1
+20150824_qep1_lc7_phge_sa_plate4d_03_3,1
+20150824_qep1_lc7_phge_sa_plate4d_03_4,1
+20150824_qep1_lc7_phge_sa_plate4d_03_5,1
+20150824_qep1_lc7_phge_sa_plate4d_03_6,1
+20150824_qep1_lc7_phge_sa_plate4d_03_7,1
+20150917_qep1_lc7_phge_sa_plate4c_03_1,1
+20150917_qep1_lc7_phge_sa_plate4c_03_2,1
+20150917_qep1_lc7_phge_sa_plate4c_03_3,1
+20150917_qep1_lc7_phge_sa_plate4c_03_4,1
+20150917_qep1_lc7_phge_sa_plate4c_03_5,1
+20150917_qep1_lc7_phge_sa_plate4c_03_6,1
+20150917_qep1_lc7_phge_sa_plate4c_03_7,1
+20150701_qep1_lc7_phge_sa_plate3a_05_1,1
+20150701_qep1_lc7_phge_sa_plate3a_05_2,1
+20150701_qep1_lc7_phge_sa_plate3a_05_3,1
+20150701_qep1_lc7_phge_sa_plate3a_05_4,1
+20150701_qep1_lc7_phge_sa_plate3a_05_5,1
+20150701_qep1_lc7_phge_sa_plate3a_05_6,1
+20150701_qep1_lc7_phge_sa_plate3a_05_7,1
+20150725_qep1_lc7_phge_sa_plate3b_05_3,1
+20150725_qep1_lc7_phge_sa_plate3b_05_4,1
+20150725_qep1_lc7_phge_sa_plate3b_05_6,1
+20150725_qep1_lc7_phge_sa_plate3b_05_7,1
+20150818_qep1_lc7_phge_sa_plate3c_05_1,1
+20150818_qep1_lc7_phge_sa_plate3c_05_2,1
+20150818_qep1_lc7_phge_sa_plate3c_05_3,1
+20150818_qep1_lc7_phge_sa_plate3c_05_4,1
+20150818_qep1_lc7_phge_sa_plate3c_05_5,1
+20150818_qep1_lc7_phge_sa_plate3c_05_7,1
+20150912_qep1_lc7_phge_sa_plate3d_05_1,1
+20150912_qep1_lc7_phge_sa_plate3d_05_3,1
+20150912_qep1_lc7_phge_sa_plate3d_05_4,1
+20150912_qep1_lc7_phge_sa_plate3d_05_5,1
+20150912_qep1_lc7_phge_sa_plate3d_05_6,1
+20150912_qep1_lc7_phge_sa_plate3d_05_7,1
+20150917_qep1_lc7_phge_sa_plate3b_05_1,1
+20150917_qep1_lc7_phge_sa_plate3b_05_2,1
+20150917_qep1_lc7_phge_sa_plate3b_05_5,1
+20150917_qep1_lc7_phge_sa_plate3c_05_6,1
+20150917_qep1_lc8_phge_sa_plate3d_05_2,1
+20150624_qep1_lc7_phge_sa_plate2a_06_1,1
+20150624_qep1_lc7_phge_sa_plate2a_06_2,1
+20150624_qep1_lc7_phge_sa_plate2a_06_3,1
+20150624_qep1_lc7_phge_sa_plate2a_06_4,1
+20150624_qep1_lc7_phge_sa_plate2a_06_5,1
+20150624_qep1_lc7_phge_sa_plate2a_06_6,1
+20150624_qep1_lc7_phge_sa_plate2a_06_7,1
+20150811_qep1_lc7_phge_sa_plate2b_06_1,1
+20150811_qep1_lc7_phge_sa_plate2b_06_2,1
+20150811_qep1_lc7_phge_sa_plate2b_06_3,1
+20150811_qep1_lc7_phge_sa_plate2b_06_4,1
+20150811_qep1_lc7_phge_sa_plate2b_06_5,1
+20150811_qep1_lc7_phge_sa_plate2b_06_6,1
+20150811_qep1_lc7_phge_sa_plate2b_06_7,1
+20150827_qep1_lc7_phge_sa_plate2c_06_1,1
+20150827_qep1_lc7_phge_sa_plate2c_06_3,1
+20150827_qep1_lc7_phge_sa_plate2c_06_4,1
+20150827_qep1_lc7_phge_sa_plate2c_06_5,1
+20150827_qep1_lc7_phge_sa_plate2c_06_6,1
+20150827_qep1_lc7_phge_sa_plate2c_06_7,1
+20150907_qep1_lc7_phge_sa_plate2d_06_1,1
+20150907_qep1_lc7_phge_sa_plate2d_06_2,1
+20150907_qep1_lc7_phge_sa_plate2d_06_3,1
+20150907_qep1_lc7_phge_sa_plate2d_06_4,1
+20150907_qep1_lc7_phge_sa_plate2d_06_5,1
+20150907_qep1_lc7_phge_sa_plate2d_06_6,1
+20150907_qep1_lc7_phge_sa_plate2d_06_7,1
+20150917_qep1_lc7_phge_sa_plate2c_06_2,1
+20150618_qep1_lc7_phge_sa_plate1b_07_1,1
+20150618_qep1_lc7_phge_sa_plate1b_07_2,1
+20150618_qep1_lc7_phge_sa_plate1b_07_3,1
+20150618_qep1_lc7_phge_sa_plate1b_07_4,1
+20150618_qep1_lc7_phge_sa_plate1b_07_5,1
+20150618_qep1_lc7_phge_sa_plate1b_07_6,1
+20150618_qep1_lc7_phge_sa_plate1b_07_7,1
+20150708_qep1_lc7_phge_sa_plate1c_07_1,1
+20150708_qep1_lc7_phge_sa_plate1c_07_2,1
+20150708_qep1_lc7_phge_sa_plate1c_07_3,1
+20150708_qep1_lc7_phge_sa_plate1c_07_4,1
+20150708_qep1_lc7_phge_sa_plate1c_07_5,1
+20150708_qep1_lc7_phge_sa_plate1c_07_6,1
+20150708_qep1_lc7_phge_sa_plate1c_07_7,1
+20150805_qep1_lc7_phge_sa_plate1d_07_1,1
+20150805_qep1_lc7_phge_sa_plate1d_07_2,1
+20150805_qep1_lc7_phge_sa_plate1d_07_4,1
+20150805_qep1_lc7_phge_sa_plate1d_07_5,1
+20150805_qep1_lc7_phge_sa_plate1d_07_6,1
+20150805_qep1_lc7_phge_sa_plate1d_07_7,1
+20150901_qep1_lc7_phge_sa_plate1e_07_1,1
+20150901_qep1_lc7_phge_sa_plate1e_07_2,1
+20150901_qep1_lc7_phge_sa_plate1e_07_3,1
+20150901_qep1_lc7_phge_sa_plate1e_07_4,1
+20150901_qep1_lc7_phge_sa_plate1e_07_5,1
+20150901_qep1_lc7_phge_sa_plate1e_07_6,1
+20150901_qep1_lc7_phge_sa_plate1e_07_7,1
+20150917_qep1_lc7_phge_sa_plate1d_07_3,1
+20150618_qep1_lc7_phge_sa_plate1b_08_1,1
+20150618_qep1_lc7_phge_sa_plate1b_08_2,1
+20150618_qep1_lc7_phge_sa_plate1b_08_3,1
+20150618_qep1_lc7_phge_sa_plate1b_08_4,1
+20150618_qep1_lc7_phge_sa_plate1b_08_5,1
+20150618_qep1_lc7_phge_sa_plate1b_08_6,1
+20150618_qep1_lc7_phge_sa_plate1b_08_7,1
+20150708_qep1_lc7_phge_sa_plate1c_08_1,1
+20150708_qep1_lc7_phge_sa_plate1c_08_2,1
+20150708_qep1_lc7_phge_sa_plate1c_08_3,1
+20150708_qep1_lc7_phge_sa_plate1c_08_4,1
+20150708_qep1_lc7_phge_sa_plate1c_08_5,1
+20150708_qep1_lc7_phge_sa_plate1c_08_6,1
+20150708_qep1_lc7_phge_sa_plate1c_08_7,1
+20150805_qep1_lc7_phge_sa_plate1d_08_1,1
+20150805_qep1_lc7_phge_sa_plate1d_08_2,1
+20150805_qep1_lc7_phge_sa_plate1d_08_3,1
+20150805_qep1_lc7_phge_sa_plate1d_08_4,1
+20150805_qep1_lc7_phge_sa_plate1d_08_5,1
+20150805_qep1_lc7_phge_sa_plate1d_08_6,1
+20150805_qep1_lc7_phge_sa_plate1d_08_7,1
+20150901_qep1_lc7_phge_sa_plate1e_08_1,1
+20150901_qep1_lc7_phge_sa_plate1e_08_2,1
+20150901_qep1_lc7_phge_sa_plate1e_08_3,1
+20150901_qep1_lc7_phge_sa_plate1e_08_4,1
+20150901_qep1_lc7_phge_sa_plate1e_08_5,1
+20150901_qep1_lc7_phge_sa_plate1e_08_6,1
+20150901_qep1_lc7_phge_sa_plate1e_08_7,1
+20150731_qep1_lc7_phge_sa_plate4b_09_1,1
+20150731_qep1_lc7_phge_sa_plate4b_09_2,1
+20150731_qep1_lc7_phge_sa_plate4b_09_3,1
+20150731_qep1_lc7_phge_sa_plate4b_09_4,1
+20150731_qep1_lc7_phge_sa_plate4b_09_5,1
+20150731_qep1_lc7_phge_sa_plate4b_09_6,1
+20150731_qep1_lc7_phge_sa_plate4b_09_7,1
+20150731_qep1_lc7_phge_sa_plate4e_09_1,1
+20150731_qep1_lc7_phge_sa_plate4e_09_2,1
+20150731_qep1_lc7_phge_sa_plate4e_09_3,1
+20150731_qep1_lc7_phge_sa_plate4e_09_4,1
+20150731_qep1_lc7_phge_sa_plate4e_09_5,1
+20150731_qep1_lc7_phge_sa_plate4e_09_6,1
+20150731_qep1_lc7_phge_sa_plate4e_09_7,1
+20150824_qep1_lc7_phge_sa_plate4d_09_1,1
+20150824_qep1_lc7_phge_sa_plate4d_09_2,1
+20150824_qep1_lc7_phge_sa_plate4d_09_3,1
+20150824_qep1_lc7_phge_sa_plate4d_09_4,1
+20150824_qep1_lc7_phge_sa_plate4d_09_5,1
+20150824_qep1_lc7_phge_sa_plate4d_09_6,1
+20150824_qep1_lc7_phge_sa_plate4d_09_7,1
+20150917_qep1_lc7_phge_sa_plate4c_09_1,1
+20150917_qep1_lc7_phge_sa_plate4c_09_2,1
+20150917_qep1_lc7_phge_sa_plate4c_09_3,1
+20150917_qep1_lc7_phge_sa_plate4c_09_4,1
+20150917_qep1_lc7_phge_sa_plate4c_09_5,1
+20150917_qep1_lc7_phge_sa_plate4c_09_6,1
+20150917_qep1_lc7_phge_sa_plate4c_09_7,1
+20150701_qep1_lc7_phge_sa_plate3a_10_1,1
+20150701_qep1_lc7_phge_sa_plate3a_10_2,1
+20150701_qep1_lc7_phge_sa_plate3a_10_3,1
+20150701_qep1_lc7_phge_sa_plate3a_10_4,1
+20150701_qep1_lc7_phge_sa_plate3a_10_5,1
+20150701_qep1_lc7_phge_sa_plate3a_10_6,1
+20150701_qep1_lc7_phge_sa_plate3a_10_7,1
+20150725_qep1_lc7_phge_sa_plate3b_10_2,1
+20150725_qep1_lc7_phge_sa_plate3b_10_3,1
+20150725_qep1_lc7_phge_sa_plate3b_10_4,1
+20150725_qep1_lc7_phge_sa_plate3b_10_5,1
+20150725_qep1_lc7_phge_sa_plate3b_10_6,1
+20150818_qep1_lc7_phge_sa_plate3c_10_1,1
+20150818_qep1_lc7_phge_sa_plate3c_10_2,1
+20150818_qep1_lc7_phge_sa_plate3c_10_3,1
+20150818_qep1_lc7_phge_sa_plate3c_10_4,1
+20150818_qep1_lc7_phge_sa_plate3c_10_5,1
+20150818_qep1_lc7_phge_sa_plate3c_10_6,1
+20150818_qep1_lc7_phge_sa_plate3c_10_7,1
+20150912_qep1_lc7_phge_sa_plate3d_10_1,1
+20150912_qep1_lc7_phge_sa_plate3d_10_2,1
+20150912_qep1_lc7_phge_sa_plate3d_10_3,1
+20150912_qep1_lc7_phge_sa_plate3d_10_4,1
+20150912_qep1_lc7_phge_sa_plate3d_10_5,1
+20150912_qep1_lc7_phge_sa_plate3d_10_6,1
+20150912_qep1_lc7_phge_sa_plate3d_10_7,1
+20150917_qep1_lc7_phge_sa_plate3b_10_1,1
+20150917_qep1_lc7_phge_sa_plate3b_10_7,1
+20150618_qep1_lc7_phge_sa_plate1b_11_1,1
+20150618_qep1_lc7_phge_sa_plate1b_11_2,1
+20150618_qep1_lc7_phge_sa_plate1b_11_3,1
+20150618_qep1_lc7_phge_sa_plate1b_11_4,1
+20150618_qep1_lc7_phge_sa_plate1b_11_5,1
+20150618_qep1_lc7_phge_sa_plate1b_11_6,1
+20150618_qep1_lc7_phge_sa_plate1b_11_7,1
+20150708_qep1_lc7_phge_sa_plate1c_11_1,1
+20150708_qep1_lc7_phge_sa_plate1c_11_2,1
+20150708_qep1_lc7_phge_sa_plate1c_11_3,1
+20150708_qep1_lc7_phge_sa_plate1c_11_4,1
+20150708_qep1_lc7_phge_sa_plate1c_11_5,1
+20150708_qep1_lc7_phge_sa_plate1c_11_6,1
+20150708_qep1_lc7_phge_sa_plate1c_11_7,1
+20150805_qep1_lc7_phge_sa_plate1d_11_1,1
+20150805_qep1_lc7_phge_sa_plate1d_11_2,1
+20150805_qep1_lc7_phge_sa_plate1d_11_3,1
+20150805_qep1_lc7_phge_sa_plate1d_11_4,1
+20150805_qep1_lc7_phge_sa_plate1d_11_5,1
+20150805_qep1_lc7_phge_sa_plate1d_11_6,1
+20150805_qep1_lc7_phge_sa_plate1d_11_7,1
+20150901_qep1_lc7_phge_sa_plate1e_11_1,1
+20150901_qep1_lc7_phge_sa_plate1e_11_2,1
+20150901_qep1_lc7_phge_sa_plate1e_11_3,1
+20150901_qep1_lc7_phge_sa_plate1e_11_4,1
+20150901_qep1_lc7_phge_sa_plate1e_11_5,1
+20150901_qep1_lc7_phge_sa_plate1e_11_6,1
+20150901_qep1_lc7_phge_sa_plate1e_11_7,1
+20150624_qep1_lc7_phge_sa_plate2a_12_1,1
+20150624_qep1_lc7_phge_sa_plate2a_12_2,1
+20150624_qep1_lc7_phge_sa_plate2a_12_4,1
+20150624_qep1_lc7_phge_sa_plate2a_12_5,1
+20150624_qep1_lc7_phge_sa_plate2a_12_6,1
+20150624_qep1_lc7_phge_sa_plate2a_12_7,1
+20150811_qep1_lc7_phge_sa_plate2b_12_1,1
+20150811_qep1_lc7_phge_sa_plate2b_12_2,1
+20150811_qep1_lc7_phge_sa_plate2b_12_3,1
+20150811_qep1_lc7_phge_sa_plate2b_12_4,1
+20150811_qep1_lc7_phge_sa_plate2b_12_5,1
+20150811_qep1_lc7_phge_sa_plate2b_12_6,1
+20150811_qep1_lc7_phge_sa_plate2b_12_7,1
+20150827_qep1_lc7_phge_sa_plate2c_12_1,1
+20150827_qep1_lc7_phge_sa_plate2c_12_2,1
+20150827_qep1_lc7_phge_sa_plate2c_12_3,1
+20150827_qep1_lc7_phge_sa_plate2c_12_4,1
+20150827_qep1_lc7_phge_sa_plate2c_12_5,1
+20150827_qep1_lc7_phge_sa_plate2c_12_6,1
+20150827_qep1_lc7_phge_sa_plate2c_12_7,1
+20150907_qep1_lc7_phge_sa_plate2d_12_1,1
+20150907_qep1_lc7_phge_sa_plate2d_12_2,1
+20150907_qep1_lc7_phge_sa_plate2d_12_3,1
+20150907_qep1_lc7_phge_sa_plate2d_12_4,1
+20150907_qep1_lc7_phge_sa_plate2d_12_5,1
+20150907_qep1_lc7_phge_sa_plate2d_12_6,1
+20150907_qep1_lc7_phge_sa_plate2d_12_7,1
+20150917_qep1_lc7_phge_sa_plate2a_12_3,1
+20150731_qep1_lc7_phge_sa_plate4b_14_1,1
+20150731_qep1_lc7_phge_sa_plate4b_14_2,1
+20150731_qep1_lc7_phge_sa_plate4b_14_3,1
+20150731_qep1_lc7_phge_sa_plate4b_14_4,1
+20150731_qep1_lc7_phge_sa_plate4b_14_5,1
+20150731_qep1_lc7_phge_sa_plate4b_14_6,1
+20150731_qep1_lc7_phge_sa_plate4b_14_7,1
+20150731_qep1_lc7_phge_sa_plate4e_14_1,1
+20150731_qep1_lc7_phge_sa_plate4e_14_2,1
+20150731_qep1_lc7_phge_sa_plate4e_14_3,1
+20150731_qep1_lc7_phge_sa_plate4e_14_4,1
+20150731_qep1_lc7_phge_sa_plate4e_14_5,1
+20150731_qep1_lc7_phge_sa_plate4e_14_6,1
+20150731_qep1_lc7_phge_sa_plate4e_14_7,1
+20150824_qep1_lc7_phge_sa_plate4d_14_1,1
+20150824_qep1_lc7_phge_sa_plate4d_14_2,1
+20150824_qep1_lc7_phge_sa_plate4d_14_3,1
+20150824_qep1_lc7_phge_sa_plate4d_14_4,1
+20150824_qep1_lc7_phge_sa_plate4d_14_5,1
+20150824_qep1_lc7_phge_sa_plate4d_14_6,1
+20150824_qep1_lc7_phge_sa_plate4d_14_7,1
+20150917_qep1_lc7_phge_sa_plate4c_14_1,1
+20150917_qep1_lc7_phge_sa_plate4c_14_2,1
+20150917_qep1_lc7_phge_sa_plate4c_14_3,1
+20150917_qep1_lc7_phge_sa_plate4c_14_4,1
+20150917_qep1_lc7_phge_sa_plate4c_14_5,1
+20150917_qep1_lc7_phge_sa_plate4c_14_6,1
+20150917_qep1_lc7_phge_sa_plate4c_14_7,1
+20150701_qep1_lc7_phge_sa_plate3a_15_1,1
+20150701_qep1_lc7_phge_sa_plate3a_15_2,1
+20150701_qep1_lc7_phge_sa_plate3a_15_3,1
+20150701_qep1_lc7_phge_sa_plate3a_15_4,1
+20150701_qep1_lc7_phge_sa_plate3a_15_5,1
+20150701_qep1_lc7_phge_sa_plate3a_15_6,1
+20150701_qep1_lc7_phge_sa_plate3a_15_7,1
+20150725_qep1_lc7_phge_sa_plate3b_15_1,1
+20150725_qep1_lc7_phge_sa_plate3b_15_2,1
+20150725_qep1_lc7_phge_sa_plate3b_15_3,1
+20150725_qep1_lc7_phge_sa_plate3b_15_4,1
+20150725_qep1_lc7_phge_sa_plate3b_15_5,1
+20150725_qep1_lc7_phge_sa_plate3b_15_6,1
+20150818_qep1_lc7_phge_sa_plate3c_15_1,1
+20150818_qep1_lc7_phge_sa_plate3c_15_2,1
+20150818_qep1_lc7_phge_sa_plate3c_15_3,1
+20150818_qep1_lc7_phge_sa_plate3c_15_4,1
+20150818_qep1_lc7_phge_sa_plate3c_15_5,1
+20150818_qep1_lc7_phge_sa_plate3c_15_6,1
+20150818_qep1_lc7_phge_sa_plate3c_15_7,1
+20150912_qep1_lc7_phge_sa_plate3d_15_1,1
+20150912_qep1_lc7_phge_sa_plate3d_15_2,1
+20150912_qep1_lc7_phge_sa_plate3d_15_3,1
+20150912_qep1_lc7_phge_sa_plate3d_15_4,1
+20150912_qep1_lc7_phge_sa_plate3d_15_5,1
+20150912_qep1_lc7_phge_sa_plate3d_15_6,1
+20150912_qep1_lc7_phge_sa_plate3d_15_7,1
+20150917_qep1_lc7_phge_sa_plate3b_15_7,1
+20150731_qep1_lc7_phge_sa_plate4b_16_1,1
+20150731_qep1_lc7_phge_sa_plate4b_16_2,1
+20150731_qep1_lc7_phge_sa_plate4b_16_3,1
+20150731_qep1_lc7_phge_sa_plate4b_16_4,1
+20150731_qep1_lc7_phge_sa_plate4b_16_5,1
+20150731_qep1_lc7_phge_sa_plate4b_16_6,1
+20150731_qep1_lc7_phge_sa_plate4b_16_7,1
+20150731_qep1_lc7_phge_sa_plate4e_16_1,1
+20150731_qep1_lc7_phge_sa_plate4e_16_2,1
+20150731_qep1_lc7_phge_sa_plate4e_16_3,1
+20150731_qep1_lc7_phge_sa_plate4e_16_4,1
+20150731_qep1_lc7_phge_sa_plate4e_16_5,1
+20150731_qep1_lc7_phge_sa_plate4e_16_6,1
+20150731_qep1_lc7_phge_sa_plate4e_16_7,1
+20150824_qep1_lc7_phge_sa_plate4d_16_2,1
+20150824_qep1_lc7_phge_sa_plate4d_16_3,1
+20150824_qep1_lc7_phge_sa_plate4d_16_4,1
+20150824_qep1_lc7_phge_sa_plate4d_16_5,1
+20150824_qep1_lc7_phge_sa_plate4d_16_6,1
+20150824_qep1_lc7_phge_sa_plate4d_16_7,1
+20150917_qep1_lc7_phge_sa_plate4c_16_1,1
+20150917_qep1_lc7_phge_sa_plate4c_16_2,1
+20150917_qep1_lc7_phge_sa_plate4c_16_3,1
+20150917_qep1_lc7_phge_sa_plate4c_16_4,1
+20150917_qep1_lc7_phge_sa_plate4c_16_5,1
+20150917_qep1_lc7_phge_sa_plate4c_16_6,1
+20150917_qep1_lc7_phge_sa_plate4c_16_7,1
+20150917_qep1_lc7_phge_sa_plate4d_16_1,1
+20150624_qep1_lc7_phge_sa_plate2a_17_1,1
+20150624_qep1_lc7_phge_sa_plate2a_17_2,1
+20150624_qep1_lc7_phge_sa_plate2a_17_3,1
+20150624_qep1_lc7_phge_sa_plate2a_17_4,1
+20150624_qep1_lc7_phge_sa_plate2a_17_5,1
+20150624_qep1_lc7_phge_sa_plate2a_17_6,1
+20150624_qep1_lc7_phge_sa_plate2a_17_7,1
+20150811_qep1_lc7_phge_sa_plate2b_17_1,1
+20150811_qep1_lc7_phge_sa_plate2b_17_2,1
+20150811_qep1_lc7_phge_sa_plate2b_17_3,1
+20150811_qep1_lc7_phge_sa_plate2b_17_4,1
+20150811_qep1_lc7_phge_sa_plate2b_17_5,1
+20150811_qep1_lc7_phge_sa_plate2b_17_6,1
+20150811_qep1_lc7_phge_sa_plate2b_17_7,1
+20150827_qep1_lc7_phge_sa_plate2c_17_1,1
+20150827_qep1_lc7_phge_sa_plate2c_17_2,1
+20150827_qep1_lc7_phge_sa_plate2c_17_3,1
+20150827_qep1_lc7_phge_sa_plate2c_17_4,1
+20150827_qep1_lc7_phge_sa_plate2c_17_5,1
+20150827_qep1_lc7_phge_sa_plate2c_17_6,1
+20150827_qep1_lc7_phge_sa_plate2c_17_7,1
+20150907_qep1_lc7_phge_sa_plate2d_17_1,1
+20150907_qep1_lc7_phge_sa_plate2d_17_2,1
+20150907_qep1_lc7_phge_sa_plate2d_17_3,1
+20150907_qep1_lc7_phge_sa_plate2d_17_4,1
+20150907_qep1_lc7_phge_sa_plate2d_17_5,1
+20150907_qep1_lc7_phge_sa_plate2d_17_6,1
+20150907_qep1_lc7_phge_sa_plate2d_17_7,1
+20150618_qep1_lc7_phge_sa_plate1b_19_1,1
+20150618_qep1_lc7_phge_sa_plate1b_19_2,1
+20150618_qep1_lc7_phge_sa_plate1b_19_3,1
+20150618_qep1_lc7_phge_sa_plate1b_19_4,1
+20150618_qep1_lc7_phge_sa_plate1b_19_5,1
+20150618_qep1_lc7_phge_sa_plate1b_19_6,1
+20150618_qep1_lc7_phge_sa_plate1b_19_7,1
+20150708_qep1_lc7_phge_sa_plate1c_19_1,1
+20150708_qep1_lc7_phge_sa_plate1c_19_2,1
+20150708_qep1_lc7_phge_sa_plate1c_19_3,1
+20150708_qep1_lc7_phge_sa_plate1c_19_4,1
+20150708_qep1_lc7_phge_sa_plate1c_19_5,1
+20150708_qep1_lc7_phge_sa_plate1c_19_6,1
+20150708_qep1_lc7_phge_sa_plate1c_19_7,1
+20150805_qep1_lc7_phge_sa_plate1d_19_1,1
+20150805_qep1_lc7_phge_sa_plate1d_19_2,1
+20150805_qep1_lc7_phge_sa_plate1d_19_3,1
+20150805_qep1_lc7_phge_sa_plate1d_19_4,1
+20150805_qep1_lc7_phge_sa_plate1d_19_5,1
+20150805_qep1_lc7_phge_sa_plate1d_19_6,1
+20150805_qep1_lc7_phge_sa_plate1d_19_7,1
+20150901_qep1_lc7_phge_sa_plate1e_19_1,1
+20150901_qep1_lc7_phge_sa_plate1e_19_2,1
+20150901_qep1_lc7_phge_sa_plate1e_19_3,1
+20150901_qep1_lc7_phge_sa_plate1e_19_4,1
+20150901_qep1_lc7_phge_sa_plate1e_19_5,1
+20150901_qep1_lc7_phge_sa_plate1e_19_6,1
+20150901_qep1_lc7_phge_sa_plate1e_19_7,1
+20150624_qep1_lc7_phge_sa_plate2a_20_1,1
+20150624_qep1_lc7_phge_sa_plate2a_20_2,1
+20150624_qep1_lc7_phge_sa_plate2a_20_3,1
+20150624_qep1_lc7_phge_sa_plate2a_20_4,1
+20150624_qep1_lc7_phge_sa_plate2a_20_5,1
+20150624_qep1_lc7_phge_sa_plate2a_20_6,1
+20150624_qep1_lc7_phge_sa_plate2a_20_7,1
+20150811_qep1_lc7_phge_sa_plate2b_20_1,1
+20150811_qep1_lc7_phge_sa_plate2b_20_2,1
+20150811_qep1_lc7_phge_sa_plate2b_20_3,1
+20150811_qep1_lc7_phge_sa_plate2b_20_4,1
+20150811_qep1_lc7_phge_sa_plate2b_20_5,1
+20150811_qep1_lc7_phge_sa_plate2b_20_6,1
+20150811_qep1_lc7_phge_sa_plate2b_20_7,1
+20150827_qep1_lc7_phge_sa_plate2c_20_1,1
+20150827_qep1_lc7_phge_sa_plate2c_20_2,1
+20150827_qep1_lc7_phge_sa_plate2c_20_3,1
+20150827_qep1_lc7_phge_sa_plate2c_20_4,1
+20150827_qep1_lc7_phge_sa_plate2c_20_5,1
+20150827_qep1_lc7_phge_sa_plate2c_20_6,1
+20150827_qep1_lc7_phge_sa_plate2c_20_7,1
+20150907_qep1_lc7_phge_sa_plate2d_20_1,1
+20150907_qep1_lc7_phge_sa_plate2d_20_2,1
+20150907_qep1_lc7_phge_sa_plate2d_20_3,1
+20150907_qep1_lc7_phge_sa_plate2d_20_4,1
+20150907_qep1_lc7_phge_sa_plate2d_20_5,1
+20150907_qep1_lc7_phge_sa_plate2d_20_6,1
+20150907_qep1_lc7_phge_sa_plate2d_20_7,1
+20150624_qep1_lc7_phge_sa_plate2a_21_1,1
+20150624_qep1_lc7_phge_sa_plate2a_21_2,1
+20150624_qep1_lc7_phge_sa_plate2a_21_3,1
+20150624_qep1_lc7_phge_sa_plate2a_21_4,1
+20150624_qep1_lc7_phge_sa_plate2a_21_5,1
+20150624_qep1_lc7_phge_sa_plate2a_21_6,1
+20150624_qep1_lc7_phge_sa_plate2a_21_7,1
+20150811_qep1_lc7_phge_sa_plate2b_21_1,1
+20150811_qep1_lc7_phge_sa_plate2b_21_2,1
+20150811_qep1_lc7_phge_sa_plate2b_21_3,1
+20150811_qep1_lc7_phge_sa_plate2b_21_4,1
+20150811_qep1_lc7_phge_sa_plate2b_21_5,1
+20150811_qep1_lc7_phge_sa_plate2b_21_6,1
+20150811_qep1_lc7_phge_sa_plate2b_21_7,1
+20150827_qep1_lc7_phge_sa_plate2c_21_1,1
+20150827_qep1_lc7_phge_sa_plate2c_21_2,1
+20150827_qep1_lc7_phge_sa_plate2c_21_3,1
+20150827_qep1_lc7_phge_sa_plate2c_21_4,1
+20150827_qep1_lc7_phge_sa_plate2c_21_5,1
+20150827_qep1_lc7_phge_sa_plate2c_21_6,1
+20150827_qep1_lc7_phge_sa_plate2c_21_7,1
+20150907_qep1_lc7_phge_sa_plate2d_21_1,1
+20150907_qep1_lc7_phge_sa_plate2d_21_2,1
+20150907_qep1_lc7_phge_sa_plate2d_21_3,1
+20150907_qep1_lc7_phge_sa_plate2d_21_4,1
+20150907_qep1_lc7_phge_sa_plate2d_21_5,1
+20150907_qep1_lc7_phge_sa_plate2d_21_6,1
+20150907_qep1_lc7_phge_sa_plate2d_21_7,1
+20150624_qep1_lc7_phge_sa_plate2a_22_1,1
+20150624_qep1_lc7_phge_sa_plate2a_22_2,1
+20150624_qep1_lc7_phge_sa_plate2a_22_3,1
+20150624_qep1_lc7_phge_sa_plate2a_22_4,1
+20150624_qep1_lc7_phge_sa_plate2a_22_5,1
+20150624_qep1_lc7_phge_sa_plate2a_22_6,1
+20150624_qep1_lc7_phge_sa_plate2a_22_7,1
+20150811_qep1_lc7_phge_sa_plate2b_22_1,1
+20150811_qep1_lc7_phge_sa_plate2b_22_2,1
+20150811_qep1_lc7_phge_sa_plate2b_22_3,1
+20150811_qep1_lc7_phge_sa_plate2b_22_4,1
+20150811_qep1_lc7_phge_sa_plate2b_22_5,1
+20150811_qep1_lc7_phge_sa_plate2b_22_6,1
+20150811_qep1_lc7_phge_sa_plate2b_22_7,1
+20150827_qep1_lc7_phge_sa_plate2c_22_1,1
+20150827_qep1_lc7_phge_sa_plate2c_22_2,1
+20150827_qep1_lc7_phge_sa_plate2c_22_3,1
+20150827_qep1_lc7_phge_sa_plate2c_22_4,1
+20150827_qep1_lc7_phge_sa_plate2c_22_5,1
+20150827_qep1_lc7_phge_sa_plate2c_22_6,1
+20150827_qep1_lc7_phge_sa_plate2c_22_7,1
+20150907_qep1_lc7_phge_sa_plate2d_22_1,1
+20150907_qep1_lc7_phge_sa_plate2d_22_2,1
+20150907_qep1_lc7_phge_sa_plate2d_22_3,1
+20150907_qep1_lc7_phge_sa_plate2d_22_4,1
+20150907_qep1_lc7_phge_sa_plate2d_22_5,1
+20150907_qep1_lc7_phge_sa_plate2d_22_6,1
+20150907_qep1_lc7_phge_sa_plate2d_22_7,1
+20150701_qep1_lc7_phge_sa_plate3a_23_1,1
+20150701_qep1_lc7_phge_sa_plate3a_23_2,1
+20150701_qep1_lc7_phge_sa_plate3a_23_3,1
+20150701_qep1_lc7_phge_sa_plate3a_23_4,1
+20150701_qep1_lc7_phge_sa_plate3a_23_5,1
+20150701_qep1_lc7_phge_sa_plate3a_23_6,1
+20150701_qep1_lc7_phge_sa_plate3a_23_7,1
+20150725_qep1_lc7_phge_sa_plate3b_23_2,1
+20150725_qep1_lc7_phge_sa_plate3b_23_3,1
+20150725_qep1_lc7_phge_sa_plate3b_23_5,1
+20150725_qep1_lc7_phge_sa_plate3b_23_7,1
+20150818_qep1_lc7_phge_sa_plate3c_23_1,1
+20150818_qep1_lc7_phge_sa_plate3c_23_2,1
+20150818_qep1_lc7_phge_sa_plate3c_23_3,1
+20150818_qep1_lc7_phge_sa_plate3c_23_4,1
+20150818_qep1_lc7_phge_sa_plate3c_23_5,1
+20150818_qep1_lc7_phge_sa_plate3c_23_6,1
+20150818_qep1_lc7_phge_sa_plate3c_23_7,1
+20150912_qep1_lc7_phge_sa_plate3d_23_1,1
+20150912_qep1_lc7_phge_sa_plate3d_23_2,1
+20150912_qep1_lc7_phge_sa_plate3d_23_3,1
+20150912_qep1_lc7_phge_sa_plate3d_23_4,1
+20150912_qep1_lc7_phge_sa_plate3d_23_5,1
+20150912_qep1_lc7_phge_sa_plate3d_23_6,1
+20150912_qep1_lc7_phge_sa_plate3d_23_7,1
+20150917_qep1_lc7_phge_sa_plate3b_23_1,1
+20150917_qep1_lc7_phge_sa_plate3b_23_4,1
+20150917_qep1_lc7_phge_sa_plate3b_23_6,1
+20150618_qep1_lc7_phge_sa_plate1b_24_1,1
+20150618_qep1_lc7_phge_sa_plate1b_24_2,1
+20150708_qep1_lc7_phge_sa_plate1c_24_1,1
+20150708_qep1_lc7_phge_sa_plate1c_24_2,1
+20150805_qep1_lc7_phge_sa_plate1d_24_1,1
+20150805_qep1_lc7_phge_sa_plate1d_24_2,1
+20150901_qep1_lc7_phge_sa_plate1e_24_1,1
+20150901_qep1_lc7_phge_sa_plate1e_24_2,1
+20150624_qep1_lc7_phge_sa_plate2a_25_2,1
+20150624_qep1_lc7_phge_sa_plate2a_25_3,1
+20150624_qep1_lc7_phge_sa_plate2a_25_5,1
+20150624_qep1_lc7_phge_sa_plate2a_25_6,1
+20150624_qep1_lc7_phge_sa_plate2a_25_7,1
+20150811_qep1_lc7_phge_sa_plate2b_25_1,1
+20150811_qep1_lc7_phge_sa_plate2b_25_2,1
+20150811_qep1_lc7_phge_sa_plate2b_25_3,1
+20150811_qep1_lc7_phge_sa_plate2b_25_4,1
+20150811_qep1_lc7_phge_sa_plate2b_25_5,1
+20150811_qep1_lc7_phge_sa_plate2b_25_6,1
+20150811_qep1_lc7_phge_sa_plate2b_25_7,1
+20150827_qep1_lc7_phge_sa_plate2c_25_1,1
+20150827_qep1_lc7_phge_sa_plate2c_25_2,1
+20150827_qep1_lc7_phge_sa_plate2c_25_3,1
+20150827_qep1_lc7_phge_sa_plate2c_25_4,1
+20150827_qep1_lc7_phge_sa_plate2c_25_5,1
+20150827_qep1_lc7_phge_sa_plate2c_25_6,1
+20150827_qep1_lc7_phge_sa_plate2c_25_7,1
+20150907_qep1_lc7_phge_sa_plate2d_25_1,1
+20150907_qep1_lc7_phge_sa_plate2d_25_2,1
+20150907_qep1_lc7_phge_sa_plate2d_25_3,1
+20150907_qep1_lc7_phge_sa_plate2d_25_4,1
+20150907_qep1_lc7_phge_sa_plate2d_25_5,1
+20150907_qep1_lc7_phge_sa_plate2d_25_6,1
+20150907_qep1_lc7_phge_sa_plate2d_25_7,1
+20150917_qep1_lc7_phge_sa_plate2a_25_1,1
+20150917_qep1_lc7_phge_sa_plate2a_25_4,1
+20150701_qep1_lc7_phge_sa_plate3a_26_1,1
+20150701_qep1_lc7_phge_sa_plate3a_26_2,1
+20150701_qep1_lc7_phge_sa_plate3a_26_3,1
+20150701_qep1_lc7_phge_sa_plate3a_26_4,1
+20150701_qep1_lc7_phge_sa_plate3a_26_6,1
+20150701_qep1_lc7_phge_sa_plate3a_26_7,1
+20150725_qep1_lc7_phge_sa_plate3b_26_1,1
+20150725_qep1_lc7_phge_sa_plate3b_26_2,1
+20150725_qep1_lc7_phge_sa_plate3b_26_3,1
+20150725_qep1_lc7_phge_sa_plate3b_26_4,1
+20150725_qep1_lc7_phge_sa_plate3b_26_6,1
+20150725_qep1_lc7_phge_sa_plate3b_26_7,1
+20150818_qep1_lc7_phge_sa_plate3c_26_1,1
+20150818_qep1_lc7_phge_sa_plate3c_26_2,1
+20150818_qep1_lc7_phge_sa_plate3c_26_3,1
+20150818_qep1_lc7_phge_sa_plate3c_26_4,1
+20150818_qep1_lc7_phge_sa_plate3c_26_5,1
+20150818_qep1_lc7_phge_sa_plate3c_26_6,1
+20150818_qep1_lc7_phge_sa_plate3c_26_7,1
+20150912_qep1_lc7_phge_sa_plate3d_26_1,1
+20150912_qep1_lc7_phge_sa_plate3d_26_2,1
+20150912_qep1_lc7_phge_sa_plate3d_26_3,1
+20150912_qep1_lc7_phge_sa_plate3d_26_4,1
+20150912_qep1_lc7_phge_sa_plate3d_26_5,1
+20150912_qep1_lc7_phge_sa_plate3d_26_6,1
+20150912_qep1_lc7_phge_sa_plate3d_26_7,1
+20150917_qep1_lc7_phge_sa_plate3a_26_5,1
+20150917_qep1_lc7_phge_sa_plate3b_26_5,1
+20150701_qep1_lc7_phge_sa_plate3a_27_1,1
+20150701_qep1_lc7_phge_sa_plate3a_27_2,1
+20150701_qep1_lc7_phge_sa_plate3a_27_3,1
+20150701_qep1_lc7_phge_sa_plate3a_27_4,1
+20150701_qep1_lc7_phge_sa_plate3a_27_5,1
+20150701_qep1_lc7_phge_sa_plate3a_27_6,1
+20150701_qep1_lc7_phge_sa_plate3a_27_7,1
+20150725_qep1_lc7_phge_sa_plate3b_27_1,1
+20150725_qep1_lc7_phge_sa_plate3b_27_2,1
+20150725_qep1_lc7_phge_sa_plate3b_27_3,1
+20150725_qep1_lc7_phge_sa_plate3b_27_4,1
+20150725_qep1_lc7_phge_sa_plate3b_27_5,1
+20150725_qep1_lc7_phge_sa_plate3b_27_6,1
+20150725_qep1_lc7_phge_sa_plate3b_27_7,1
+20150818_qep1_lc7_phge_sa_plate3c_27_1,1
+20150818_qep1_lc7_phge_sa_plate3c_27_2,1
+20150818_qep1_lc7_phge_sa_plate3c_27_3,1
+20150818_qep1_lc7_phge_sa_plate3c_27_4,1
+20150818_qep1_lc7_phge_sa_plate3c_27_5,1
+20150818_qep1_lc7_phge_sa_plate3c_27_6,1
+20150818_qep1_lc7_phge_sa_plate3c_27_7,1
+20150912_qep1_lc7_phge_sa_plate3d_27_1,1
+20150912_qep1_lc7_phge_sa_plate3d_27_2,1
+20150912_qep1_lc7_phge_sa_plate3d_27_3,1
+20150912_qep1_lc7_phge_sa_plate3d_27_4,1
+20150912_qep1_lc7_phge_sa_plate3d_27_5,1
+20150912_qep1_lc7_phge_sa_plate3d_27_6,1
+20150912_qep1_lc7_phge_sa_plate3d_27_7,1
+20150618_qep1_lc7_phge_sa_plate1b_28_1,1
+20150618_qep1_lc7_phge_sa_plate1b_28_2,1
+20150618_qep1_lc7_phge_sa_plate1b_28_3,1
+20150618_qep1_lc7_phge_sa_plate1b_28_4,1
+20150618_qep1_lc7_phge_sa_plate1b_28_5,1
+20150618_qep1_lc7_phge_sa_plate1b_28_6,1
+20150618_qep1_lc7_phge_sa_plate1b_28_7,1
+20150708_qep1_lc7_phge_sa_plate1c_28_1,1
+20150708_qep1_lc7_phge_sa_plate1c_28_2,1
+20150708_qep1_lc7_phge_sa_plate1c_28_3,1
+20150708_qep1_lc7_phge_sa_plate1c_28_4,1
+20150708_qep1_lc7_phge_sa_plate1c_28_6,1
+20150708_qep1_lc7_phge_sa_plate1c_28_7,1
+20150805_qep1_lc7_phge_sa_plate1d_28_1,1
+20150805_qep1_lc7_phge_sa_plate1d_28_2,1
+20150805_qep1_lc7_phge_sa_plate1d_28_3,1
+20150805_qep1_lc7_phge_sa_plate1d_28_4,1
+20150805_qep1_lc7_phge_sa_plate1d_28_5,1
+20150805_qep1_lc7_phge_sa_plate1d_28_6,1
+20150805_qep1_lc7_phge_sa_plate1d_28_7,1
+20150901_qep1_lc7_phge_sa_plate1e_28_1,1
+20150901_qep1_lc7_phge_sa_plate1e_28_2,1
+20150901_qep1_lc7_phge_sa_plate1e_28_3,1
+20150901_qep1_lc7_phge_sa_plate1e_28_4,1
+20150901_qep1_lc7_phge_sa_plate1e_28_5,1
+20150901_qep1_lc7_phge_sa_plate1e_28_6,1
+20150901_qep1_lc7_phge_sa_plate1e_28_7,1
+20150917_qep1_lc8_phge_sa_plate1c_28_5,1
+20150624_qep1_lc7_phge_sa_plate2a_29_1,1
+20150624_qep1_lc7_phge_sa_plate2a_29_2,1
+20150624_qep1_lc7_phge_sa_plate2a_29_3,1
+20150624_qep1_lc7_phge_sa_plate2a_29_4,1
+20150624_qep1_lc7_phge_sa_plate2a_29_5,1
+20150624_qep1_lc7_phge_sa_plate2a_29_6,1
+20150624_qep1_lc7_phge_sa_plate2a_29_7,1
+20150811_qep1_lc7_phge_sa_plate2b_29_1,1
+20150811_qep1_lc7_phge_sa_plate2b_29_2,1
+20150811_qep1_lc7_phge_sa_plate2b_29_3,1
+20150811_qep1_lc7_phge_sa_plate2b_29_4,1
+20150811_qep1_lc7_phge_sa_plate2b_29_5,1
+20150811_qep1_lc7_phge_sa_plate2b_29_6,1
+20150811_qep1_lc7_phge_sa_plate2b_29_7,1
+20150827_qep1_lc7_phge_sa_plate2c_29_1,1
+20150827_qep1_lc7_phge_sa_plate2c_29_2,1
+20150827_qep1_lc7_phge_sa_plate2c_29_3,1
+20150827_qep1_lc7_phge_sa_plate2c_29_4,1
+20150827_qep1_lc7_phge_sa_plate2c_29_5,1
+20150827_qep1_lc7_phge_sa_plate2c_29_6,1
+20150827_qep1_lc7_phge_sa_plate2c_29_7,1
+20150907_qep1_lc7_phge_sa_plate2d_29_1,1
+20150907_qep1_lc7_phge_sa_plate2d_29_2,1
+20150907_qep1_lc7_phge_sa_plate2d_29_3,1
+20150907_qep1_lc7_phge_sa_plate2d_29_4,1
+20150907_qep1_lc7_phge_sa_plate2d_29_5,1
+20150907_qep1_lc7_phge_sa_plate2d_29_6,1
+20150907_qep1_lc7_phge_sa_plate2d_29_7,1
+20150618_qep1_lc7_phge_sa_plate1b_30_1,1
+20150618_qep1_lc7_phge_sa_plate1b_30_2,1
+20150618_qep1_lc7_phge_sa_plate1b_30_3,1
+20150618_qep1_lc7_phge_sa_plate1b_30_4,1
+20150618_qep1_lc7_phge_sa_plate1b_30_5,1
+20150618_qep1_lc7_phge_sa_plate1b_30_6,1
+20150618_qep1_lc7_phge_sa_plate1b_30_7,1
+20150708_qep1_lc7_phge_sa_plate1c_30_1,1
+20150708_qep1_lc7_phge_sa_plate1c_30_2,1
+20150708_qep1_lc7_phge_sa_plate1c_30_3,1
+20150708_qep1_lc7_phge_sa_plate1c_30_4,1
+20150708_qep1_lc7_phge_sa_plate1c_30_5,1
+20150708_qep1_lc7_phge_sa_plate1c_30_6,1
+20150708_qep1_lc7_phge_sa_plate1c_30_7,1
+20150805_qep1_lc7_phge_sa_plate1d_30_1,1
+20150805_qep1_lc7_phge_sa_plate1d_30_2,1
+20150805_qep1_lc7_phge_sa_plate1d_30_3,1
+20150805_qep1_lc7_phge_sa_plate1d_30_4,1
+20150805_qep1_lc7_phge_sa_plate1d_30_5,1
+20150805_qep1_lc7_phge_sa_plate1d_30_6,1
+20150805_qep1_lc7_phge_sa_plate1d_30_7,1
+20150901_qep1_lc7_phge_sa_plate1e_30_1,1
+20150901_qep1_lc7_phge_sa_plate1e_30_2,1
+20150901_qep1_lc7_phge_sa_plate1e_30_3,1
+20150901_qep1_lc7_phge_sa_plate1e_30_4,1
+20150901_qep1_lc7_phge_sa_plate1e_30_5,1
+20150901_qep1_lc7_phge_sa_plate1e_30_6,1
+20150901_qep1_lc7_phge_sa_plate1e_30_7,1
+20150624_qep1_lc7_phge_sa_plate2a_31_1,1
+20150624_qep1_lc7_phge_sa_plate2a_31_2,1
+20150811_qep1_lc7_phge_sa_plate2b_31_1,1
+20150811_qep1_lc7_phge_sa_plate2b_31_2,1
+20150827_qep1_lc7_phge_sa_plate2c_31_1,1
+20150827_qep1_lc7_phge_sa_plate2c_31_2,1
+20150907_qep1_lc7_phge_sa_plate2d_31_1,1
+20150907_qep1_lc7_phge_sa_plate2d_31_2,1
+20150701_qep1_lc7_phge_sa_plate3a_33_1,1
+20150701_qep1_lc7_phge_sa_plate3a_33_2,1
+20150725_qep1_lc7_phge_sa_plate3b_33_1,1
+20150725_qep1_lc7_phge_sa_plate3b_33_2,1
+20150818_qep1_lc7_phge_sa_plate3c_33_2,1
+20150912_qep1_lc7_phge_sa_plate3d_33_1,1
+20150917_qep1_lc7_phge_sa_plate3c_33_1,1
+20150917_qep1_lc7_phge_sa_plate3d_33_2,1
+20150701_qep1_lc7_phge_sa_plate3a_34_1,1
+20150701_qep1_lc7_phge_sa_plate3a_34_2,1
+20150701_qep1_lc7_phge_sa_plate3a_34_3,1
+20150701_qep1_lc7_phge_sa_plate3a_34_4,1
+20150701_qep1_lc7_phge_sa_plate3a_34_5,1
+20150701_qep1_lc7_phge_sa_plate3a_34_6,1
+20150701_qep1_lc7_phge_sa_plate3a_34_7,1
+20150725_qep1_lc7_phge_sa_plate3b_34_1,1
+20150725_qep1_lc7_phge_sa_plate3b_34_2,1
+20150725_qep1_lc7_phge_sa_plate3b_34_5,1
+20150725_qep1_lc7_phge_sa_plate3b_34_7,1
+20150818_qep1_lc7_phge_sa_plate3c_34_1,1
+20150818_qep1_lc7_phge_sa_plate3c_34_2,1
+20150818_qep1_lc7_phge_sa_plate3c_34_3,1
+20150818_qep1_lc7_phge_sa_plate3c_34_4,1
+20150818_qep1_lc7_phge_sa_plate3c_34_5,1
+20150818_qep1_lc7_phge_sa_plate3c_34_6,1
+20150818_qep1_lc7_phge_sa_plate3c_34_7,1
+20150912_qep1_lc7_phge_sa_plate3d_34_1,1
+20150912_qep1_lc7_phge_sa_plate3d_34_2,1
+20150912_qep1_lc7_phge_sa_plate3d_34_3,1
+20150912_qep1_lc7_phge_sa_plate3d_34_4,1
+20150912_qep1_lc7_phge_sa_plate3d_34_5,1
+20150912_qep1_lc7_phge_sa_plate3d_34_6,1
+20150912_qep1_lc7_phge_sa_plate3d_34_7,1
+20150917_qep1_lc7_phge_sa_plate3b_34_3,1
+20150917_qep1_lc7_phge_sa_plate3b_34_4,1
+20150917_qep1_lc7_phge_sa_plate3b_34_6,1
+20150701_qep1_lc7_phge_sa_plate3a_35_1,1
+20150701_qep1_lc7_phge_sa_plate3a_35_2,1
+20150725_qep1_lc7_phge_sa_plate3b_35_2,1
+20150818_qep1_lc7_phge_sa_plate3c_35_1,1
+20150818_qep1_lc7_phge_sa_plate3c_35_2,1
+20150912_qep1_lc7_phge_sa_plate3d_35_1,1
+20150912_qep1_lc7_phge_sa_plate3d_35_2,1
+20150917_qep1_lc7_phge_sa_plate3b_35_1,1
+20150624_qep1_lc7_phge_sa_plate2a_36_1,1
+20150624_qep1_lc7_phge_sa_plate2a_36_2,1
+20150624_qep1_lc7_phge_sa_plate2a_36_3,1
+20150624_qep1_lc7_phge_sa_plate2a_36_4,1
+20150624_qep1_lc7_phge_sa_plate2a_36_5,1
+20150624_qep1_lc7_phge_sa_plate2a_36_6,1
+20150624_qep1_lc7_phge_sa_plate2a_36_7,1
+20150811_qep1_lc7_phge_sa_plate2b_36_1,1
+20150811_qep1_lc7_phge_sa_plate2b_36_2,1
+20150811_qep1_lc7_phge_sa_plate2b_36_3,1
+20150811_qep1_lc7_phge_sa_plate2b_36_4,1
+20150811_qep1_lc7_phge_sa_plate2b_36_5,1
+20150811_qep1_lc7_phge_sa_plate2b_36_6,1
+20150811_qep1_lc7_phge_sa_plate2b_36_7,1
+20150827_qep1_lc7_phge_sa_plate2c_36_1,1
+20150827_qep1_lc7_phge_sa_plate2c_36_2,1
+20150827_qep1_lc7_phge_sa_plate2c_36_3,1
+20150827_qep1_lc7_phge_sa_plate2c_36_4,1
+20150827_qep1_lc7_phge_sa_plate2c_36_5,1
+20150827_qep1_lc7_phge_sa_plate2c_36_6,1
+20150827_qep1_lc7_phge_sa_plate2c_36_7,1
+20150907_qep1_lc7_phge_sa_plate2d_36_1,1
+20150907_qep1_lc7_phge_sa_plate2d_36_2,1
+20150907_qep1_lc7_phge_sa_plate2d_36_3,1
+20150907_qep1_lc7_phge_sa_plate2d_36_4,1
+20150907_qep1_lc7_phge_sa_plate2d_36_5,1
+20150907_qep1_lc7_phge_sa_plate2d_36_6,1
+20150907_qep1_lc7_phge_sa_plate2d_36_7,1
+20150701_qep1_lc7_phge_sa_plate3a_37_1,1
+20150701_qep1_lc7_phge_sa_plate3a_37_2,1
+20150701_qep1_lc7_phge_sa_plate3a_37_3,1
+20150701_qep1_lc7_phge_sa_plate3a_37_4,1
+20150701_qep1_lc7_phge_sa_plate3a_37_5,1
+20150701_qep1_lc7_phge_sa_plate3a_37_6,1
+20150701_qep1_lc7_phge_sa_plate3a_37_7,1
+20150725_qep1_lc7_phge_sa_plate3b_37_1,1
+20150725_qep1_lc7_phge_sa_plate3b_37_2,1
+20150725_qep1_lc7_phge_sa_plate3b_37_3,1
+20150725_qep1_lc7_phge_sa_plate3b_37_4,1
+20150725_qep1_lc7_phge_sa_plate3b_37_5,1
+20150725_qep1_lc7_phge_sa_plate3b_37_6,1
+20150725_qep1_lc7_phge_sa_plate3b_37_7,1
+20150818_qep1_lc7_phge_sa_plate3c_37_1,1
+20150818_qep1_lc7_phge_sa_plate3c_37_2,1
+20150818_qep1_lc7_phge_sa_plate3c_37_3,1
+20150818_qep1_lc7_phge_sa_plate3c_37_4,1
+20150818_qep1_lc7_phge_sa_plate3c_37_5,1
+20150818_qep1_lc7_phge_sa_plate3c_37_7,1
+20150912_qep1_lc7_phge_sa_plate3d_37_1,1
+20150912_qep1_lc7_phge_sa_plate3d_37_2,1
+20150912_qep1_lc7_phge_sa_plate3d_37_3,1
+20150912_qep1_lc7_phge_sa_plate3d_37_4,1
+20150912_qep1_lc7_phge_sa_plate3d_37_5,1
+20150912_qep1_lc7_phge_sa_plate3d_37_6,1
+20150912_qep1_lc7_phge_sa_plate3d_37_7,1
+20150917_qep1_lc7_phge_sa_plate3c_37_6,1
+20150624_qep1_lc7_phge_sa_plate2a_38_1,1
+20150624_qep1_lc7_phge_sa_plate2a_38_2,1
+20150624_qep1_lc7_phge_sa_plate2a_38_3,1
+20150624_qep1_lc7_phge_sa_plate2a_38_4,1
+20150624_qep1_lc7_phge_sa_plate2a_38_5,1
+20150624_qep1_lc7_phge_sa_plate2a_38_6,1
+20150624_qep1_lc7_phge_sa_plate2a_38_7,1
+20150811_qep1_lc7_phge_sa_plate2b_38_1,1
+20150811_qep1_lc7_phge_sa_plate2b_38_2,1
+20150811_qep1_lc7_phge_sa_plate2b_38_3,1
+20150811_qep1_lc7_phge_sa_plate2b_38_4,1
+20150811_qep1_lc7_phge_sa_plate2b_38_5,1
+20150811_qep1_lc7_phge_sa_plate2b_38_6,1
+20150811_qep1_lc7_phge_sa_plate2b_38_7,1
+20150827_qep1_lc7_phge_sa_plate2c_38_1,1
+20150827_qep1_lc7_phge_sa_plate2c_38_2,1
+20150827_qep1_lc7_phge_sa_plate2c_38_3,1
+20150827_qep1_lc7_phge_sa_plate2c_38_4,1
+20150827_qep1_lc7_phge_sa_plate2c_38_5,1
+20150827_qep1_lc7_phge_sa_plate2c_38_6,1
+20150827_qep1_lc7_phge_sa_plate2c_38_7,1
+20150907_qep1_lc7_phge_sa_plate2d_38_1,1
+20150907_qep1_lc7_phge_sa_plate2d_38_2,1
+20150907_qep1_lc7_phge_sa_plate2d_38_3,1
+20150907_qep1_lc7_phge_sa_plate2d_38_4,1
+20150907_qep1_lc7_phge_sa_plate2d_38_5,1
+20150907_qep1_lc7_phge_sa_plate2d_38_6,1
+20150907_qep1_lc7_phge_sa_plate2d_38_7,1
+20150701_qep1_lc7_phge_sa_plate3a_39_1,1
+20150701_qep1_lc7_phge_sa_plate3a_39_2,1
+20150701_qep1_lc7_phge_sa_plate3a_39_3,1
+20150701_qep1_lc7_phge_sa_plate3a_39_4,1
+20150701_qep1_lc7_phge_sa_plate3a_39_5,1
+20150701_qep1_lc7_phge_sa_plate3a_39_6,1
+20150701_qep1_lc7_phge_sa_plate3a_39_7,1
+20150725_qep1_lc7_phge_sa_plate3b_39_2,1
+20150725_qep1_lc7_phge_sa_plate3b_39_3,1
+20150725_qep1_lc7_phge_sa_plate3b_39_4,1
+20150725_qep1_lc7_phge_sa_plate3b_39_5,1
+20150725_qep1_lc7_phge_sa_plate3b_39_6,1
+20150725_qep1_lc7_phge_sa_plate3b_39_7,1
+20150818_qep1_lc7_phge_sa_plate3c_39_1,1
+20150818_qep1_lc7_phge_sa_plate3c_39_2,1
+20150818_qep1_lc7_phge_sa_plate3c_39_3,1
+20150818_qep1_lc7_phge_sa_plate3c_39_4,1
+20150818_qep1_lc7_phge_sa_plate3c_39_5,1
+20150818_qep1_lc7_phge_sa_plate3c_39_6,1
+20150818_qep1_lc7_phge_sa_plate3c_39_7,1
+20150912_qep1_lc7_phge_sa_plate3d_39_1,1
+20150912_qep1_lc7_phge_sa_plate3d_39_2,1
+20150912_qep1_lc7_phge_sa_plate3d_39_3,1
+20150912_qep1_lc7_phge_sa_plate3d_39_5,1
+20150912_qep1_lc7_phge_sa_plate3d_39_6,1
+20150912_qep1_lc7_phge_sa_plate3d_39_7,1
+20150917_qep1_lc7_phge_sa_plate3b_39_1,1
+20150917_qep1_lc7_phge_sa_plate3d_39_4,1
+20150701_qep1_lc7_phge_sa_plate3a_40_1,1
+20150701_qep1_lc7_phge_sa_plate3a_40_2,1
+20150701_qep1_lc7_phge_sa_plate3a_40_3,1
+20150701_qep1_lc7_phge_sa_plate3a_40_4,1
+20150701_qep1_lc7_phge_sa_plate3a_40_5,1
+20150701_qep1_lc7_phge_sa_plate3a_40_6,1
+20150701_qep1_lc7_phge_sa_plate3a_40_7,1
+20150725_qep1_lc7_phge_sa_plate3b_40_1,1
+20150725_qep1_lc7_phge_sa_plate3b_40_2,1
+20150725_qep1_lc7_phge_sa_plate3b_40_3,1
+20150725_qep1_lc7_phge_sa_plate3b_40_4,1
+20150725_qep1_lc7_phge_sa_plate3b_40_5,1
+20150725_qep1_lc7_phge_sa_plate3b_40_6,1
+20150725_qep1_lc7_phge_sa_plate3b_40_7,1
+20150818_qep1_lc7_phge_sa_plate3c_40_1,1
+20150818_qep1_lc7_phge_sa_plate3c_40_2,1
+20150818_qep1_lc7_phge_sa_plate3c_40_3,1
+20150818_qep1_lc7_phge_sa_plate3c_40_4,1
+20150818_qep1_lc7_phge_sa_plate3c_40_5,1
+20150818_qep1_lc7_phge_sa_plate3c_40_6,1
+20150818_qep1_lc7_phge_sa_plate3c_40_7,1
+20150912_qep1_lc7_phge_sa_plate3d_40_1,1
+20150912_qep1_lc7_phge_sa_plate3d_40_2,1
+20150912_qep1_lc7_phge_sa_plate3d_40_3,1
+20150912_qep1_lc7_phge_sa_plate3d_40_4,1
+20150912_qep1_lc7_phge_sa_plate3d_40_5,1
+20150912_qep1_lc7_phge_sa_plate3d_40_6,1
+20150912_qep1_lc7_phge_sa_plate3d_40_7,1
+20150618_qep1_lc7_phge_sa_plate1b_41_1,1
+20150618_qep1_lc7_phge_sa_plate1b_41_2,1
+20150618_qep1_lc7_phge_sa_plate1b_41_3,1
+20150618_qep1_lc7_phge_sa_plate1b_41_4,1
+20150618_qep1_lc7_phge_sa_plate1b_41_5,1
+20150618_qep1_lc7_phge_sa_plate1b_41_6,1
+20150618_qep1_lc7_phge_sa_plate1b_41_7,1
+20150708_qep1_lc7_phge_sa_plate1c_41_1,1
+20150708_qep1_lc7_phge_sa_plate1c_41_2,1
+20150708_qep1_lc7_phge_sa_plate1c_41_3,1
+20150708_qep1_lc7_phge_sa_plate1c_41_4,1
+20150708_qep1_lc7_phge_sa_plate1c_41_5,1
+20150708_qep1_lc7_phge_sa_plate1c_41_6,1
+20150708_qep1_lc7_phge_sa_plate1c_41_7,1
+20150805_qep1_lc7_phge_sa_plate1d_41_1,1
+20150805_qep1_lc7_phge_sa_plate1d_41_2,1
+20150805_qep1_lc7_phge_sa_plate1d_41_3,1
+20150805_qep1_lc7_phge_sa_plate1d_41_4,1
+20150805_qep1_lc7_phge_sa_plate1d_41_5,1
+20150805_qep1_lc7_phge_sa_plate1d_41_6,1
+20150805_qep1_lc7_phge_sa_plate1d_41_7,1
+20150901_qep1_lc7_phge_sa_plate1e_41_1,1
+20150901_qep1_lc7_phge_sa_plate1e_41_2,1
+20150901_qep1_lc7_phge_sa_plate1e_41_3,1
+20150901_qep1_lc7_phge_sa_plate1e_41_4,1
+20150901_qep1_lc7_phge_sa_plate1e_41_5,1
+20150901_qep1_lc7_phge_sa_plate1e_41_6,1
+20150901_qep1_lc7_phge_sa_plate1e_41_7,1
+20150624_qep1_lc7_phge_sa_plate2a_42_1,1
+20150624_qep1_lc7_phge_sa_plate2a_42_2,1
+20150624_qep1_lc7_phge_sa_plate2a_42_3,1
+20150624_qep1_lc7_phge_sa_plate2a_42_4,1
+20150624_qep1_lc7_phge_sa_plate2a_42_6,1
+20150624_qep1_lc7_phge_sa_plate2a_42_7,1
+20150811_qep1_lc7_phge_sa_plate2b_42_1,1
+20150811_qep1_lc7_phge_sa_plate2b_42_2,1
+20150811_qep1_lc7_phge_sa_plate2b_42_3,1
+20150811_qep1_lc7_phge_sa_plate2b_42_4,1
+20150811_qep1_lc7_phge_sa_plate2b_42_6,1
+20150811_qep1_lc7_phge_sa_plate2b_42_7,1
+20150827_qep1_lc7_phge_sa_plate2c_42_1,1
+20150827_qep1_lc7_phge_sa_plate2c_42_2,1
+20150827_qep1_lc7_phge_sa_plate2c_42_3,1
+20150827_qep1_lc7_phge_sa_plate2c_42_4,1
+20150827_qep1_lc7_phge_sa_plate2c_42_5,1
+20150827_qep1_lc7_phge_sa_plate2c_42_6,1
+20150827_qep1_lc7_phge_sa_plate2c_42_7,1
+20150907_qep1_lc7_phge_sa_plate2d_42_1,1
+20150907_qep1_lc7_phge_sa_plate2d_42_2,1
+20150907_qep1_lc7_phge_sa_plate2d_42_3,1
+20150907_qep1_lc7_phge_sa_plate2d_42_4,1
+20150907_qep1_lc7_phge_sa_plate2d_42_5,1
+20150907_qep1_lc7_phge_sa_plate2d_42_6,1
+20150907_qep1_lc7_phge_sa_plate2d_42_7,1
+20150917_qep1_lc8_phge_sa_plate2a_42_5,1
+20150917_qep1_lc8_phge_sa_plate2b_42_5,1
+20150731_qep1_lc7_phge_sa_plate4b_43_1,1
+20150731_qep1_lc7_phge_sa_plate4b_43_2,1
+20150731_qep1_lc7_phge_sa_plate4b_43_3,1
+20150731_qep1_lc7_phge_sa_plate4b_43_4,1
+20150731_qep1_lc7_phge_sa_plate4b_43_5,1
+20150731_qep1_lc7_phge_sa_plate4b_43_6,1
+20150731_qep1_lc7_phge_sa_plate4b_43_7,1
+20150731_qep1_lc7_phge_sa_plate4e_43_1,1
+20150731_qep1_lc7_phge_sa_plate4e_43_2,1
+20150731_qep1_lc7_phge_sa_plate4e_43_3,1
+20150731_qep1_lc7_phge_sa_plate4e_43_4,1
+20150731_qep1_lc7_phge_sa_plate4e_43_5,1
+20150731_qep1_lc7_phge_sa_plate4e_43_6,1
+20150731_qep1_lc7_phge_sa_plate4e_43_7,1
+20150824_qep1_lc7_phge_sa_plate4d_43_1,1
+20150824_qep1_lc7_phge_sa_plate4d_43_2,1
+20150824_qep1_lc7_phge_sa_plate4d_43_3,1
+20150824_qep1_lc7_phge_sa_plate4d_43_4,1
+20150824_qep1_lc7_phge_sa_plate4d_43_5,1
+20150824_qep1_lc7_phge_sa_plate4d_43_6,1
+20150824_qep1_lc7_phge_sa_plate4d_43_7,1
+20150917_qep1_lc7_phge_sa_plate4c_43_1,1
+20150917_qep1_lc7_phge_sa_plate4c_43_2,1
+20150917_qep1_lc7_phge_sa_plate4c_43_3,1
+20150917_qep1_lc7_phge_sa_plate4c_43_4,1
+20150917_qep1_lc7_phge_sa_plate4c_43_5,1
+20150917_qep1_lc7_phge_sa_plate4c_43_6,1
+20150917_qep1_lc7_phge_sa_plate4c_43_7,1
+20150618_qep1_lc7_phge_sa_plate1b_44_2,1
+20150618_qep1_lc7_phge_sa_plate1b_44_3,1
+20150618_qep1_lc7_phge_sa_plate1b_44_4,1
+20150618_qep1_lc7_phge_sa_plate1b_44_5,1
+20150618_qep1_lc7_phge_sa_plate1b_44_6,1
+20150618_qep1_lc7_phge_sa_plate1b_44_7,1
+20150708_qep1_lc7_phge_sa_plate1c_44_3,1
+20150708_qep1_lc7_phge_sa_plate1c_44_4,1
+20150708_qep1_lc7_phge_sa_plate1c_44_5,1
+20150708_qep1_lc7_phge_sa_plate1c_44_6,1
+20150708_qep1_lc7_phge_sa_plate1c_44_7,1
+20150805_qep1_lc7_phge_sa_plate1d_44_2,1
+20150805_qep1_lc7_phge_sa_plate1d_44_3,1
+20150805_qep1_lc7_phge_sa_plate1d_44_4,1
+20150805_qep1_lc7_phge_sa_plate1d_44_5,1
+20150805_qep1_lc7_phge_sa_plate1d_44_6,1
+20150805_qep1_lc7_phge_sa_plate1d_44_7,1
+20150901_qep1_lc7_phge_sa_plate1e_44_2,1
+20150901_qep1_lc7_phge_sa_plate1e_44_3,1
+20150901_qep1_lc7_phge_sa_plate1e_44_4,1
+20150901_qep1_lc7_phge_sa_plate1e_44_5,1
+20150901_qep1_lc7_phge_sa_plate1e_44_6,1
+20150901_qep1_lc7_phge_sa_plate1e_44_7,1
+20150917_qep1_lc8_phge_sa_plate1c_44_2,1
+20150618_qep1_lc7_phge_sa_plate1b_45_1,1
+20150618_qep1_lc7_phge_sa_plate1b_45_2,1
+20150618_qep1_lc7_phge_sa_plate1b_45_3,1
+20150618_qep1_lc7_phge_sa_plate1b_45_4,1
+20150618_qep1_lc7_phge_sa_plate1b_45_5,1
+20150618_qep1_lc7_phge_sa_plate1b_45_6,1
+20150618_qep1_lc7_phge_sa_plate1b_45_7,1
+20150708_qep1_lc7_phge_sa_plate1c_45_1,1
+20150708_qep1_lc7_phge_sa_plate1c_45_2,1
+20150708_qep1_lc7_phge_sa_plate1c_45_3,1
+20150708_qep1_lc7_phge_sa_plate1c_45_4,1
+20150708_qep1_lc7_phge_sa_plate1c_45_5,1
+20150708_qep1_lc7_phge_sa_plate1c_45_6,1
+20150708_qep1_lc7_phge_sa_plate1c_45_7,1
+20150805_qep1_lc7_phge_sa_plate1d_45_1,1
+20150805_qep1_lc7_phge_sa_plate1d_45_2,1
+20150805_qep1_lc7_phge_sa_plate1d_45_3,1
+20150805_qep1_lc7_phge_sa_plate1d_45_4,1
+20150805_qep1_lc7_phge_sa_plate1d_45_5,1
+20150805_qep1_lc7_phge_sa_plate1d_45_6,1
+20150805_qep1_lc7_phge_sa_plate1d_45_7,1
+20150901_qep1_lc7_phge_sa_plate1e_45_1,1
+20150901_qep1_lc7_phge_sa_plate1e_45_2,1
+20150901_qep1_lc7_phge_sa_plate1e_45_3,1
+20150901_qep1_lc7_phge_sa_plate1e_45_4,1
+20150901_qep1_lc7_phge_sa_plate1e_45_5,1
+20150901_qep1_lc7_phge_sa_plate1e_45_6,1
+20150901_qep1_lc7_phge_sa_plate1e_45_7,1
+20150701_qep1_lc7_phge_sa_plate3a_46_1,1
+20150701_qep1_lc7_phge_sa_plate3a_46_2,1
+20150701_qep1_lc7_phge_sa_plate3a_46_3,1
+20150701_qep1_lc7_phge_sa_plate3a_46_4,1
+20150701_qep1_lc7_phge_sa_plate3a_46_5,1
+20150701_qep1_lc7_phge_sa_plate3a_46_6,1
+20150701_qep1_lc7_phge_sa_plate3a_46_7,1
+20150725_qep1_lc7_phge_sa_plate3b_46_2,1
+20150725_qep1_lc7_phge_sa_plate3b_46_3,1
+20150725_qep1_lc7_phge_sa_plate3b_46_4,1
+20150725_qep1_lc7_phge_sa_plate3b_46_5,1
+20150725_qep1_lc7_phge_sa_plate3b_46_7,1
+20150818_qep1_lc7_phge_sa_plate3c_46_1,1
+20150818_qep1_lc7_phge_sa_plate3c_46_2,1
+20150818_qep1_lc7_phge_sa_plate3c_46_3,1
+20150818_qep1_lc7_phge_sa_plate3c_46_4,1
+20150818_qep1_lc7_phge_sa_plate3c_46_5,1
+20150818_qep1_lc7_phge_sa_plate3c_46_6,1
+20150818_qep1_lc7_phge_sa_plate3c_46_7,1
+20150912_qep1_lc7_phge_sa_plate3d_46_1,1
+20150912_qep1_lc7_phge_sa_plate3d_46_2,1
+20150912_qep1_lc7_phge_sa_plate3d_46_3,1
+20150912_qep1_lc7_phge_sa_plate3d_46_4,1
+20150912_qep1_lc7_phge_sa_plate3d_46_5,1
+20150912_qep1_lc7_phge_sa_plate3d_46_6,1
+20150912_qep1_lc7_phge_sa_plate3d_46_7,1
+20150917_qep1_lc7_phge_sa_plate3b_46_1,1
+20150917_qep1_lc7_phge_sa_plate3b_46_6,1
+20150624_qep1_lc7_phge_sa_plate2a_47_1,1
+20150624_qep1_lc7_phge_sa_plate2a_47_2,1
+20150624_qep1_lc7_phge_sa_plate2a_47_3,1
+20150624_qep1_lc7_phge_sa_plate2a_47_4,1
+20150624_qep1_lc7_phge_sa_plate2a_47_5,1
+20150624_qep1_lc7_phge_sa_plate2a_47_6,1
+20150624_qep1_lc7_phge_sa_plate2a_47_7,1
+20150811_qep1_lc7_phge_sa_plate2b_47_1,1
+20150811_qep1_lc7_phge_sa_plate2b_47_2,1
+20150811_qep1_lc7_phge_sa_plate2b_47_3,1
+20150811_qep1_lc7_phge_sa_plate2b_47_4,1
+20150811_qep1_lc7_phge_sa_plate2b_47_5,1
+20150811_qep1_lc7_phge_sa_plate2b_47_6,1
+20150811_qep1_lc7_phge_sa_plate2b_47_7,1
+20150827_qep1_lc7_phge_sa_plate2c_47_1,1
+20150827_qep1_lc7_phge_sa_plate2c_47_2,1
+20150827_qep1_lc7_phge_sa_plate2c_47_3,1
+20150827_qep1_lc7_phge_sa_plate2c_47_4,1
+20150827_qep1_lc7_phge_sa_plate2c_47_5,1
+20150827_qep1_lc7_phge_sa_plate2c_47_6,1
+20150827_qep1_lc7_phge_sa_plate2c_47_7,1
+20150907_qep1_lc7_phge_sa_plate2d_47_1,1
+20150907_qep1_lc7_phge_sa_plate2d_47_2,1
+20150907_qep1_lc7_phge_sa_plate2d_47_3,1
+20150907_qep1_lc7_phge_sa_plate2d_47_4,1
+20150907_qep1_lc7_phge_sa_plate2d_47_5,1
+20150907_qep1_lc7_phge_sa_plate2d_47_6,1
+20150907_qep1_lc7_phge_sa_plate2d_47_7,1
+20150701_qep1_lc7_phge_sa_plate3a_48_1,1
+20150701_qep1_lc7_phge_sa_plate3a_48_2,1
+20150701_qep1_lc7_phge_sa_plate3a_48_3,1
+20150701_qep1_lc7_phge_sa_plate3a_48_4,1
+20150701_qep1_lc7_phge_sa_plate3a_48_5,1
+20150701_qep1_lc7_phge_sa_plate3a_48_6,1
+20150701_qep1_lc7_phge_sa_plate3a_48_7,1
+20150725_qep1_lc7_phge_sa_plate3b_48_1,1
+20150725_qep1_lc7_phge_sa_plate3b_48_3,1
+20150725_qep1_lc7_phge_sa_plate3b_48_4,1
+20150725_qep1_lc7_phge_sa_plate3b_48_5,1
+20150725_qep1_lc7_phge_sa_plate3b_48_6,1
+20150725_qep1_lc7_phge_sa_plate3b_48_7,1
+20150818_qep1_lc7_phge_sa_plate3c_48_1,1
+20150818_qep1_lc7_phge_sa_plate3c_48_2,1
+20150818_qep1_lc7_phge_sa_plate3c_48_3,1
+20150818_qep1_lc7_phge_sa_plate3c_48_4,1
+20150818_qep1_lc7_phge_sa_plate3c_48_5,1
+20150818_qep1_lc7_phge_sa_plate3c_48_6,1
+20150818_qep1_lc7_phge_sa_plate3c_48_7,1
+20150912_qep1_lc7_phge_sa_plate3d_48_1,1
+20150912_qep1_lc7_phge_sa_plate3d_48_2,1
+20150912_qep1_lc7_phge_sa_plate3d_48_3,1
+20150912_qep1_lc7_phge_sa_plate3d_48_4,1
+20150912_qep1_lc7_phge_sa_plate3d_48_5,1
+20150912_qep1_lc7_phge_sa_plate3d_48_6,1
+20150912_qep1_lc7_phge_sa_plate3d_48_7,1
+20150917_qep1_lc7_phge_sa_plate3b_48_2,1
+20150624_qep1_lc7_phge_sa_plate2a_49_1,1
+20150624_qep1_lc7_phge_sa_plate2a_49_2,1
+20150811_qep1_lc7_phge_sa_plate2b_49_1,1
+20150811_qep1_lc7_phge_sa_plate2b_49_2,1
+20150827_qep1_lc7_phge_sa_plate2c_49_1,1
+20150827_qep1_lc7_phge_sa_plate2c_49_2,1
+20150907_qep1_lc7_phge_sa_plate2d_49_1,1
+20150907_qep1_lc7_phge_sa_plate2d_49_2,1
+20150618_qep1_lc7_phge_sa_plate1b_50_1,1
+20150618_qep1_lc7_phge_sa_plate1b_50_2,1
+20150708_qep1_lc7_phge_sa_plate1c_50_1,1
+20150708_qep1_lc7_phge_sa_plate1c_50_2,1
+20150805_qep1_lc7_phge_sa_plate1d_50_1,1
+20150805_qep1_lc7_phge_sa_plate1d_50_2,1
+20150901_qep1_lc7_phge_sa_plate1e_50_1,1
+20150901_qep1_lc7_phge_sa_plate1e_50_2,1
+20150701_qep1_lc7_phge_sa_plate3a_51_1,1
+20150701_qep1_lc7_phge_sa_plate3a_51_2,1
+20150725_qep1_lc7_phge_sa_plate3b_51_1,1
+20150725_qep1_lc7_phge_sa_plate3b_51_2,1
+20150818_qep1_lc7_phge_sa_plate3c_51_1,1
+20150818_qep1_lc7_phge_sa_plate3c_51_2,1
+20150912_qep1_lc7_phge_sa_plate3d_51_1,1
+20150917_qep1_lc8_phge_sa_plate3d_51_2,1
+20150624_qep1_lc7_phge_sa_plate2a_52_1,1
+20150624_qep1_lc7_phge_sa_plate2a_52_2,1
+20150624_qep1_lc7_phge_sa_plate2a_52_3,1
+20150624_qep1_lc7_phge_sa_plate2a_52_4,1
+20150624_qep1_lc7_phge_sa_plate2a_52_5,1
+20150624_qep1_lc7_phge_sa_plate2a_52_6,1
+20150624_qep1_lc7_phge_sa_plate2a_52_7,1
+20150811_qep1_lc7_phge_sa_plate2b_52_1,1
+20150811_qep1_lc7_phge_sa_plate2b_52_2,1
+20150811_qep1_lc7_phge_sa_plate2b_52_3,1
+20150811_qep1_lc7_phge_sa_plate2b_52_4,1
+20150811_qep1_lc7_phge_sa_plate2b_52_5,1
+20150811_qep1_lc7_phge_sa_plate2b_52_6,1
+20150811_qep1_lc7_phge_sa_plate2b_52_7,1
+20150827_qep1_lc7_phge_sa_plate2c_52_1,1
+20150827_qep1_lc7_phge_sa_plate2c_52_2,1
+20150827_qep1_lc7_phge_sa_plate2c_52_3,1
+20150827_qep1_lc7_phge_sa_plate2c_52_4,1
+20150827_qep1_lc7_phge_sa_plate2c_52_5,1
+20150827_qep1_lc7_phge_sa_plate2c_52_6,1
+20150827_qep1_lc7_phge_sa_plate2c_52_7,1
+20150907_qep1_lc7_phge_sa_plate2d_52_1,1
+20150907_qep1_lc7_phge_sa_plate2d_52_2,1
+20150907_qep1_lc7_phge_sa_plate2d_52_3,1
+20150907_qep1_lc7_phge_sa_plate2d_52_4,1
+20150907_qep1_lc7_phge_sa_plate2d_52_5,1
+20150907_qep1_lc7_phge_sa_plate2d_52_6,1
+20150907_qep1_lc7_phge_sa_plate2d_52_7,1
+20150618_qep1_lc7_phge_sa_plate1b_53_1,1
+20150618_qep1_lc7_phge_sa_plate1b_53_2,1
+20150708_qep1_lc7_phge_sa_plate1c_53_1,1
+20150708_qep1_lc7_phge_sa_plate1c_53_2,1
+20150805_qep1_lc7_phge_sa_plate1d_53_1,1
+20150805_qep1_lc7_phge_sa_plate1d_53_2,1
+20150901_qep1_lc7_phge_sa_plate1e_53_1,1
+20150901_qep1_lc7_phge_sa_plate1e_53_2,1
+20150701_qep1_lc7_phge_sa_plate3a_54_1,1
+20150701_qep1_lc7_phge_sa_plate3a_54_2,1
+20150725_qep1_lc7_phge_sa_plate3b_54_1,1
+20150725_qep1_lc7_phge_sa_plate3b_54_2,1
+20150818_qep1_lc7_phge_sa_plate3c_54_1,1
+20150818_qep1_lc7_phge_sa_plate3c_54_2,1
+20150912_qep1_lc7_phge_sa_plate3d_54_1,1
+20150912_qep1_lc7_phge_sa_plate3d_54_2,1
+20150618_qep1_lc7_phge_sa_plate1b_57_1,1
+20150618_qep1_lc7_phge_sa_plate1b_57_2,1
+20150618_qep1_lc7_phge_sa_plate1b_57_3,1
+20150618_qep1_lc7_phge_sa_plate1b_57_4,1
+20150618_qep1_lc7_phge_sa_plate1b_57_5,1
+20150618_qep1_lc7_phge_sa_plate1b_57_6,1
+20150618_qep1_lc7_phge_sa_plate1b_57_7,1
+20150708_qep1_lc7_phge_sa_plate1c_57_1,1
+20150708_qep1_lc7_phge_sa_plate1c_57_2,1
+20150708_qep1_lc7_phge_sa_plate1c_57_3,1
+20150708_qep1_lc7_phge_sa_plate1c_57_4,1
+20150708_qep1_lc7_phge_sa_plate1c_57_5,1
+20150708_qep1_lc7_phge_sa_plate1c_57_6,1
+20150708_qep1_lc7_phge_sa_plate1c_57_7,1
+20150805_qep1_lc7_phge_sa_plate1d_57_1,1
+20150805_qep1_lc7_phge_sa_plate1d_57_2,1
+20150805_qep1_lc7_phge_sa_plate1d_57_3,1
+20150805_qep1_lc7_phge_sa_plate1d_57_4,1
+20150805_qep1_lc7_phge_sa_plate1d_57_5,1
+20150805_qep1_lc7_phge_sa_plate1d_57_6,1
+20150805_qep1_lc7_phge_sa_plate1d_57_7,1
+20150901_qep1_lc7_phge_sa_plate1e_57_1,1
+20150901_qep1_lc7_phge_sa_plate1e_57_2,1
+20150901_qep1_lc7_phge_sa_plate1e_57_3,1
+20150901_qep1_lc7_phge_sa_plate1e_57_4,1
+20150901_qep1_lc7_phge_sa_plate1e_57_5,1
+20150901_qep1_lc7_phge_sa_plate1e_57_6,1
+20150901_qep1_lc7_phge_sa_plate1e_57_7,1
+20150731_qep1_lc7_phge_sa_plate4b_58_1,1
+20150731_qep1_lc7_phge_sa_plate4b_58_2,1
+20150731_qep1_lc7_phge_sa_plate4b_58_3,1
+20150731_qep1_lc7_phge_sa_plate4b_58_4,1
+20150731_qep1_lc7_phge_sa_plate4b_58_5,1
+20150731_qep1_lc7_phge_sa_plate4b_58_6,1
+20150731_qep1_lc7_phge_sa_plate4b_58_7,1
+20150731_qep1_lc7_phge_sa_plate4e_58_1,1
+20150731_qep1_lc7_phge_sa_plate4e_58_2,1
+20150731_qep1_lc7_phge_sa_plate4e_58_3,1
+20150731_qep1_lc7_phge_sa_plate4e_58_4,1
+20150731_qep1_lc7_phge_sa_plate4e_58_5,1
+20150731_qep1_lc7_phge_sa_plate4e_58_6,1
+20150731_qep1_lc7_phge_sa_plate4e_58_7,1
+20150824_qep1_lc7_phge_sa_plate4d_58_1,1
+20150824_qep1_lc7_phge_sa_plate4d_58_2,1
+20150824_qep1_lc7_phge_sa_plate4d_58_3,1
+20150824_qep1_lc7_phge_sa_plate4d_58_4,1
+20150824_qep1_lc7_phge_sa_plate4d_58_5,1
+20150824_qep1_lc7_phge_sa_plate4d_58_6,1
+20150824_qep1_lc7_phge_sa_plate4d_58_7,1
+20150917_qep1_lc7_phge_sa_plate4c_58_1,1
+20150917_qep1_lc7_phge_sa_plate4c_58_2,1
+20150917_qep1_lc7_phge_sa_plate4c_58_3,1
+20150917_qep1_lc7_phge_sa_plate4c_58_4,1
+20150917_qep1_lc7_phge_sa_plate4c_58_5,1
+20150917_qep1_lc7_phge_sa_plate4c_58_6,1
+20150917_qep1_lc7_phge_sa_plate4c_58_7,1
+20150917_qep1_lc8_phge_sa_doubletop14_f1_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_f1_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_f1_3,1
+20150917_qep1_lc8_phge_sa_doubletop14_f2_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_f2_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_f2_3,1
+20150917_qep1_lc8_phge_sa_doubletop14_f3_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_f3_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_f3_3,1
+20150917_qep1_lc8_phge_sa_doubletop14_m1_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_m1_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_m1_3,1
+20150917_qep1_lc8_phge_sa_doubletop14_m2_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_m2_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_m2_3,1
+20150917_qep1_lc8_phge_sa_doubletop14_m3_1,1
+20150917_qep1_lc8_phge_sa_doubletop14_m3_2,1
+20150917_qep1_lc8_phge_sa_doubletop14_m3_3,1
+first_pool_1,1
+first_pool_9,1
+first_pool_17,1
+first_pool_25,1
+first_pool_33,1
+first_pool_41,1
+first_pool_120,1
+first_pool_2,1
+first_pool_10,1
+first_pool_18,1
+first_pool_26,1
+first_pool_34,1
+first_pool_42,1
+first_pool_121,1
+first_pool_3,1
+first_pool_11,1
+first_pool_19,1
+first_pool_27,1
+first_pool_35,1
+first_pool_122,1
+first_pool_4,1
+first_pool_12,1
+first_pool_20,1
+first_pool_28,1
+first_pool_36,1
+first_pool_123,1
+first_pool_5,1
+first_pool_13,1
+first_pool_21,1
+first_pool_29,1
+first_pool_37,1
+first_pool_6,1
+first_pool_14,1
+first_pool_22,1
+first_pool_30,1
+first_pool_38,1
+first_pool_7,1
+first_pool_15,1
+first_pool_23,1
+first_pool_31,1
+first_pool_39,1
+first_pool_8,1
+first_pool_16,1
+first_pool_24,1
+first_pool_32,1
+first_pool_40,1
+SRM_Pool_33,1
+SRM_Pool_34,1
+SRM_Pool_35,1
+SRM_Pool_36,1
+SRM_Pool_37,1
+SRM_Pool_38,1
+SRM_Pool_39,1
+SRM_Pool_40,1
+SRM_Pool_1,1
+SRM_Pool_73,1
+SRM_Pool_81,1
+SRM_Pool_89,1
+SRM_Pool_9,1
+SRM_Pool_17,1
+SRM_Pool_25,1
+SRM_Pool_41,1
+SRM_Pool_49,1
+SRM_Pool_57,1
+SRM_Pool_65,1
+SRM_Pool_2,1
+SRM_Pool_74,1
+SRM_Pool_82,1
+SRM_Pool_90,1
+SRM_Pool_10,1
+SRM_Pool_18,1
+SRM_Pool_26,1
+SRM_Pool_42,1
+SRM_Pool_50,1
+SRM_Pool_58,1
+SRM_Pool_66,1
+SRM_Pool_3,1
+SRM_Pool_75,1
+SRM_Pool_83,1
+SRM_Pool_91,1
+SRM_Pool_11,1
+SRM_Pool_19,1
+SRM_Pool_27,1
+SRM_Pool_43,1
+SRM_Pool_51,1
+SRM_Pool_59,1
+SRM_Pool_67,1
+SRM_Pool_4,1
+SRM_Pool_76,1
+SRM_Pool_84,1
+SRM_Pool_92,1
+SRM_Pool_12,1
+SRM_Pool_20,1
+SRM_Pool_28,1
+SRM_Pool_44,1
+SRM_Pool_52,1
+SRM_Pool_60,1
+SRM_Pool_68,1
+SRM_Pool_5,1
+SRM_Pool_77,1
+SRM_Pool_85,1
+SRM_Pool_93,1
+SRM_Pool_13,1
+SRM_Pool_21,1
+SRM_Pool_29,1
+SRM_Pool_45,1
+SRM_Pool_53,1
+SRM_Pool_61,1
+SRM_Pool_69,1
+SRM_Pool_6,1
+SRM_Pool_78,1
+SRM_Pool_86,1
+SRM_Pool_94,1
+SRM_Pool_14,1
+SRM_Pool_30,1
+SRM_Pool_46,1
+SRM_Pool_54,1
+SRM_Pool_62,1
+SRM_Pool_70,1
+SRM_Pool_7,1
+SRM_Pool_79,1
+SRM_Pool_87,1
+SRM_Pool_95,1
+SRM_Pool_15,1
+SRM_Pool_31,1
+SRM_Pool_47,1
+SRM_Pool_55,1
+SRM_Pool_63,1
+SRM_Pool_71,1
+SRM_Pool_8,1
+SRM_Pool_80,1
+SRM_Pool_88,1
+SRM_Pool_96,1
+SRM_Pool_16,1
+SRM_Pool_24,1
+SRM_Pool_32,1
+SRM_Pool_48,1
+SRM_Pool_56,1
+SRM_Pool_64,1
+SRM_Pool_72,1
+SRM_Pool_23,1
+SRM_Pool_22,1
+first_pool_43,1
+first_pool_51,1
+first_pool_59,1
+first_pool_67,1
+first_pool_75,1
+first_pool_83,1
+first_pool_91,1
+first_pool_44,1
+first_pool_52,1
+first_pool_60,1
+first_pool_68,1
+first_pool_76,1
+first_pool_84,1
+first_pool_92,1
+first_pool_45,1
+first_pool_53,1
+first_pool_61,1
+first_pool_69,1
+first_pool_77,1
+first_pool_85,1
+first_pool_93,1
+first_pool_46,1
+first_pool_54,1
+first_pool_62,1
+first_pool_70,1
+first_pool_78,1
+first_pool_86,1
+first_pool_94,1
+first_pool_47,1
+first_pool_55,1
+first_pool_63,1
+first_pool_71,1
+first_pool_79,1
+first_pool_87,1
+first_pool_95,1
+first_pool_48,1
+first_pool_56,1
+first_pool_64,1
+first_pool_72,1
+first_pool_80,1
+first_pool_88,1
+first_pool_96,1
+first_pool_49,1
+first_pool_57,1
+first_pool_65,1
+first_pool_73,1
+first_pool_81,1
+first_pool_89,1
+first_pool_97,1
+first_pool_50,1
+first_pool_58,1
+first_pool_66,1
+first_pool_74,1
+first_pool_82,1
+first_pool_90,1
+first_pool_98,1
+first_pool_99,1
+first_pool_107,1
+first_pool_115,1
+first_pool_124,1
+second_pool_1,1
+first_pool_100,1
+first_pool_108,1
+first_pool_116,1
+first_pool_125,1
+second_pool_2,1
+first_pool_101,1
+first_pool_109,1
+first_pool_117,1
+first_pool_126,1
+second_pool_3,1
+first_pool_102,1
+first_pool_110,1
+first_pool_118,1
+second_pool_4,1
+first_pool_103,1
+first_pool_111,1
+first_pool_119,1
+second_pool_5,1
+first_pool_104,1
+first_pool_112,1
+second_pool_6,1
+first_pool_105,1
+first_pool_113,1
+first_pool_106,1
+first_pool_114,1
+second_pool_13,1
+second_pool_21,1
+second_pool_29,1
+second_pool_37,1
+second_pool_14,1
+second_pool_22,1
+second_pool_30,1
+second_pool_38,1
+second_pool_15,1
+second_pool_23,1
+second_pool_31,1
+second_pool_39,1
+second_pool_16,1
+second_pool_24,1
+second_pool_32,1
+second_pool_40,1
+second_pool_17,1
+second_pool_25,1
+second_pool_33,1
+second_pool_41,1
+second_pool_18,1
+second_pool_26,1
+second_pool_34,1
+second_pool_42,1
+second_pool_19,1
+second_pool_27,1
+second_pool_35,1
+second_pool_20,1
+second_pool_28,1
+second_pool_36,1
+second_pool_7,1
+second_pool_43,1
+second_pool_51,1
+second_pool_59,1
+second_pool_8,1
+second_pool_44,1
+second_pool_52,1
+second_pool_60,1
+second_pool_9,1
+second_pool_45,1
+second_pool_53,1
+second_pool_61,1
+second_pool_10,1
+second_pool_46,1
+second_pool_54,1
+second_pool_62,1
+second_pool_11,1
+second_pool_47,1
+second_pool_55,1
+second_pool_63,1
+second_pool_12,1
+second_pool_48,1
+second_pool_56,1
+second_pool_64,1
+second_pool_49,1
+second_pool_57,1
+second_pool_65,1
+second_pool_50,1
+second_pool_58,1
+second_pool_66,1
+second_pool_67,1
+second_pool_75,1
+second_pool_83,1
+second_pool_97,1
+second_pool_68,1
+second_pool_76,1
+second_pool_84,1
+second_pool_98,1
+second_pool_69,1
+second_pool_77,1
+second_pool_99,1
+second_pool_70,1
+second_pool_78,1
+second_pool_100,1
+second_pool_71,1
+second_pool_79,1
+second_pool_72,1
+second_pool_80,1
+second_pool_73,1
+second_pool_74,1
+second_pool_82,1
+second_pool_81,1
+second_pool_85,1
+third_pool_1,1
+second_pool_86,1
+third_pool_2,1
+second_pool_87,1
+third_pool_5,1
+second_pool_88,1
+third_pool_6,1
+second_pool_89,1
+second_pool_90,1
+second_pool_91,1
+second_pool_92,1
+second_pool_101,1
+third_pool_3,1
+second_pool_102,1
+third_pool_4,1
+second_pool_103,1
+second_pool_104,1
+second_pool_93,1
+second_pool_105,1
+second_pool_94,1
+second_pool_106,1
+second_pool_95,1
+second_pool_107,1
+second_pool_96,1
+second_pool_108,1
+second_pool_109,1
+second_pool_117,1
+second_pool_131,1
+second_pool_110,1
+second_pool_118,1
+second_pool_111,1
+second_pool_119,1
+second_pool_112,1
+second_pool_120,1
+second_pool_113,1
+second_pool_121,1
+second_pool_114,1
+second_pool_122,1
+second_pool_115,1
+second_pool_116,1
+second_pool_123,1
+second_pool_132,1
+second_pool_124,1
+second_pool_133,1
+second_pool_125,1
+second_pool_134,1
+second_pool_126,1
+second_pool_135,1
+second_pool_127,1
+second_pool_136,1
+second_pool_128,1
+second_pool_137,1
+second_pool_129,1
+second_pool_130,1
+qep15-3136,1
+qep15-3137,1
+qep15-3138,1
+qep15-3139,1
+qep15-3140,1
+qep15-3141,1
+qep15-3142,1
+qep15-3143,1
+qep15-3144,1
+qep15-3145,1
+qep15-3146,1
+qep15-3147,1
+qep15-3148,1
+qep15-3149,1
+qep15-3150,1
+qep15-3538,1
+qep15-3539,1
+qep15-3540,1
+qep15-3541,1
+qep15-3542,1
+qep15-3543,1
+qep15-3544,1
+qep15-3545,1
+qep15-3546,1
+qep15-3547,1
+qep15-3548,1
+qep15-3549,1
+qep15-3550,1
+qep15-3551,1
+qep15-3552,1
+qep15-3558,1
+qep15-3559,1
+qep15-3560,1
+qep15-3561,1
+qep15-3562,1
+qep15-3563,1
+qep15-3564,1
+qep15-3565,1
+qep15-3566,1
+qep15-3567,1
+qep15-3568,1
+qep15-3569,1
+qep15-3570,1
+qep15-3571,1
+qep15-3572,1
+qep15-3578,1
+qep15-3579,1
+qep15-3580,1
+qep15-3581,1
+qep15-3582,1
+qep15-3583,1
+qep15-3584,1
+qep15-3585,1
+qep15-3586,1
+qep15-3587,1
+qep15-3588,1
+qep15-3589,1
+qep15-3590,1
+qep15-3591,1
+qep15-3592,1
+qep15-3598,1
+qep15-3599,1
+qep15-3600,1
+qep15-3601,1
+qep15-3602,1
+qep15-3603,1
+qep15-3604,1
+qep15-3605,1
+qep15-3606,1
+qep15-3607,1
+qep15-3608,1
+qep15-3609,1
+qep15-3610,1
+qep15-3611,1
+qep15-3612,1
+qep15-3618,1
+qep15-3619,1
+qep15-3620,1
+qep15-3621,1
+qep15-3622,1
+qep15-3623,1
+qep15-3624,1
+qep15-3625,1
+qep15-3626,1
+qep15-3627,1
+qep15-3628,1
+qep15-3629,1
+qep15-3630,1
+qep15-3631,1
+qep15-3632,1
+qep15-3638,1
+qep15-3639,1
+qep15-3640,1
+qep15-3641,1
+qep15-3642,1
+qep15-3643,1
+qep15-3644,1
+qep15-3645,1
+qep15-3646,1
+qep15-3647,1
+qep15-3648,1
+qep15-3649,1
+qep15-3650,1
+qep15-3651,1
+qep15-3652,1
+qep16-2746_amydev,1
+qep16-2146_cbcd,1
+qep16-1970_dfcd,1
+qep16-2081_hipd,1
+qep16-2005_mdd,1
+qep16-2035_strd,1
+qep16-2116_v1cd,1
+qep16-2761_amydev,1
+qep16-2731_amydev,1
+qep16-2736_amydev,1
+qep16-2141_cbcd,1
+qep16-1965_dfcd,1
+qep16-2076_hipd,1
+qep16-2000_mdd,1
+qep16-2030_strd,1
+qep16-2111_v1cd,1
+qep15-2554_amy,1
+qep15-2606_cbc,1
+qep15-2580_dfc,1
+qep15-2713_hip,1
+qep15-2788_str,1
+qep15-2826_v1c,1
+qep15-2558_amy,1
+qep15-2618_cbc,1
+qep15-2592_dfc,1
+qep15-2717_hip,1
+qep15-2738_md,1
+qep15-2792_str,1
+qep15-2830_v1c,1
+qep16-2131_cbcd,1
+qep16-1955_dfcd,1
+qep16-2055_hipd,1
+qep16-1985_mdd,1
+qep16-2020_strd,1
+qep16-2096_v1cd,1
+qep15-2562_amy,1
+qep15-2610_cbc,1
+qep15-2584_dfc,1
+qep15-2721_hip,1
+qep15-2742_md,1
+qep15-2796_str,1
+qep15-2834_v1c,1
+qep15-2566_amy,1
+qep15-2622_cbc,1
+qep15-2596_dfc,1
+qep15-2725_hip,1
+qep15-2746_md,1
+qep15-2800_str,1
+qep15-2838_v1c,1
+qep16-2151_cbcd,1
+qep16-1975_dfcd,1
+qep16-2086_hipd,1
+qep16-2010_mdd,1
+qep16-2040_strd,1
+qep16-2121_v1cd,1
+qep16-2136_cbcd,1
+qep16-1960_dfcd,1
+qep16-2060_hipd,1
+qep16-1990_mdd,1
+qep16-2025_strd,1
+qep16-2101_v1cd,1
+qep16-2126_cbcd,1
+qep16-1950_dfcd,1
+qep16-2050_hipd,1
+qep16-1980_mdd,1
+qep16-2015_strd,1
+qep16-2091_v1cd,1
+qep15-2570_amy,1
+qep15-2614_cbc,1
+qep15-2588_dfc,1
+qep15-2729_hip,1
+qep15-2750_md,1
+qep15-2804_str,1
+qep15-2842_v1c,1
+qep16-2741_amydev,1
+qep16-2751_amydev,1
+qep16-2756_amydev,1
+qep16-2156_con3,1
+qep15-2822_con,1
+qep16-2771_con,1
+qep15-2550_con,1
+qep15-2734_con,1
+qep15-2709_con,1
+qep16-2726_con,1
+qep16-2106_con3,1
+qep15-2784_con,1
+qep15-2602_con,1
+qep15-2576_con,1
+qep16-2045_con3,1
+qep16-1995_con3,1
+qep16-2766_amydev,1
+not available,1
+20170322_MH_SA_PD1_18_1,1
+20170322_MH_SA_PD1_18_2,1
+20170322_MH_SA_PD1_18_3,1
+20170322_MH_SA_PD1_18_4,1
+20170322_MH_SA_PD1_18_5,1
+20170322_MH_SA_PD1_23_1,1
+20170322_MH_SA_PD1_23_2,1
+20170322_MH_SA_PD1_23_3,1
+20170322_MH_SA_PD1_23_4,1
+20170322_MH_SA_PD1_23_5,1
+20170322_MH_SA_PD1_28_1,1
+20170322_MH_SA_PD1_28_2,1
+20170322_MH_SA_PD1_28_3,1
+20170322_MH_SA_PD1_28_4,1
+20170322_MH_SA_PD1_28_5,1
+20170322_SA_MH_PD1_15_1,1
+20170322_SA_MH_PD1_15_2,1
+20170322_SA_MH_PD1_15_3,1
+20170322_SA_MH_PD1_15_4,1
+20170322_SA_MH_PD1_15_5,1
+20170329_MH_SA_PD1_10_1,1
+20170329_MH_SA_PD1_10_2,1
+20170329_MH_SA_PD1_10_3,1
+20170329_MH_SA_PD1_12_1,1
+20170329_MH_SA_PD1_12_2,1
+20170329_MH_SA_PD1_12_3,1
+20170329_MH_SA_PD1_19_1,1
+20170329_MH_SA_PD1_19_2,1
+20170329_MH_SA_PD1_19_3,1
+20170329_MH_SA_PD1_1_1,1
+20170329_MH_SA_PD1_1_2,1
+20170329_MH_SA_PD1_1_3,1
+20170329_MH_SA_PD1_20_1,1
+20170329_MH_SA_PD1_20_2,1
+20170329_MH_SA_PD1_20_3,1
+20170329_MH_SA_PD1_24_1,1
+20170329_MH_SA_PD1_24_2,1
+20170329_MH_SA_PD1_24_3,1
+20170329_MH_SA_PD1_25_1,1
+20170329_MH_SA_PD1_25_2,1
+20170329_MH_SA_PD1_25_3,1
+20170329_MH_SA_PD1_26_1,1
+20170329_MH_SA_PD1_26_2,1
+20170329_MH_SA_PD1_26_3,1
+20170329_MH_SA_PD1_29_1,1
+20170329_MH_SA_PD1_29_2,1
+20170329_MH_SA_PD1_29_3,1
+20170329_MH_SA_PD1_32_1,1
+20170329_MH_SA_PD1_32_2,1
+20170329_MH_SA_PD1_32_3,1
+20170329_MH_SA_PD1_42_1,1
+20170329_MH_SA_PD1_42_2,1
+20170329_MH_SA_PD1_42_3,1
+20170329_MH_SA_PD1_46_1,1
+20170329_MH_SA_PD1_46_2,1
+20170329_MH_SA_PD1_46_3,1
+20170329_MH_SA_PD1_47_1,1
+20170329_MH_SA_PD1_47_2,1
+20170329_MH_SA_PD1_47_3,1
+20170329_MH_SA_PD1_49_1,1
+20170329_MH_SA_PD1_49_2,1
+20170329_MH_SA_PD1_49_3,1
+20170329_MH_SA_PD1_4_1,1
+20170329_MH_SA_PD1_4_2,1
+20170329_MH_SA_PD1_4_3,1
+20170329_MH_SA_PD1_50_1,1
+20170329_MH_SA_PD1_50_2,1
+20170329_MH_SA_PD1_50_3,1
+20170329_MH_SA_PD1_53_1,1
+20170329_MH_SA_PD1_53_2,1
+20170329_MH_SA_PD1_53_3,1
+20170329_MH_SA_PD1_53_4,1
+20170329_MH_SA_PD1_53_5,1
+20170329_MH_SA_PD1_5_1,1
+20170329_MH_SA_PD1_5_2,1
+20170329_MH_SA_PD1_5_3,1
+Animal_20170327_MH_SA_PD1_2_1,1
+Animal_20170327_MH_SA_PD1_2_2,1
+Animal_20170327_MH_SA_PD1_2_3,1
+Animal_20170327_MH_SA_PD1_2_4,1
+Animal_20170327_MH_SA_PD1_2_5,1
+Animal_20170327_MH_SA_PD1_30_1,1
+Animal_20170327_MH_SA_PD1_30_2,1
+Animal_20170327_MH_SA_PD1_30_3,1
+Animal_20170327_MH_SA_PD1_30_4,1
+Animal_20170327_MH_SA_PD1_30_5,1
+Animal_20170327_MH_SA_PD1_51_1,1
+Animal_20170327_MH_SA_PD1_51_2,1
+Animal_20170327_MH_SA_PD1_51_3,1
+Animal_20170327_MH_SA_PD1_51_4,1
+Animal_20170327_MH_SA_PD1_51_5,1
+20130104_MH_TIL_15_11,1
+20130104_MH_TIL_15_3,1
+20130104_MH_TIL_15_4,1
+20130104_MH_TIL_15_5,1
+20130104_MH_TIL_15_6,1
+20130104_MH_TIL_15_8,1
+20130104_MH_TIL_19_11,1
+20130104_MH_TIL_19_3,1
+20130104_MH_TIL_19_4,1
+20130104_MH_TIL_19_5,1
+20130104_MH_TIL_19_6,1
+20130104_MH_TIL_19_8,1
+20130104_MH_TIL_26_11,1
+20130104_MH_TIL_26_3,1
+20130104_MH_TIL_26_4,1
+20130104_MH_TIL_26_5,1
+20130104_MH_TIL_26_6,1
+20130104_MH_TIL_26_8,1
+20130104_MH_TIL_28_11,1
+20130104_MH_TIL_28_3,1
+20130104_MH_TIL_28_4,1
+20130104_MH_TIL_28_5,1
+20130104_MH_TIL_28_8,1
+20130104_MH_TIL_29_11,1
+20130104_MH_TIL_29_3,1
+20130104_MH_TIL_29_4,1
+20130104_MH_TIL_29_5,1
+20130104_MH_TIL_29_6,1
+20130104_MH_TIL_29_8,1
+20130104_MH_TIL_32_11,1
+20130104_MH_TIL_32_3,1
+20130104_MH_TIL_32_4,1
+20130104_MH_TIL_32_5,1
+20130104_MH_TIL_32_6,1
+20130104_MH_TIL_32_8,1
+20130104_MH_TIL_40_11,1
+20130104_MH_TIL_40_3,1
+20130104_MH_TIL_40_4,1
+20130104_MH_TIL_40_5,1
+20130104_MH_TIL_40_6,1
+20130104_MH_TIL_40_8,1
+20130104_MH_TIL_5_11,1
+20130104_MH_TIL_5_3,1
+20130104_MH_TIL_5_4,1
+20130104_MH_TIL_5_5,1
+20130104_MH_TIL_5_6,1
+20130104_MH_TIL_5_8,1
+20130228_MH_TIL-10_11,1
+20130228_MH_TIL-10_3,1
+20130228_MH_TIL-10_4,1
+20130228_MH_TIL-10_5,1
+20130228_MH_TIL-10_6,1
+20130228_MH_TIL-10_8,1
+20130228_MH_TIL-11_11,1
+20130228_MH_TIL-11_3,1
+20130228_MH_TIL-11_4,1
+20130228_MH_TIL-11_5,1
+20130228_MH_TIL-11_6,1
+20130228_MH_TIL-11_8,1
+20130228_MH_TIL-12_11,1
+20130228_MH_TIL-12_3,1
+20130228_MH_TIL-12_4,1
+20130228_MH_TIL-12_5,1
+20130228_MH_TIL-12_6,1
+20130228_MH_TIL-12_8,1
+20130228_MH_TIL-13_11,1
+20130228_MH_TIL-13_3,1
+20130228_MH_TIL-13_4,1
+20130228_MH_TIL-13_5,1
+20130228_MH_TIL-13_6,1
+20130228_MH_TIL-13_8,1
+20130228_MH_TIL-14_11,1
+20130228_MH_TIL-14_3,1
+20130228_MH_TIL-14_4,1
+20130228_MH_TIL-14_5,1
+20130228_MH_TIL-14_6,1
+20130228_MH_TIL-14_8,1
+20130228_MH_TIL-16_11,1
+20130228_MH_TIL-16_3,1
+20130228_MH_TIL-16_4,1
+20130228_MH_TIL-16_5,1
+20130228_MH_TIL-16_6,1
+20130228_MH_TIL-16_8,1
+20130228_MH_TIL-17_11,1
+20130228_MH_TIL-17_3,1
+20130228_MH_TIL-17_4,1
+20130228_MH_TIL-17_5,1
+20130228_MH_TIL-17_6,1
+20130228_MH_TIL-17_8,1
+20130228_MH_TIL-1_11,1
+20130228_MH_TIL-1_3,1
+20130228_MH_TIL-1_4,1
+20130228_MH_TIL-1_5,1
+20130228_MH_TIL-1_6,1
+20130228_MH_TIL-1_8,1
+20130228_MH_TIL-20_11,1
+20130228_MH_TIL-20_3,1
+20130228_MH_TIL-20_4,1
+20130228_MH_TIL-20_5,1
+20130228_MH_TIL-20_6,1
+20130228_MH_TIL-20_8,1
+20130228_MH_TIL-21_11,1
+20130228_MH_TIL-21_3,1
+20130228_MH_TIL-21_4,1
+20130228_MH_TIL-21_5,1
+20130228_MH_TIL-21_6,1
+20130228_MH_TIL-21_8,1
+20130228_MH_TIL-22_11,1
+20130228_MH_TIL-22_3,1
+20130228_MH_TIL-22_4,1
+20130228_MH_TIL-22_5,1
+20130228_MH_TIL-22_6,1
+20130228_MH_TIL-22_8,1
+20130228_MH_TIL-23_11,1
+20130228_MH_TIL-23_3,1
+20130228_MH_TIL-23_4,1
+20130228_MH_TIL-23_5,1
+20130228_MH_TIL-23_6,1
+20130228_MH_TIL-23_8,1
+20130228_MH_TIL-24_11,1
+20130228_MH_TIL-24_3,1
+20130228_MH_TIL-24_4,1
+20130228_MH_TIL-24_5,1
+20130228_MH_TIL-24_6,1
+20130228_MH_TIL-24_8,1
+20130228_MH_TIL-27_11,1
+20130228_MH_TIL-27_3,1
+20130228_MH_TIL-27_4,1
+20130228_MH_TIL-27_5,1
+20130228_MH_TIL-27_6,1
+20130228_MH_TIL-27_8,1
+20130228_MH_TIL-2_11,1
+20130228_MH_TIL-2_3,1
+20130228_MH_TIL-2_4,1
+20130228_MH_TIL-2_5,1
+20130228_MH_TIL-2_6,1
+20130228_MH_TIL-2_8,1
+20130228_MH_TIL-34_11,1
+20130228_MH_TIL-34_3,1
+20130228_MH_TIL-34_4,1
+20130228_MH_TIL-34_5,1
+20130228_MH_TIL-34_6,1
+20130228_MH_TIL-34_8,1
+20130228_MH_TIL-35_11,1
+20130228_MH_TIL-35_3,1
+20130228_MH_TIL-35_4,1
+20130228_MH_TIL-35_5,1
+20130228_MH_TIL-35_6,1
+20130228_MH_TIL-35_8,1
+20130228_MH_TIL-36_11,1
+20130228_MH_TIL-36_3,1
+20130228_MH_TIL-36_4,1
+20130228_MH_TIL-36_5,1
+20130228_MH_TIL-36_6,1
+20130228_MH_TIL-36_8,1
+20130228_MH_TIL-37_11,1
+20130228_MH_TIL-37_3,1
+20130228_MH_TIL-37_4,1
+20130228_MH_TIL-37_5,1
+20130228_MH_TIL-37_6,1
+20130228_MH_TIL-37_8,1
+20130228_MH_TIL-38_11,1
+20130228_MH_TIL-38_3,1
+20130228_MH_TIL-38_4,1
+20130228_MH_TIL-38_5,1
+20130228_MH_TIL-38_6,1
+20130228_MH_TIL-38_8,1
+20130228_MH_TIL-39_11,1
+20130228_MH_TIL-39_3,1
+20130228_MH_TIL-39_4,1
+20130228_MH_TIL-39_5,1
+20130228_MH_TIL-39_6,1
+20130228_MH_TIL-39_8,1
+20130228_MH_TIL-3_11,1
+20130228_MH_TIL-3_3,1
+20130228_MH_TIL-3_4,1
+20130228_MH_TIL-3_5,1
+20130228_MH_TIL-3_6,1
+20130228_MH_TIL-3_8,1
+20130228_MH_TIL-4_11,1
+20130228_MH_TIL-4_3,1
+20130228_MH_TIL-4_4,1
+20130228_MH_TIL-4_5,1
+20130228_MH_TIL-4_6,1
+20130228_MH_TIL-4_8,1
+20130228_MH_TIL-6_11,1
+20130228_MH_TIL-6_3,1
+20130228_MH_TIL-6_4,1
+20130228_MH_TIL-6_5,1
+20130228_MH_TIL-6_6,1
+20130228_MH_TIL-6_8,1
+20130228_MH_TIL-7_11,1
+20130228_MH_TIL-7_3,1
+20130228_MH_TIL-7_4,1
+20130228_MH_TIL-7_5,1
+20130228_MH_TIL-7_6,1
+20130228_MH_TIL-7_8,1
+20130228_MH_TIL-8_11,1
+20130228_MH_TIL-8_3,1
+20130228_MH_TIL-8_4,1
+20130228_MH_TIL-8_5,1
+20130228_MH_TIL-8_6,1
+20130228_MH_TIL-8_8,1
+20130228_MH_TIL-9_11,1
+20130228_MH_TIL-9_3,1
+20130228_MH_TIL-9_4,1
+20130228_MH_TIL-9_5,1
+20130228_MH_TIL-9_6,1
+20130228_MH_TIL-9_8,1
+20140416_MH_TIL_18_11,1
+20140416_MH_TIL_18_3,1
+20140416_MH_TIL_18_4,1
+20140416_MH_TIL_18_5,1
+20140416_MH_TIL_18_6,1
+20140416_MH_TIL_18_8,1
+20140416_MH_TIL_30_11,1
+20140416_MH_TIL_30_3,1
+20140416_MH_TIL_30_4,1
+20140416_MH_TIL_30_5,1
+20140416_MH_TIL_30_6,1
+20140416_MH_TIL_30_8,1
+20140429_MH_TIL_31_11,1
+20140429_MH_TIL_31_3,1
+20140429_MH_TIL_31_4,1
+20140429_MH_TIL_31_5,1
+20140429_MH_TIL_31_6,1
+20140429_MH_TIL_31_8,1
+20140429_MH_TIL_34_2_11,1
+20140429_MH_TIL_34_2_3,1
+20140429_MH_TIL_34_2_4,1
+20140429_MH_TIL_34_2_5,1
+20140429_MH_TIL_34_2_6,1
+20140429_MH_TIL_34_2_8,1
+20140429_MH_TIL_36_2_11,1
+20140429_MH_TIL_36_2_3,1
+20140429_MH_TIL_36_2_4,1
+20140429_MH_TIL_36_2_5,1
+20140429_MH_TIL_36_2_6,1
+20140429_MH_TIL_36_2_8,1
+20140429_MH_TIL_39_2_11,1
+20140429_MH_TIL_39_2_3,1
+20140429_MH_TIL_39_2_4,1
+20140429_MH_TIL_39_2_5,1
+20140429_MH_TIL_39_2_6,1
+20140429_MH_TIL_39_2_8,1
+20140429_MH_TIL_40_2_11,1
+20140429_MH_TIL_40_2_3,1
+20140429_MH_TIL_40_2_4,1
+20140429_MH_TIL_40_2_5,1
+20140429_MH_TIL_40_2_6,1
+20140429_MH_TIL_40_2_8,1
+20140429_MH_TIL_42_11,1
+20140429_MH_TIL_42_3,1
+20140429_MH_TIL_42_4,1
+20140429_MH_TIL_42_5,1
+20140429_MH_TIL_42_6,1
+20140429_MH_TIL_42_8,1
+20140429_MH_TIL_43_11,1
+20140429_MH_TIL_43_3,1
+20140429_MH_TIL_43_4,1
+20140429_MH_TIL_43_5,1
+20140429_MH_TIL_43_6,1
+20140429_MH_TIL_43_8,1
+20140429_MH_TIL_44_11,1
+20140429_MH_TIL_44_3,1
+20140429_MH_TIL_44_4,1
+20140429_MH_TIL_44_5,1
+20140429_MH_TIL_44_6,1
+20140429_MH_TIL_44_8,1
+20140429_MH_TIL_65_11,1
+20140429_MH_TIL_65_3,1
+20140429_MH_TIL_65_4,1
+20140429_MH_TIL_65_5,1
+20140429_MH_TIL_65_6,1
+20140429_MH_TIL_65_8,1
+Animal_20180627_MH_SA_PD1_56_1,1
+Animal_20180627_MH_SA_PD1_56_2,1
+Animal_20180627_MH_SA_PD1_56_3,1
+Animal_20180627_MH_SA_PD1_56_4,1
+Animal_20180627_MH_SA_PD1_56_5,1
+Animal_20180627_MH_SA_PD1_59_1,1
+Animal_20180627_MH_SA_PD1_59_2,1
+Animal_20180627_MH_SA_PD1_59_3,1
+Animal_20180627_MH_SA_PD1_59_4,1
+Animal_20180627_MH_SA_PD1_64_1,1
+Animal_20180627_MH_SA_PD1_64_2,1
+Animal_20180627_MH_SA_PD1_64_3,1
+Animal_20180627_MH_SA_PD1_64_4,1
+Animal_20180627_MH_SA_PD1_64_5,1
+Animal_20180627_MH_SA_PD1_65_1,1
+Animal_20180627_MH_SA_PD1_65_2,1
+Animal_20180627_MH_SA_PD1_65_3,1
+Animal_20180627_MH_SA_PD1_65_4,1
+Animal_20180627_MH_SA_PD1_65_5,1
+Animal_20180705_MH_SA_PD1_54_1,1
+Animal_20180705_MH_SA_PD1_54_2,1
+Animal_20180705_MH_SA_PD1_54_3,1
+Animal_20180705_MH_SA_PD1_54_4,1
+Animal_20180705_MH_SA_PD1_54_5,1
+Animal_20180705_MH_SA_PD1_55_1,1
+Animal_20180705_MH_SA_PD1_55_2,1
+Animal_20180705_MH_SA_PD1_55_3,1
+Animal_20180705_MH_SA_PD1_55_4,1
+Animal_20180705_MH_SA_PD1_55_5,1
+Animal_20180709_MH_SA_PD1_57_1,1
+Animal_20180709_MH_SA_PD1_57_2,1
+Animal_20180709_MH_SA_PD1_57_3,1
+Animal_20180709_MH_SA_PD1_57_4,1
+Animal_20180709_MH_SA_PD1_57_5,1
+Animal_20180709_MH_SA_PD1_59_1,1
+Animal_20180709_MH_SA_PD1_59_2,1
+Animal_20180709_MH_SA_PD1_59_3,1
+Animal_20180709_MH_SA_PD1_59_4,1
+Animal_20180709_MH_SA_PD1_59_5,1
+Animal_20180709_MH_SA_PD1_60_1,1
+Animal_20180709_MH_SA_PD1_60_2,1
+Animal_20180709_MH_SA_PD1_60_3,1
+Animal_20180709_MH_SA_PD1_60_4,1
+Animal_20180709_MH_SA_PD1_60_5,1
+Animal_20180709_MH_SA_PD1_61_1,1
+Animal_20180709_MH_SA_PD1_61_2,1
+Animal_20180709_MH_SA_PD1_61_3,1
+Animal_20180709_MH_SA_PD1_61_4,1
+Animal_20180709_MH_SA_PD1_62_1,1
+Animal_20180709_MH_SA_PD1_62_2,1
+Animal_20180709_MH_SA_PD1_62_3,1
+Animal_20180709_MH_SA_PD1_62_4,1
+Animal_20180709_MH_SA_PD1_63_1,1
+Animal_20180709_MH_SA_PD1_63_2,1
+Animal_20180709_MH_SA_PD1_63_3,1
+Animal_20180709_MH_SA_PD1_63_4,1
+Animal_20180709_MH_SA_PD1_63_5,1
+Animal_20180709_MH_SA_PD1_66_1,1
+Animal_20180709_MH_SA_PD1_66_2,1
+Animal_20180709_MH_SA_PD1_66_3,1
+Animal_20180709_MH_SA_PD1_66_4,1
+Animal_20180709_MH_SA_PD1_66_5,1
+Animal_20180726_SA_MH_PD1_68_1,1
+Animal_20180726_SA_MH_PD1_68_2,1
+Animal_20180726_SA_MH_PD1_68_3,1
+Animal_20180726_SA_MH_PD1_68_4,1
+Animal_20180726_SA_MH_PD1_68_5,1
+Animal_20180726_SA_MH_PD1_69_1,1
+Animal_20180726_SA_MH_PD1_69_2,1
+Animal_20180726_SA_MH_PD1_70_2,1
+Animal_20180726_SA_MH_PD1_73_1,1
+Animal_20180726_SA_MH_PD1_73_2,1
+Animal_20180726_SA_MH_PD1_73_3,1
+Animal_20180726_SA_MH_PD1_73_4,1
+Animal_20180726_SA_MH_PD1_73_5,1
+Animal_20180726_SA_MH_PD1_76_1,1
+Animal_20180726_SA_MH_PD1_76_2,1
+Animal_20180726_SA_MH_PD1_76_3,1
+Animal_20180726_SA_MH_PD1_76_4,1
+Animal_20180726_SA_MH_PD1_76_5,1
+Animal_20180726_SA_MH_PD1_79_1,1
+Animal_20180726_SA_MH_PD1_79_2,1
+Animal_20180726_SA_MH_PD1_79_3,1
+Animal_20180726_SA_MH_PD1_79_4,1
+Animal_20180726_SA_MH_PD1_79_5,1
+Animal_20180726_SA_MH_PD1_83_1,1
+Animal_20180726_SA_MH_PD1_83_2,1
+Animal_20180726_SA_MH_PD1_83_3,1
+Animal_20180726_SA_MH_PD1_83_4,1
+Animal_20180726_SA_MH_PD1_83_5,1
+Animal_20180726_SA_MH_PD1_84_1,1
+Animal_20180726_SA_MH_PD1_84_2,1
+Animal_20180726_SA_MH_PD1_84_3,1
+Animal_20180726_SA_MH_PD1_84_4,1
+Animal_20180726_SA_MH_PD1_84_5,1
+Animal_20180902_SA_MH_PD1_67_1,1
+Animal_20180902_SA_MH_PD1_67_2,1
+Animal_20180902_SA_MH_PD1_67_3,1
+Animal_20180902_SA_MH_PD1_67_4,1
+Animal_20180902_SA_MH_PD1_67_5,1
+Animal_20180902_SA_MH_PD1_69_1,1
+Animal_20180902_SA_MH_PD1_69_2,1
+Animal_20180902_SA_MH_PD1_69_3,1
+Animal_20180902_SA_MH_PD1_69_4,1
+Animal_20180902_SA_MH_PD1_69_5,1
+Animal_20180902_SA_MH_PD1_70_1,1
+Animal_20180902_SA_MH_PD1_70_2,1
+Animal_20180902_SA_MH_PD1_70_3,1
+Animal_20180902_SA_MH_PD1_70_4,1
+Animal_20180902_SA_MH_PD1_70_5,1
+Animal_20180902_SA_MH_PD1_71_1,1
+Animal_20180902_SA_MH_PD1_71_2,1
+Animal_20180902_SA_MH_PD1_71_3,1
+Animal_20180902_SA_MH_PD1_71_4,1
+Animal_20180902_SA_MH_PD1_71_5,1
+Animal_20180902_SA_MH_PD1_72_1,1
+Animal_20180902_SA_MH_PD1_72_2,1
+Animal_20180902_SA_MH_PD1_72_3,1
+Animal_20180902_SA_MH_PD1_72_4,1
+Animal_20180902_SA_MH_PD1_72_5,1
+Animal_20180902_SA_MH_PD1_75_1,1
+Animal_20180902_SA_MH_PD1_75_2,1
+Animal_20180902_SA_MH_PD1_75_3,1
+Animal_20180902_SA_MH_PD1_75_4,1
+Animal_20180902_SA_MH_PD1_75_5,1
+Animal_20180902_SA_MH_PD1_77_1,1
+Animal_20180902_SA_MH_PD1_77_2,1
+Animal_20180902_SA_MH_PD1_77_3,1
+Animal_20180902_SA_MH_PD1_77_4,1
+Animal_20180902_SA_MH_PD1_77_5,1
+Animal_20180902_SA_MH_PD1_78_1,1
+Animal_20180902_SA_MH_PD1_78_2,1
+Animal_20180902_SA_MH_PD1_78_3,1
+Animal_20180902_SA_MH_PD1_78_4,1
+Animal_20180902_SA_MH_PD1_78_5,1
+Animal_20180902_SA_MH_PD1_80_1,1
+Animal_20180902_SA_MH_PD1_80_2,1
+Animal_20180902_SA_MH_PD1_80_3,1
+Animal_20180902_SA_MH_PD1_80_4,1
+Animal_20180902_SA_MH_PD1_80_5,1
+Animal_20180902_SA_MH_PD1_82_1,1
+Animal_20180902_SA_MH_PD1_82_2,1
+Animal_20180902_SA_MH_PD1_82_3,1
+Animal_20180902_SA_MH_PD1_82_4,1
+Animal_20180902_SA_MH_PD1_82_5,1
+Animal_20180902_SA_MH_PD1_85_1,1
+Animal_20180902_SA_MH_PD1_85_2,1
+Animal_20180902_SA_MH_PD1_85_3,1
+Animal_20180902_SA_MH_PD1_85_4,1
+Animal_20180902_SA_MH_PD1_85_5,1
+Fozzie_20181008_MH_SA_PD1_82_1,1
+Fozzie_20181008_MH_SA_PD1_82_2,1
+Fozzie_20181008_MH_SA_PD1_82_3,1
+Fozzie_20181008_MH_SA_PD1_82_4,1
+Fozzie_20181008_MH_SA_PD1_82_5,1
+Fozzie_20181008_MH_SA_PD1_85_1,1
+Fozzie_20181008_MH_SA_PD1_85_2,1
+Fozzie_20181008_MH_SA_PD1_85_3,1
+Fozzie_20181008_MH_SA_PD1_85_4,1
+Fozzie_20181008_MH_SA_PD1_85_5,1
+Fozzie_20181010_MH_SA_PD1_55_1,1
+Fozzie_20181010_MH_SA_PD1_55_2,1
+Fozzie_20181010_MH_SA_PD1_55_3,1
+Fozzie_20181010_MH_SA_PD1_55_4,1
+Fozzie_20181010_MH_SA_PD1_55_5,1
+Fozzie_20181010_MH_SA_PD1_64_1,1
+Fozzie_20181010_MH_SA_PD1_64_2,1
+Fozzie_20181010_MH_SA_PD1_64_3,1
+Fozzie_20181010_MH_SA_PD1_64_4,1
+Fozzie_20181010_MH_SA_PD1_64_5,1
+Fozzie_20181010_MH_SA_PD1_67_1,1
+Fozzie_20181010_MH_SA_PD1_67_2,1
+Fozzie_20181010_MH_SA_PD1_67_3,1
+Fozzie_20181010_MH_SA_PD1_67_4,1
+Fozzie_20181010_MH_SA_PD1_67_5,1
+Fozzie_20181010_MH_SA_PD1_69_1,1
+Fozzie_20181010_MH_SA_PD1_69_2,1
+Fozzie_20181010_MH_SA_PD1_69_3,1
+Fozzie_20181010_MH_SA_PD1_69_4,1
+Fozzie_20181010_MH_SA_PD1_69_5,1
+Fozzie_20181010_MH_SA_PD1_70_1,1
+Fozzie_20181010_MH_SA_PD1_70_2,1
+Fozzie_20181010_MH_SA_PD1_70_3,1
+Fozzie_20181010_MH_SA_PD1_70_4,1
+Fozzie_20181010_MH_SA_PD1_70_5,1
+Fozzie_20181010_MH_SA_PD1_71_1,1
+Fozzie_20181010_MH_SA_PD1_71_2,1
+Fozzie_20181010_MH_SA_PD1_71_3,1
+Fozzie_20181010_MH_SA_PD1_71_4,1
+Fozzie_20181010_MH_SA_PD1_71_5,1
+Fozzie_20181010_MH_SA_PD1_72_1,1
+Fozzie_20181010_MH_SA_PD1_72_2,1
+Fozzie_20181010_MH_SA_PD1_72_3,1
+Fozzie_20181010_MH_SA_PD1_72_4,1
+Fozzie_20181010_MH_SA_PD1_72_5,1
+Fozzie_20181010_MH_SA_PD1_75_1,1
+Fozzie_20181010_MH_SA_PD1_75_2,1
+Fozzie_20181010_MH_SA_PD1_75_3,1
+Fozzie_20181010_MH_SA_PD1_75_4,1
+Fozzie_20181010_MH_SA_PD1_75_5,1
+Fozzie_20181010_MH_SA_PD1_77_1,1
+Fozzie_20181010_MH_SA_PD1_77_2,1
+Fozzie_20181010_MH_SA_PD1_77_3,1
+Fozzie_20181010_MH_SA_PD1_77_4,1
+Fozzie_20181010_MH_SA_PD1_77_5,1
+Fozzie_20181010_MH_SA_PD1_78_1,1
+Fozzie_20181010_MH_SA_PD1_78_2,1
+Fozzie_20181010_MH_SA_PD1_78_3,1
+Fozzie_20181010_MH_SA_PD1_78_4,1
+Fozzie_20181010_MH_SA_PD1_78_5,1
+Fozzie_20181010_MH_SA_PD1_80_1,1
+Fozzie_20181010_MH_SA_PD1_80_2,1
+Fozzie_20181010_MH_SA_PD1_80_3,1
+Fozzie_20181010_MH_SA_PD1_80_4,1
+Fozzie_20181010_MH_SA_PD1_80_5,1
+20161101_MH_SA_PD1_1-1,1
+20161101_MH_SA_PD1_1-2,1
+20161101_MH_SA_PD1_1-3,1
+20161101_MH_SA_PD1_1-4,1
+20161101_MH_SA_PD1_1-5,1
+20161101_MH_SA_PD1_10-1,1
+20161101_MH_SA_PD1_10-2,1
+20161101_MH_SA_PD1_10-3,1
+20161101_MH_SA_PD1_10-4,1
+20161101_MH_SA_PD1_10-5,1
+20161101_MH_SA_PD1_12-1,1
+20161101_MH_SA_PD1_12-2,1
+20161101_MH_SA_PD1_12-3,1
+20161101_MH_SA_PD1_12-4,1
+20161101_MH_SA_PD1_12-5,1
+20161101_MH_SA_PD1_19-1,1
+20161101_MH_SA_PD1_19-2,1
+20161101_MH_SA_PD1_19-3,1
+20161101_MH_SA_PD1_19-4,1
+20161101_MH_SA_PD1_19-5,1
+20161101_MH_SA_PD1_20-1,1
+20161101_MH_SA_PD1_20-2,1
+20161101_MH_SA_PD1_20-3,1
+20161101_MH_SA_PD1_20-4,1
+20161101_MH_SA_PD1_20-5,1
+20161101_MH_SA_PD1_24-1,1
+20161101_MH_SA_PD1_24-2,1
+20161101_MH_SA_PD1_24-3,1
+20161101_MH_SA_PD1_24-4,1
+20161101_MH_SA_PD1_24-5,1
+20161101_MH_SA_PD1_25-1,1
+20161101_MH_SA_PD1_25-2,1
+20161101_MH_SA_PD1_25-3,1
+20161101_MH_SA_PD1_25-4,1
+20161101_MH_SA_PD1_25-5,1
+20161101_MH_SA_PD1_29-1,1
+20161101_MH_SA_PD1_29-2,1
+20161101_MH_SA_PD1_29-3,1
+20161101_MH_SA_PD1_29-4,1
+20161101_MH_SA_PD1_29-5,1
+20161101_MH_SA_PD1_32-1,1
+20161101_MH_SA_PD1_32-2,1
+20161101_MH_SA_PD1_32-3,1
+20161101_MH_SA_PD1_32-4,1
+20161101_MH_SA_PD1_32-5,1
+20161101_MH_SA_PD1_36-1,1
+20161101_MH_SA_PD1_36-2,1
+20161101_MH_SA_PD1_36-3,1
+20161101_MH_SA_PD1_36-4,1
+20161101_MH_SA_PD1_36-5,1
+20161101_MH_SA_PD1_4-1,1
+20161101_MH_SA_PD1_4-2,1
+20161101_MH_SA_PD1_4-3,1
+20161101_MH_SA_PD1_4-4,1
+20161101_MH_SA_PD1_4-5,1
+20161101_MH_SA_PD1_42-1,1
+20161101_MH_SA_PD1_42-2,1
+20161101_MH_SA_PD1_42-3,1
+20161101_MH_SA_PD1_42-4,1
+20161101_MH_SA_PD1_42-5,1
+20161101_MH_SA_PD1_46-1,1
+20161101_MH_SA_PD1_46-2,1
+20161101_MH_SA_PD1_46-3,1
+20161101_MH_SA_PD1_46-4,1
+20161101_MH_SA_PD1_46-5,1
+20161101_MH_SA_PD1_47-1,1
+20161101_MH_SA_PD1_47-2,1
+20161101_MH_SA_PD1_47-3,1
+20161101_MH_SA_PD1_47-4,1
+20161101_MH_SA_PD1_47-5_161109155456,1
+20161101_MH_SA_PD1_49-1,1
+20161101_MH_SA_PD1_49-2,1
+20161101_MH_SA_PD1_49-3,1
+20161101_MH_SA_PD1_49-4,1
+20161101_MH_SA_PD1_49-5,1
+20161101_MH_SA_PD1_5-1,1
+20161101_MH_SA_PD1_5-2,1
+20161101_MH_SA_PD1_5-3,1
+20161101_MH_SA_PD1_5-4,1
+20161101_MH_SA_PD1_5-5,1
+20161101_MH_SA_PD1_50-1,1
+20161101_MH_SA_PD1_50-2,1
+20161101_MH_SA_PD1_50-3,1
+20161101_MH_SA_PD1_50-4,1
+20161101_MH_SA_PD1_50-5,1
+20161117_MH_SA_PD1_11-1,1
+20161117_MH_SA_PD1_11-2,1
+20161117_MH_SA_PD1_11-3,1
+20161117_MH_SA_PD1_11-4,1
+20161117_MH_SA_PD1_11-5,1
+20161117_MH_SA_PD1_13-1,1
+20161117_MH_SA_PD1_13-2,1
+20161117_MH_SA_PD1_13-3,1
+20161117_MH_SA_PD1_13-4,1
+20161117_MH_SA_PD1_13-5,1
+20161117_MH_SA_PD1_14-1,1
+20161117_MH_SA_PD1_14-2,1
+20161117_MH_SA_PD1_14-3,1
+20161117_MH_SA_PD1_14-4,1
+20161117_MH_SA_PD1_14-5,1
+20161117_MH_SA_PD1_16-1,1
+20161117_MH_SA_PD1_16-2,1
+20161117_MH_SA_PD1_16-3,1
+20161117_MH_SA_PD1_16-4,1
+20161117_MH_SA_PD1_16-5,1
+20161117_MH_SA_PD1_17-1,1
+20161117_MH_SA_PD1_17-2,1
+20161117_MH_SA_PD1_17-3,1
+20161117_MH_SA_PD1_17-4,1
+20161117_MH_SA_PD1_17-5,1
+20161117_MH_SA_PD1_21-1,1
+20161117_MH_SA_PD1_21-2,1
+20161117_MH_SA_PD1_21-3,1
+20161117_MH_SA_PD1_21-4,1
+20161117_MH_SA_PD1_21-5,1
+20161117_MH_SA_PD1_26-1,1
+20161117_MH_SA_PD1_26-2,1
+20161117_MH_SA_PD1_26-3,1
+20161117_MH_SA_PD1_26-4,1
+20161117_MH_SA_PD1_26-5,1
+20161117_MH_SA_PD1_27-1,1
+20161117_MH_SA_PD1_27-2,1
+20161117_MH_SA_PD1_27-3,1
+20161117_MH_SA_PD1_27-4,1
+20161117_MH_SA_PD1_27-5,1
+20161117_MH_SA_PD1_33-1,1
+20161117_MH_SA_PD1_33-2,1
+20161117_MH_SA_PD1_33-3,1
+20161117_MH_SA_PD1_33-4,1
+20161117_MH_SA_PD1_33-5,1
+20161117_MH_SA_PD1_38-1,1
+20161117_MH_SA_PD1_38-2,1
+20161117_MH_SA_PD1_38-3,1
+20161117_MH_SA_PD1_38-4,1
+20161117_MH_SA_PD1_38-5,1
+20161117_MH_SA_PD1_39-1,1
+20161117_MH_SA_PD1_39-2,1
+20161117_MH_SA_PD1_39-3,1
+20161117_MH_SA_PD1_39-4,1
+20161117_MH_SA_PD1_39-5,1
+20161117_MH_SA_PD1_41-1,1
+20161117_MH_SA_PD1_41-2,1
+20161117_MH_SA_PD1_41-3,1
+20161117_MH_SA_PD1_41-4,1
+20161117_MH_SA_PD1_41-5,1
+20161117_MH_SA_PD1_43-1,1
+20161117_MH_SA_PD1_43-2,1
+20161117_MH_SA_PD1_43-3,1
+20161117_MH_SA_PD1_43-4,1
+20161117_MH_SA_PD1_43-5,1
+20161117_MH_SA_PD1_44-1,1
+20161117_MH_SA_PD1_44-2,1
+20161117_MH_SA_PD1_44-3,1
+20161117_MH_SA_PD1_44-4,1
+20161117_MH_SA_PD1_44-5,1
+20161117_MH_SA_PD1_45-1,1
+20161117_MH_SA_PD1_45-2,1
+20161117_MH_SA_PD1_45-3,1
+20161117_MH_SA_PD1_45-4,1
+20161117_MH_SA_PD1_45-5,1
+20161117_MH_SA_PD1_6-1,1
+20161117_MH_SA_PD1_6-2,1
+20161117_MH_SA_PD1_6-3,1
+20161117_MH_SA_PD1_6-4,1
+20161117_MH_SA_PD1_6-5,1
+20161117_MH_SA_PD1_7-1,1
+20161117_MH_SA_PD1_7-2,1
+20161117_MH_SA_PD1_7-3,1
+20161117_MH_SA_PD1_7-4,1
+20161117_MH_SA_PD1_7-5,1
+20161117_MH_SA_PD1_8-1,1
+20161117_MH_SA_PD1_8-2,1
+20161117_MH_SA_PD1_8-3,1
+20161117_MH_SA_PD1_8-4,1
+20161117_MH_SA_PD1_8-5,1
+20161117_MH_SA_PD1_9-1,1
+20161117_MH_SA_PD1_9-2,1
+20161117_MH_SA_PD1_9-3,1
+20161117_MH_SA_PD1_9-4,1
+20161117_MH_SA_PD1_9-5,1
+20130104_MH_TIL_19_11_140411154121,1
+20130104_MH_TIL_19_3_140412124752,1
+20130104_MH_TIL_19_4_140412083426,1
+20130104_MH_TIL_19_5_140412042109,1
+20130104_MH_TIL_19_6_140412000751,1
+20130104_MH_TIL_19_8_140411195436,1
+20130228_MH_TIL-22_3_140316104521,1
+20130228_MH_TIL-22_4_140316054532,1
+20130228_MH_TIL-22_5_140316012754,1
+20130228_MH_TIL-22_6_140315211018,1
+20140429_MH_TIL_36_2_3_140513082019,1
+20140429_MH_TIL_40_2_11_140508134314,1
+Animal_20180902_SA_MH_PD1_72_1_180909205334,1
+Animal_20180902_SA_MH_PD1_74,1
+Animal_20180902_SA_MH_PD1_81,1
+XLV_30_1,1
+XLV_30_1_super_silac,1
+XLV_30_2,1
+XLV_30_2_super_silac,1
+XLV_30_3,1
+XLV_30_3_super_silac,1
+XLV_37_1,1
+XLV_37_1_super_silac,1
+XLV_37_2,1
+XLV_37_2_super_silac,1
+XLV_37_3,1
+XLV_37_3_super_silac,1
+XLV_40_1,1
+XLV_40_1_super_silac,1
+XLV_40_2,1
+XLV_40_2_super_silac,1
+XLV_40_3,1
+XLV_40_3_super_silac,1
+LpxC_30_1,1
+LpxC_30_1_super_silac,1
+LpxC_30_2,1
+LpxC_30_2_super_silac,1
+LpxC_30_3,1
+LpxC_30_3_super_silac,1
+LpxC_37_1,1
+LpxC_37_1_super_silac,1
+LpxC_37_2,1
+LpxC_37_2_super_silac,1
+LpxC_37_3,1
+LpxC_37_3_super_silac,1
+LpxC_40_1,1
+LpxC_40_1_super_silac,1
+LpxC_40_2,1
+LpxC_40_2_super_silac,1
+LpxC_40_3,1
+LpxC_40_3_super_silac,1
+LV_30_1,1
+LV_30_1_super_silac,1
+LV_30_2,1
+LV_30_2_super_silac,1
+LV_30_3,1
+LV_30_3_super_silac,1
+LV_37_1,1
+LV_37_1_super_silac,1
+LV_37_2,1
+LV_37_2_super_silac,1
+LV_37_3,1
+LV_37_3_super_silac,1
+LV_40_1,1
+LV_40_1_super_silac,1
+LV_40_2,1
+LV_40_2_super_silac,1
+LV_40_3,1
+LV_40_3_super_silac,1
+FtsH_30_1,1
+FtsH_30_1_super_silac,1
+FtsH_30_2,1
+FtsH_30_2_super_silac,1
+FtsH_30_3,1
+FtsH_30_3_super_silac,1
+FtsH_37_1,1
+FtsH_37_1_super_silac,1
+FtsH_37_2,1
+FtsH_37_2_super_silac,1
+FtsH_37_3,1
+FtsH_37_3_super_silac,1
+FtsH_40_1,1
+FtsH_40_1_super_silac,1
+FtsH_40_2,1
+FtsH_40_2_super_silac,1
+FtsH_40_3,1
+FtsH_40_3_super_silac,1
+Run1,1
+Run2,1
+Run3,1
+Run4,1
+Run5,1
+Run6,1
+Run7,1
+Run8,1
+Run9,1
+Run10,1
+Run11,1
+Run12,1
+Run13,1
+Run14,1
+Run15,1
+Run16,1
+Run17,1
+Run18,1
+Run19,1
+Run20,1
+Run21,1
+Run22,1
+Run23,1
+Run24,1
+Run25,1
+Run26,1
+Run27,1
+Run28,1
+Run29,1
+Run30,1
+Run31,1
+Run32,1
+Run33,1
+Run34,1
+Run35,1
+Run36,1
+control1,1
+control2,1
+control3,1
+infected1,1
+infected2,1
+infected3,1
+P1 TAB mock,1
+P1 TAB MCM,1
+P2 TAB mock,1
+P2 TAB MCM,1
+P3 TAB mock,1
+P3 TAB MCM,1
+P4 TAB mock,1
+P4 TAB MCM,1
+Pool TAB + PBMC mock,1
+Pool TAB + PBMC MCM,1
+P1 TAB mock Phospho,1
+P1 TAB MCM Phospho,1
+P2 TAB mock Phospho,1
+P2 TAB MCM Phospho,1
+P3 TAB mock Phospho,1
+P3 TAB MCM Phospho,1
+P4 TAB mock Phospho,1
+P4 TAB MCM Phospho,1
+Pool TAB + PBMC mock Phospho,1
+Pool TAB + PBMC MCM Phospho,1
+P1 PBMC mock Phospho,1
+P1 PBMC MCM Phospho,1
+P2 PBMC mock Phospho,1
+P2 PBMC MCM Phospho,1
+P3 PBMC mock Phospho,1
+P3 PBMC MCM Phospho,1
+P4 PBMC mock Phospho,1
+P4 PBMC MCM Phospho,1
+20180411_qx8_jrw_sa_ct_gg191,1
+20180411_qx8_jrw_sa_ct_gg193,1
+20180411_qx8_jrw_sa_ct_gg194,1
+20180411_qx8_jrw_sa_ct_gg195,1
+20180411_qx8_jrw_sa_ct_gg198,1
+20180411_qx8_jrw_sa_ct_gg199,1
+20180411_qx8_jrw_sa_ct_gg205,1
+20180411_qx8_jrw_sa_ct_gg207,1
+20180411_qx8_jrw_sa_ct_gg209,1
+20180411_qx8_jrw_sa_ct_gg214,1
+20180411_qx8_jrw_sa_ct_gg215,1
+20180411_qx8_jrw_sa_ct_gg216,1
+20180411_qx8_jrw_sa_ct_gg217,1
+20180411_qx8_jrw_sa_ct_gg218,1
+20180411_qx8_jrw_sa_ct_gg219,1
+20180411_qx8_jrw_sa_ct_gg220,1
+20180411_qx8_jrw_sa_ct_gg221,1
+20180411_qx8_jrw_sa_ct_gg222,1
+20180411_qx8_jrw_sa_l_gg191,1
+20180411_qx8_jrw_sa_l_gg193,1
+20180411_qx8_jrw_sa_l_gg194,1
+20180411_qx8_jrw_sa_l_gg195,1
+20180411_qx8_jrw_sa_l_gg198,1
+20180411_qx8_jrw_sa_l_gg199,1
+20180411_qx8_jrw_sa_l_gg205,1
+20180411_qx8_jrw_sa_l_gg207,1
+20180411_qx8_jrw_sa_l_gg209,1
+20180411_qx8_jrw_sa_l_gg214,1
+20180411_qx8_jrw_sa_l_gg215,1
+20180411_qx8_jrw_sa_l_gg216,1
+20180411_qx8_jrw_sa_l_gg217,1
+20180411_qx8_jrw_sa_l_gg218,1
+20180411_qx8_jrw_sa_l_gg219,1
+20180411_qx8_jrw_sa_l_gg220,1
+20180411_qx8_jrw_sa_l_gg221,1
+20180411_qx8_jrw_sa_l_gg222,1
+20180411_qx8_jrw_sa_t_gg191,1
+20180411_qx8_jrw_sa_t_gg193,1
+20180411_qx8_jrw_sa_t_gg194,1
+20180411_qx8_jrw_sa_t_gg195,1
+20180411_qx8_jrw_sa_t_gg198,1
+20180411_qx8_jrw_sa_t_gg199,1
+20180411_qx8_jrw_sa_t_gg205,1
+20180411_qx8_jrw_sa_t_gg207,1
+20180411_qx8_jrw_sa_t_gg209,1
+20180411_qx8_jrw_sa_t_gg214,1
+20180411_qx8_jrw_sa_t_gg215,1
+20180411_qx8_jrw_sa_t_gg216,1
+20180411_qx8_jrw_sa_t_gg217,1
+20180411_qx8_jrw_sa_t_gg218,1
+20180411_qx8_jrw_sa_t_gg219,1
+20180411_qx8_jrw_sa_t_gg220,1
+20180411_qx8_jrw_sa_t_gg221,1
+20180411_qx8_jrw_sa_t_gg222,1
+Run 20,1
+Run 21,1
+Run 22,1
+Run 14,1
+Run 15,1
+Run 16,1
+Run 23,1
+Run 24,1
+Run 25,1
+Run 26,1
+Run 27,1
+Run 28,1
+Run 29,1
+Run 36,1
+Run 37,1
+Run 38,1
+Run 30,1
+Run 31,1
+Run 32,1
+Run 39,1
+Run 40,1
+Run 41,1
+Run 33,1
+Run 34,1
+Run 35,1
+Run 42,1
+Run 43,1
+Run 44,1
+Run 45,1
+Run 46,1
+Run 47,1
+Run 54,1
+Run 55,1
+Run 56,1
+Run 48,1
+Run 49,1
+Run 50,1
+Run 57,1
+Run 58,1
+Run 59,1
+Run 51,1
+Run 52,1
+Run 53,1
+Run 60,1
+Run 61,1
+Run 62,1

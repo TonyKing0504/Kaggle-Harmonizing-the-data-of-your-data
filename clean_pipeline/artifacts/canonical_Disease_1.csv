@@ -1,0 +1,64 @@
+value,count
+normal,3
+Normal,3
+Control,3
+Alzheimer's disease,2
+Alzheimer's Disease,2
+metastatic ovarian high grade serous adenocarcinoma,1
+triple-negative breast cancer,1
+Alzheimer's and cerebrovascular disease,1
+control,1
+Parkinson's disease,1
+Alzheimer's disease/Parkinson's disease,1
+Alzheimer's disease 3,1
+Alzheimer's disease 4,1
+control3,1
+control4,1
+Parkinson's disease3,1
+Parkinson's disease4,1
+Alzheimer's disease/Parkinson's disease3,1
+Alzheimer's disease/Parkinson's disease4,1
+Alzheimer's disease 5,1
+Alzheimer's disease 6,1
+control5,1
+control6,1
+Parkinson's disease6,1
+Parkinson's disease7,1
+Alzheimer's disease/Parkinson's disease5,1
+Alzheimer's disease/Parkinson's disease6,1
+Alzheimer's disease 7,1
+Alzheimer's disease 8,1
+control7,1
+control8,1
+Parkinson's disease8,1
+Alzheimer's disease/Parkinson's disease7,1
+Alzheimer's disease/Parkinson's disease8,1
+Alzheimer's disease 9,1
+Alzheimer's disease0,1
+control9,1
+control0,1
+Parkinson's disease9,1
+Parkinson's disease0,1
+Alzheimer's disease/Parkinson's disease9,1
+Alzheimer's disease/Parkinson's disease0,1
+Parkinson's disease5,1
+NT = healthy; AC = HP:0032322,1
+ischemic cardiomyopathy,1
+compensated hypertrophy,1
+hypertrophic cardiomyopathy with reduced reduced ejection fraction,1
+hypertrophic cardiomyopathy with preserved reduced ejection fraction,1
+dilated cardiomyopathy,1
+Alzheimer's disease (stage VI),1
+Alzheimer's disease (stage III),1
+Autism Spectrum Disorder,1
+SARS-Cov2_infected,1
+native_1,1
+native_2,1
+native_3,1
+native_4,1
+native_5,1
+decellularized_1,1
+decellularized_2,1
+decellularized_3,1
+decellularized_4,1
+decellularized_5,1

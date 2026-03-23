@@ -1,0 +1,16 @@
+pxd,primary_family,n_rows,score_label_free_simple,score_tmt_multiplexed,score_itraq_multiplexed,score_cell_line,score_tissue,score_temperature_series,score_time_series,score_ap_ms,score_clinical_cohort,score_treatment_control,score_dose_response,score_dia,score_label_free_fractionated
+PXD004010,label_free_simple,10,0.8,0.8,0.7,0.55,0.6,,,,,,,,
+PXD016436,label_free_simple,18,0.8,,,,,0.5,0.4,,,,,,
+PXD019519,dose_response,6,0.8,,,0.85,,,0.7,0.55,0.8,0.8,1.0,,
+PXD025663,label_free_simple,12,0.8,,,0.55,0.7,,0.7,,0.7,0.5,,,
+PXD040582,cell_line,24,0.8,,,1.0,0.7,0.7,1.0,,0.6,0.9,,,
+PXD050621,label_free_simple,9,0.8,,,,,,0.55,,,0.6,,,
+PXD061009,treatment_control,2,0.8,,,0.7,0.7,,0.7,0.55,0.9,1.0,0.7,,
+PXD061090,label_free_simple,6,0.8,,,0.55,0.7,,0.7,0.4,0.6,0.7,,0.8,
+PXD061136,label_free_simple,2,0.8,,,0.7,0.6,,0.55,,0.5,0.8,,,
+PXD061195,ap_ms,1376,0.8,0.8,,0.85,0.5,0.5,0.55,1.0,0.5,0.4,,,
+PXD061285,cell_line,60,,,,1.0,0.9,,0.55,0.85,0.8,0.4,,,0.8
+PXD062014,cell_line,24,0.8,,,0.85,0.7,,0.7,,,0.5,,,
+PXD062469,treatment_control,32,0.8,,,0.7,0.5,,0.55,,0.8,1.0,,0.65,
+PXD062877,time_series,48,0.8,,,0.55,0.8,,1.0,,0.8,0.7,,0.8,
+PXD064564,cell_line,30,0.8,,,0.85,0.6,,,,0.5,0.7,,0.65,

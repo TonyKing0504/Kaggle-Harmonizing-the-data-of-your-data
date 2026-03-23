@@ -1,0 +1,22 @@
+value,count
+CT=mixture;QY=250 amol;CN=UPS1;CV=Standards Research Group,2
+CT=mixture;QY=500 amol;CN=UPS1;CV=Standards Research Group,2
+CT=mixture;QY=50 amol;CN=UPS1;CV=Standards Research Group,2
+CT=mixture;QY=12500 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=125 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=25000 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=2500 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=50000 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=5000 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=10 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=100 amol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=1 fmol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=5 fmol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=10 fmol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=25 fmol;CN=UPS1;CV=Standards Research Group,1
+CT=mixture;QY=50 fmol;CN=UPS1;CV=Standards Research Group,1
+SP=Bos taurus;CT=protein;QY=0.5 pmol;AC=P02754,1
+SP=Bos taurus;CT=protein;QY=0.1 pmol;AC=P02754,1
+SP=Bos taurus;CT=protein;QY=5 pmol;AC=P02754,1
+SP=Bos taurus;CT=protein;QY=10 pmol;AC=P02754,1
+SP=Bos taurus;CT=protein;QY=1 pmol;AC=P02754,1

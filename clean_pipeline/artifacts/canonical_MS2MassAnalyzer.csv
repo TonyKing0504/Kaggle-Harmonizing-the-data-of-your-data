@@ -1,0 +1,13 @@
+value,count
+AC=MS:1000484; NT=Orbitrap,13
+NT=Orbitrap;AC=MS:1000484,5
+not available,3
+AC=MS:1000264; NT=ion trap,2
+NT=orbitrap;AC=MS:1000484,1
+NT=Orbitrap;AC=MS:1000485,1
+NT=Orbitrap;AC=MS:1000486,1
+NT=Orbitrap;AC=MS:1000487,1
+NT=Orbitrap;AC=MS:1000488,1
+NT=Orbitrap;AC=MS:1000489,1
+NT=Orbitrap;AC=MS:1000490,1
+AC=MS:1000264; NT=IonTrap,1

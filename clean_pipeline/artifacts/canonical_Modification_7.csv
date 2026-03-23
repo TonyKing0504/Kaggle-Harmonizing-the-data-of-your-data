@@ -1,0 +1,3 @@
+value,count
+"NT=Phospho;AC=UNIMOD:21;TA=S,T,Y,A;MT=Variable",1
+"NT=Deamidated;MT=Variable;TA=N,Q;AC=UNIMOD:7",1

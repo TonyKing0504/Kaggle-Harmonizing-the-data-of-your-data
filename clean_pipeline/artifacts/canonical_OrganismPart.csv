@@ -1,0 +1,135 @@
+value,count
+not available,10
+kidney,7
+colon,5
+Sigmoid Colon,5
+lung,5
+brain,5
+Brain,4
+cervix,4
+Cecum,4
+Ascending Colon,4
+liver,3
+Rectum,3
+cerebrospinal fluid,3
+Hepatic Flexure,3
+Transverse Colon,3
+rectum,3
+Leaf,3
+not applicable,3
+breast,3
+heart,3
+Heart,2
+B cells,2
+lymph node,2
+blood plasma,2
+lung tumor-adjacent tissues,2
+colorectal,2
+tonsil,2
+stomach,2
+pancreas,2
+spleen,2
+culture supernatant,2
+membrane,2
+human erythrocytes,1
+Adrenal gland,1
+Esophagus,1
+Retina,1
+Kidney,1
+Liver,1
+Lung,1
+Placenta,1
+Gut,1
+Ovary,1
+Testis,1
+CD4 Tcells,1
+Monocytes,1
+NK cells,1
+Platelets,1
+Frontal cortex,1
+Urinary bladder,1
+CD8  Tcells,1
+Colon,1
+Gallbladder,1
+Pancreas,1
+Prostate,1
+Spinal cord,1
+CD8 Tcells,1
+Human colon mucosa,1
+Rectosigmoid Junction,1
+Saliva,1
+ascites,1
+distal fallopian tube epithelium,1
+ovarian surface epithelium,1
+Left ovary,1
+ovarian,1
+Right ovary,1
+dorsolateral prefrontal cortex,1
+lung squamous  cell carcinoma tissue,1
+lung squamous cell carcinoma tissue,1
+NT=Brain;AC=BTO:0000142,1
+skin,1
+omentum,1
+AC=PATO:0001728;NT=multi-cellular organismal disposition,1
+"middle temporal lobe, BA21 region",1
+NT=cerebrospinal fluid;AC=UBERON:0001359,1
+heart left ventricle,1
+sigmoid colon,1
+caecum,1
+trunk,1
+head/neck,1
+upper extremity,1
+lower extremity,1
+other,1
+adrenal gland,1
+prostate,1
+testis,1
+duodenum,1
+small intestine,1
+appendix/vermiform appendix,1
+urinary bladder,1
+gallbladder,1
+esophagus,1
+thyroid,1
+endometrium/uterine endometrium,1
+placenta,1
+ovary,1
+salivary gland,1
+smooth muscle,1
+fallopian tube/oviduct,1
+fat/adipose tissue,1
+bone marrow,1
+pituitary/hypophysis,1
+amygdala,1
+cerebellum,1
+caudate nucleus,1
+entorhinal cortex,1
+parietal lobe,1
+middle frontal gyrus,1
+superior temporal gyrus,1
+Thalamus,1
+visual cortex,1
+culture supernatant CsCl fraction,1
+human MM lymph node metastases tissues,1
+Muscle,1
+Lungs,1
+axillary metastatic lymph nodes tissues,1
+primary breast tumor tissues,1
+adjacent breast tissues,1
+non-tumor contralateral breast tissues,1
+Cerebellum CB,1
+Cerebellum BA19,1
+blood serum,1
+melanoma cerebral metastasis cells cytoplasm,1
+melanoma cerebral metastasis cells nuclear extracts,1
+cutaneous melanoma cells cytoplasm,1
+cutaneous melanoma cells nuclear extracts,1
+melanoma cerebral metastasis  cells cytoplasm,1
+melanoma cerebral metastasis  cells nuclear extracts,1
+melanoma cerebral metastasis cells supernatants,1
+cutaneous melanoma cells supernatants,1
+melanoma cerebral metastasis  cells supernatants,1
+Melanocyte,1
+Caco-2 cells,1
+human umbilical cord (hUC),1
+cytosol,1
