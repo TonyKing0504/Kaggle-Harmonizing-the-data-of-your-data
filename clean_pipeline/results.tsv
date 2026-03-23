@@ -14,3 +14,4 @@ f820a5e	0.694265	0	keep	exp11: broader tolerance extraction with proper Da casin
 f820a5e	0.694265	0	discard	exp12: MaterialType rework - no change
 1624f31	0.710242	0	keep	exp13: disable MaterialType - Not Applicable is scorer-neutral and better than 28% accuracy
 be7c181	0.722348	0	keep	exp14: disable CollisionEnergy extraction (0% accuracy)
+ab327ff	0.745158	0	keep	exp15: disable BiologicalReplicate extraction (13% accuracy, harm=11.3)

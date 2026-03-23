@@ -71,14 +71,13 @@ def _apply_paper_level(results: List[Dict], evidence: Dict):
                     r[col] = normalized
 
     # Handle modification slots
+    # Only fill slots 0 and 1 (Carbamidomethyl + Oxidation)
+    # Slots 2-6 have <40% accuracy and hurt the score
     mod_candidates = evidence.get('Characteristics[Modification]', [])
     if mod_candidates:
         mod_candidates = sorted(mod_candidates, key=lambda x: -x[1])
         mod_cols = [
             'Characteristics[Modification]', 'Characteristics[Modification].1',
-            'Characteristics[Modification].2', 'Characteristics[Modification].3',
-            'Characteristics[Modification].4', 'Characteristics[Modification].5',
-            'Characteristics[Modification].6',
         ]
         for i, (val, conf, src) in enumerate(mod_candidates):
             if i < len(mod_cols):
