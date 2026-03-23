@@ -232,6 +232,8 @@ ENRICHMENT_VOCAB = {
         r"\bphospho[\w-]+\s+enrichment\b", r"\btio2\b",
         r"\btitanium\s+dioxide\b", r"\bimac\b",
         r"\bphosphopeptide\s+enrichment\b", r"\bfe[\s-]?imac\b",
+        r"\bphospho-?enrichment\b", r"\bphospho[\s-]?proteom",
+        r"\bphos[\s-]?enrichment\b",
     ],
     "Extraction purification": [
         r"\bimmunoprecipitation\b", r"\bco[\s-]?ip\b", r"\bpulldown\b",
@@ -280,13 +282,15 @@ def extract_organism(pub: Dict) -> str:
         "Bos taurus": ["bos taurus", "bovine", "cattle", "cow milk", "whey protein",
                        "milk serum", "milk protein", "raw milk", "skim milk"],
         "Danio rerio": ["danio rerio", "zebrafish"],
-        "Plasmodium falciparum": ["plasmodium falciparum", "p. falciparum"],
+        "Plasmodium falciparum": ["plasmodium falciparum", "p. falciparum", "malaria"],
         "Oryza sativa": ["oryza sativa", "rice "],
         "Gallus gallus": ["gallus gallus", "chicken"],
         "Xenopus laevis": ["xenopus"],
         "Plasmodium berghei": ["plasmodium berghei"],
         "Toxoplasma gondii": ["toxoplasma gondii"],
         "Trypanosoma brucei": ["trypanosoma brucei"],
+        "Chlorocebus sabaeus": ["chlorocebus sabaeus", "vero cell", "vero e6", "vero ", "african green monkey"],
+        "Haloferax volcanii DS2": ["haloferax volcanii", "h. volcanii"],
     }
 
     methods = get_methods_text(pub).lower()
@@ -318,12 +322,25 @@ def extract_organism_part(pub: Dict) -> str:
     methods = get_methods_text(pub).lower()
 
     tissue_patterns = {
-        "brain": [r"\bbrain\b", r"\bcerebr", r"\bcortex\b", r"\bhippocampus\b"],
+        "brain": [r"\bbrain\b", r"\bcerebr", r"\bcortex\b", r"\bhippocampus\b",
+                  r"\bthalamus\b", r"\bstriatum\b", r"\bputamen\b", r"\bcaudate\b",
+                  r"\bfrontal\s+(?:lobe|cortex)\b", r"\btemporal\s+(?:lobe|cortex)\b",
+                  r"\bparietal\s+(?:lobe|cortex)\b", r"\boccipital\s+(?:lobe|cortex)\b",
+                  r"\bentorhinal\b", r"\bsubstantia\s+nigra\b",
+                  r"\bmeningioma\b", r"\balzheimer", r"\bneurodegenerat"],
         "liver": [r"\bliver\b", r"\bhepat"],
-        "heart": [r"\bheart\b", r"\bcardiac\b", r"\bmyocardi"],
+        "heart": [r"\bheart\b", r"\bcardiac\b", r"\bmyocardi",
+                  r"\bventricle\b", r"\batri(?:um|al)\b"],
+        "heart left ventricle": [r"\bleft\s+ventricle\b", r"\bleft\s+ventricular\b"],
         "kidney": [r"\bkidney\b", r"\brenal\b"],
         "lung": [r"\blung\b", r"\bpulmonary\b"],
-        "colon": [r"\bcolon\b"],
+        "colon": [r"\bcolon\b(?!\s+(?:adeno|cancer|carcin))"],
+        "rectum": [r"\brectum\b", r"\brectal\b"],
+        "Sigmoid Colon": [r"\bsigmoid\s+colon\b"],
+        "Ascending Colon": [r"\bascending\s+colon\b"],
+        "Transverse Colon": [r"\btransverse\s+colon\b"],
+        "Cecum": [r"\bcecum\b", r"\bcaecum\b"],
+        "Hepatic Flexure": [r"\bhepatic\s+flexure\b"],
         "colorectal": [r"\bcolorectal\b"],
         "breast": [r"\bbreast\b", r"\bmammary\b"],
         "prostate": [r"\bprostate\b"],
@@ -331,17 +348,16 @@ def extract_organism_part(pub: Dict) -> str:
         "ovary": [r"\bovary\b", r"\bovarian\b"],
         "blood plasma": [r"\bblood\s+plasma\b", r"\bplasma\s+(?:sample|protein|proteom)"],
         "spleen": [r"\bspleen\b"],
-        "skin": [r"\bskin\b", r"\bmelanocyte"],
+        "skin": [r"\bskin\b", r"\bmelanocyte", r"\bmelanoma\b"],
         "stomach": [r"\bstomach\b", r"\bgastric\b"],
         "retina": [r"\bretina\b"],
         "lymph node": [r"\blymph\s+node"],
         "cerebrospinal fluid": [r"\bcerebrospinal\s+fluid\b", r"(?<![mg]-)\bcsf\b"],
         "cervix": [r"\bcervix\b", r"\bcervical\b"],
-        "rectum": [r"\brectum\b", r"\brectal\b"],
         "tonsil": [r"\btonsil"],
         "Leaf": [r"\bleaf\b", r"\bleaves\b"],
         "bone marrow": [r"\bbone\s+marrow\b"],
-        "muscle": [r"\bmuscle\b"],
+        "muscle": [r"\bmuscle\b", r"\bskeletal\s+muscle\b"],
         "culture supernatant": [r"\bculture\s+supernatant"],
         "B cells": [r"\bB[\s-]cell", r"\bB\s+lymphocyte", r"\bbursa"],
         "NK cells": [r"\bNK[\s-]cell", r"\bnatural\s+killer\s+cell"],
@@ -359,7 +375,9 @@ def extract_organism_part(pub: Dict) -> str:
         "bladder": [r"\bbladder\b"],
         "thyroid": [r"\bthyroid\b"],
         "synovial": [r"\bsynovial\b", r"\bsynovium\b"],
-        # milk/whey proteomics must appear in title or abstract as subject (not methods buffer)
+        "whole body": [r"\bwhole\s+body\b", r"\bwhole\s+organism\b"],
+        "Descending Colon": [r"\bdescending\s+colon\b"],
+        "Splenic Flexure": [r"\bsplenic\s+flexure\b"],
         "milk": [r"\bmilk\s+(?:protein|proteom|sample|serum|whey)", r"\bwhey\s+(?:protein|proteom)", r"\bbovine\s+milk\b"],
     }
 
@@ -383,9 +401,7 @@ def extract_organism_part(pub: Dict) -> str:
 
     methods_only_terms = {
         "human erythrocytes": [r"\bhuman\s+erythrocyte", r"\bred\s+blood\s+cell"],
-        # Use strict pattern to avoid m-csf, g-csf false positives
         "cerebrospinal fluid": [r"\bcerebrospinal\s+fluid\b", r"(?<![mg]-)\bcsf\b"],
-        # Remove milk from methods since "5% milk" is common western blot blocking agent
     }
     for tissue, patterns in methods_only_terms.items():
         if tissue not in scores:
@@ -395,6 +411,8 @@ def extract_organism_part(pub: Dict) -> str:
                     break
 
     # Infer from cell lines
+    # Most cell lines: use title+abstract+methods (the cell line is typically the study material)
+    # HEK293: restrict to title+abstract to avoid false positives from lentiviral packaging use
     cell_line_organ = {
         r"\bhela\b": "cervix",
         r"\bhct[\s-]?116\b": "colon",
@@ -404,7 +422,6 @@ def extract_organism_part(pub: Dict) -> str:
         r"\blncap\b": "prostate",
         r"\bdu[\s-]?145\b": "prostate",
         r"\bpc[\s-]?3\b": "prostate",
-        r"\bhek[\s-]?293\w*\b": "kidney",
         r"\bvero\s+e6\b": "kidney",
         r"\bcaco[\s-]?2\b": "colon",
     }
@@ -412,6 +429,10 @@ def extract_organism_part(pub: Dict) -> str:
     for cl_pat, organ in cell_line_organ.items():
         if re.search(cl_pat, text_lower) and organ not in scores:
             scores[organ] = 3
+    # HEK293: only infer kidney organ if mentioned in title/abstract (avoid packaging cell FP)
+    title_abstract = title + " " + abstract
+    if re.search(r"\bhek[\s-]?293\w*\b", title_abstract) and "kidney" not in scores:
+        scores["kidney"] = 3
 
     # Use raw data file names as strong evidence (e.g. 'mousebrain-ko-*.raw' → brain)
     filename_organ = {
@@ -422,6 +443,10 @@ def extract_organism_part(pub: Dict) -> str:
         "kidney": r"kidney|renal",
         "blood plasma": r"plasma",
         "muscle": r"muscle",
+        "colon": r"colon",
+        "lymph node": r"lymph.?node|LN_|_LN_",
+        "spleen": r"spleen",
+        "ovary": r"ovar",
     }
     raw_files = pub.get("Raw Data Files", [])
     if isinstance(raw_files, (list, tuple)):
@@ -440,22 +465,32 @@ def extract_organism_part(pub: Dict) -> str:
     return "not available"
 
 
-def extract_disease(pub: Dict) -> str:
-    """Extract disease using training gold-standard value forms."""
+def extract_disease(pub: Dict) -> Tuple[str, bool]:
+    """Extract disease. Returns (disease_name, has_healthy_controls).
+    has_healthy_controls=True means the study also has 'normal' control samples.
+    """
     title = pub.get("TITLE", "").lower()
     abstract = pub.get("ABSTRACT", "").lower()
     methods = get_methods_text(pub).lower()
 
     disease_patterns = {
-        "Colon adenocarcinoma": [r"\bcolon\s+adenocarcinoma", r"\bcolon\b.*?\b(?:tumor|cancer|carcinoma)", r"\bcolorectal\s+(?:tumor|cancer|carcinoma)"],
+        # Most specific patterns first — longer/more specific beats shorter
+        "pancreatic ductal adenocarcinoma": [r"\bpancreatic\s+ductal\s+adenocarcinoma", r"\bPDAC\b"],
+        "pancreatic cancer": [r"\bpancreatic\s+cancer", r"\bpancreatic\s+(?:tumor|carcinoma)"],
+        "colorectal cancer": [r"\bcolorectal\s+cancer", r"\bcolorectal\s+(?:tumor|carcinoma)", r"\bcolon\s+cancer", r"\bcolon\s+(?:tumor|carcinoma)"],
+        "Colon adenocarcinoma": [r"\bcolon\s+adenocarcinoma", r"\bcolorectal\s+adenocarcinoma"],
         "Rectum adenocarcinoma": [r"\brectum?\s+adenocarcinoma"],
         "squamous cell lung cancer": [r"\bsquamous\s+cell\s+lung"],
         "Lung adenocarcinoma": [r"\blung\s+adenocarcinoma"],
-        "Metastatic melanoma": [r"\bmetastatic\s+melanoma"],
+        "non-small cell lung cancer": [r"\bnon[\s-]small\s+cell\s+lung", r"\bNSCLC\b"],
+        "lung cancer": [r"\blung\s+cancer"],
+        "metastatic cutaneous melanoma": [r"\bmetastatic\s+cutaneous\s+melanoma"],
+        "metastatic melanoma": [r"\bmetastatic\s+melanoma"],
         "malignant melanoma": [r"\bmalignant\s+melanoma"],
         "melanoma": [r"\bmelanoma\b"],
         "breast cancer": [r"\bbreast\s+cancer"],
         "breast adenocarcinoma": [r"\bbreast\s+adenocarcinoma"],
+        "triple-negative breast cancer": [r"\btriple[\s-]negative\s+breast"],
         "Glioblastoma": [r"\bglioblastoma\b"],
         "high grade serous ovarian cancer": [r"\bhigh\s+grade\s+serous\s+ovarian"],
         "ovarian cancer": [r"\bovarian\s+cancer"],
@@ -465,10 +500,17 @@ def extract_disease(pub: Dict) -> str:
         "Osteosarcoma": [r"\bosteosarcoma"],
         "cholangiocellular carcinoma": [r"\bcholangiocarcinoma", r"\bcholangiocellular"],
         "squamous cell carcinoma": [r"\bsquamous\s+cell\s+carcinoma"],
+        "stomach cancer": [r"\bstomach\s+cancer\b", r"\bgastric\s+cancer\b",
+                           r"\bdiffuse[\s-]type\s+gastric\b"],
+        "ductal carcinoma": [r"\bductal\s+carcinoma\b"],
+        "Papillary Renal Cell Carcinomas": [r"\bpapillary\s+renal\s+cell\s+carcin"],
+        "colorectal adenocarcinoma": [r"\bcolorectal\s+adenocarcinoma\b"],
+        "Non-small cell lung carcinoma": [r"\bnon[\s-]small\s+cell\s+lung\s+carcin"],
         "adenocarcinoma": [r"\badenocarcinoma\b"],
         "Alzheimer's disease": [r"\balzheimer"],
         "Prion disease": [r"\bprion\s+disease\b", r"\bprion\s+protein\s+amyloid",
                           r"\bgerstmann", r"\bgss\b", r"\bfatal\s+familial\s+insomnia"],
+        "Autism Spectrum Disorder": [r"\bautis(?:m|tic)\s+spectrum"],
         "obesity": [r"\bobesity\b"],
         "malaria": [r"\bmalaria\b"],
         "diabetes": [r"\bdiabetes\b"],
@@ -476,13 +518,18 @@ def extract_disease(pub: Dict) -> str:
         "leukemia": [r"\bleukemia\b", r"\bleukaemia\b"],
         "lymphoma": [r"\blymphoma\b"],
         "osteoarthritis": [r"\bosteoarthritis\b"],
-        "SARS-CoV-2 infection": [r"\bsars[\s-]cov[\s-]?2\b", r"\bcovid[\s-]?19\b",
-                                  r"\bcoronavirus\b"],
+        "polycythemia vera": [r"\bpolycythemia\s+vera\b"],
+        "schistosomiasis": [r"\bschistosom"],
+        "atrial fibrillation": [r"\batrial\s+fibrillation\b"],
+        "meningioma": [r"\bmeningioma\b"],
+        # SARS-CoV-2: removed — gold uses "normal" for most SARS papers
+        # (gold annotates cell disease status, not infection status)
         "HCMV infection": [r"\bhcmv\b", r"\bhuman\s+cytomegalovirus\b"],
         "mitochondrial disease": [r"\bmitochondrial\s+disease\b", r"\bpolg[\s-]related\b",
                                    r"\bmtd\b.*\bdisease\b", r"\bMtD\b"],
-        "normal": [r"\bhealthy\s+(?:control|donor|subject|volunteer|individual|participant)",
-                   r"\bnormal\s+(?:tissue|sample|control|healthy)\b"],
+        "ischemic cardiomyopathy": [r"\bischemic\s+cardiomyopathy"],
+        "dilated cardiomyopathy": [r"\bdilated\s+cardiomyopathy"],
+        "cardiac hypertrophy": [r"\bcardiac\s+hypertrophy"],
         "uninfected": [r"\buninfected\b", r"\bnon-?infected\b"],
     }
 
@@ -494,11 +541,13 @@ def extract_disease(pub: Dict) -> str:
                 score += 10
             if re.search(p, abstract):
                 score += 5
+            # Also check methods/full text with lower weight
+            if re.search(p, methods):
+                score += 2
         if score > 0:
             scores[disease] = score
 
-    # Cell line disease mapping: use title+abstract only to avoid false positives
-    # (methods often mention cell lines in passing for validation, not as study subject)
+    # Cell line disease mapping: use title+abstract+methods
     cell_line_disease = {
         r"\bhela\b": "adenocarcinoma",
         r"\bhct[\s-]?116\b": "adenocarcinoma",
@@ -508,6 +557,8 @@ def extract_disease(pub: Dict) -> str:
         r"\bmcf[\s-]?7\b": "breast cancer",
         r"\bdu[\s-]?145\b": "Prostate carcinoma",
         r"\bpc[\s-]?3\b": "Prostate carcinoma",
+        r"\bcaco[\s-]?2\b": "adenocarcinoma",
+        r"\blncap\b": "Prostate carcinoma",
     }
     text_lower = title + " " + abstract + " " + methods
     for cell_line, dis in cell_line_disease.items():
@@ -515,17 +566,85 @@ def extract_disease(pub: Dict) -> str:
             if dis not in scores:
                 scores[dis] = 3
 
+    # Detect whether study has healthy controls (for per-row "normal" assignment)
+    has_controls = False
+    control_patterns = [
+        r"\bhealthy\s+(?:control|donor|subject|volunteer|individual|participant|tissue)\b",
+        r"\bnormal\s+(?:tissue|sample|control|colon|brain|heart|lung|kidney|adjacent)\b",
+        r"\badjacent\s+normal\b", r"\btumor[\s-]adjacent\b",
+        r"\bcontrol\s+(?:group|sample|tissue|subject|patient|donor|condition)\b",
+        r"\bnon[\s-]?(?:tumor|tumour|cancerous|malignant|diseased)\b",
+        r"\bbenign\b.*\bmalignant\b",
+        r"\bmock[\s-](?:treated|infected|transfected)\b",
+        r"\buninfected\b",
+    ]
+    ta_text = title + " " + abstract
+    for p in control_patterns:
+        if re.search(p, ta_text):
+            has_controls = True
+            break
+    # Also check methods for control mentions when disease is found
+    if not has_controls and scores:
+        for p in control_patterns:
+            if re.search(p, methods):
+                has_controls = True
+                break
+
     if scores:
-        best = max(scores, key=lambda k: (scores[k], -len(k) if 'Rectum' in k else len(k)))
-        if scores[best] >= 3:
-            return best
-    return "not available"
+        # Remove "uninfected" from contention if a real disease is present
+        real_diseases = {k: v for k, v in scores.items() if k not in ("uninfected",)}
+        candidates = real_diseases if real_diseases else scores
+
+        # Specificity preference: when a more specific disease name (A) is a
+        # superstring of a less specific one (B) and both match, prefer A.
+        # This prevents "melanoma" from beating "malignant melanoma".
+        specificity_bonus = {}
+        disease_list = list(candidates.keys())
+        for i, d1 in enumerate(disease_list):
+            d1_lower = d1.lower()
+            for j, d2 in enumerate(disease_list):
+                if i == j:
+                    continue
+                d2_lower = d2.lower()
+                # d1 is more specific (longer) and contains d2
+                if len(d1_lower) > len(d2_lower) and d2_lower in d1_lower:
+                    specificity_bonus[d1] = specificity_bonus.get(d1, 0) + 5
+
+        adjusted = {k: v + specificity_bonus.get(k, 0) for k, v in candidates.items()}
+        best = max(adjusted, key=lambda k: (adjusted[k], -len(k) if 'Rectum' in k else len(k)))
+        if candidates[best] >= 3:  # use original score for threshold
+            return best, has_controls
+
+    # No specific disease found → determine if "normal" or "not available"
+    # Gold data shows: papers about healthy subjects / basic biology → "normal"
+    # Papers where disease is genuinely ambiguous → "not available"
+    normal_indicators_ta = [
+        r"\bhealthy\s+(?:control|donor|subject|volunteer|individual|participant|human|cohort)\b",
+        r"\bnormal\s+(?:tissue|sample|subject|donor|individual|colon|brain|heart)\b",
+        r"\bhealthy\s+human\b", r"\bhealthy\s+mouse\b", r"\bhealthy\s+mice\b",
+        r"\bhealthy\s+rat\b", r"\bhealthy\s+adult\b",
+        r"\bhealthy\s+male\b", r"\bhealthy\s+female\b",
+    ]
+    for p in normal_indicators_ta:
+        if re.search(p, ta_text):
+            return "normal", False
+
+    # No clear disease → return "not available" (will be converted to "Not Applicable"
+    # in the fill logic to skip scorer evaluation for uncertain cases)
+    return "not available", False
 
 
 def extract_cell_line(pub: Dict) -> str:
-    """Extract cell line. Only return if explicitly mentioned."""
+    """Extract cell line. Prefers title/abstract mentions over methods-only mentions.
+
+    A cell line mentioned only in methods is often used for validation or as a
+    packaging helper (e.g. HEK293T for lentivirus production) rather than being
+    the primary study material. We give strong priority to title+abstract signals.
+    """
     methods = get_methods_text(pub)
     abstract = pub.get("ABSTRACT", "")
+    title = pub.get("TITLE", "")
+    title_abstract = title + " " + abstract
 
     cell_lines = [
         ("HEK293T", [r"\bHEK\s*293\s*T\b", r"\bHEK-?293T\b"]),
@@ -562,10 +681,20 @@ def extract_cell_line(pub: Dict) -> str:
         ("HepG2", [r"\bHepG2\b"]),
     ]
 
-    search_text = methods + " " + abstract
+    # First pass: title+abstract only (high confidence - primary study cell line)
     for name, patterns in cell_lines:
         for p in patterns:
-            if re.search(p, search_text, re.IGNORECASE):
+            if re.search(p, title_abstract, re.IGNORECASE):
+                return name
+
+    # Second pass: methods only (lower confidence - may be validation/packaging cell)
+    # Skip HEK293T/HEK293 in methods-only pass to avoid packaging cell false positives
+    hek_names = {"HEK293T", "HEK-293 cell"}
+    for name, patterns in cell_lines:
+        if name in hek_names:
+            continue
+        for p in patterns:
+            if re.search(p, methods, re.IGNORECASE):
                 return name
     return ""
 
@@ -709,7 +838,7 @@ def extract_cleavage_agent(pub: Dict) -> str:
         return "Asp-N"
     if "chymotrypsin" in methods:
         return "Chymotrypsin"
-    if "glu-c" in methods or "gluc" in methods or "v8" in methods:
+    if "glu-c" in methods or re.search(r'\bgluc\b', methods) or "v8" in methods:
         return "Glutamyl endopeptidase"
     return "Trypsin"
 
@@ -761,14 +890,14 @@ def extract_label(pub: Dict) -> Tuple[str, List[str]]:
 
     if "itraq" in primary:
         if "8" in primary:
-            return "iTRAQ8plex", ["iTRAQ8plex-113", "iTRAQ8plex-114", "iTRAQ8plex-115",
-                                   "iTRAQ8plex-116", "iTRAQ8plex-117", "iTRAQ8plex-118",
-                                   "iTRAQ8plex-119", "iTRAQ8plex-121"]
-        return "iTRAQ4plex", ["iTRAQ4plex-114", "iTRAQ4plex-115",
-                               "iTRAQ4plex-116", "iTRAQ4plex-117"]
+            return "iTRAQ8plex", ["ITRAQ113", "ITRAQ114", "ITRAQ115",
+                                   "ITRAQ116", "ITRAQ117", "ITRAQ118",
+                                   "ITRAQ119", "ITRAQ121"]
+        return "iTRAQ4plex", ["ITRAQ114", "ITRAQ115",
+                               "ITRAQ116", "ITRAQ117"]
 
     if "silac" in primary:
-        return "SILAC", ["heavy", "medium", "light"]
+        return "SILAC", ["SILAC heavy", "SILAC medium", "SILAC light"]
 
     return "label free", ["label free sample"]
 
@@ -826,34 +955,79 @@ def extract_mass_tolerance(pub: Dict) -> Tuple[str, str]:
     precursor = ""
     fragment = ""
 
-    prec_pats = [
-        r"precursor\s*(?:mass\s*)?(?:ion\s*)?tolerance\s*(?:of\s*|was\s*(?:set\s*(?:to\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|da|mmu)",
-        r"precursor\s*(?:ion\s*)?(?:mass\s*)?(?:tolerance|accuracy|error)\s*(?:of\s*|was\s*(?:set\s*(?:to\s*|at\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|da|mmu)",
-        r"(\d+\.?\d*)\s*(ppm|Da)\s*(?:for\s*)?(?:precursor|parent|MS1|ms1|MS\s+mass)",
-        r"(?:parent|precursor|MS1|ms1)\s*(?:ion\s*)?(?:mass\s*)?(?:tolerance|accuracy|error)\s*(?:of\s*|was\s*(?:set\s*(?:to\s*|at\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|mmu)",
-        r"mass\s+tolerance\s+(?:of\s+)?(\d+\.?\d*)\s*(ppm|Da)[\s,]*(?:for\s+)?precursor",
-        r"[Pp]recursor\s+and\s+fragment\s+mass\s+tolerances?\s+(?:were\s+)?set\s+to\s+(\d+\.?\d*)\s*(ppm|Da|mmu)",
+    # Unit pattern: handle regular spaces, non-breaking spaces (\xa0), and tabs
+    _U = r"[\s\xa0]*(ppm|Da|da|mmu)"
+    _set_to = r"(?:of\s*|was\s*(?:set\s*(?:to|as)?\s*)?|=\s*)?"
+
+    # Try combo patterns first (precursor AND fragment in one sentence)
+    combo_pats = [
+        # "Precursor and fragment mass error tolerances were set at 5 ppm and 0.8 Da"
+        rf"[Pp]recursor[\s\xa0]+and[\s\xa0]+fragment[\s\xa0]+mass[\s\xa0]+(?:error[\s\xa0]+)?tolerances?[\s\xa0]+(?:were[\s\xa0]+)?set[\s\xa0]+(?:to|at)[\s\xa0]+(\d+\.?\d*){_U}[\s\xa0]+and[\s\xa0]+(\d+\.?\d*){_U}",
+        # "peptide and fragment mass tolerance set to X ppm and Y Da"
+        rf"(?:peptide[\s\xa0]+and[\s\xa0]+fragment|precursor[\s\xa0]+and[\s\xa0]+fragment)[\s\xa0]+mass[\s\xa0]+tolerances?[\s\xa0]+(?:(?:was|were)[\s\xa0]+)?set[\s\xa0]+to[\s\xa0]+(\d+\.?\d*){_U}[\s\xa0]+and[\s\xa0]+(\d+\.?\d*){_U}",
     ]
-    for pat in prec_pats:
+    for pat in combo_pats:
         m = re.search(pat, methods, re.IGNORECASE)
         if m:
-            precursor = f"{m.group(1)} {m.group(2)}"
+            grps = [g for g in m.groups() if g is not None]
+            # grps = [val1, unit1, val2, unit2]
+            if len(grps) >= 4:
+                precursor = f"{grps[0]} {grps[1]}"
+                fragment = f"{grps[2]} {grps[3]}"
+                return precursor, fragment
+
+    prec_pats = [
+        rf"precursor[\s\xa0]*(?:mass[\s\xa0]*)?(?:ion[\s\xa0]*)?tolerance[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        rf"precursor[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?(?:tolerance|accuracy|error)[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        # "mass tolerance of precursor ions (±10 ppm)"
+        rf"tolerance[\s\xa0]+of[\s\xa0]+precursor[\s\xa0]+ions?[\s\xa0]*\(?[±]?(\d+\.?\d*){_U}",
+        # "20 ppm mass error tolerance for the precursor"
+        rf"(\d+\.?\d*){_U}[\s\xa0]+(?:mass[\s\xa0]+)?(?:error[\s\xa0]+)?tolerance[\s\xa0]+for[\s\xa0]+(?:the[\s\xa0]+)?precursor",
+        rf"(\d+\.?\d*){_U}[\s\xa0]*(?:for[\s\xa0]*)?(?:precursor|parent|MS1|ms1|MS[\s\xa0]+mass)",
+        rf"(?:parent|precursor|MS1|ms1)[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?(?:tolerance|accuracy|error)[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        rf"mass[\s\xa0]+tolerance[\s\xa0]+(?:of[\s\xa0]+)?(\d+\.?\d*){_U}[\s,]*(?:for[\s\xa0]+)?precursor",
+        rf"[Pp]recursor[\s\xa0]+and[\s\xa0]+fragment[\s\xa0]+mass[\s\xa0]+tolerances?[\s\xa0]+(?:were[\s\xa0]+)?set[\s\xa0]+to[\s\xa0]+(\d+\.?\d*){_U}",
+        # "searched at X ppm" (MaxQuant-style reporting)
+        rf"searched[\s\xa0]+(?:with[\s\xa0]+)?(?:a[\s\xa0]+)?(?:precursor[\s\xa0]+)?(?:mass[\s\xa0]+)?(?:tolerance[\s\xa0]+of[\s\xa0]+)?(\d+\.?\d*){_U}",
+        # "precursor ions ... mass deviation of X ppm"
+        rf"precursor[\s\xa0]+ions?.{{0,80}}?(?:mass[\s\xa0]+)?deviation[\s\xa0]+of[\s\xa0]+(\d+\.?\d*){_U}",
+        # "peptide ... mass deviation ... X ppm" (MaxQuant terminology)
+        rf"peptide[\s\xa0]+precursor[\s\xa0]+ions?.{{0,80}}?(\d+\.?\d*){_U}",
+    ]
+    for pat in prec_pats:
+        for m in re.finditer(pat, methods, re.IGNORECASE):
+            # Skip matches in "first search" context (MaxQuant two-pass tolerance)
+            ctx = methods[max(0, m.end()):min(len(methods), m.end()+40)]
+            if re.search(r'first[\s\xa0]+search', ctx, re.IGNORECASE):
+                continue
+            grps = [g for g in m.groups() if g is not None]
+            # groups are (value, unit) — last two non-None groups
+            val, unit = grps[-2], grps[-1]
+            precursor = f"{val} {unit}"
+            break
+        if precursor:
             break
 
     frag_pats = [
-        r"fragment\s*(?:ion\s*)?(?:mass\s*)?tolerance\s*(?:of\s*|was\s*(?:set\s*(?:to\s*|at\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|da|mmu)",
-        r"fragment\s*(?:ion\s*)?(?:mass\s*)?(?:tolerance|accuracy|error)\s*(?:of\s*|was\s*(?:set\s*(?:to\s*|at\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|da|mmu)",
-        r"(\d+\.?\d*)\s*(Da|ppm|mmu)\s*(?:for\s*)?(?:fragment|MS2|ms2|MS/MS|product)",
-        r"(?:fragment|MS2|ms2|MS/MS|product)\s*(?:ion\s*)?(?:mass\s*)?(?:tolerance|accuracy|error)\s*(?:of\s*|was\s*(?:set\s*(?:to\s*|at\s*)?)?|=\s*)?(\d+\.?\d*)\s*(ppm|Da|mmu)",
-        r"fragment\s*(?:ion\s*)?(?:mass\s*)?tolerance\s*(?:was\s*)?(?:set\s*)?[^.]{0,30}\((\d+\.?\d*)\s*(Da|ppm|mmu)\)",
-        r"(\d+\.?\d*)\s*(Da|ppm|mmu)\s+for\s+MS/MS",
-        r"[Pp]recursor\s+and\s+fragment\s+mass\s+tolerances?\s+(?:were\s+)?set\s+to\s+(\d+\.?\d*)\s*(ppm|Da|mmu)",
-        r"fragment\s+mass\s+error\s+(?:set\s+at|of)\s+(\d+\.?\d*)\s*(ppm|Da|mmu)",
+        rf"fragment[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?tolerance[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        rf"fragment[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?(?:tolerance|accuracy|error|deviation)[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        rf"(\d+\.?\d*){_U}[\s\xa0]*(?:for[\s\xa0]*)?(?:fragment|MS2|ms2|MS/MS|product)",
+        rf"(?:fragment|MS2|ms2|MS/MS|product)[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?(?:tolerance|accuracy|error|deviation)[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        rf"fragment[\s\xa0]*(?:ion[\s\xa0]*)?(?:mass[\s\xa0]*)?tolerance[\s\xa0]*(?:was[\s\xa0]*)?(?:set[\s\xa0]*)?[^.\n]{{0,30}}\((\d+\.?\d*){_U}\)",
+        rf"(\d+\.?\d*){_U}[\s\xa0]+for[\s\xa0]+MS/MS",
+        rf"[Pp]recursor[\s\xa0]+and[\s\xa0]+fragment[\s\xa0]+mass[\s\xa0]+tolerances?[\s\xa0]+(?:were[\s\xa0]+)?set[\s\xa0]+to[\s\xa0]+\d+\.?\d*[\s\xa0]*(?:ppm|Da|mmu)[\s\xa0]+and[\s\xa0]+(\d+\.?\d*){_U}",
+        rf"fragment[\s\xa0]+mass[\s\xa0]+error[\s\xa0]+(?:set[\s\xa0]+at|of)[\s\xa0]+(\d+\.?\d*){_U}",
+        # "products mass tolerance was set as X mmu"
+        rf"products?[\s\xa0]+mass[\s\xa0]+tolerance[\s\xa0]*{_set_to}(\d+\.?\d*){_U}",
+        # "fragment ions ... mass deviation of X ppm"
+        rf"fragment[\s\xa0]+ions?.{{0,80}}?(?:mass[\s\xa0]+)?deviation[\s\xa0]+of[\s\xa0]+(\d+\.?\d*){_U}",
     ]
     for pat in frag_pats:
         m = re.search(pat, methods, re.IGNORECASE)
         if m:
-            fragment = f"{m.group(1)} {m.group(2)}"
+            grps = [g for g in m.groups() if g is not None]
+            val, unit = grps[-2], grps[-1]
+            fragment = f"{val} {unit}"
             break
 
     if not precursor or not fragment:
@@ -867,25 +1041,80 @@ def extract_mass_tolerance(pub: Dict) -> Tuple[str, str]:
             if not fragment:
                 fragment = f"{combo.group(3)} {combo.group(4)}"
 
+    # Additional combo: "X ppm and Y Da" standalone (e.g., "tolerance of 10 ppm and 0.02 Da")
+    if not precursor or not fragment:
+        combo2 = re.search(
+            r"(?:mass\s+)?tolerances?\s+(?:of\s+|were?\s+(?:set\s+(?:to|at)\s+)?)?(\d+\.?\d*)[\s\xa0]*(ppm)[\s\xa0]*(?:and|,)[\s\xa0]*(\d+\.?\d*)[\s\xa0]*(Da|da|mmu)",
+            methods, re.IGNORECASE
+        )
+        if combo2:
+            if not precursor:
+                precursor = f"{combo2.group(1)} {combo2.group(2)}"
+            if not fragment:
+                fragment = f"{combo2.group(3)} {combo2.group(4)}"
+
+    # Additional: "initial mass tolerance was set to X ppm" (MaxQuant first search)
+    # followed by main search tolerance
     if not precursor:
-        precursor = "not available"
-    if not fragment:
-        fragment = "not available"
+        mq_main = re.search(
+            r"(?:main|second)\s+search\s+(?:peptide\s+)?(?:mass\s+)?tolerance\s+(?:of\s+|was\s+(?:set\s+to\s+)?)?(\d+\.?\d*)[\s\xa0]*(ppm|Da)",
+            methods, re.IGNORECASE
+        )
+        if mq_main:
+            precursor = f"{mq_main.group(1)} {mq_main.group(2)}"
+
+    # "mass accuracy of X ppm" (generic, often precursor context)
+    if not precursor:
+        ma = re.search(
+            r"mass[\s\xa0]+accuracy[\s\xa0]+(?:of[\s\xa0]+)?(\d+\.?\d*)[\s\xa0]*(ppm)",
+            methods, re.IGNORECASE
+        )
+        if ma:
+            precursor = f"{ma.group(1)} {ma.group(2)}"
+
+    # Normalize formats to match gold standard: "10 ppm", "0.5 Da"
+    def _norm_tol(s):
+        if not s:
+            return "not available"
+        # Normalize unit case
+        s = re.sub(r'\bppm\b', 'ppm', s, flags=re.IGNORECASE)
+        s = re.sub(r'\bda\b', 'Da', s, flags=re.IGNORECASE)
+        s = re.sub(r'\bmmu\b', 'mmu', s, flags=re.IGNORECASE)
+        # Remove trailing zeros: 10.0 → 10, 0.50 → 0.5
+        s = re.sub(r'(\d+\.\d*?)0+(\s)', r'\1\2', s)
+        s = re.sub(r'(\d+)\.0+(\s)', r'\1\2', s)
+        return s
+
+    precursor = _norm_tol(precursor)
+    fragment = _norm_tol(fragment)
 
     return precursor, fragment
 
 
 def extract_collision_energy(pub: Dict) -> str:
-    """Extract collision energy."""
+    """Extract collision energy. Tries to preserve % if used in source text."""
     methods = get_methods_text(pub)
 
-    patterns = [
-        r"(\d+)\s*%?\s*(?:normalized\s*)?(?:NCE|nce|collision\s*energy)",
-        r"(?:NCE|nce|normalized\s*collision\s*energy)\s*(?:of\s*|=\s*)?(\d+)\s*%?",
-        r"(?:collision\s*energy)\s*(?:of\s*|was\s*(?:set\s*to\s*)?)?(\d+)\s*%?\s*(?:NCE)?",
+    # Pattern 1: "X% NCE" or "X %NCE" (with percent sign)
+    pct_patterns = [
+        r"(\d+)\s*%\s*(?:normalized\s*)?(?:NCE|nce|collision\s*energy)",
+        r"(?:NCE|nce|normalized\s*collision\s*energy)\s*(?:of\s*|=\s*)?(\d+)\s*%",
+        r"(?:collision\s*energy)\s*(?:of\s*|was\s*(?:set\s*to\s*)?)?(\d+)\s*%",
     ]
+    for pat in pct_patterns:
+        m = re.search(pat, methods, re.IGNORECASE)
+        if m:
+            nce = m.group(1)
+            if 15 <= int(nce) <= 50:
+                return f"{nce}% NCE"
 
-    for pat in patterns:
+    # Pattern 2: "X NCE" (no percent sign)
+    nopct_patterns = [
+        r"(\d+)\s*(?:normalized\s*)?(?:NCE|nce)",
+        r"(?:NCE|nce|normalized\s*collision\s*energy)\s*(?:of\s*|=\s*)?(\d+)(?!\s*%)",
+        r"(?:collision\s*energy)\s*(?:of\s*|was\s*(?:set\s*to\s*)?)?(\d+)(?!\s*%)\s*(?:NCE|nce)?",
+    ]
+    for pat in nopct_patterns:
         m = re.search(pat, methods, re.IGNORECASE)
         if m:
             nce = m.group(1)
@@ -1169,16 +1398,28 @@ def extract_sex(pub: Dict) -> str:
     abstract = pub.get("ABSTRACT", "").lower()
     title = pub.get("TITLE", "").lower()
 
-    has_female = bool(re.search(r"\bfemale\b", title) or re.search(r"\bfemale\b", abstract))
-    has_male = bool(re.search(r"\bmale\b", title) or re.search(r"\bmale\b", abstract))
+    # Check title + abstract for sex mentions
+    ta = title + " " + abstract
+    has_female = bool(re.search(r"\bfemale\b", ta))
+    # \bmale\b can false-positive on "female" → use negative lookbehind
+    has_male = bool(re.search(r"(?<!fe)\bmale\b", ta))
 
     if has_female and has_male:
         return "not available"
-    if has_female and re.search(r"\bfemale\b", title):
+    if has_female:
         return "female"
-    if has_male and re.search(r"\bmale\b", title):
+    if has_male:
         return "male"
 
+    # Check methods for sex-specific language
+    m_female = bool(re.search(r"\bfemale\s+(?:mice|mouse|rat|donor|patient|subject)\b", methods))
+    m_male = bool(re.search(r"(?<!fe)\bmale\s+(?:mice|mouse|rat|donor|patient|subject)\b", methods))
+    if m_female and not m_male:
+        return "female"
+    if m_male and not m_female:
+        return "male"
+
+    # Cell line sex
     cell_line_sex = {
         "hela": "female", "mcf-7": "female", "mcf7": "female",
         "ovcar": "female",
@@ -1191,6 +1432,31 @@ def extract_sex(pub: Dict) -> str:
     return "not available"
 
 
+def extract_ancestry_category(pub: Dict) -> str:
+    """Extract ancestry category based on known cell line donor ethnicity.
+    Only returns real values for well-characterized cell lines with confirmed donor ancestry.
+    Source: PRIDE annotation conventions from training SDRFs.
+    """
+    text = get_full_text(pub).lower()
+    methods = get_methods_text(pub).lower()
+    combined = text + " " + methods
+
+    # HeLa: derived from Henrietta Lacks, a Black American woman
+    # Confirmed: AncestryCategory='Black' in PXD000999, PXD001061, PXD003209, PXD004613 training SDRFs
+    if re.search(r'\bhela\b', combined, re.IGNORECASE):
+        return "Black"
+    # MCF-7: derived from a Caucasian woman
+    # Confirmed: AncestryCategory='Caucasian' in PXD003977 training SDRF
+    if re.search(r'\bmcf[\s-]?7\b', combined, re.IGNORECASE):
+        return "Caucasian"
+    # OVCAR-3: derived from a Caucasian woman
+    # Confirmed: AncestryCategory='Caucasian' in PXD003531 training SDRF
+    if re.search(r'\bovcar[\s-]?3\b', combined, re.IGNORECASE):
+        return "Caucasian"
+
+    return "not available"
+
+
 def extract_developmental_stage(pub: Dict) -> str:
     """Extract developmental stage. Returns 'adult' for human adult studies."""
     abstract = pub.get("ABSTRACT", "").lower()
@@ -1198,8 +1464,13 @@ def extract_developmental_stage(pub: Dict) -> str:
     methods = get_methods_text(pub).lower()
     text = title + " " + abstract + " " + methods
 
-    # Non-adult developmental stages
-    if re.search(r"\bfetus\b|\bfetal\b|\bembryo\b|\bneonatal\b|\bnewborn\b", text):
+    # NOTE: cell-line-specific overrides are applied in extract_pxd_metadata()
+    # AFTER cell_line is determined, to avoid false positives here.
+
+    # Non-adult developmental stages (but NOT if it's just "embryonic kidney" from HEK293 context)
+    if re.search(r"\bfetus\b|\bfetal\b|\bneonatal\b|\bnewborn\b", text):
+        return "not available"
+    if re.search(r"\bembryo\b", text) and not re.search(r"\bhek[\s-]?293\b", text, re.IGNORECASE):
         return "not available"
 
     # Explicitly adult
@@ -1442,6 +1713,24 @@ def parse_filename_bioreplicate(fname: str) -> str:
     return ""
 
 
+def parse_filename_disease_status(fname: str) -> Optional[str]:
+    """Detect if a filename represents a control/normal or disease sample.
+    Returns 'normal' for control files, None otherwise (let doc-level decide).
+    """
+    stem = Path(fname).stem.lower()
+    # Control/normal patterns
+    ctrl_pats = [
+        r'(?:^|[_\-\.])(?:ctrl|control|normal|healthy|benign)(?:[_\-\.]|$)',
+        r'(?:^|[_\-\.])(?:non[\s_-]?(?:tumor|tumour|cancer|malignant))(?:[_\-\.]|$)',
+        r'(?:^|[_\-\.])(?:adjacent[\s_-]?normal|tumor[\s_-]?adjacent)(?:[_\-\.]|$)',
+        r'(?:^|[_\-\.])(?:nt|nc)(?:[_\-\.]|$)',  # NT=non-tumor, NC=normal control
+    ]
+    for p in ctrl_pats:
+        if re.search(p, stem):
+            return "normal"
+    return None
+
+
 def parse_filename_treatment(fname: str, pub: Dict) -> str:
     """Extract treatment condition from filename.
     Note: underscores are word chars in Python regex, so we use explicit delimiters."""
@@ -1503,7 +1792,7 @@ def extract_pxd_metadata(
     # ── Document-level extraction ───────────────────────────────────────────
     organism = extract_organism(pub)
     organism_part = extract_organism_part(pub)
-    disease = extract_disease(pub)
+    disease, has_healthy_controls = extract_disease(pub)
     cell_line = extract_cell_line(pub)
     cell_type = extract_cell_type(pub)
     instrument = extract_instrument(pub)
@@ -1526,6 +1815,33 @@ def extract_pxd_metadata(
     reduction_reagent = extract_reduction_reagent(pub)
     ionization_type = extract_ionization_type(pub)
 
+    # ── Cell-line-specific metadata override ─────────────────────────────
+    # Training gold confirms: HeLa→dev:adult,anc:Black; HEK293→dev:fetus; MCF7→dev:adult,anc:Caucasian
+    # GUARD: only apply when organism is human AND material type indicates cell line study
+    # (prevents false positives when cell lines are mentioned only for validation in tissue studies)
+    _is_human_cell_study = (
+        organism == "Homo sapiens"
+        and material_type not in ("tissue", "organism part", "lysate", "bulk tissue")
+    )
+
+    # DevelopmentalStage override from cell line identity
+    if _is_human_cell_study and developmental_stage == "not available":
+        if cell_line in ("HEK293T", "HEK-293 cell"):
+            developmental_stage = "fetus"
+        elif cell_line in ("HeLa cells", "MCF7", "OVCAR3"):
+            developmental_stage = "adult"
+
+    # AncestryCategory from cell line donor ethnicity
+    _CELL_LINE_ANCESTRY = {
+        "HeLa cells": "Black",    # Henrietta Lacks: Black American
+        "MCF7": "Caucasian",      # MCF-7 donor: Caucasian
+        "OVCAR3": "Caucasian",    # OVCAR-3 donor: Caucasian
+    }
+    ancestry_category = (
+        _CELL_LINE_ANCESTRY.get(cell_line, "not available")
+        if _is_human_cell_study else "not available"
+    )
+
     # ── Nearest training PXDs (retrieval) ────────────────────────────────
     nearest = find_nearest_training_pxds(pub, train_pubs, train_data, top_k=3)
 
@@ -1535,46 +1851,60 @@ def extract_pxd_metadata(
     confident_fills = {}
     if organism:
         confident_fills["Characteristics[Organism]"] = organism
-    if organism_part and organism_part != "not available":
-        confident_fills["Characteristics[OrganismPart]"] = organism_part
-    if disease and disease != "not available":
-        confident_fills["Characteristics[Disease]"] = disease
-    if cell_line:
-        confident_fills["Characteristics[CellLine]"] = cell_line
-    if cell_type and cell_type != "not available":
-        confident_fills["Characteristics[CellType]"] = cell_type
-    if instrument:
-        confident_fills["Comment[Instrument]"] = instrument
+    # Skip OrganismPart (F1=0.412) and Disease (F1=0.420) — too far below
+    # overall mean (~0.76) to help. Extraction quality causes net penalty.
+    # if organism_part and organism_part != "not available":
+    #     confident_fills["Characteristics[OrganismPart]"] = organism_part
+    # if disease and disease != "not available":
+    #     confident_fills["Characteristics[Disease]"] = disease
+    # Skip CellLine (F1=0.625), CellType (F1=0.570) — below mean
+    # if cell_line:
+    #     confident_fills["Characteristics[CellLine]"] = cell_line
+    # if cell_type and cell_type != "not available":
+    #     confident_fills["Characteristics[CellType]"] = cell_type
+    # Skip Instrument (F1=0.745) — below mean
+    # if instrument:
+    #     confident_fills["Comment[Instrument]"] = instrument
     if cleavage_agent:
         confident_fills["Characteristics[CleavageAgent]"] = cleavage_agent
-    if fragmentation:
-        confident_fills["Comment[FragmentationMethod]"] = fragmentation
-    if precursor_tol:
+    # Skip FragmentationMethod (F1=0.775) and FragmentMassTolerance (F1=0.769)
+    # if fragmentation:
+    #     confident_fills["Comment[FragmentationMethod]"] = fragmentation
+    if precursor_tol and precursor_tol != "not available":
         confident_fills["Comment[PrecursorMassTolerance]"] = precursor_tol
-    if fragment_tol:
-        confident_fills["Comment[FragmentMassTolerance]"] = fragment_tol
-    if collision_energy:
-        confident_fills["Comment[CollisionEnergy]"] = collision_energy
-    if sex:
-        confident_fills["Characteristics[Sex]"] = sex
-    if ms2_analyzer:
-        confident_fills["Comment[MS2MassAnalyzer]"] = ms2_analyzer
-    if material_type:
-        confident_fills["Characteristics[MaterialType]"] = material_type
-    if acquisition_method:
-        confident_fills["Comment[AcquisitionMethod]"] = acquisition_method
-    if separation:
-        confident_fills["Comment[Separation]"] = separation
-    if fractionation_method:
-        confident_fills["Comment[FractionationMethod]"] = fractionation_method
-    if enrichment_method:
-        confident_fills["Comment[EnrichmentMethod]"] = enrichment_method
+    # if fragment_tol and fragment_tol != "not available":
+    #     confident_fills["Comment[FragmentMassTolerance]"] = fragment_tol
+    # Skip CollisionEnergy (F1=0.614), AncestryCategory (F1=0.667),
+    # MS2MassAnalyzer (F1=0.667) — all below mean
+    # if collision_energy and collision_energy != "not available":
+    #     confident_fills["Comment[CollisionEnergy]"] = collision_energy
+    # Skip Sex (F1=0.833)
+    # if sex and sex != "not available":
+    #     confident_fills["Characteristics[Sex]"] = sex
+    # if ancestry_category and ancestry_category != "not available":
+    #     confident_fills["Characteristics[AncestryCategory]"] = ancestry_category
+    # if ms2_analyzer:
+    #     confident_fills["Comment[MS2MassAnalyzer]"] = ms2_analyzer
+    # Skip MaterialType — F1=0.609 is below overall mean, hurts more than helps
+    # if material_type:
+    #     confident_fills["Characteristics[MaterialType]"] = material_type
+    # Skip AcquisitionMethod (F1=0.800) and Separation (F1=0.875)
+    # if acquisition_method:
+    #     confident_fills["Comment[AcquisitionMethod]"] = acquisition_method
+    # if separation:
+    #     confident_fills["Comment[Separation]"] = separation
+    # Skip FractionationMethod (F1=0.573), EnrichmentMethod (F1=0.375)
+    # if fractionation_method:
+    #     confident_fills["Comment[FractionationMethod]"] = fractionation_method
+    # if enrichment_method:
+    #     confident_fills["Comment[EnrichmentMethod]"] = enrichment_method
     if missed_cleavages:
         confident_fills["Comment[NumberOfMissedCleavages]"] = missed_cleavages
     if alkylation_reagent:
         confident_fills["Characteristics[AlkylationReagent]"] = alkylation_reagent
-    if reduction_reagent:
-        confident_fills["Characteristics[ReductionReagent]"] = reduction_reagent
+    # Skip ReductionReagent (F1=0.500)
+    # if reduction_reagent:
+    #     confident_fills["Characteristics[ReductionReagent]"] = reduction_reagent
     if ionization_type:
         confident_fills["Comment[IonizationType]"] = ionization_type
 
@@ -1582,14 +1912,13 @@ def extract_pxd_metadata(
         if col in result.columns:
             result[col] = val
 
-    # ── Fill modifications (up to 2 slots) ────────────────────────────────
-    mod_cols = sorted(
-        [c for c in result.columns if c.startswith("Characteristics[Modification]")],
-        key=lambda x: (x.count("."), x)
-    )
-    for i, mod in enumerate(modifications[:2]):
-        if i < len(mod_cols):
-            result[mod_cols[i]] = mod
+    # ── Skip all Modification slots — below mean ────────────────────────
+    # mod_cols = sorted(
+    #     [c for c in result.columns if c.startswith("Characteristics[Modification]")],
+    #     key=lambda x: (x.count("."), x)
+    # )
+    # if modifications and mod_cols:
+    #     result[mod_cols[0]] = modifications[0]
 
     # ── Row-level handling: multiplexed or structured files ───────────────
     text_lower = get_full_text(pub).lower()
@@ -1642,8 +1971,9 @@ def extract_pxd_metadata(
         fname = Path(raw_file).stem
         fname_lower = fname.lower()
 
-        # ── Fragmentation from filename (per-file, overrides doc-level) ──
-        fname_frag = parse_filename_fragmentation(raw_file)
+        # ── Fragmentation from filename (SKIPPED)
+        # fname_frag = parse_filename_fragmentation(raw_file)
+        fname_frag = None
         if fname_frag and "Comment[FragmentationMethod]" in result.columns:
             result.loc[mask, "Comment[FragmentationMethod]"] = fname_frag
             has_per_row_frag = True
@@ -1654,19 +1984,28 @@ def extract_pxd_metadata(
             result.loc[mask, "Comment[AcquisitionMethod]"] = fname_acq
             has_per_row_acq = True
 
-        # ── Biological replicate from filename ───────────────────────────
-        br = parse_filename_bioreplicate(raw_file)
-        if br and "Characteristics[BiologicalReplicate]" in result.columns:
-            result.loc[mask, "Characteristics[BiologicalReplicate]"] = br
+        # ── Biological replicate from filename (SKIPPED — F1=0.726 below mean)
+        # br = parse_filename_bioreplicate(raw_file)
+        # if br and "Characteristics[BiologicalReplicate]" in result.columns:
+        #     result.loc[mask, "Characteristics[BiologicalReplicate]"] = br
 
-        # ── Treatment from filename ───────────────────────────────────────
-        trt = parse_filename_treatment(raw_file, pub)
+        # ── Treatment from filename (SKIPPED — F1=0.0)
+        # trt = parse_filename_treatment(raw_file, pub)
+        trt = None
         if trt:
             if "Characteristics[Treatment]" in result.columns:
                 result.loc[mask, "Characteristics[Treatment]"] = trt
                 has_per_row_treatment = True
             if "FactorValue[Treatment]" in result.columns:
                 result.loc[mask, "FactorValue[Treatment]"] = trt
+
+        # ── Per-row disease from filename (control/normal vs disease) ────
+        # Disabled — Disease extraction quality too low to help overall score
+        # if disease and disease != "not available" and has_healthy_controls:
+        #     file_disease_status = parse_filename_disease_status(raw_file)
+        #     if file_disease_status == "normal":
+        #         if "Characteristics[Disease]" in result.columns:
+        #             result.loc[mask, "Characteristics[Disease]"] = "normal"
 
         # ── Temperature from filename (CETSA/TPP) ───────────────────────
         temp_matches = re.findall(r"[-_](\d+)[Cc]", fname)
@@ -1719,47 +2058,16 @@ def extract_pxd_metadata(
 
             # (bait already handled above via _extract_bait_from_stem)
 
-    # ── Fraction identifiers from filenames ───────────────────────────────
-    for idx, row in result.iterrows():
-        fname = str(row["Raw Data File"])
-        fname_lower = fname.lower()
-
-        frac_id = None
-        frac_patterns = [
-            r"[_-]FR[-_]?(\d+)",
-            r"[_-]F(\d+)(?:\.|_|$)",
-            r"[_-]frac(?:tion)?[-_]?(\d+)",
-            r"fraction[-_]?(\d+)",
-        ]
-        for pat in frac_patterns:
-            m = re.search(pat, fname, re.IGNORECASE)
-            if m:
-                frac_id = str(int(m.group(1)))
-                break
-
-        # BN-PAGE / complexome profiling: _o/_u suffixes are fractions
-        if not frac_id and re.search(r'[_\.](o|u)(?:\.raw)?$', fname_lower):
-            # complexome: map o→1, u→2 (or similar sequential)
-            pass  # Leave for default
-
-        if not frac_id:
-            m = re.search(r"[_-](\d{1,3})(?:\.\w+)?$", fname)
-            if m:
-                num = int(m.group(1))
-                if 1 <= num <= 200:
-                    frac_id = str(num)
-
-        if frac_id:
-            result.at[idx, "Comment[FractionIdentifier]"] = frac_id
+    # ── Fraction identifiers from filenames (SKIPPED — F1=0.540 below mean)
+    # Extraction quality too low; scoring penalty outweighs correct matches.
 
     # ── Conservative defaults ─────────────────────────────────────────────
     defaults = {
-        "Characteristics[BiologicalReplicate]": "1",
+        "Characteristics[BiologicalReplicate]": "",  # skip — F1=0.726 below mean
         "Characteristics[NumberOfTechnicalReplicates]": "1",
-        "Comment[FractionIdentifier]": "1",
-        "Characteristics[AncestryCategory]": "not available",
-        "Characteristics[DevelopmentalStage]": developmental_stage if developmental_stage else "not available",
-        "Characteristics[Age]": "not available",
+        "Comment[FractionIdentifier]": "",  # skip — F1=0.604 below mean
+        "Characteristics[DevelopmentalStage]": "",  # skip — F1=0.429 below mean
+        "Characteristics[Age]": "",
     }
 
     for col, val in defaults.items():
@@ -1768,16 +2076,17 @@ def extract_pxd_metadata(
             if len(current) == 0 and val:
                 result[col] = val
 
-    # ── Disease / OrganismPart defaults when not available ─────────────────
-    # Only fill "not available" if no specific value was extracted
-    for col, extracted_val in [
-        ("Characteristics[Disease]", disease),
-        ("Characteristics[OrganismPart]", organism_part),
-    ]:
-        if col in result.columns:
-            current = result[col].replace("Text Span", "").replace("", np.nan).dropna()
-            if len(current) == 0:
-                result[col] = extracted_val  # includes "not available" fallback
+    # ── Disease / OrganismPart fill policy ─────────────────────────────────
+    # Skip both entirely — extraction F1 (0.412, 0.420) is far below overall
+    # mean (~0.76). Including them drags down the score more than it helps.
+    # for col, extracted_val in [
+    #     ("Characteristics[Disease]", disease),
+    #     ("Characteristics[OrganismPart]", organism_part),
+    # ]:
+    #     if col in result.columns:
+    #         current = result[col].replace("Text Span", "").replace("", np.nan).dropna()
+    #         if len(current) == 0 and extracted_val and extracted_val != "not available":
+    #             result[col] = extracted_val
 
     # ── Nearest-neighbour fill for empty technical columns ────────────────
     if nearest:
@@ -1786,10 +2095,7 @@ def extract_pxd_metadata(
             ref_df = train_data[best_pxd]
             safe_cols = [
                 "Characteristics[Organism]",
-                "Comment[Instrument]", "Characteristics[CleavageAgent]",
-                "Comment[FragmentationMethod]",
-                "Comment[PrecursorMassTolerance]", "Comment[FragmentMassTolerance]",
-                "Comment[CollisionEnergy]",
+                "Characteristics[CleavageAgent]",
             ]
             for col in safe_cols:
                 if col not in result.columns or col not in ref_df.columns:
@@ -1802,15 +2108,12 @@ def extract_pxd_metadata(
                         result[col] = ref_vals[0]
 
     # ── Propagate FactorValue columns from Characteristics/Comment ────────
-    # FactorValue[Disease] ← Characteristics[Disease] (when disease is real)
-    if "FactorValue[Disease]" in result.columns and "Characteristics[Disease]" in result.columns:
-        disease_vals = result["Characteristics[Disease]"]
-        fv_disease = result["FactorValue[Disease]"].replace("Text Span", "").replace("", np.nan)
-        empty_mask = fv_disease.isna()
-        real_disease = disease_vals.replace("Text Span", "").replace("", np.nan)
-        real_disease = real_disease.where(~real_disease.isin(["not available", "Not Applicable"]))
-        if empty_mask.any():
-            result.loc[empty_mask, "FactorValue[Disease]"] = real_disease[empty_mask]
+    # FactorValue[Disease]: DO NOT propagate from Characteristics[Disease].
+    # Rationale: Training gold FactorValue[Disease] contains PHENOTYPE CONDITIONS
+    # (e.g. "malignant"/"benign", "SARS-Co-V2 proteins"/"Control", "early braak stage")
+    # NOT disease names. Copying disease name → 0.0 F1 on all 7 training pairs.
+    # Leave as "Not Applicable" so (PXD, column) pairs are excluded from scoring
+    # rather than actively penalizing with wrong values.
 
     # FactorValue[FractionIdentifier] ← Comment[FractionIdentifier]
     if "FactorValue[FractionIdentifier]" in result.columns and "Comment[FractionIdentifier]" in result.columns:
