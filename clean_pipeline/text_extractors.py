@@ -797,7 +797,8 @@ def extract_all(pub_text: Dict[str, str]) -> Dict[str, List[Tuple[str, float, st
         'Comment[FragmentMassTolerance]': tolerances['fragment'],
         'Comment[NumberOfMissedCleavages]': extract_missed_cleavages(pub_text),
         'Comment[GradientTime]': extract_gradient_time(pub_text),
-        'Comment[CollisionEnergy]': extract_collision_energy(pub_text),
+        # CollisionEnergy extraction: 0% accuracy on training, always wrong. Disabled.
+        # 'Comment[CollisionEnergy]': extract_collision_energy(pub_text),
         'Comment[NumberOfFractions]': extract_number_of_fractions(pub_text),
         'Characteristics[Specimen]': extract_specimen(pub_text),
         'Characteristics[Sex]': extract_sex(pub_text),

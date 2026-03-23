@@ -12,3 +12,4 @@ c3b64b3	0.670155	0	discard	exp7: default Carbamidomethyl+Oxidation mods - no cha
 7edddc7	0.686200	0	discard	exp10: confidence gate 0.5 on paper level - no change
 f820a5e	0.694265	0	keep	exp11: broader tolerance extraction with proper Da casing
 f820a5e	0.694265	0	discard	exp12: MaterialType rework - no change
+1624f31	0.710242	0	keep	exp13: disable MaterialType - Not Applicable is scorer-neutral and better than 28% accuracy
