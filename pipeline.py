@@ -437,7 +437,7 @@ def extract_organism_part(pub: Dict) -> str:
         best = max(scores, key=lambda k: (scores[k], len(k)))
         if scores[best] >= 3:
             return best
-    return "not available"
+    return ""
 
 
 def extract_disease(pub: Dict) -> str:
@@ -519,7 +519,7 @@ def extract_disease(pub: Dict) -> str:
         best = max(scores, key=lambda k: (scores[k], -len(k) if 'Rectum' in k else len(k)))
         if scores[best] >= 3:
             return best
-    return "not available"
+    return ""
 
 
 def extract_cell_line(pub: Dict) -> str:
@@ -616,7 +616,7 @@ def extract_cell_type(pub: Dict) -> str:
         best = max(scores, key=scores.get)
         if scores[best] >= 3:
             return best
-    return "not available"
+    return ""
 
 
 def extract_instrument(pub: Dict) -> str:
@@ -868,9 +868,9 @@ def extract_mass_tolerance(pub: Dict) -> Tuple[str, str]:
                 fragment = f"{combo.group(3)} {combo.group(4)}"
 
     if not precursor:
-        precursor = "not available"
+        precursor = ""
     if not fragment:
-        fragment = "not available"
+        fragment = ""
 
     return precursor, fragment
 
@@ -1173,7 +1173,7 @@ def extract_sex(pub: Dict) -> str:
     has_male = bool(re.search(r"\bmale\b", title) or re.search(r"\bmale\b", abstract))
 
     if has_female and has_male:
-        return "not available"
+        return ""
     if has_female and re.search(r"\bfemale\b", title):
         return "female"
     if has_male and re.search(r"\bmale\b", title):
@@ -1188,7 +1188,7 @@ def extract_sex(pub: Dict) -> str:
         if cl in text:
             return sex
 
-    return "not available"
+    return ""
 
 
 def extract_developmental_stage(pub: Dict) -> str:
@@ -1200,7 +1200,7 @@ def extract_developmental_stage(pub: Dict) -> str:
 
     # Non-adult developmental stages
     if re.search(r"\bfetus\b|\bfetal\b|\bembryo\b|\bneonatal\b|\bnewborn\b", text):
-        return "not available"
+        return ""
 
     # Explicitly adult
     if re.search(r"\badult\s+(?:patient|subject|volunteer|donor|human|mouse|rat|individual)\b", text):
@@ -1215,9 +1215,9 @@ def extract_developmental_stage(pub: Dict) -> str:
     # Mouse/rat studies without age spec
     organism = extract_organism(pub)
     if organism in ("Mus musculus", "Rattus norvegicus"):
-        return "not available"
+        return ""
 
-    return "not available"
+    return ""
 
 
 def extract_alkylation_reagent(pub: Dict) -> str:
@@ -1535,13 +1535,13 @@ def extract_pxd_metadata(
     confident_fills = {}
     if organism:
         confident_fills["Characteristics[Organism]"] = organism
-    if organism_part and organism_part != "not available":
+    if organism_part:
         confident_fills["Characteristics[OrganismPart]"] = organism_part
-    if disease and disease != "not available":
+    if disease:
         confident_fills["Characteristics[Disease]"] = disease
     if cell_line:
         confident_fills["Characteristics[CellLine]"] = cell_line
-    if cell_type and cell_type != "not available":
+    if cell_type:
         confident_fills["Characteristics[CellType]"] = cell_type
     if instrument:
         confident_fills["Comment[Instrument]"] = instrument
@@ -1742,13 +1742,6 @@ def extract_pxd_metadata(
             # complexome: map o→1, u→2 (or similar sequential)
             pass  # Leave for default
 
-        if not frac_id:
-            m = re.search(r"[_-](\d{1,3})(?:\.\w+)?$", fname)
-            if m:
-                num = int(m.group(1))
-                if 1 <= num <= 200:
-                    frac_id = str(num)
-
         if frac_id:
             result.at[idx, "Comment[FractionIdentifier]"] = frac_id
 
@@ -1757,9 +1750,7 @@ def extract_pxd_metadata(
         "Characteristics[BiologicalReplicate]": "1",
         "Characteristics[NumberOfTechnicalReplicates]": "1",
         "Comment[FractionIdentifier]": "1",
-        "Characteristics[AncestryCategory]": "not available",
-        "Characteristics[DevelopmentalStage]": developmental_stage if developmental_stage else "not available",
-        "Characteristics[Age]": "not available",
+        "Characteristics[DevelopmentalStage]": developmental_stage if developmental_stage else "",
     }
 
     for col, val in defaults.items():
@@ -1768,16 +1759,15 @@ def extract_pxd_metadata(
             if len(current) == 0 and val:
                 result[col] = val
 
-    # ── Disease / OrganismPart defaults when not available ─────────────────
-    # Only fill "not available" if no specific value was extracted
+    # ── Disease / OrganismPart fills (only when extractor found a real value) ──
     for col, extracted_val in [
         ("Characteristics[Disease]", disease),
         ("Characteristics[OrganismPart]", organism_part),
     ]:
-        if col in result.columns:
+        if col in result.columns and extracted_val and extracted_val != "not available":
             current = result[col].replace("Text Span", "").replace("", np.nan).dropna()
             if len(current) == 0:
-                result[col] = extracted_val  # includes "not available" fallback
+                result[col] = extracted_val
 
     # ── Nearest-neighbour fill for empty technical columns ────────────────
     if nearest:
