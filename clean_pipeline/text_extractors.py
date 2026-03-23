@@ -584,21 +584,35 @@ def extract_ms2_analyzer(text: Dict[str, str]) -> List[Tuple[str, float, str]]:
     return candidates
 
 
+def _normalize_tolerance_unit(unit: str) -> str:
+    """Normalize tolerance unit to training-canonical format."""
+    u = unit.lower()
+    if u in ('da', 'dalton', 'daltons'):
+        return 'Da'
+    if u == 'ppm':
+        return 'ppm'
+    if u == 'amu':
+        return 'Da'
+    if u == 'mmu':
+        return 'mmu'
+    return u
+
+
 def extract_tolerances(text: Dict[str, str]) -> Dict[str, List[Tuple[str, float, str]]]:
     """Extract precursor and fragment mass tolerances."""
     methods = text.get('METHODS', '') or ''
     result = {'precursor': [], 'fragment': []}
 
     # Precursor tolerance
-    m = re.search(r'(?:precursor|ms1|parent).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton)', methods, re.IGNORECASE)
+    m = re.search(r'(?:precursor|ms1|parent).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|mmu)', methods, re.IGNORECASE)
     if m:
-        val = m.group(1) + ' ' + m.group(2).lower()
+        val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
         result['precursor'].append((val, 0.8, 'text'))
 
     # Fragment tolerance
-    m = re.search(r'(?:fragment|ms2|product).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|amu)', methods, re.IGNORECASE)
+    m = re.search(r'(?:fragment|ms2|product).*?(\d+(?:\.\d+)?)\s*(ppm|da|dalton|amu|mmu)', methods, re.IGNORECASE)
     if m:
-        val = m.group(1) + ' ' + m.group(2).lower()
+        val = m.group(1) + ' ' + _normalize_tolerance_unit(m.group(2))
         result['fragment'].append((val, 0.8, 'text'))
 
     return result
