@@ -407,27 +407,39 @@ def extract_material_type(text: Dict[str, str]) -> List[Tuple[str, float, str]]:
     full = methods + ' ' + abstract
 
     candidates = []
-    if re.search(r'cell\s*line|cultured\s*cells|cell\s*culture', full, re.IGNORECASE):
-        candidates.append(('cell line', 0.8, 'text'))
-    elif re.search(r'tumor\s*tissue|tissue\s*sample|biopsy|resect', full, re.IGNORECASE):
-        candidates.append(('tissue', 0.8, 'text'))
-    elif re.search(r'\btissue\b', full, re.IGNORECASE):
-        candidates.append(('tissue', 0.7, 'text'))
-    elif re.search(r'plasma|serum|blood|csf|urine|saliva|biofluid|milk', full, re.IGNORECASE):
-        candidates.append(('organism part', 0.7, 'text'))
-    elif re.search(r'organism\s*part', full, re.IGNORECASE):
-        candidates.append(('organism part', 0.6, 'text'))
-    elif re.search(r'\bcell\b', full, re.IGNORECASE):
-        candidates.append(('cell', 0.5, 'text'))
 
-    # Also check for bacterial/synthetic
-    if re.search(r'\bbacter', full, re.IGNORECASE):
-        candidates.append(('bacterial strain', 0.6, 'text'))
-    if re.search(r'\bsynthetic\b', full, re.IGNORECASE):
-        candidates.append(('synthetic', 0.6, 'text'))
+    # Check for specific material types with precise patterns
+    if re.search(r'cell\s*line|cultured\s*cell', full, re.IGNORECASE):
+        candidates.append(('cell line', 0.85, 'text'))
     if re.search(r'\blysate\b', full, re.IGNORECASE):
-        candidates.append(('lysate', 0.6, 'text'))
+        candidates.append(('lysate', 0.8, 'text'))
+    if re.search(r'\bsynthetic\b.*\bpeptide\b|\bpeptide\s*standard', full, re.IGNORECASE):
+        candidates.append(('synthetic', 0.8, 'text'))
+    if re.search(r'\bbacter', full, re.IGNORECASE) and not re.search(r'\bhuman\b|\bhela\b', full, re.IGNORECASE):
+        candidates.append(('bacterial strain', 0.7, 'text'))
 
+    # Tissue vs organism part: "organism part" is common in training for
+    # studies using tissue/organ samples
+    if re.search(r'tumor\s*tissue|tissue\s*sample|biopsy|resect|surgical', full, re.IGNORECASE):
+        candidates.append(('tissue', 0.75, 'text'))
+    elif re.search(r'\btissue\b', full, re.IGNORECASE):
+        candidates.append(('organism part', 0.7, 'text'))
+    if re.search(r'plasma|serum|blood|csf|urine|saliva|biofluid|milk', full, re.IGNORECASE):
+        candidates.append(('organism part', 0.7, 'text'))
+
+    # If cell line was detected, "cell" is material type
+    if not candidates:
+        if re.search(r'cell\s*culture', full, re.IGNORECASE):
+            candidates.append(('cell', 0.6, 'text'))
+
+    # Default for studies with identifiable biological context
+    if not candidates and re.search(r'proteom|protein|mass\s*spectro', full, re.IGNORECASE):
+        # For human tissue studies, "organism part" is common
+        if re.search(r'\btissue\b|\borgan\b|\bbrain\b|\bliver\b|\bkidney\b|\bheart\b|\blung\b|\bcolon\b', full, re.IGNORECASE):
+            candidates.append(('organism part', 0.5, 'text'))
+
+    # Return highest confidence
+    candidates.sort(key=lambda x: -x[1])
     return candidates[:1] if candidates else []
 
 

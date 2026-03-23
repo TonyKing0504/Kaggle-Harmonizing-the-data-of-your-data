@@ -1,3 +1,4 @@
 commit	val_f1	eval_seconds	status	description
 f54e7fc	0.651166	80.5	keep	baseline clean pipeline v1
 f54e7fc	0.651166	80.5	discard	exp1: trailing number replicate detection - no change
+fcc5023	0.664119	0	keep	exp2: expanded disease dictionary with cancer-specific and training-canonical values
