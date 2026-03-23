@@ -5,7 +5,7 @@ Characteristics[AnatomicSiteTumor],1659,0,0.0,0
 Characteristics[AncestryCategory],1659,0,0.0,0
 Characteristics[BMI],1659,0,0.0,0
 Characteristics[Bait],1659,10,0.6,4
-Characteristics[BiologicalReplicate],1659,1520,91.6,15
+Characteristics[BiologicalReplicate],1659,0,0.0,0
 Characteristics[CellLine],1659,0,0.0,0
 Characteristics[CellPart],1659,0,0.0,0
 Characteristics[CellType],1659,0,0.0,0
@@ -20,7 +20,7 @@ Characteristics[GeneticModification],1659,56,3.4,8
 Characteristics[Genotype],1659,0,0.0,0
 Characteristics[GrowthRate],1659,0,0.0,0
 Characteristics[Label],1659,1659,100.0,17
-Characteristics[MaterialType],1659,1659,100.0,5
+Characteristics[MaterialType],1659,1514,91.3,1
 Characteristics[Modification],1659,1659,100.0,3
 Characteristics[Modification].1,1659,1659,100.0,6
 Characteristics[Modification].2,1659,1420,85.6,4
@@ -52,7 +52,7 @@ Characteristics[TumorSite],1659,0,0.0,0
 Characteristics[TumorSize],1659,0,0.0,0
 Characteristics[TumorStage],1659,0,0.0,0
 Comment[AcquisitionMethod],1659,1565,94.3,2
-Comment[CollisionEnergy],1659,1561,94.1,9
+Comment[CollisionEnergy],1659,0,0.0,0
 Comment[EnrichmentMethod],1659,0,0.0,0
 Comment[FlowRateChromatogram],1659,0,0.0,0
 Comment[FractionIdentifier],1659,6,0.4,1

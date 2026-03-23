@@ -20,7 +20,7 @@ PXD004010,Characteristics[GeneticModification],10,0,10,0.0,0
 PXD004010,Characteristics[Genotype],10,0,10,0.0,0
 PXD004010,Characteristics[GrowthRate],10,0,10,0.0,0
 PXD004010,Characteristics[Label],10,10,0,100.0,1
-PXD004010,Characteristics[MaterialType],10,10,0,100.0,1
+PXD004010,Characteristics[MaterialType],10,0,10,0.0,0
 PXD004010,Characteristics[Modification],10,10,0,100.0,1
 PXD004010,Characteristics[Modification].1,10,10,0,100.0,1
 PXD004010,Characteristics[Modification].2,10,0,10,0.0,0
@@ -82,7 +82,7 @@ PXD050621,Characteristics[AnatomicSiteTumor],9,0,9,0.0,0
 PXD050621,Characteristics[AncestryCategory],9,0,9,0.0,0
 PXD050621,Characteristics[BMI],9,0,9,0.0,0
 PXD050621,Characteristics[Bait],9,0,9,0.0,0
-PXD050621,Characteristics[BiologicalReplicate],9,9,0,100.0,3
+PXD050621,Characteristics[BiologicalReplicate],9,0,9,0.0,0
 PXD050621,Characteristics[CellLine],9,0,9,0.0,0
 PXD050621,Characteristics[CellPart],9,0,9,0.0,0
 PXD050621,Characteristics[CellType],9,0,9,0.0,0
@@ -97,7 +97,7 @@ PXD050621,Characteristics[GeneticModification],9,6,3,66.7,6
 PXD050621,Characteristics[Genotype],9,0,9,0.0,0
 PXD050621,Characteristics[GrowthRate],9,0,9,0.0,0
 PXD050621,Characteristics[Label],9,9,0,100.0,1
-PXD050621,Characteristics[MaterialType],9,9,0,100.0,1
+PXD050621,Characteristics[MaterialType],9,0,9,0.0,0
 PXD050621,Characteristics[Modification],9,9,0,100.0,1
 PXD050621,Characteristics[Modification].1,9,9,0,100.0,1
 PXD050621,Characteristics[Modification].2,9,0,9,0.0,0
@@ -129,7 +129,7 @@ PXD050621,Characteristics[TumorSite],9,0,9,0.0,0
 PXD050621,Characteristics[TumorSize],9,0,9,0.0,0
 PXD050621,Characteristics[TumorStage],9,0,9,0.0,0
 PXD050621,Comment[AcquisitionMethod],9,9,0,100.0,1
-PXD050621,Comment[CollisionEnergy],9,9,0,100.0,1
+PXD050621,Comment[CollisionEnergy],9,0,9,0.0,0
 PXD050621,Comment[EnrichmentMethod],9,0,9,0.0,0
 PXD050621,Comment[FlowRateChromatogram],9,0,9,0.0,0
 PXD050621,Comment[FractionIdentifier],9,0,9,0.0,0
@@ -206,7 +206,7 @@ PXD062014,Characteristics[TumorSite],24,0,24,0.0,0
 PXD062014,Characteristics[TumorSize],24,0,24,0.0,0
 PXD062014,Characteristics[TumorStage],24,0,24,0.0,0
 PXD062014,Comment[AcquisitionMethod],24,0,24,0.0,0
-PXD062014,Comment[CollisionEnergy],24,24,0,100.0,1
+PXD062014,Comment[CollisionEnergy],24,0,24,0.0,0
 PXD062014,Comment[EnrichmentMethod],24,0,24,0.0,0
 PXD062014,Comment[FlowRateChromatogram],24,0,24,0.0,0
 PXD062014,Comment[FractionIdentifier],24,0,24,0.0,0
@@ -251,7 +251,7 @@ PXD061136,Characteristics[GeneticModification],2,0,2,0.0,0
 PXD061136,Characteristics[Genotype],2,0,2,0.0,0
 PXD061136,Characteristics[GrowthRate],2,0,2,0.0,0
 PXD061136,Characteristics[Label],2,2,0,100.0,1
-PXD061136,Characteristics[MaterialType],2,2,0,100.0,1
+PXD061136,Characteristics[MaterialType],2,0,2,0.0,0
 PXD061136,Characteristics[Modification],2,2,0,100.0,1
 PXD061136,Characteristics[Modification].1,2,2,0,100.0,1
 PXD061136,Characteristics[Modification].2,2,0,2,0.0,0
@@ -283,7 +283,7 @@ PXD061136,Characteristics[TumorSite],2,0,2,0.0,0
 PXD061136,Characteristics[TumorSize],2,0,2,0.0,0
 PXD061136,Characteristics[TumorStage],2,0,2,0.0,0
 PXD061136,Comment[AcquisitionMethod],2,2,0,100.0,1
-PXD061136,Comment[CollisionEnergy],2,2,0,100.0,1
+PXD061136,Comment[CollisionEnergy],2,0,2,0.0,0
 PXD061136,Comment[EnrichmentMethod],2,0,2,0.0,0
 PXD061136,Comment[FlowRateChromatogram],2,0,2,0.0,0
 PXD061136,Comment[FractionIdentifier],2,0,2,0.0,0
@@ -328,7 +328,7 @@ PXD016436,Characteristics[GeneticModification],18,0,18,0.0,0
 PXD016436,Characteristics[Genotype],18,0,18,0.0,0
 PXD016436,Characteristics[GrowthRate],18,0,18,0.0,0
 PXD016436,Characteristics[Label],18,18,0,100.0,1
-PXD016436,Characteristics[MaterialType],18,18,0,100.0,1
+PXD016436,Characteristics[MaterialType],18,0,18,0.0,0
 PXD016436,Characteristics[Modification],18,18,0,100.0,1
 PXD016436,Characteristics[Modification].1,18,18,0,100.0,1
 PXD016436,Characteristics[Modification].2,18,18,0,100.0,1
@@ -390,7 +390,7 @@ PXD062877,Characteristics[AnatomicSiteTumor],48,0,48,0.0,0
 PXD062877,Characteristics[AncestryCategory],48,0,48,0.0,0
 PXD062877,Characteristics[BMI],48,0,48,0.0,0
 PXD062877,Characteristics[Bait],48,0,48,0.0,0
-PXD062877,Characteristics[BiologicalReplicate],48,48,0,100.0,2
+PXD062877,Characteristics[BiologicalReplicate],48,0,48,0.0,0
 PXD062877,Characteristics[CellLine],48,0,48,0.0,0
 PXD062877,Characteristics[CellPart],48,0,48,0.0,0
 PXD062877,Characteristics[CellType],48,0,48,0.0,0
@@ -405,7 +405,7 @@ PXD062877,Characteristics[GeneticModification],48,0,48,0.0,0
 PXD062877,Characteristics[Genotype],48,0,48,0.0,0
 PXD062877,Characteristics[GrowthRate],48,0,48,0.0,0
 PXD062877,Characteristics[Label],48,48,0,100.0,1
-PXD062877,Characteristics[MaterialType],48,48,0,100.0,1
+PXD062877,Characteristics[MaterialType],48,0,48,0.0,0
 PXD062877,Characteristics[Modification],48,48,0,100.0,1
 PXD062877,Characteristics[Modification].1,48,48,0,100.0,1
 PXD062877,Characteristics[Modification].2,48,0,48,0.0,0
@@ -437,7 +437,7 @@ PXD062877,Characteristics[TumorSite],48,0,48,0.0,0
 PXD062877,Characteristics[TumorSize],48,0,48,0.0,0
 PXD062877,Characteristics[TumorStage],48,0,48,0.0,0
 PXD062877,Comment[AcquisitionMethod],48,48,0,100.0,1
-PXD062877,Comment[CollisionEnergy],48,48,0,100.0,1
+PXD062877,Comment[CollisionEnergy],48,0,48,0.0,0
 PXD062877,Comment[EnrichmentMethod],48,0,48,0.0,0
 PXD062877,Comment[FlowRateChromatogram],48,0,48,0.0,0
 PXD062877,Comment[FractionIdentifier],48,0,48,0.0,0
@@ -467,7 +467,7 @@ PXD064564,Characteristics[AnatomicSiteTumor],30,0,30,0.0,0
 PXD064564,Characteristics[AncestryCategory],30,0,30,0.0,0
 PXD064564,Characteristics[BMI],30,0,30,0.0,0
 PXD064564,Characteristics[Bait],30,0,30,0.0,0
-PXD064564,Characteristics[BiologicalReplicate],30,30,0,100.0,3
+PXD064564,Characteristics[BiologicalReplicate],30,0,30,0.0,0
 PXD064564,Characteristics[CellLine],30,0,30,0.0,0
 PXD064564,Characteristics[CellPart],30,0,30,0.0,0
 PXD064564,Characteristics[CellType],30,0,30,0.0,0
@@ -544,7 +544,7 @@ PXD062469,Characteristics[AnatomicSiteTumor],32,0,32,0.0,0
 PXD062469,Characteristics[AncestryCategory],32,0,32,0.0,0
 PXD062469,Characteristics[BMI],32,0,32,0.0,0
 PXD062469,Characteristics[Bait],32,0,32,0.0,0
-PXD062469,Characteristics[BiologicalReplicate],32,32,0,100.0,4
+PXD062469,Characteristics[BiologicalReplicate],32,0,32,0.0,0
 PXD062469,Characteristics[CellLine],32,0,32,0.0,0
 PXD062469,Characteristics[CellPart],32,0,32,0.0,0
 PXD062469,Characteristics[CellType],32,0,32,0.0,0
@@ -559,7 +559,7 @@ PXD062469,Characteristics[GeneticModification],32,0,32,0.0,0
 PXD062469,Characteristics[Genotype],32,0,32,0.0,0
 PXD062469,Characteristics[GrowthRate],32,0,32,0.0,0
 PXD062469,Characteristics[Label],32,32,0,100.0,1
-PXD062469,Characteristics[MaterialType],32,32,0,100.0,1
+PXD062469,Characteristics[MaterialType],32,0,32,0.0,0
 PXD062469,Characteristics[Modification],32,32,0,100.0,1
 PXD062469,Characteristics[Modification].1,32,32,0,100.0,1
 PXD062469,Characteristics[Modification].2,32,0,32,0.0,0
@@ -636,7 +636,7 @@ PXD061009,Characteristics[GeneticModification],2,0,2,0.0,0
 PXD061009,Characteristics[Genotype],2,0,2,0.0,0
 PXD061009,Characteristics[GrowthRate],2,0,2,0.0,0
 PXD061009,Characteristics[Label],2,2,0,100.0,1
-PXD061009,Characteristics[MaterialType],2,2,0,100.0,1
+PXD061009,Characteristics[MaterialType],2,0,2,0.0,0
 PXD061009,Characteristics[Modification],2,2,0,100.0,1
 PXD061009,Characteristics[Modification].1,2,2,0,100.0,1
 PXD061009,Characteristics[Modification].2,2,2,0,100.0,1
@@ -698,7 +698,7 @@ PXD061195,Characteristics[AnatomicSiteTumor],1376,0,1376,0.0,0
 PXD061195,Characteristics[AncestryCategory],1376,0,1376,0.0,0
 PXD061195,Characteristics[BMI],1376,0,1376,0.0,0
 PXD061195,Characteristics[Bait],1376,0,1376,0.0,0
-PXD061195,Characteristics[BiologicalReplicate],1376,1376,0,100.0,13
+PXD061195,Characteristics[BiologicalReplicate],1376,0,1376,0.0,0
 PXD061195,Characteristics[CellLine],1376,0,1376,0.0,0
 PXD061195,Characteristics[CellPart],1376,0,1376,0.0,0
 PXD061195,Characteristics[CellType],1376,0,1376,0.0,0
@@ -745,7 +745,7 @@ PXD061195,Characteristics[TumorSite],1376,0,1376,0.0,0
 PXD061195,Characteristics[TumorSize],1376,0,1376,0.0,0
 PXD061195,Characteristics[TumorStage],1376,0,1376,0.0,0
 PXD061195,Comment[AcquisitionMethod],1376,1376,0,100.0,1
-PXD061195,Comment[CollisionEnergy],1376,1376,0,100.0,1
+PXD061195,Comment[CollisionEnergy],1376,0,1376,0.0,0
 PXD061195,Comment[EnrichmentMethod],1376,0,1376,0.0,0
 PXD061195,Comment[FlowRateChromatogram],1376,0,1376,0.0,0
 PXD061195,Comment[FractionIdentifier],1376,0,1376,0.0,0
@@ -790,7 +790,7 @@ PXD061090,Characteristics[GeneticModification],6,0,6,0.0,0
 PXD061090,Characteristics[Genotype],6,0,6,0.0,0
 PXD061090,Characteristics[GrowthRate],6,0,6,0.0,0
 PXD061090,Characteristics[Label],6,6,0,100.0,1
-PXD061090,Characteristics[MaterialType],6,6,0,100.0,1
+PXD061090,Characteristics[MaterialType],6,0,6,0.0,0
 PXD061090,Characteristics[Modification],6,6,0,100.0,1
 PXD061090,Characteristics[Modification].1,6,6,0,100.0,1
 PXD061090,Characteristics[Modification].2,6,0,6,0.0,0
@@ -852,7 +852,7 @@ PXD040582,Characteristics[AnatomicSiteTumor],24,0,24,0.0,0
 PXD040582,Characteristics[AncestryCategory],24,0,24,0.0,0
 PXD040582,Characteristics[BMI],24,0,24,0.0,0
 PXD040582,Characteristics[Bait],24,0,24,0.0,0
-PXD040582,Characteristics[BiologicalReplicate],24,24,0,100.0,3
+PXD040582,Characteristics[BiologicalReplicate],24,0,24,0.0,0
 PXD040582,Characteristics[CellLine],24,0,24,0.0,0
 PXD040582,Characteristics[CellPart],24,0,24,0.0,0
 PXD040582,Characteristics[CellType],24,0,24,0.0,0
@@ -899,7 +899,7 @@ PXD040582,Characteristics[TumorSite],24,0,24,0.0,0
 PXD040582,Characteristics[TumorSize],24,0,24,0.0,0
 PXD040582,Characteristics[TumorStage],24,0,24,0.0,0
 PXD040582,Comment[AcquisitionMethod],24,24,0,100.0,1
-PXD040582,Comment[CollisionEnergy],24,24,0,100.0,1
+PXD040582,Comment[CollisionEnergy],24,0,24,0.0,0
 PXD040582,Comment[EnrichmentMethod],24,0,24,0.0,0
 PXD040582,Comment[FlowRateChromatogram],24,0,24,0.0,0
 PXD040582,Comment[FractionIdentifier],24,0,24,0.0,0
@@ -929,7 +929,7 @@ PXD025663,Characteristics[AnatomicSiteTumor],12,0,12,0.0,0
 PXD025663,Characteristics[AncestryCategory],12,0,12,0.0,0
 PXD025663,Characteristics[BMI],12,0,12,0.0,0
 PXD025663,Characteristics[Bait],12,0,12,0.0,0
-PXD025663,Characteristics[BiologicalReplicate],12,1,11,8.3,1
+PXD025663,Characteristics[BiologicalReplicate],12,0,12,0.0,0
 PXD025663,Characteristics[CellLine],12,0,12,0.0,0
 PXD025663,Characteristics[CellPart],12,0,12,0.0,0
 PXD025663,Characteristics[CellType],12,0,12,0.0,0
@@ -944,7 +944,7 @@ PXD025663,Characteristics[GeneticModification],12,0,12,0.0,0
 PXD025663,Characteristics[Genotype],12,0,12,0.0,0
 PXD025663,Characteristics[GrowthRate],12,0,12,0.0,0
 PXD025663,Characteristics[Label],12,12,0,100.0,1
-PXD025663,Characteristics[MaterialType],12,12,0,100.0,1
+PXD025663,Characteristics[MaterialType],12,0,12,0.0,0
 PXD025663,Characteristics[Modification],12,12,0,100.0,1
 PXD025663,Characteristics[Modification].1,12,12,0,100.0,1
 PXD025663,Characteristics[Modification].2,12,0,12,0.0,0
@@ -976,7 +976,7 @@ PXD025663,Characteristics[TumorSite],12,0,12,0.0,0
 PXD025663,Characteristics[TumorSize],12,0,12,0.0,0
 PXD025663,Characteristics[TumorStage],12,0,12,0.0,0
 PXD025663,Comment[AcquisitionMethod],12,12,0,100.0,1
-PXD025663,Comment[CollisionEnergy],12,12,0,100.0,1
+PXD025663,Comment[CollisionEnergy],12,0,12,0.0,0
 PXD025663,Comment[EnrichmentMethod],12,0,12,0.0,0
 PXD025663,Comment[FlowRateChromatogram],12,0,12,0.0,0
 PXD025663,Comment[FractionIdentifier],12,0,12,0.0,0
@@ -1021,7 +1021,7 @@ PXD019519,Characteristics[GeneticModification],6,0,6,0.0,0
 PXD019519,Characteristics[Genotype],6,0,6,0.0,0
 PXD019519,Characteristics[GrowthRate],6,0,6,0.0,0
 PXD019519,Characteristics[Label],6,6,0,100.0,1
-PXD019519,Characteristics[MaterialType],6,6,0,100.0,1
+PXD019519,Characteristics[MaterialType],6,0,6,0.0,0
 PXD019519,Characteristics[Modification],6,6,0,100.0,1
 PXD019519,Characteristics[Modification].1,6,6,0,100.0,1
 PXD019519,Characteristics[Modification].2,6,0,6,0.0,0
@@ -1053,7 +1053,7 @@ PXD019519,Characteristics[TumorSite],6,0,6,0.0,0
 PXD019519,Characteristics[TumorSize],6,0,6,0.0,0
 PXD019519,Characteristics[TumorStage],6,0,6,0.0,0
 PXD019519,Comment[AcquisitionMethod],6,6,0,100.0,1
-PXD019519,Comment[CollisionEnergy],6,6,0,100.0,1
+PXD019519,Comment[CollisionEnergy],6,0,6,0.0,0
 PXD019519,Comment[EnrichmentMethod],6,0,6,0.0,0
 PXD019519,Comment[FlowRateChromatogram],6,0,6,0.0,0
 PXD019519,Comment[FractionIdentifier],6,0,6,0.0,0
@@ -1130,7 +1130,7 @@ PXD061285,Characteristics[TumorSite],60,0,60,0.0,0
 PXD061285,Characteristics[TumorSize],60,0,60,0.0,0
 PXD061285,Characteristics[TumorStage],60,0,60,0.0,0
 PXD061285,Comment[AcquisitionMethod],60,0,60,0.0,0
-PXD061285,Comment[CollisionEnergy],60,60,0,100.0,1
+PXD061285,Comment[CollisionEnergy],60,0,60,0.0,0
 PXD061285,Comment[EnrichmentMethod],60,0,60,0.0,0
 PXD061285,Comment[FlowRateChromatogram],60,0,60,0.0,0
 PXD061285,Comment[FractionIdentifier],60,6,54,10.0,1

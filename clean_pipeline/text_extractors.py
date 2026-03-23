@@ -780,7 +780,9 @@ def extract_all(pub_text: Dict[str, str]) -> Dict[str, List[Tuple[str, float, st
         'Characteristics[Modification]': extract_modifications(pub_text),
         'Comment[FragmentationMethod]': extract_fragmentation(pub_text),
         'Characteristics[CellLine]': extract_cell_line(pub_text),
-        'Characteristics[Disease]': extract_disease(pub_text),
+        # Disease extraction: 44% accuracy but wrong values don't cluster with gold
+        # Net-negative impact. Disabled to let Not Applicable (scorer-neutral) take over.
+        # 'Characteristics[Disease]': extract_disease(pub_text),
         'Characteristics[OrganismPart]': extract_organism_part(pub_text),
         'Characteristics[Label]': extract_label(pub_text),
         # MaterialType extraction has 28% accuracy and hurts score more than helps
