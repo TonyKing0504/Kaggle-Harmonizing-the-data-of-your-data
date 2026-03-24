@@ -15,7 +15,7 @@ PXD004010,Characteristics[ConcentrationOfCompound],10,0,10,0.0,0
 PXD004010,Characteristics[Depletion],10,0,10,0.0,0
 PXD004010,Characteristics[DevelopmentalStage],10,0,10,0.0,0
 PXD004010,Characteristics[DiseaseTreatment],10,0,10,0.0,0
-PXD004010,Characteristics[Disease],10,10,0,100.0,1
+PXD004010,Characteristics[Disease],10,0,10,0.0,0
 PXD004010,Characteristics[GeneticModification],10,0,10,0.0,0
 PXD004010,Characteristics[Genotype],10,0,10,0.0,0
 PXD004010,Characteristics[GrowthRate],10,0,10,0.0,0
@@ -400,7 +400,7 @@ PXD062877,Characteristics[ConcentrationOfCompound],48,0,48,0.0,0
 PXD062877,Characteristics[Depletion],48,0,48,0.0,0
 PXD062877,Characteristics[DevelopmentalStage],48,0,48,0.0,0
 PXD062877,Characteristics[DiseaseTreatment],48,0,48,0.0,0
-PXD062877,Characteristics[Disease],48,48,0,100.0,1
+PXD062877,Characteristics[Disease],48,0,48,0.0,0
 PXD062877,Characteristics[GeneticModification],48,0,48,0.0,0
 PXD062877,Characteristics[Genotype],48,0,48,0.0,0
 PXD062877,Characteristics[GrowthRate],48,0,48,0.0,0
@@ -477,7 +477,7 @@ PXD064564,Characteristics[ConcentrationOfCompound],30,0,30,0.0,0
 PXD064564,Characteristics[Depletion],30,0,30,0.0,0
 PXD064564,Characteristics[DevelopmentalStage],30,0,30,0.0,0
 PXD064564,Characteristics[DiseaseTreatment],30,0,30,0.0,0
-PXD064564,Characteristics[Disease],30,30,0,100.0,1
+PXD064564,Characteristics[Disease],30,0,30,0.0,0
 PXD064564,Characteristics[GeneticModification],30,0,30,0.0,0
 PXD064564,Characteristics[Genotype],30,0,30,0.0,0
 PXD064564,Characteristics[GrowthRate],30,0,30,0.0,0
@@ -554,7 +554,7 @@ PXD062469,Characteristics[ConcentrationOfCompound],32,0,32,0.0,0
 PXD062469,Characteristics[Depletion],32,0,32,0.0,0
 PXD062469,Characteristics[DevelopmentalStage],32,0,32,0.0,0
 PXD062469,Characteristics[DiseaseTreatment],32,0,32,0.0,0
-PXD062469,Characteristics[Disease],32,32,0,100.0,1
+PXD062469,Characteristics[Disease],32,0,32,0.0,0
 PXD062469,Characteristics[GeneticModification],32,0,32,0.0,0
 PXD062469,Characteristics[Genotype],32,0,32,0.0,0
 PXD062469,Characteristics[GrowthRate],32,0,32,0.0,0
@@ -631,7 +631,7 @@ PXD061009,Characteristics[ConcentrationOfCompound],2,0,2,0.0,0
 PXD061009,Characteristics[Depletion],2,0,2,0.0,0
 PXD061009,Characteristics[DevelopmentalStage],2,0,2,0.0,0
 PXD061009,Characteristics[DiseaseTreatment],2,0,2,0.0,0
-PXD061009,Characteristics[Disease],2,2,0,100.0,1
+PXD061009,Characteristics[Disease],2,0,2,0.0,0
 PXD061009,Characteristics[GeneticModification],2,0,2,0.0,0
 PXD061009,Characteristics[Genotype],2,0,2,0.0,0
 PXD061009,Characteristics[GrowthRate],2,0,2,0.0,0
@@ -708,7 +708,7 @@ PXD061195,Characteristics[ConcentrationOfCompound],1376,0,1376,0.0,0
 PXD061195,Characteristics[Depletion],1376,0,1376,0.0,0
 PXD061195,Characteristics[DevelopmentalStage],1376,0,1376,0.0,0
 PXD061195,Characteristics[DiseaseTreatment],1376,0,1376,0.0,0
-PXD061195,Characteristics[Disease],1376,1376,0,100.0,1
+PXD061195,Characteristics[Disease],1376,0,1376,0.0,0
 PXD061195,Characteristics[GeneticModification],1376,0,1376,0.0,0
 PXD061195,Characteristics[Genotype],1376,0,1376,0.0,0
 PXD061195,Characteristics[GrowthRate],1376,0,1376,0.0,0
@@ -785,7 +785,7 @@ PXD061090,Characteristics[ConcentrationOfCompound],6,0,6,0.0,0
 PXD061090,Characteristics[Depletion],6,0,6,0.0,0
 PXD061090,Characteristics[DevelopmentalStage],6,0,6,0.0,0
 PXD061090,Characteristics[DiseaseTreatment],6,0,6,0.0,0
-PXD061090,Characteristics[Disease],6,6,0,100.0,1
+PXD061090,Characteristics[Disease],6,0,6,0.0,0
 PXD061090,Characteristics[GeneticModification],6,0,6,0.0,0
 PXD061090,Characteristics[Genotype],6,0,6,0.0,0
 PXD061090,Characteristics[GrowthRate],6,0,6,0.0,0
@@ -862,7 +862,7 @@ PXD040582,Characteristics[ConcentrationOfCompound],24,0,24,0.0,0
 PXD040582,Characteristics[Depletion],24,0,24,0.0,0
 PXD040582,Characteristics[DevelopmentalStage],24,0,24,0.0,0
 PXD040582,Characteristics[DiseaseTreatment],24,0,24,0.0,0
-PXD040582,Characteristics[Disease],24,24,0,100.0,1
+PXD040582,Characteristics[Disease],24,0,24,0.0,0
 PXD040582,Characteristics[GeneticModification],24,0,24,0.0,0
 PXD040582,Characteristics[Genotype],24,0,24,0.0,0
 PXD040582,Characteristics[GrowthRate],24,0,24,0.0,0
@@ -939,7 +939,7 @@ PXD025663,Characteristics[ConcentrationOfCompound],12,0,12,0.0,0
 PXD025663,Characteristics[Depletion],12,0,12,0.0,0
 PXD025663,Characteristics[DevelopmentalStage],12,0,12,0.0,0
 PXD025663,Characteristics[DiseaseTreatment],12,0,12,0.0,0
-PXD025663,Characteristics[Disease],12,12,0,100.0,1
+PXD025663,Characteristics[Disease],12,0,12,0.0,0
 PXD025663,Characteristics[GeneticModification],12,0,12,0.0,0
 PXD025663,Characteristics[Genotype],12,0,12,0.0,0
 PXD025663,Characteristics[GrowthRate],12,0,12,0.0,0
@@ -1016,7 +1016,7 @@ PXD019519,Characteristics[ConcentrationOfCompound],6,0,6,0.0,0
 PXD019519,Characteristics[Depletion],6,0,6,0.0,0
 PXD019519,Characteristics[DevelopmentalStage],6,0,6,0.0,0
 PXD019519,Characteristics[DiseaseTreatment],6,0,6,0.0,0
-PXD019519,Characteristics[Disease],6,6,0,100.0,1
+PXD019519,Characteristics[Disease],6,0,6,0.0,0
 PXD019519,Characteristics[GeneticModification],6,0,6,0.0,0
 PXD019519,Characteristics[Genotype],6,0,6,0.0,0
 PXD019519,Characteristics[GrowthRate],6,0,6,0.0,0

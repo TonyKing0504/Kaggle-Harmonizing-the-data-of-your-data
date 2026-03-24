@@ -18,3 +18,4 @@ ab327ff	0.745158	0	keep	exp15: disable BiologicalReplicate extraction (13% accur
 a381c87	0.745809	0	keep	exp16: limit modification to slots 0+1 (higher slots harm)
 1628e16	0.757857	0	keep	exp17: restore modification slot 2 for Acetyl
 1628e16	0.757857	0	discard	exp18: remove FactorValue FractionIdentifier - no change
+1911af9	0.770978	0	keep	exp19: disable Disease extraction (near-miss values dont cluster)

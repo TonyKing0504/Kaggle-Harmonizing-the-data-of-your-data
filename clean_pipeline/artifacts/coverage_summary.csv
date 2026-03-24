@@ -15,7 +15,7 @@ Characteristics[ConcentrationOfCompound],1659,0,0.0,0
 Characteristics[Depletion],1659,0,0.0,0
 Characteristics[DevelopmentalStage],1659,0,0.0,0
 Characteristics[DiseaseTreatment],1659,0,0.0,0
-Characteristics[Disease],1659,1546,93.2,9
+Characteristics[Disease],1659,0,0.0,0
 Characteristics[GeneticModification],1659,56,3.4,8
 Characteristics[Genotype],1659,0,0.0,0
 Characteristics[GrowthRate],1659,0,0.0,0
